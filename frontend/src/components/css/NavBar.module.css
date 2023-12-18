@@ -1,0 +1,96 @@
+/* NavBar.module.css */
+.navBar {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0;
+  padding-left: 160px;
+  padding-right: 160px;
+  font-weight: 700;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Reduced gap for a tighter layout */
+}
+
+.logo {
+  background-color: var(--yellow-color); /* Bright Yellow */
+  border-radius: 50%;
+  padding: 10px;
+  font-size: var(--font-large);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoSubText {
+  font-size: var(--font-normal);
+  color: var(--text-color); /* Ensuring readability */
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  color: var(--text-color);
+  margin-left: 20px;
+  font-size: var(--font-normal);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navItem:hover,
+.navItem:focus {
+  background-color: var(
+    --yellow-light-color
+  ); /* Subtle background change on hover */
+  border-radius: 5px; /* Rounded corners for hover effect */
+  transition: background-color 0.3s;
+}
+
+.navItem::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjusted for better visibility */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--yellow-dark-color);
+  transition: width 0.3s;
+}
+
+.navItem:hover::after,
+.navItem:focus::after {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navList {
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .navItem {
+    margin: 5px 0;
+  }
+}
