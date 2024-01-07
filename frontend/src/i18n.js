@@ -17,17 +17,5 @@ i18n.use(initReactI18next).init({
   lng: "vi",
   fallbackLng: "vi",
   resources: resources,
-  // detection: {
-  //   order: [
-  //     "querystring",
-  //     "cookie",
-  //     "localStorage",
-  //     "sessionStorage",
-  //     "navigator",
-  //     "htmlTag",
-  //     "path",
-  //     "subdomain",
-  //   ],
-  // },
 });
 export default i18n;
