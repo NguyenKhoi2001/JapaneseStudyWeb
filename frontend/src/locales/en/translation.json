@@ -1,0 +1,61 @@
+{
+  "navbar": {
+    "intro": "Introduction",
+    "blog": "Blog",
+    "courses": "Courses",
+    "pronunciation": "Pronunciation",
+    "login": "Login"
+  },
+  "heroSection": {
+    "welcome": "Welcome to KK - The Japanese learning website by Le Duy Khanh and Nguyen Dinh Minh Khoi!",
+    "point1": "Confidently learn Japanese: Join us to master knowledge and develop Japanese language skills.",
+    "point2": "Interactive learning via Zoom: Participate in online classes with instructors and classmates.",
+    "point3": "Learn anytime, anywhere: Use the KK Online application on any device.",
+    "point4": "Diverse program: Courses for beginners to experienced learners, pronunciation training, review sessions, and more.",
+    "point5": "Experienced teachers: A team of instructors with N2 certification and transparent teaching methods.",
+    "conclusion": "Join KK to explore Japanese in an easy and effective way!"
+  },
+
+  "footer": {
+    "learningResources": "Learning Resources",
+    "lessons": "Lessons",
+    "studyTools": "Study Tools",
+    "cultureNotes": "Culture Notes",
+    "languageExchanges": "Language Exchanges",
+    "siteInfo": "Site Information",
+    "aboutUs": "About Us",
+    "ourMission": "Our Mission",
+    "testimonials": "Testimonials",
+    "careers": "Careers",
+    "community": "Community",
+    "studentForum": "Student Forum",
+    "events": "Events",
+    "news": "News",
+    "support": "Support",
+    "faqs": "FAQs",
+    "contactUs": "Contact Us",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "followUs": "Follow Us",
+    "disclaimer": "This site is dedicated to all aspiring students of the Japanese language. We strive to provide the most comprehensive and engaging learning experience."
+  },
+  "features": {
+    "mainTitle": "What can you do in KK website?",
+    "communityInsights": {
+      "title": "Community Insights",
+      "text": "Explore a hub where students and educators share insights, tips, and cultural snippets about learning Japanese, from language tricks to cultural nuances."
+    },
+    "comprehensiveLearning": {
+      "title": "Comprehensive Learning",
+      "text": "Access a wealth of resources for every JLPT level (N5-N1), covering vocabulary, grammar, kanji, listening, reading, and quizzes to track your progress."
+    },
+    "senseiConnect": {
+      "title": "Sensei Connect",
+      "text": "Connect with experienced instructors for immediate guidance on your Japanese language queries and enhance your learning experience with personal advice."
+    },
+    "pronunciationPractice": {
+      "title": "Pronunciation Practice",
+      "text": "Use our interactive tool to practice and perfect your Japanese pronunciation, with real-time feedback to help pinpoint and correct your linguistic nuances."
+    }
+  }
+}

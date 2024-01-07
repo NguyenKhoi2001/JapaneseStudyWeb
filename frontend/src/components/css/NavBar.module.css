@@ -18,7 +18,7 @@
 }
 
 .logo {
-  background-color: var(--yellow-color); /* Bright Yellow */
+  background-color: var(--indigo-color); /* Bright Yellow */
   border-radius: 50%;
   padding: 10px;
   font-size: var(--font-large);
@@ -55,7 +55,7 @@
 .navItem:hover,
 .navItem:focus {
   background-color: var(
-    --yellow-light-color
+    --indigo-light-color
   ); /* Subtle background change on hover */
   border-radius: 5px; /* Rounded corners for hover effect */
   transition: background-color 0.3s;
@@ -68,13 +68,28 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--yellow-dark-color);
+  background-color: var(--indigo-dark-color);
   transition: width 0.3s;
 }
 
 .navItem:hover::after,
 .navItem:focus::after {
   width: 100%;
+}
+
+.loginNavItem .navItem {
+  background-color: var(--indigo-dark-color);
+  color: white;
+}
+
+.loginNavItem .navItem:hover,
+.loginNavItem .navItem:focus {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.loginNavItem .navItem::after {
+  background-color: yellow;
 }
 
 /* Responsive adjustments */

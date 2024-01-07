@@ -1,0 +1,61 @@
+{
+  "navbar": {
+    "intro": "Giới thiệu",
+    "blog": "Blog",
+    "courses": "Khoá học",
+    "pronunciation": "Luyện phát âm",
+    "login": "Đăng nhập"
+  },
+  "heroSection": {
+    "welcome": "Chào mừng bạn đến với KK - Trang web học tiếng Nhật của Lê Duy Khánh và Nguyễn Đình Minh Khôi!",
+    "point1": "Tự tin học tiếng Nhật: Học cùng chúng tôi để nắm vững kiến thức và phát triển kỹ năng tiếng Nhật.",
+    "point2": "Học tương tác qua Zoom: Tham gia các buổi học trực tuyến với giảng viên và bạn học.",
+    "point3": "Học mọi lúc, mọi nơi: Sử dụng ứng dụng KK Online trên mọi thiết bị.",
+    "point4": "Chương trình đa dạng: Đối tượng học từ người mới đến người có kinh nghiệm, luyện phát âm, ôn tập, và nhiều khóa học khác.",
+    "point5": "Giáo viên có kinh nghiệm: Đội ngũ giáo viên với chứng chỉ N2 và sự minh bạch trong quá trình học.",
+    "conclusion": "Hãy tham gia KK để khám phá tiếng Nhật một cách dễ dàng và hiệu quả!"
+  },
+  "footer": {
+    "learningResources": "Tài nguyên học tập",
+    "lessons": "Bài học",
+    "studyTools": "Công cụ học tập",
+    "cultureNotes": "Ghi chú văn hóa",
+    "languageExchanges": "Trao đổi ngôn ngữ",
+    "siteInfo": "Thông tin trang web",
+    "aboutUs": "Về chúng tôi",
+    "ourMission": "Sứ mệnh của chúng tôi",
+    "testimonials": "Lời chứng thực",
+    "careers": "Sự nghiệp",
+    "community": "Cộng đồng",
+    "studentForum": "Diễn đàn sinh viên",
+    "events": "Sự kiện",
+    "news": "Tin tức",
+    "support": "Hỗ trợ",
+    "faqs": "Câu hỏi thường gặp",
+    "contactUs": "Liên hệ",
+    "termsOfService": "Điều khoản dịch vụ",
+    "privacyPolicy": "Chính sách bảo mật",
+    "followUs": "Theo dõi chúng tôi",
+    "disclaimer": "Trang web này dành riêng cho tất cả sinh viên có nguyện vọng học tiếng Nhật. Chúng tôi nỗ lực cung cấp trải nghiệm học tập toàn diện và hấp dẫn nhất."
+  },
+
+  "features": {
+    "mainTitle": "Bạn có thể làm gì tại trang web KK?",
+    "communityInsights": {
+      "title": "Sự Hiểu Biết Cộng Đồng",
+      "text": "Khám phá trung tâm nơi học sinh và giáo viên chia sẻ hiểu biết, mẹo và đoạn văn hóa về việc học tiếng Nhật, từ thủ thuật ngôn ngữ đến sắc thái văn hóa."
+    },
+    "comprehensiveLearning": {
+      "title": "Học Tập Toàn Diện",
+      "text": "Truy cập nguồn tài nguyên phong phú cho mọi cấp độ JLPT (N5-N1), bao gồm từ vựng, ngữ pháp, kanji, nghe, đọc và các bài kiểm tra để theo dõi tiến trình của bạn."
+    },
+    "senseiConnect": {
+      "title": "Kết Nối Cùng Chuyên Gia",
+      "text": "Kết nối với giáo viên có kinh nghiệm để nhận hướng dẫn tức thì cho các thắc mắc về tiếng Nhật và nâng cao trải nghiệm học tập của bạn với lời khuyên cá nhân."
+    },
+    "pronunciationPractice": {
+      "title": "Luyện Phát Âm",
+      "text": "Sử dụng công cụ tương tác của chúng tôi để luyện tập và hoàn thiện phát âm tiếng Nhật của bạn, với phản hồi thời gian thực để giúp bạn chỉ ra và sửa chữa các sắc thái ngôn ngữ."
+    }
+  }
+}

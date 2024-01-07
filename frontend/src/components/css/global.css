@@ -11,6 +11,16 @@
     #ffdd00
   ); /* Yellow Gradient */
 
+  --indigo-color: #4b0082; /* Bright Indigo */
+  --indigo-light-color: #b0a8f8; /* Light Indigo */
+  --indigo-dark-color: #6f00ff; /* Dark Indigo */
+  --indigo-gradient: linear-gradient(
+    to right,
+    to bottom,
+    #4b0082,
+    #6f00ff
+  ); /* Indigo Gradient */
+
   --text-color: #333; /* Dark Grey for text */
   --background-color: #fff; /* White background */
 
@@ -19,7 +29,7 @@
   --font-normal: 16px;
   --font-large: 24px;
   --font-xlarge: 32px;
-
+  --font-xxlarge: 64px;
   /* Font Family */
   --primary-font: "Arial", sans-serif;
 }
