@@ -2,20 +2,18 @@
   "navbar": {
     "intro": "Introduction",
     "blog": "Blog",
-    "courses": "Courses",
-    "pronunciation": "Pronunciation",
+    "courses": "Learning Path",
     "login": "Login"
   },
   "heroSection": {
-    "welcome": "Welcome to KK - The Japanese learning website by Le Duy Khanh and Nguyen Dinh Minh Khoi!",
-    "point1": "Confidently learn Japanese: Join us to master knowledge and develop Japanese language skills.",
-    "point2": "Interactive learning via Zoom: Participate in online classes with instructors and classmates.",
-    "point3": "Learn anytime, anywhere: Use the KK Online application on any device.",
-    "point4": "Diverse program: Courses for beginners to experienced learners, pronunciation training, review sessions, and more.",
-    "point5": "Experienced teachers: A team of instructors with N2 certification and transparent teaching methods.",
-    "conclusion": "Join KK to explore Japanese in an easy and effective way!"
+    "welcome": "Welcome to the Japanese Language Learning Support Website! This is a project of Ton Duc Thang University developed by Le Duy Khanh and Nguyen Dinh Minh Khoi!",
+    "point1": "Confidently learn Japanese: Learn with us to solidify knowledge and develop your Japanese language skills.",
+    "point2": "Interactive learning via Zoom/Google Meet: Join online classes with instructors and a diverse community of learners.",
+    "point3": "Flexible learning anytime, anywhere: Utilize our online learning app on all devices.",
+    "point4": "Diverse program offerings: Catering to learners of all levels from beginners to experienced individuals, including exam preparation, review sessions, and various learning journeys.",
+    "point5": "Experienced teaching team: Our instructors all hold N2 Japanese language certifications and are available to support you throughout your learning journey.",
+    "conclusion": "Join us to explore Japanese language learning effectively and easily!"
   },
-
   "footer": {
     "learningResources": "Learning Resources",
     "lessons": "Lessons",
@@ -56,6 +54,153 @@
     "pronunciationPractice": {
       "title": "Pronunciation Practice",
       "text": "Use our interactive tool to practice and perfect your Japanese pronunciation, with real-time feedback to help pinpoint and correct your linguistic nuances."
+    }
+  },
+
+  "infographic": {
+    "title": "Embark on the Journey to Master Japanese like a Native",
+    "stage1": {
+      "title": "Stage 1: Getting Started",
+      "text": "Let's Begin!",
+      "articles": {
+        "1": {
+          "headerText": "Set Clear Goals",
+          "bodyText": "Determine your motivation and objectives for learning Japanese. Having clear goals will keep you focused and motivated throughout your journey."
+        },
+        "2": {
+          "headerText": "Learn Hiragana and Katakana",
+          "bodyText": "Master the basic Japanese writing systems - Hiragana and Katakana. These are the foundation for reading and writing in Japanese."
+        },
+        "3": {
+          "headerText": "Basic Pronunciation and Vocabulary",
+          "bodyText": "Begin with Japanese pronunciation and common words to build your language foundation."
+        },
+        "4": {
+          "headerText": "Grammar Foundations",
+          "bodyText": "Learn fundamental grammar concepts such as sentence structure and basic particles (は, の, が, へ, で, と, も)."
+        },
+        "5": {
+          "headerText": "Cultural Context",
+          "bodyText": "Understand Japanese culture, customs, and etiquette to enhance your language understanding and cultural sensitivity."
+        }
+      }
+    },
+    "stage2": {
+      "title": "Stage 2: Intermediate Proficiency",
+      "text": "Making Progress!",
+      "articles": {
+        "6": {
+          "headerText": "Kanji Study",
+          "bodyText": "Start learning kanji characters, beginning with common ones used in daily life."
+        },
+        "7": {
+          "headerText": "Expand Vocabulary",
+          "bodyText": "Increase your vocabulary with a focus on everyday conversation and topics of interest."
+        },
+        "8": {
+          "headerText": "Grammar Advancement",
+          "bodyText": "Study more complex grammar structures, including different verb forms, conditionals, and honorific language (keigo)."
+        },
+        "9": {
+          "headerText": "Listening and Speaking",
+          "bodyText": "Practice listening comprehension and engage in speaking practice with native speakers or language exchange partners."
+        },
+        "10": {
+          "headerText": "Reading Practice",
+          "bodyText": "Start reading simple Japanese texts, like children's books, manga, or graded readers, and gradually move on to more complex materials."
+        }
+      }
+    },
+    "stage3": {
+      "title": "Stage 3: Advanced Fluency",
+      "text": "Almost There!",
+      "articles": {
+        "11": {
+          "headerText": "Advanced Kanji",
+          "bodyText": "Continue learning kanji characters, focusing on more advanced characters used in newspapers and literature."
+        },
+        "12": {
+          "headerText": "Advanced Vocabulary",
+          "bodyText": "Expand your vocabulary to discuss complex topics, both formal and informal."
+        },
+        "13": {
+          "headerText": "Advanced Grammar",
+          "bodyText": "Master advanced grammar structures, including complex sentence structures and rhetorical devices."
+        },
+        "14": {
+          "headerText": "Cultural Immersion",
+          "bodyText": "Immerse yourself in Japanese culture through media, movies, music, and literature. Develop a deeper understanding of cultural nuances."
+        },
+        "15": {
+          "headerText": "Travel and Practical Use",
+          "bodyText": "Prepare for real-life situations in Japan by learning travel-related vocabulary and practicing common tasks."
+        }
+      }
+    }
+  },
+  "jlptJourney": {
+    "title": "Embark on Your Journey to JLPT Mastery: A Path to Unleash Your Full Potential",
+    "levels": {
+      "basic": {
+        "title": "Basic Japanese",
+        "points": [
+          "Introduction to Japanese scripts: Hiragana and Katakana.",
+          "Basic greetings and everyday expressions.",
+          "Introduction to Japanese culture and etiquette.",
+          "Basic sentence structure and simple phrases.",
+          "Numbers, dates, and basic counting."
+        ]
+      },
+      "N5": {
+        "title": "JLPT N5 - Beginner",
+        "points": [
+          "Understand and use typical expressions and basic phrases.",
+          "Introduction to Kanji characters.",
+          "Ability to engage in simple conversation.",
+          "Understand and use basic grammar including particles.",
+          "Listening comprehension of slow and articulated speech."
+        ]
+      },
+      "N4": {
+        "title": "JLPT N4 - Lower Intermediate",
+        "points": [
+          "Comprehend and use basic Kanji.",
+          "Understanding of basic everyday topics.",
+          "Ability to read and understand passages on familiar daily topics.",
+          "Enhanced listening skills with the ability to comprehend and respond.",
+          "Foundation for more advanced Japanese grammar."
+        ]
+      },
+      "N3": {
+        "title": "JLPT N3 - Intermediate",
+        "points": [
+          "Deepen understanding of intermediate grammar.",
+          "Comprehend more complex Kanji and vocabulary.",
+          "Ability to understand and participate in coherent conversations.",
+          "Read and comprehend detailed texts on a variety of topics.",
+          "Improved listening comprehension in different situations."
+        ]
+      },
+      "N2": {
+        "title": "JLPT N2 - Upper Intermediate",
+        "points": [
+          "Command of a broad vocabulary and complex grammar.",
+          "Read and comprehend newspapers and magazines.",
+          "Understand spoken Japanese in TV dramas and news.",
+          "Express and understand complex ideas and hypothetical scenarios.",
+          "Cultural nuances and idiomatic expressions."
+        ]
+      },
+      "N1": {
+        "title": "JLPT N1 - Advanced",
+        "points": [
+          "Advanced comprehension of Japanese used in a variety of circumstances.",
+          "Read and understand complex written materials on abstract topics.",
+          "Comprehend spoken Japanese in academic and professional settings.",
+          "Ability to understand nuanced and implicit meanings.",
+          "Express ideas logically and coherently in spoken and written form."
+        ]
+      }
     }
   }
 }

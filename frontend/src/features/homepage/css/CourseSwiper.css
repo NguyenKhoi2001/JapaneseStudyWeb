@@ -1,0 +1,74 @@
+/* CourseSwiper.css */
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.jlpt-heading {
+  width: 100%;
+  max-width: 1200px;
+  margin: 100px auto;
+  font-size: calc(var(--font-xlarge) + 15px);
+  color: var(--indigo-color);
+  text-align: center;
+  font-weight: bold;
+}
+
+.swiper-container {
+  position: relative;
+  padding: 2rem 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-controler {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.swiper-pagination {
+  text-align: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary, #6a59ff);
+}
+
+.slider-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  opacity: 0;
+}

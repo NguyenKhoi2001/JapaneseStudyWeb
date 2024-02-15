@@ -1,0 +1,46 @@
+/* Section.module.css */
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.circle {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 7px double;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  position: absolute;
+  left: 50%;
+  margin-bottom: 20px;
+}
+
+.iconHeader {
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+
+/* Apply styles for odd sections using the ":nth-child(odd)" selector */
+.section:nth-child(odd) .circle {
+  transform: translateX(-100%);
+}
+.section:hover .iconHeader {
+  transform: scale(1.2);
+}
+/* Color Themes and Button Styles */
+.text-red {
+  color: var(--color-red);
+}
+.text-yellow {
+  color: var(--color-yellow);
+}
+.text-green {
+  color: var(--color-green);
+}

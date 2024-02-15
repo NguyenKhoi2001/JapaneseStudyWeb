@@ -27,11 +27,24 @@
   /* Font Sizes */
   --font-small: 12px;
   --font-normal: 16px;
+  --font-medium: 20px;
   --font-large: 24px;
   --font-xlarge: 32px;
   --font-xxlarge: 64px;
   /* Font Family */
   --primary-font: "Arial", sans-serif;
+
+  --color-red: red;
+  --color-yellow: #ffc107;
+  --color-green: #28a745;
+  --bg-color-red: rgba(220, 53, 69, 1);
+  --bg-color-red-blur: rgba(220, 53, 69, 0.15);
+  --bg-color-yellow: rgba(255, 193, 7, 1);
+  --bg-color-yellow-blur: rgba(255, 193, 7, 0.15);
+  --bg-color-green: rgba(40, 167, 69, 1);
+  --bg-color-green-blur: rgba(40, 167, 69, 0.15);
+  --btn-border-radius: 5px;
+  --btn-transition: background-color 0.3s, color 0.3s;
 }
 
 body {

@@ -1,0 +1,154 @@
+/* Article.module.css */
+.article {
+  max-width: 450px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  left: 50%;
+  position: relative;
+}
+
+.articleHeader {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+}
+.headerText {
+  text-transform: uppercase;
+  padding-left: 16px;
+  font-size: var(--font-medium);
+}
+.evenArticleHeader {
+  height: 80px;
+  transform: translateX(-100%);
+  flex-flow: row-reverse;
+  border-radius: 30px;
+  text-align: left;
+}
+.icon {
+  font-size: var(--font-xlarge);
+  border-radius: 50%;
+  background-clip: padding-box;
+  padding: 14px;
+  transition: transform 0.4s;
+  border: 16px solid white;
+  margin: -16px 0 -16px -10px;
+  color: white;
+  z-index: 99;
+}
+
+.evenBody {
+  transform: translate(-100%);
+}
+.evenIcon {
+  margin-left: 20px;
+}
+.body {
+  background: transparent;
+  padding: 0 20px;
+  max-height: 0;
+  transition: max-height 0.5s, padding 0.5s;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.bodyActive {
+  padding: 20px;
+  max-height: 300px;
+  border: 1px solid;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.redOutline {
+  border: 2px solid var(--bg-color-red);
+}
+
+.yellowOutline {
+  border: 2px solid var(--bg-color-yellow);
+}
+
+.greenOutline {
+  border: 2px solid var(--bg-color-green);
+}
+
+/* Hover styles */
+.redOutline:hover {
+  background-color: var(--bg-color-red);
+  color: white;
+}
+
+.yellowOutline:hover {
+  background-color: var(--bg-color-yellow);
+  color: white;
+}
+
+.greenOutline:hover {
+  background-color: var(--bg-color-green);
+  color: white;
+}
+.bg-red {
+  background-color: var(--bg-color-red);
+}
+.bg-red-blur {
+  background-color: var(--bg-color-red-blur);
+}
+.bg-yellow {
+  background-color: var(--bg-color-yellow);
+}
+.bg-yellow-blur {
+  background-color: var(--bg-color-yellow-blur);
+}
+.bg-green {
+  background-color: var(--bg-color-green);
+}
+.bg-green-blur {
+  background-color: var(--bg-color-green-blur);
+}
+
+.step1 {
+  margin-left: 6px;
+}
+.step2 {
+  margin-left: 54px;
+}
+.step3 {
+  margin-left: 71px;
+}
+.step4 {
+  margin-left: 61px;
+}
+.step5 {
+  margin-left: 22px;
+}
+.step6 {
+  margin-left: -5px;
+}
+.step7 {
+  margin-left: -54px;
+}
+.step8 {
+  margin-left: -70px;
+}
+.step9 {
+  margin-left: -60px;
+}
+.step10 {
+  margin-left: -21px;
+}
