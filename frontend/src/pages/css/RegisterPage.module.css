@@ -1,0 +1,98 @@
+/* RegisterPage.module.css adjustments for a reversed color theme */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;    
+  width: 100%;
+  background: linear-gradient(90deg, #b0a8f8 0, #6f00ff 70%, #b0a8f8);
+}
+
+.formBox {
+  width: 380px;
+  height: 850px;
+  background-color: white; /* Reversed color */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  opacity: 0.8;
+  border-radius: 5%; /* Smoothed corners */
+  color: black; /* Reversed color */
+}
+
+.headerForm {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.icon {
+  color: black; /* Reversed color */
+  margin-right: 10px;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.formControl {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #666; /* Darker border for contrast */
+  background-color: #f8f9fa; /* Light background for input */
+  color: black; /* Text color */
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4b0082; /* Updated button color */
+  color: white; /* Text color for button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--indigo-light-color); /* Lighter indigo for hover */
+  color: #000; /* Hover text color */
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.socialIconsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.socialIcon {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.1s ease-in-out;
+}
+
+.socialIcon:hover {
+  transform: scale(1.2);
+}
+
+.linkWrapper:hover {
+  background-color: #f0f0f0; /* Light background on hover for links */
+  border-radius: 5px;
+  transition: background-color 0.1s ease-in-out;
+}

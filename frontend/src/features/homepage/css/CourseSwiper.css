@@ -72,3 +72,52 @@
 .swiper-slide-shadow-right {
   opacity: 0;
 }
+/* Responsive adjustments for the swiper */
+@media (max-width: 1024px) {
+  .swiper-container {
+    padding: 1.5rem 0; /* Slightly reduce padding */
+  }
+
+  .swiper-slide {
+    transform: scale(0.9); /* Scale down slides to fit smaller screens */
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 40px; /* Scale down navigation buttons */
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .jlpt-heading {
+    font-size: calc(var(--font-large) + 10px); /* Reduce font size */
+    margin: 50px auto; /* Reduce margin */
+  }
+
+  .swiper-slide {
+    transform: scale(0.8); /* Further scale down slides */
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-container {
+    padding: 1rem 0; /* Further reduce padding for very small screens */
+  }
+
+  .swiper-slide {
+    transform: scale(0.7); /* Further scale down for small devices */
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none; /* Optionally hide buttons on very small screens */
+  }
+
+  /* Adjust pagination to be more touch-friendly */
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+  }
+}

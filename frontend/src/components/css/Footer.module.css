@@ -1,29 +1,27 @@
 .footer {
   background-color: var(--indigo-color);
   color: var(--text-color);
-  padding: 1rem 5%; /* Adjusted padding */
+  padding: 1rem 5%;
   font-size: var(--font-medium);
 }
 
 .footerContent {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Align titles on the top */
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .footerSection {
   flex: 1;
   min-width: 200px;
-
-  text-align: center; /* Center align social icons */
+  text-align: center;
 }
 
 .socialSection {
   flex: 1;
   min-width: 200px;
-
-  text-align: center; /* Center align social icons */
+  text-align: center;
 }
 
 .footerHeading {
@@ -44,7 +42,7 @@
 
 .footerList li,
 .socialIcons a {
-  margin: 0.5rem 0; /* Space between list items */
+  margin: 0.5rem 0;
 }
 
 .footerList li a,
@@ -61,7 +59,7 @@
   align-items: center;
   justify-content: center;
   width: auto;
-  padding: 0.5rem; /* Adjusted padding for icons */
+  padding: 0.5rem;
 }
 
 .footerList li a:hover,
@@ -71,19 +69,17 @@
 }
 
 .icon {
-  font-size: 1.5rem; /* Adjusted icon size */
-  transition: transform 0.3s ease;
+  font-size: 1.5rem;
 }
 
 .icon:hover {
-  transform: translateY(-2px); /* Subtle movement for hover effect */
+  transform: translateY(-2px);
 }
 
 .footerBase {
   text-align: center;
   font-size: var(--font-medium);
-  padding: 1rem 5%; /* Consistent padding with the top */
-  /* background-color: var(--indigo-color); */
+  padding: 1rem 5%;
   color: white;
   border-top: 2px solid var(--text-color);
 }
@@ -93,10 +89,9 @@
   font-size: var(--font-small);
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .footer {
-    padding: 1rem 2%; /* Adjusted for smaller screens */
+    padding: 1rem 2%;
   }
 
   .footerContent {
@@ -107,22 +102,20 @@
   .footerSection,
   .socialSection {
     width: 100%;
-    text-align: center; /* Center content on small screens */
   }
 
   .footerList,
   .socialIcons {
-    flex-direction: row; /* Horizontal layout for small screens */
     justify-content: center;
     flex-wrap: wrap;
   }
 
   .footerList li,
   .socialIcons a {
-    margin: 0.5rem; /* Adjusted margins for items */
+    margin: 0.5rem;
   }
 
   .footerBase {
-    padding: 1rem 2%; /* Consistent padding with the rest of the footer */
+    padding: 1rem 2%;
   }
 }

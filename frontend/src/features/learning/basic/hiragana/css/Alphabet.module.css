@@ -1,0 +1,43 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  row-gap: 20px;
+  margin: 0 auto;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  row-gap: 20px;
+  margin: 0 auto;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-xlarge);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.romaji {
+  font-size: var(--font-large);
+  margin-top: 8px; /* Space between Hiragana and Romaji */
+}
+.emptyCell {
+  pointer-events: none; /* Disables mouse events on the cell */
+  background-color: transparent !important; /* Keeps the cell background unchanged */
+  color: inherit; /* Inherits the default text color */
+}
+
+/* Apply hover styles only to non-empty cells */
+.cell:not(.emptyCell):hover {
+  background-color: indigo;
+  color: white;
+  cursor: pointer;
+}

@@ -58,3 +58,47 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
+@media (max-width: 1024px) {
+  .courseItem {
+    width: 300px; /* Slightly reduce the width */
+    padding: 15px; /* Adjust padding */
+    gap: 30px; /* Reduce gap */
+  }
+
+  .courseItem h2 {
+    font-size: var(--font-large); /* Adjust heading font size */
+    padding: 15px; /* Adjust heading padding */
+  }
+
+  .courseItem li {
+    font-size: calc(var(--font-small) + 2px); /* Adjust list item font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .courseItem {
+    width: 250px; /* Further reduce width for smaller screens */
+    gap: 20px; /* Further reduce gap */
+  }
+
+  .courseItem h2,
+  .courseItem li {
+    /* Further adjust font sizes if necessary */
+  }
+}
+
+@media (max-width: 480px) {
+  .courseItem {
+    width: 100%; /* Make course items full width on very small screens */
+    max-width: 220px; /* But limit the maximum width */
+    margin: 10px auto; /* Adjust margin for tighter layout */
+  }
+
+  .courseItem h2 {
+    font-size: var(--font-medium); /* Further reduce font size for headings */
+  }
+
+  .courseItem li {
+    font-size: var(--font-small); /* Adjust list font size for readability */
+  }
+}

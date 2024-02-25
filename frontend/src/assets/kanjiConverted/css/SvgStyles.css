@@ -1,0 +1,104 @@
+/* SvgStyles.css */
+.strokePaths {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.strokeNumbers {
+  font-size: 12px;
+  font-weight: bold;
+  fill: red;
+}
+.strokeNumbers text:nth-child(1) {
+  fill: red;
+}
+.strokeNumbers text:nth-child(2) {
+  fill: green;
+}
+.strokeNumbers text:nth-child(3) {
+  fill: blue;
+}
+.strokeNumbers text:nth-child(4) {
+  fill: orange;
+}
+.strokeNumbers text:nth-child(5) {
+  fill: purple;
+}
+.strokeNumbers text:nth-child(6) {
+  fill: cyan;
+}
+.strokeNumbers text:nth-child(7) {
+  fill: magenta;
+}
+.strokeNumbers text:nth-child(8) {
+  fill: lime;
+}
+.strokeNumbers text:nth-child(9) {
+  fill: gold;
+}
+.strokeNumbers text:nth-child(10) {
+  fill: teal;
+}
+.strokeNumbers text:nth-child(11) {
+  fill: darkorange;
+}
+.strokeNumbers text:nth-child(12) {
+  fill: darkviolet;
+}
+.strokeNumbers text:nth-child(13) {
+  fill: deepskyblue;
+}
+.strokeNumbers text:nth-child(14) {
+  fill: fuchsia;
+}
+.strokeNumbers text:nth-child(15) {
+  fill: chocolate;
+}
+.strokeNumbers text:nth-child(16) {
+  fill: coral;
+}
+.strokeNumbers text:nth-child(17) {
+  fill: firebrick;
+}
+.strokeNumbers text:nth-child(18) {
+  fill: goldenrod;
+}
+.strokeNumbers text:nth-child(19) {
+  fill: indigo;
+}
+.strokeNumbers text:nth-child(20) {
+  fill: khaki;
+}
+.strokeNumbers text:nth-child(21) {
+  fill: lavender;
+}
+.strokeNumbers text:nth-child(22) {
+  fill: maroon;
+}
+.strokeNumbers text:nth-child(23) {
+  fill: navy;
+}
+.strokeNumbers text:nth-child(24) {
+  fill: olive;
+}
+.strokeNumbers text:nth-child(25) {
+  fill: plum;
+}
+.strokeNumbers text:nth-child(26) {
+  fill: royalblue;
+}
+.strokeNumbers text:nth-child(27) {
+  fill: salmon;
+}
+.strokeNumbers text:nth-child(28) {
+  fill: tomato;
+}
+.strokeNumbers text:nth-child(29) {
+  fill: violet;
+}
+.strokeNumbers text:nth-child(30) {
+  fill: yellowgreen;
+}

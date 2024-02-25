@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "KanjiStrokeOrder";
+  src: url("/src/assets/fonts/KanjiStrokeOrders_v4.004.ttf") format("truetype");
+}
+
 /* global.css */
 :root {
   /* Color Scheme */
@@ -16,7 +21,6 @@
   --indigo-dark-color: #6f00ff; /* Dark Indigo */
   --indigo-gradient: linear-gradient(
     to right,
-    to bottom,
     #4b0082,
     #6f00ff
   ); /* Indigo Gradient */
@@ -33,6 +37,7 @@
   --font-xxlarge: 64px;
   /* Font Family */
   --primary-font: "Arial", sans-serif;
+  --kanji-stroke-order-font: "KanjiStrokeOrder", sans-serif;
 
   --color-red: red;
   --color-yellow: #ffc107;

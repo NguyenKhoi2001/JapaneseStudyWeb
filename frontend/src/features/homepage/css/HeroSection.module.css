@@ -18,13 +18,13 @@
 }
 
 .heroText h1 {
-  font-size: 32px;
+  font-size: var(--font-large);
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .heroHighlights li {
-  font-size: 16px;
+  font-size: var(--font-medium);
   margin-bottom: 10px;
   line-height: 1.4;
   position: relative;
@@ -54,6 +54,9 @@
   }
 
   .heroText h1 {
-    font-size: var(--font-large);
+    font-size: var(--font-medium);
+  }
+  .heroHighlights li {
+    font-size: var(--font-normal);
   }
 }

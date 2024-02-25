@@ -21,18 +21,34 @@ const CourseSwiper = () => {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        spaceBetween={0}
-        slidesPerView="3"
+        spaceBetween={30}
+        slidesPerView={3}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
           depth: 100,
-          modifier: 2,
+          modifier: 1,
         }}
         pagination={{ clickable: true }}
         navigation={true}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper-container"
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
       >
         {levels.map((levelKey, index) => (
           <SwiperSlide key={index}>

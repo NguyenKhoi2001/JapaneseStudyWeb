@@ -47,6 +47,15 @@
   margin: 0 auto 20px;
 }
 
+.kanjiStrokeOrder {
+  font-family: var(--kanji-stroke-order-font);
+  font-size: 2em;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
 @media screen and (max-width: 768px) {
   .mainTitle {
     font-size: var(--font-xlarge);
