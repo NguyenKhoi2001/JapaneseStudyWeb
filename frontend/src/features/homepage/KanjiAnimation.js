@@ -7,7 +7,8 @@ import React, {
   forwardRef,
 } from "react";
 
-// Dynamically import SVG based on Kanji unicode
+import "../../components/css/SvgStyles.css";
+
 const lazyLoadKanjiSvg = (kanjiUnicode) =>
   lazy(() => import(`../../assets/kanjiConverted/Svg${kanjiUnicode}.jsx`));
 
