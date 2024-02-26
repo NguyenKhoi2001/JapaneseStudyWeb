@@ -9,17 +9,16 @@ import React, {
 
 import "../../components/css/SvgStyles.css";
 
-const lazyLoadKanjiSvg = (kanjiUnicode) =>
-  lazy(() => import(`../../assets/kanjiConverted/Svg${kanjiUnicode}.jsx`));
-
+const lazyLoadKanjiSvg = (kanjiUnicode) => {
+  if (kanjiUnicode == null) return null;
+  return lazy(() =>
+    import(`../../assets/kanjiConverted/Svg${kanjiUnicode}.jsx`)
+  );
+};
 const KanjiAnimation = forwardRef(({ kanjiUnicode, className }, ref) => {
   const [SvgComponent, setSvgComponent] = useState(null);
   const [animationKey, setAnimationKey] = useState(0);
 
-  useEffect(() => {
-    const SvgComponentLazy = lazyLoadKanjiSvg(kanjiUnicode);
-    setSvgComponent(() => SvgComponentLazy);
-  }, [kanjiUnicode]);
   useEffect(() => {
     const SvgComponentLazy = lazyLoadKanjiSvg(kanjiUnicode);
     setSvgComponent(() => SvgComponentLazy);
