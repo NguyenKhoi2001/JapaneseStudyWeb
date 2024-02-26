@@ -65,7 +65,7 @@ function NavBar() {
             </Link>
           </li>
           <li>
-            <Link to="/courses" className={styles.navItem}>
+            <Link to="/learning" className={styles.navItem}>
               {t("navbar.courses")}
             </Link>
           </li>

@@ -34,7 +34,6 @@ const FeatureIntro = () => {
 
   return (
     <div>
-      <div className={styles.kanjiStrokeOrder}>順</div>
       <h1 className={styles.mainTitle}>{t("features.mainTitle")}</h1>
       <div className={styles.container}>
         {features.map((feature, index) => (
