@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage";
 import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import PageNotFound from "./pages/PageNotFound";
-// import LearningPage from "./pages/LearningPage";
+import LearningPage from "./pages/LearningPage";
 
 import AuthRoute from "./AuthRoute";
 
@@ -36,7 +36,7 @@ function App() {
               </AuthRoute>
             }
           />
-          {/* <Route path="/learning" element={<LearningPage />} /> */}
+          <Route path="/learning" element={<LearningPage />} />
           <Route path="/test" element={<TextInputAndSpeaker />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
