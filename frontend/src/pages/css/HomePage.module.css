@@ -1,0 +1,33 @@
+.welcomeBanner {
+  text-align: center;
+  padding: 50px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.aboutSection {
+  padding: 50px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+  }
+
+  .heroText,
+  .heroImageContainer {
+    width: 100%;
+  }
+
+  .heroText h1 {
+    font-size: var(--font-large);
+  }
+}

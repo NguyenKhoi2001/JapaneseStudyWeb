@@ -1,0 +1,111 @@
+User Creation and Authentication Tests:
+
+Create normal user (POST /api/users/) (✓)
+Create admin with admin user (POST /api/users/admin with admin token) (✓)
+Create user with existing username (POST /api/users/) (✓)
+Create user with existing email (POST /api/users/) (✓)
+Prevent a normal user from creating an admin account (POST /api/users/admin with user token) (✓)
+Admin can create another admin user (POST /api/users/admin with admin token) (✓)
+User Login Tests:
+
+Login user (POST /api/users/login) (✓)
+Login admin (POST /api/users/login) (✓)
+Create a second normal user for further tests (POST /api/users/) (✓)
+User Data Access Tests:
+
+Normal user can get their own details (GET /api/users/:id with user token) (✓)
+Admin can get details of any user (GET /api/users/:id with admin token) (✓)
+Normal user cannot get details of another user (GET /api/users/:id with user token) (✓)
+User Updates Tests:
+
+User updates their own account (PUT /api/users/:id with user token) (✓)
+User cannot update another user's account (PUT /api/users/:id with user token) (✓)
+Admin updates a regular user's account (PUT /api/users/:id with admin token) (✓)
+Admin cannot update another admin's account (PUT /api/users/:id with admin token) (✓)
+User Deletion Tests:
+
+User tries to delete another user's account (Not directly tested; however, inferred from "admin tries to delete a user account" and "admin cannot delete another admin's account" tests)
+User tries to delete their own account (DELETE /api/users/:id with user token) (✓, but the result is incorrect in the provided code as it expects a 403 instead of allowing deletion)
+Admin tries to delete a user account (DELETE /api/users/:id with admin token) (✓)
+Admin cannot delete another admin's account (DELETE /api/users/:id with admin token) (✓)
+
+
+Vocabulary Creation and Authentication Tests:
+Create Vocabulary:
+Create vocabulary with normal user (POST /api/vocabulary/ with user token) (✗) (Expected: Forbidden)
+Create vocabulary with teacher (POST /api/vocabulary/ with teacher token) (✓)
+Create vocabulary with admin (POST /api/vocabulary/ with admin token) (✓)
+Vocabulary Access Tests:
+Public Access:
+Get all vocabularies without authentication (GET /api/vocabulary/) (✓)
+Get a specific vocabulary without authentication (GET /api/vocabulary/:id) (✓)
+Vocabulary Update Tests:
+Modify Vocabulary:
+Update vocabulary with normal user (PUT /api/vocabulary/:id with user token) (✗) (Expected: Forbidden)
+Update vocabulary with teacher (PUT /api/vocabulary/:id with teacher token) (✓)
+Update vocabulary with admin (PUT /api/vocabulary/:id with admin token) (✓)
+Vocabulary Deletion Tests:
+Delete Vocabulary:
+Delete vocabulary with normal user (DELETE /api/vocabulary/:id with user token) (✗) (Expected: Forbidden)
+Delete vocabulary with teacher (DELETE /api/vocabulary/:id with teacher token) (✓)
+Delete vocabulary with admin (DELETE /api/vocabulary/:id with admin token) (✓)
+
+Kanji Creation and Authentication Tests:
+Create Kanji:
+Create kanji with normal user (POST /api/kanji/ with user token) (✗) (Expected: Forbidden)
+Create kanji with teacher (POST /api/kanji/ with teacher token) (✓)
+Create kanji with admin (POST /api/kanji/ with admin token) (✓)
+Public Access Tests:
+Access Kanji:
+Get all Kanjis without authentication (GET /api/kanji/) (✓)
+Get a specific Kanji by ID without authentication (GET /api/kanji/:id) (✓)
+Kanji Update Tests:
+Modify Kanji:
+Update kanji with normal user (PUT /api/kanji/:id with user token) (✗) (Expected: Forbidden)
+Update kanji with teacher (PUT /api/kanji/:id with teacher token) (✓)
+Update kanji with admin (PUT /api/kanji/:id with admin token) (✓)
+Kanji Deletion Tests:
+Delete Kanji:
+Delete kanji with normal user (DELETE /api/kanji/:id with user token) (✗) (Expected: Forbidden)
+Delete kanji with teacher (DELETE /api/kanji/:id with teacher token) (✓)
+Delete kanji with admin (DELETE /api/kanji/:id with admin token) (✓)
+
+
+Grammar Creation and Authentication Tests:
+Create Grammar:
+Create grammar with normal user (POST /api/grammar/ with user token) (✗) (Expected: Forbidden)
+Create grammar with teacher (POST /api/grammar/ with teacher token) (✓)
+Create grammar with admin (POST /api/grammar/ with admin token) (✓)
+Public Access Tests:
+Access Grammar:
+Get all grammars without authentication (GET /api/grammar/) (✓)
+Get a specific grammar by ID without authentication (GET /api/grammar/:id) (✓)
+Grammar Update Tests:
+Modify Grammar:
+Update grammar with normal user (PUT /api/grammar/:id with user token) (✗) (Expected: Forbidden)
+Update grammar with teacher (PUT /api/grammar/:id with teacher token) (✓)
+Update grammar with admin (PUT /api/grammar/:id with admin token) (✓)
+Grammar Deletion Tests:
+Delete Grammar:
+Delete grammar with normal user (DELETE /api/grammar/:id with user token) (✗) (Expected: Forbidden)
+Delete grammar with teacher (DELETE /api/grammar/:id with teacher token) (✓)
+Delete grammar with admin (DELETE /api/grammar/:id with admin token) (✓)
+
+
+User Creation and Prerequisite Setup Tests:
+Not directly tested but involves creating user roles (user, teacher, admin) and prerequisites (vocabulary, kanji, grammar, lesson) necessary for level management.
+Level Creation Tests:
+Forbid a regular user from creating a level (POST /api/levels/ with user token) (✓)
+Allow a teacher to create a level (POST /api/levels/ with teacher token) (✓)
+Allow an admin to create a level (POST /api/levels/ with admin token) (✓)
+Public Access Tests:
+Allow access to all levels without authentication (GET /api/levels/) (✓)
+Allow access to a specific level by ID without authentication (GET /api/levels/:id) (✓)
+Level Update Tests:
+Forbid a regular user from updating a level (PUT /api/levels/:id with user token) (✓)
+Allow a teacher to update a level (PUT /api/levels/:id with teacher token) (✓)
+Allow an admin to update a level (PUT /api/levels/:id with admin token) (✓)
+Level Deletion Tests:
+Forbid a regular user from deleting a level (DELETE /api/levels/:id with user token) (✓)
+Allow a teacher to delete a level (DELETE /api/levels/:id with teacher token) (✓)
+Allow an admin to delete a level (DELETE /api/levels/:id with admin token) (✓)

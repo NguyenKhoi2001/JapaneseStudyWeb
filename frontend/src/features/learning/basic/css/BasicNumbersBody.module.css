@@ -1,0 +1,46 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-top: 20px; /* Add some space above the grid */
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-large);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+/* Apply hover styles only to non-empty cells */
+.cell:not(.emptyCell):hover {
+  background-color: var(--indigo-dark-color);
+  color: white;
+  cursor: pointer;
+}
+
+.displayHiragana {
+  font-size: var(--font-xlarge);
+  text-align: center;
+  margin-bottom: 20px; /* Space above the grid */
+  color: var(--indigo-dark-color); /* Text color */
+  font-weight: bold;
+}
+.selectedCell {
+  background-color: var(
+    --indigo-dark-color
+  ); /* Same as hover, but for selected cell */
+  color: white;
+}
+
+/* You might adjust the hover style to avoid conflicts or duplications with the selected style */
+.cell:not(.emptyCell):hover:not(.selectedCell) {
+  background-color: var(--indigo-dark-color);
+  color: white;
+  cursor: pointer;
+}

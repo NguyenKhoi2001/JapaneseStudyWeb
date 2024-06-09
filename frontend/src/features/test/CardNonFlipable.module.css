@@ -1,0 +1,75 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: var(--indigo-light-color);
+}
+
+.card {
+  margin: 15px;
+  display: flex;
+  width: 800px;
+  height: auto; /* Adjusted to fit content */
+  font-family: var(--primary-font);
+  border-radius: var(--btn-border-radius);
+  background-color: var(--background-color);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.imageSection {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--btn-border-radius);
+}
+
+.infoSection {
+  font-size: var(--font-medium); /* Standardized font size */
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  padding: 20px;
+  gap: 10px;
+  align-items: center;
+}
+.cell {
+  text-align: center;
+  font-size: var(--font-medium);
+}
+.title {
+  font-size: var(--font-medium); /* Updated to match */
+  font-weight: bold;
+  color: var(--background-color);
+  background-color: var(--indigo-color);
+  padding: 5px 10px;
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.furigana {
+  font-size: var(--font-medium);
+}
+.fullWidth {
+  grid-column: 1 / -1;
+}
+
+.meaning,
+.readings {
+  font-size: var(--font-medium); /* Updated to match */
+  flex: 1;
+  text-align: center; /* Adjust if necessary */
+}

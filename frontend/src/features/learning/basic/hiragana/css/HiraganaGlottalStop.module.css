@@ -1,0 +1,77 @@
+.container {
+  font-family: Arial, sans-serif;
+  font-size: var(--font-noraml);
+}
+
+.section {
+  margin-bottom: 20px;
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 15px 30px;
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.title {
+  display: flex;
+  align-items: center; /* Aligns the circle and text vertically */
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: var(--font-medium);
+}
+
+.sectionNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content inside the circle */
+  width: 35px; /* Adjust size as needed */
+  height: 35px; /* Ensure it's a circle */
+  font-weight: bold;
+  border: 1px solid black; /* Optional: adjust the border */
+  background-color: var(
+    --indigo-dark-color
+  ); /* Adjust the background color as needed */
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  /* Adjust font size as needed */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    minmax(250px, 1fr)
+  ); /* Adjust based on your layout preference */
+  gap: 20px;
+}
+.grid.twoColumnGrid {
+  width: 40%;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid.threeColumnGrid {
+  width: 60%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.word {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-medium);
+}
+
+p {
+  line-height: 1.6; /* Improves readability */
+  color: #666; /* Light grey color for paragraph text */
+}
+
+.red {
+  color: red; /* Styles specific elements in red */
+  font-weight: bold;
+}
+
+.contentText {
+  font-size: var(--font-medium);
+  width: 75%;
+}

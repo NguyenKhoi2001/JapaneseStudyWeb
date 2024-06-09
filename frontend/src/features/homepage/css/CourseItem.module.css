@@ -1,0 +1,104 @@
+.courseItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 10px double var(--indigo-color);
+}
+
+.courseItem h2 {
+  margin-top: -5px;
+  position: relative;
+  margin-bottom: 15px;
+  font-size: var(--font-xlarge);
+  color: var(--background-color);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background-color: var(--indigo-color);
+  width: calc(100% - 40px);
+}
+
+.courseItem h2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: var(--indigo-color);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  z-index: 1;
+}
+
+.courseItem ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  color: black;
+}
+
+.courseItem li {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: var(--font-normal);
+  line-height: 1.4;
+}
+
+.courseItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 1024px) {
+  .courseItem {
+    width: 300px; /* Slightly reduce the width */
+    padding: 15px; /* Adjust padding */
+    gap: 30px; /* Reduce gap */
+  }
+
+  .courseItem h2 {
+    font-size: var(--font-large); /* Adjust heading font size */
+    padding: 15px; /* Adjust heading padding */
+  }
+
+  .courseItem li {
+    font-size: calc(var(--font-small) + 2px); /* Adjust list item font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .courseItem {
+    width: 250px; /* Further reduce width for smaller screens */
+    gap: 20px; /* Further reduce gap */
+  }
+
+  .courseItem h2,
+  .courseItem li {
+    /* Further adjust font sizes if necessary */
+  }
+}
+
+@media (max-width: 480px) {
+  .courseItem {
+    width: 100%; /* Make course items full width on very small screens */
+    max-width: 220px; /* But limit the maximum width */
+    margin: 10px auto; /* Adjust margin for tighter layout */
+  }
+
+  .courseItem h2 {
+    font-size: var(--font-medium); /* Further reduce font size for headings */
+  }
+
+  .courseItem li {
+    font-size: var(--font-small); /* Adjust list font size for readability */
+  }
+}

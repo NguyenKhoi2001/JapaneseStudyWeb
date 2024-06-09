@@ -1,0 +1,688 @@
+{
+  "navbar": {
+    "intro": "Introduction",
+    "blog": "Blog",
+    "courses": "Learning Path",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "heroSection": {
+    "welcome": "Welcome to the Japanese Language Learning Support Website! This is a project of Ton Duc Thang University developed by Le Duy Khanh and Nguyen Dinh Minh Khoi!",
+    "point1": "Confidently learn Japanese: Learn with us to solidify knowledge and develop your Japanese language skills.",
+    "point2": "Interactive learning via Zoom/Google Meet: Join online classes with instructors and a diverse community of learners.",
+    "point3": "Flexible learning anytime, anywhere: Utilize our online learning app on all devices.",
+    "point4": "Diverse program offerings: Catering to learners of all levels from beginners to experienced individuals, including exam preparation, review sessions, and various learning journeys.",
+    "point5": "Experienced teaching team: Our instructors all hold N2 Japanese language certifications and are available to support you throughout your learning journey.",
+    "conclusion": "Join us to explore Japanese language learning effectively and easily!"
+  },
+  "footer": {
+    "learningResources": "Learning Resources",
+    "lessons": "Lessons",
+    "studyTools": "Study Tools",
+    "cultureNotes": "Culture Notes",
+    "languageExchanges": "Language Exchanges",
+    "siteInfo": "Site Information",
+    "aboutUs": "About Us",
+    "ourMission": "Our Mission",
+    "testimonials": "Testimonials",
+    "careers": "Careers",
+    "community": "Community",
+    "studentForum": "Student Forum",
+    "events": "Events",
+    "news": "News",
+    "support": "Support",
+    "faqs": "FAQs",
+    "contactUs": "Contact Us",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "followUs": "Follow Us",
+    "disclaimer": "This site is dedicated to all aspiring students of the Japanese language. We strive to provide the most comprehensive and engaging learning experience."
+  },
+  "features": {
+    "mainTitle": "What can you do in KK website?",
+    "communityInsights": {
+      "title": "Community Insights",
+      "text": "Explore a hub where students and educators share insights, tips, and cultural snippets about learning Japanese, from language tricks to cultural nuances."
+    },
+    "comprehensiveLearning": {
+      "title": "Comprehensive Learning",
+      "text": "Access a wealth of resources for every JLPT level (N5-N1), covering vocabulary, grammar, kanji, listening, reading, and quizzes to track your progress."
+    },
+    "senseiConnect": {
+      "title": "Sensei Connect",
+      "text": "Connect with experienced instructors for immediate guidance on your Japanese language queries and enhance your learning experience with personal advice."
+    },
+    "pronunciationPractice": {
+      "title": "Pronunciation Practice",
+      "text": "Use our interactive tool to practice and perfect your Japanese pronunciation, with real-time feedback to help pinpoint and correct your linguistic nuances."
+    }
+  },
+
+  "infographic": {
+    "title": "Embark on the Journey to Master Japanese like a Native",
+    "stage1": {
+      "title": "Stage 1: Getting Started",
+      "text": "Let's Begin!",
+      "articles": {
+        "1": {
+          "headerText": "Set Clear Goals",
+          "bodyText": "Determine your motivation and objectives for learning Japanese. Having clear goals will keep you focused and motivated throughout your journey."
+        },
+        "2": {
+          "headerText": "Learn Hiragana and Katakana",
+          "bodyText": "Master the basic Japanese writing systems - Hiragana and Katakana. These are the foundation for reading and writing in Japanese."
+        },
+        "3": {
+          "headerText": "Basic Pronunciation and Vocabulary",
+          "bodyText": "Begin with Japanese pronunciation and common words to build your language foundation."
+        },
+        "4": {
+          "headerText": "Grammar Foundations",
+          "bodyText": "Learn fundamental grammar concepts such as sentence structure and basic particles (は, の, が, へ, で, と, も)."
+        },
+        "5": {
+          "headerText": "Cultural Context",
+          "bodyText": "Understand Japanese culture, customs, and etiquette to enhance your language understanding and cultural sensitivity."
+        }
+      }
+    },
+    "stage2": {
+      "title": "Stage 2: Intermediate Proficiency",
+      "text": "Making Progress!",
+      "articles": {
+        "6": {
+          "headerText": "Kanji Study",
+          "bodyText": "Start learning kanji characters, beginning with common ones used in daily life."
+        },
+        "7": {
+          "headerText": "Expand Vocabulary",
+          "bodyText": "Increase your vocabulary with a focus on everyday conversation and topics of interest."
+        },
+        "8": {
+          "headerText": "Grammar Advancement",
+          "bodyText": "Study more complex grammar structures, including different verb forms, conditionals, and honorific language (keigo)."
+        },
+        "9": {
+          "headerText": "Listening and Speaking",
+          "bodyText": "Practice listening comprehension and engage in speaking practice with native speakers or language exchange partners."
+        },
+        "10": {
+          "headerText": "Reading Practice",
+          "bodyText": "Start reading simple Japanese texts, like children's books, manga, or graded readers, and gradually move on to more complex materials."
+        }
+      }
+    },
+    "stage3": {
+      "title": "Stage 3: Advanced Fluency",
+      "text": "Almost There!",
+      "articles": {
+        "11": {
+          "headerText": "Advanced Kanji",
+          "bodyText": "Continue learning kanji characters, focusing on more advanced characters used in newspapers and literature."
+        },
+        "12": {
+          "headerText": "Advanced Vocabulary",
+          "bodyText": "Expand your vocabulary to discuss complex topics, both formal and informal."
+        },
+        "13": {
+          "headerText": "Advanced Grammar",
+          "bodyText": "Master advanced grammar structures, including complex sentence structures and rhetorical devices."
+        },
+        "14": {
+          "headerText": "Cultural Immersion",
+          "bodyText": "Immerse yourself in Japanese culture through media, movies, music, and literature. Develop a deeper understanding of cultural nuances."
+        },
+        "15": {
+          "headerText": "Travel and Practical Use",
+          "bodyText": "Prepare for real-life situations in Japan by learning travel-related vocabulary and practicing common tasks."
+        }
+      }
+    }
+  },
+  "jlptJourney": {
+    "title": "Embark on Your Journey to JLPT Mastery: A Path to Unleash Your Full Potential",
+    "levels": {
+      "basic": {
+        "title": "Basic Japanese",
+        "points": [
+          "Introduction to Japanese scripts: Hiragana and Katakana.",
+          "Basic greetings and everyday expressions.",
+          "Introduction to Japanese culture and etiquette.",
+          "Basic sentence structure and simple phrases.",
+          "Numbers, dates, and basic counting."
+        ]
+      },
+      "N5": {
+        "title": "JLPT N5 - Beginner",
+        "points": [
+          "Understand and use typical expressions and basic phrases.",
+          "Introduction to Kanji characters.",
+          "Ability to engage in simple conversation.",
+          "Understand and use basic grammar including particles.",
+          "Listening comprehension of slow and articulated speech."
+        ]
+      },
+      "N4": {
+        "title": "JLPT N4 - Lower Intermediate",
+        "points": [
+          "Comprehend and use basic Kanji.",
+          "Understanding of basic everyday topics.",
+          "Ability to read and understand passages on familiar daily topics.",
+          "Enhanced listening skills with the ability to comprehend and respond.",
+          "Foundation for more advanced Japanese grammar."
+        ]
+      },
+      "N3": {
+        "title": "JLPT N3 - Intermediate",
+        "points": [
+          "Deepen understanding of intermediate grammar.",
+          "Comprehend more complex Kanji and vocabulary.",
+          "Ability to understand and participate in coherent conversations.",
+          "Read and comprehend detailed texts on a variety of topics.",
+          "Improved listening comprehension in different situations."
+        ]
+      },
+      "N2": {
+        "title": "JLPT N2 - Upper Intermediate",
+        "points": [
+          "Command of a broad vocabulary and complex grammar.",
+          "Read and comprehend newspapers and magazines.",
+          "Understand spoken Japanese in TV dramas and news.",
+          "Express and understand complex ideas and hypothetical scenarios.",
+          "Cultural nuances and idiomatic expressions."
+        ]
+      },
+      "N1": {
+        "title": "JLPT N1 - Advanced",
+        "points": [
+          "Advanced comprehension of Japanese used in a variety of circumstances.",
+          "Read and understand complex written materials on abstract topics.",
+          "Comprehend spoken Japanese in academic and professional settings.",
+          "Ability to understand nuanced and implicit meanings.",
+          "Express ideas logically and coherently in spoken and written form."
+        ]
+      }
+    }
+  },
+  "basicLearning": {
+    "hiragana": {
+      "title": "Hiragana",
+      "basicHiragana": {
+        "alphabet": "Alphabet",
+        "compoundSounds": "Compound Sounds",
+        "combinedSounds": "Combined Sounds",
+        "longVowels": "Long Vowels",
+        "voicedSounds": "Voiced Sounds",
+        "practice": "Practice"
+      },
+      "longVowels": {
+        "section1": {
+          "title": "Concept",
+          "content": "Long vowels are vowels that are held twice as long as short vowels."
+        },
+        "section2": {
+          "title": "Meaning Changes with Long Vowels",
+          "intro": "Example:",
+          "examples": [
+            {
+              "base": "かみ",
+              "styled": "",
+              "translation": "Paper"
+            },
+            {
+              "base": "かみい",
+              "styled": "い",
+              "translation": "God"
+            },
+            {
+              "base": "はし",
+              "styled": "",
+              "translation": "Bridge"
+            },
+            {
+              "base": "はしい",
+              "styled": "い",
+              "translation": "Chopsticks"
+            },
+            {
+              "base": "おと",
+              "styled": "",
+              "translation": "Sound"
+            },
+            {
+              "base": "おとお",
+              "styled": "お",
+              "translation": "Uncle"
+            },
+            {
+              "base": "ゆき",
+              "styled": "",
+              "translation": "Snow"
+            },
+            {
+              "base": "ゆうき",
+              "styled": "う",
+              "translation": "Courage"
+            },
+            {
+              "base": "ね",
+              "styled": "",
+              "translation": "Lie down"
+            },
+            {
+              "base": "ねえ",
+              "styled": "え",
+              "translation": "Older sister"
+            },
+            {
+              "base": "こ",
+              "styled": "",
+              "translation": "Child"
+            },
+            {
+              "base": "こう",
+              "styled": "う",
+              "translation": "High/Tall"
+            }
+          ]
+        },
+
+        "section3": {
+          "title": "How to Read",
+          "content": "If the vowel あ has a length of 1, then ああ has a length of 2. In other words, if using the concept of sound units, a sound X has a length of 1 unit, while sound XX has a length of 2 units."
+        },
+        "section4": {
+          "title": "Ways of Writing Long Vowels",
+          "subSections": [
+            {
+              "title": "Column あ",
+              "intro": "For the long vowels of the あ column, add あ after the characters belonging to the あ column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character か from the あ column, add あ after か to form the long vowel.",
+                  "base": "おかあさん",
+                  "styled": "あ",
+                  "translation": "Mother (referring to someone else's mother)"
+                },
+                {
+                  "exampleIntro": "For the character ま from the あ column, add あ after ま.",
+                  "base": "まあまあ",
+                  "styled": "あ",
+                  "translation": "Just right"
+                }
+              ]
+            },
+            {
+              "title": "Column い",
+              "intro": "For the long vowels of the い column, add い after the characters belonging to the い column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character じ from the い column, add い after じ to form the long vowel.",
+                  "base": "おじいさん",
+                  "styled": "い",
+                  "translation": "Grandfather (referring to someone else's grandfather)"
+                }
+              ]
+            },
+            {
+              "title": "Column う",
+              "intro": "For the long vowels of the う column, add う after the characters belonging to the う column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character ゆ from the う column, add う after ゆ.",
+                  "base": "ゆうき",
+                  "styled": "う",
+                  "translation": "Courage"
+                },
+                {
+                  "exampleIntro": "For the character く from the う column, add う after く.",
+                  "base": "くうこう",
+                  "styled": "う",
+                  "translation": "Airport"
+                }
+              ]
+            },
+            {
+              "title": "Column え",
+              "intro": "For the long vowels of the え column, add い after the characters belonging to the え column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character れ from the え column, add い after れ.",
+                  "base": "れいぶん",
+                  "styled": "い",
+                  "translation": "Example sentence"
+                },
+                {
+                  "exampleIntro": "In many cases, for the long vowels of the え column, add え.",
+                  "base": "ねえ",
+                  "styled": "え",
+                  "translation": "Hey"
+                }
+              ]
+            },
+            {
+              "title": "Column お",
+              "intro": "For the long vowels of the お column, add う after the characters belonging to the お column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character こ from the お column, add う after こ.",
+                  "base": "こうこう",
+                  "styled": "う",
+                  "translation": "High school"
+                },
+                {
+                  "exampleIntro": "For the character よ from the お column, add う after よ.",
+                  "base": "ようやく",
+                  "styled": "う",
+                  "translation": "Gradually, slowly"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "glottalStop": {
+        "section1": {
+          "title": "Concept",
+          "content": "Known as a glottal stop because it divides words into two parts. In Japanese, the glottal stop is represented by the character っ. It often appears in combinations where Hiragana follows the glottal stop from rows: ka, sa, ta, pa."
+        },
+        "section2": {
+          "title": "Glottal Stop Changes Word Meanings",
+          "examples": [
+            {
+              "hiragana": "ぶか",
+              "meaning": "Subordinate"
+            },
+            {
+              "hiragana": "ぶっか",
+              "meaning": "Price level"
+            },
+            {
+              "hiragana": "かた",
+              "meaning": "Shoulder"
+            },
+            {
+              "hiragana": "かった",
+              "meaning": "Bought"
+            },
+            {
+              "hiragana": "まち",
+              "meaning": "City"
+            },
+            {
+              "hiragana": "まっち",
+              "meaning": "Match, Wait"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Pronunciation",
+          "content": "The sound lasts for a single sound unit. When pronouncing, the glottal stop is articulated for a duration equivalent to other sounds. When reading, we double the first letter of the word following the glottal stop.",
+          "examples": [
+            {
+              "hiragana": "にっき",
+              "romaji": "nikki",
+              "meaning": "Diary"
+            },
+            {
+              "hiragana": "ざっし",
+              "romaji": "zasshi",
+              "meaning": "Magazine"
+            },
+            {
+              "hiragana": "きって",
+              "romaji": "kitte",
+              "meaning": "Stamp"
+            },
+            {
+              "hiragana": "いっぱい",
+              "romaji": "ippai",
+              "meaning": "Full"
+            },
+            {
+              "hiragana": "さっか",
+              "romaji": "sakka",
+              "meaning": "Author"
+            },
+            {
+              "hiragana": "はっぴょう",
+              "romaji": "happyō",
+              "meaning": "Presentation, Announcement"
+            }
+          ]
+        },
+        "section4": {
+          "title": "Writing",
+          "content": "The glottal stop is written with the character っ. It is written smaller, lower, and slightly to the left compared to other Hiragana characters."
+        }
+      }
+    },
+    "katakana": {
+      "title": "Katakana",
+      "longVowelsKatakana": {
+        "section1": {
+          "title": "Introduction to Long Vowels",
+          "content": "Long vowels in Katakana are extended sounds, lasting twice as long as their shorter counterparts. This concept applies to vowels such as ア, イ, ウ, エ, オ."
+        },
+        "section2": {
+          "title": "Notation of Long Vowels",
+          "intro": "For instance:",
+          "examples": [
+            {
+              "base": "メール",
+              "translation": "Email"
+            },
+            {
+              "base": "ケーキ",
+              "translation": "Cake"
+            },
+            {
+              "base": "アイスクリーム",
+              "translation": "Ice Cream"
+            },
+            {
+              "base": "テーブル",
+              "translation": "Table"
+            },
+            {
+              "base": "レーザー",
+              "translation": "Laser"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Writing Long Vowels",
+          "content": "A single vowel ア doubles in length to become アー, symbolizing a doubling of its sound unit. This principle is utilized across various Katakana rows.",
+          "subSections": [
+            {
+              "title": "Row ア",
+              "intro": "For elongating vowels in the ア row, the symbol ― is used directly after the vowel.",
+              "examples": [
+                {
+                  "exampleIntro": "Within words like:",
+                  "base": "ソーシャル",
+                  "translation": "Social"
+                },
+                {
+                  "exampleIntro": "Similarly, for:",
+                  "base": "モーター",
+                  "translation": "Motor"
+                }
+              ]
+            },
+            {
+              "title": "Row イ",
+              "intro": "Extending the イ sound involves placing the ― symbol afterwards.",
+              "examples": [
+                {
+                  "exampleIntro": "As seen in:",
+                  "base": "コーヒー",
+                  "translation": "Coffee"
+                }
+              ]
+            },
+            {
+              "title": "Row ウ",
+              "intro": "To extend the ウ sound, the symbol ― is added after the vowel.",
+              "examples": [
+                {
+                  "exampleIntro": "Example includes:",
+                  "base": "フルーツ",
+                  "translation": "Fruits"
+                }
+              ]
+            },
+            {
+              "title": "Row エ",
+              "intro": "The symbol ― is also used after エ to extend the sound.",
+              "examples": [
+                {
+                  "exampleIntro": "For example:",
+                  "base": "ビデオテープ",
+                  "translation": "Videotape"
+                }
+              ]
+            },
+            {
+              "title": "Row オ",
+              "intro": "To elongate the オ sound, the ― symbol is employed.",
+              "examples": [
+                {
+                  "exampleIntro": "Illustrated by:",
+                  "base": "ローマ",
+                  "translation": "Rome"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "katakanaGlottalStop": {
+        "section1": {
+          "title": "Overview",
+          "content": "The glottal stop separates words into distinct parts, represented in Japanese by the small katakana symbol ッ. It precedes sounds from rows such as カ, タ, サ, among others.",
+          "examples": [
+            {
+              "katakana": "パッケージ",
+              "meaning": "Package"
+            },
+            {
+              "katakana": "ハッピー",
+              "meaning": "Happy"
+            }
+          ]
+        },
+        "section2": {
+          "title": "Writing Technique",
+          "content": "The glottal stop symbol ッ is a smaller version of ツ. It's written slightly smaller and positioned lower and to the left compared to other katakana characters.",
+          "examples": [
+            {
+              "katakana": "アクセス",
+              "meaning": "Access"
+            },
+            {
+              "katakana": "イベント",
+              "meaning": "Event"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Pronunciation",
+          "content": "The glottal stop is as long as a single sound unit. It's pronounced for the same duration as other sounds, doubling the following letter.",
+          "examples": [
+            {
+              "katakana": "エッセイ",
+              "romaji": "essei",
+              "meaning": "Essay"
+            },
+            {
+              "katakana": "ゲッター",
+              "romaji": "gettā",
+              "meaning": "Getter"
+            },
+            {
+              "katakana": "テッセン",
+              "romaji": "tessen",
+              "meaning": "Iron fan"
+            },
+            {
+              "katakana": "ネッシー",
+              "romaji": "nesshī",
+              "meaning": "Nessie"
+            },
+            {
+              "katakana": "ビッグ",
+              "romaji": "biggu",
+              "meaning": "Big"
+            }
+          ]
+        }
+      }
+    },
+    "numbers": "Numbers",
+    "practice": "Practice",
+    "practiceQuestion": {
+      "prev": "Prev",
+      "next": "Next",
+      "checkAnswers": "Check Answers",
+      "doAgain": "Do Again",
+      "question": "Question",
+      "total": "Total",
+      "alertNotAnswered": "Please answer all questions before checking."
+    }
+  },
+  "timelineData": [
+    {
+      "id": 1,
+      "header": "Basic",
+      "description": [
+        "Learn the Japanese alphabet (Hiragana and Katakana).",
+        "Understand basic phrases and introductions."
+      ]
+    },
+    {
+      "id": 2,
+      "header": "N5",
+      "description": [
+        "Understand basic Japanese used in everyday situations.",
+        "Learn simple sentences and common expressions."
+      ]
+    },
+    {
+      "id": 3,
+      "header": "N4",
+      "description": [
+        "Build on N5 knowledge with basic grammar.",
+        "Participate in simple conversations."
+      ]
+    },
+    {
+      "id": 4,
+      "header": "N3",
+      "description": [
+        "Engage in everyday conversations.",
+        "Gain a deeper understanding of grammar and vocabulary."
+      ]
+    },
+    {
+      "id": 5,
+      "header": "N2",
+      "description": [
+        "Understand Japanese used in everyday scenarios.",
+        "Comprehend more intricate and abstract content."
+      ]
+    },
+    {
+      "id": 6,
+      "header": "N1",
+      "description": [
+        "Achieve the highest level of Japanese proficiency.",
+        "Understand complex and specialized discussions."
+      ]
+    }
+  ],
+  "popupAlphabet": {
+    "close": "Close",
+    "draw": "Draw"
+  }
+}

@@ -1,0 +1,41 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(220, 53, 69, 0.5); /* Darker semi-transparent red */
+  z-index: 1000; /* high z-index to be on top */
+}
+
+.container {
+  background-color: var(--background-color); /* white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px; /* fixed width */
+}
+
+.message {
+  background-color: var(--bg-color-red); /* Red background */
+  color: var(--background-color); /* White text */
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.button {
+  background-color: var(--indigo-color); /* Indigo background */
+  color: var(--background-color); /* White text */
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: var(--font-normal);
+  cursor: pointer;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

@@ -1,0 +1,225 @@
+/* Article.module.css */
+.article {
+  max-width: 450px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  left: 50%;
+  position: relative;
+}
+
+.articleHeader {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+}
+.headerText {
+  text-transform: uppercase;
+  padding-left: 16px;
+  font-size: var(--font-medium);
+}
+.evenArticleHeader {
+  height: 80px;
+  transform: translateX(-100%);
+  flex-flow: row-reverse;
+  border-radius: 30px;
+  text-align: left;
+}
+.icon {
+  font-size: var(--font-xlarge);
+  border-radius: 50%;
+  background-clip: padding-box;
+  padding: 14px;
+  transition: transform 0.4s;
+  border: 16px solid white;
+  margin: -16px 0 -16px -10px;
+  color: white;
+  z-index: 99;
+}
+
+.evenBody {
+  transform: translate(-100%);
+}
+.evenIcon {
+  margin-left: 20px;
+}
+.body {
+  background: transparent;
+  padding: 0 20px;
+  max-height: 0;
+  transition: max-height 0.5s, padding 0.5s;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.bodyActive {
+  padding: 20px;
+  max-height: 300px;
+  border: 1px solid;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.redOutline {
+  border: 2px solid var(--bg-color-red);
+}
+
+.yellowOutline {
+  border: 2px solid var(--bg-color-yellow);
+}
+
+.greenOutline {
+  border: 2px solid var(--bg-color-green);
+}
+
+/* Hover styles */
+.redOutline:hover {
+  background-color: var(--bg-color-red);
+  color: white;
+}
+
+.yellowOutline:hover {
+  background-color: var(--bg-color-yellow);
+  color: white;
+}
+
+.greenOutline:hover {
+  background-color: var(--bg-color-green);
+  color: white;
+}
+.bg-red {
+  background-color: var(--bg-color-red);
+}
+.bg-red-blur {
+  background-color: var(--bg-color-red-blur);
+}
+.bg-yellow {
+  background-color: var(--bg-color-yellow);
+}
+.bg-yellow-blur {
+  background-color: var(--bg-color-yellow-blur);
+}
+.bg-green {
+  background-color: var(--bg-color-green);
+}
+.bg-green-blur {
+  background-color: var(--bg-color-green-blur);
+}
+
+.step1 {
+  margin-left: 6px;
+}
+.step2 {
+  margin-left: 54px;
+}
+.step3 {
+  margin-left: 71px;
+}
+.step4 {
+  margin-left: 61px;
+}
+.step5 {
+  margin-left: 22px;
+}
+.step6 {
+  margin-left: -5px;
+}
+.step7 {
+  margin-left: -54px;
+}
+.step8 {
+  margin-left: -70px;
+}
+.step9 {
+  margin-left: -60px;
+}
+.step10 {
+  margin-left: -21px;
+}
+
+/* Enhanced Responsive adjustments */
+@media (max-width: 768px) {
+  .article {
+    max-width: 250px;
+    margin-bottom: 10px;
+  }
+
+  .articleHeader,
+  .evenArticleHeader {
+    /* Slightly reduce height */
+    height: 50px;
+  }
+
+  .icon {
+    /* Reduce icon size for consistency */
+    font-size: calc(
+      var(--font-large) - 10px
+    ); /* Adjust based on your variable definitions */
+    padding: 10px;
+    margin: -10px 0 -10px -8px; /* Adjust margins to fit the new size */
+    border: 10px solid white; /* Adjust border thickness */
+  }
+
+  .headerText {
+    /* Further reduce font size for smaller screens */
+    font-size: calc(var(--font-normal) - 2px); /* Example adjustment */
+  }
+
+  .body,
+  .bodyActive {
+    padding: 10px;
+  }
+
+  .controls {
+    /* If necessary, reduce spacing */
+    margin-top: 5px;
+  }
+
+  .btn {
+    /* Reduce padding to decrease button size */
+    padding: 8px 16px;
+    /* Optionally adjust font size for button text */
+    font-size: calc(var(--font-small)); /* Example adjustment */
+  }
+}
+
+@media (max-width: 480px) {
+  .articleHeader,
+  .evenArticleHeader {
+    /* If necessary, further adjust for very small screens */
+    height: 40px; /* Even smaller height */
+  }
+
+  .icon {
+    /* Even smaller icon for very small screens */
+    margin: -8px 0 -8px -6px; /* Adjust if needed */
+    /* Consider further reducing the font size if the icon is still too large */
+  }
+
+  .headerText {
+    /* Ensure text is not too large for the adjusted header */
+    font-size: calc(var(--font-small) - 1px); /* Example further reduction */
+  }
+
+  .body,
+  .bodyActive {
+    /* Ensure body text is comfortable to read on very small screens */
+    font-size: calc(var(--font-small)); /* Adjust body text size */
+  }
+}

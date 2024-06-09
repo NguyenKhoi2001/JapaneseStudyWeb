@@ -1,0 +1,77 @@
+.progressSection {
+  width: 100%;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+  gap: 20px; /* Adds space between grid items */
+  padding: 1rem;
+  margin: 0 auto; /* Center the grid */
+  max-width: 90%; /* Adjust width as necessary */
+}
+
+.title {
+  grid-column: 1 / -1; /* Makes title span all columns */
+  font-weight: 700;
+  font-size: var(--font-large);
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  color: var(--indigo-color);
+}
+
+.taskProgress {
+  display: flex;
+  flex-direction: column; /* Adjusts direction to stack elements vertically */
+  margin: 1rem 0;
+}
+
+.taskProgress p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-color);
+  font-size: var(--font-medium);
+}
+
+.taskProgress span {
+  color: var(--text-color);
+}
+
+.progress {
+  width: 100%;
+  appearance: none;
+  border: none;
+  border-radius: var(--btn-border-radius);
+  height: 3rem;
+  background-color: #aaa; /* Example color, adjust as necessary */
+}
+
+/* WebKit-specific progress bar styling */
+.progress::-webkit-progress-bar {
+  background-color: var(--bg-color-yellow-blur);
+  border-radius: var(--btn-border-radius);
+}
+
+.progress::-webkit-progress-value {
+  border-radius: var(--btn-border-radius);
+}
+
+/* Dynamic background colors for progress bars */
+.progress1::-webkit-progress-value {
+  background-color: var(--bg-color-red);
+}
+.progress2::-webkit-progress-value {
+  background-color: var(--bg-color-yellow);
+}
+.progress3::-webkit-progress-value {
+  background-color: var(--color-green);
+}
+.progress4::-webkit-progress-value {
+  background-color: var(--indigo-light-color);
+}
+.progress5::-webkit-progress-value {
+  background-color: var(--yellow-light-color);
+}
+.progress6::-webkit-progress-value {
+  background-color: var(--indigo-color);
+}

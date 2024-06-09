@@ -1,0 +1,88 @@
+/* CustomStyles.css */
+
+/* Custom text size labels in the dropdown */
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="12px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="12px"]::before {
+  content: "12px";
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="16px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="16px"]::before {
+  content: "16px";
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="20px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="20px"]::before {
+  content: "20px";
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="24px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="24px"]::before {
+  content: "24px";
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="32px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="32px"]::before {
+  content: "32px";
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="48px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="48px"]::before {
+  content: "48px";
+}
+
+/* Styles to improve the overall appearance of the Quill editor */
+.ql-toolbar {
+  border-radius: 4px 4px 0 0;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #ccc;
+}
+
+.ql-container {
+  border-radius: 0 0 4px 4px;
+  border-top: none;
+}
+
+.editor-with-toolbar {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.raw-html-display {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.ql-editor {
+  min-height: 200px;
+}
+.raw-html-display .ql-align-center {
+  text-align: center;
+}
+
+.raw-html-display .ql-align-right {
+  text-align: right;
+}
+
+.raw-html-display .ql-align-justify {
+  text-align: justify;
+}
+.raw-html-display .ql-indent-1 {
+  padding-left: 3em;
+}
+
+.raw-html-display .ql-indent-2 {
+  padding-left: 6em;
+}
+
+.raw-html-display .ql-indent-3 {
+  padding-left: 9em;
+}
+
+.raw-html-display .ql-indent-4 {
+  padding-left: 12em;
+}

@@ -1,0 +1,56 @@
+/* Infographic.module.css */
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infographicSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.mainTitle {
+  margin: 100px 0;
+  max-width: 1200px;
+  font-size: calc(var(--font-xlarge) + 15px);
+  color: var(--indigo-color);
+  text-align: center;
+  font-weight: bold;
+}
+/* Add more styles as needed */
+
+/* Responsive adjustments for tablets */
+@media screen and (max-width: 768px) {
+  .mainTitle {
+    font-size: var(--font-xlarge); /* Slightly smaller font size for tablet */
+    margin-top: 50px; /* Reduced margin */
+    margin-bottom: 50px; /* Consistent margin */
+  }
+
+  .infographicSection {
+    padding: 20px; /* Adjusted padding */
+  }
+}
+
+/* Responsive adjustments for mobile devices */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px; /* Reduced padding for the container */
+  }
+
+  .mainTitle {
+    font-size: var(--font-large); /* Smaller font size for mobile */
+    margin-top: 30px; /* Reduced margin */
+    margin-bottom: 30px; /* Consistent margin */
+  }
+
+  .infographicSection {
+    flex-direction: column; /* Ensure column layout */
+    align-items: center; /* Center align items */
+    padding: 15px; /* Adjusted padding for smaller screens */
+  }
+}

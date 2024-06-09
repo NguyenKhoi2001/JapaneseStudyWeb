@@ -1,0 +1,657 @@
+{
+  "navbar": {
+    "intro": "Giới thiệu",
+    "blog": "Blog",
+    "courses": "Lộ trình học",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất"
+  },
+  "heroSection": {
+    "welcome": "Chào mừng bạn đến với trang web hỗ trợ học tiếng Nhật, một dự án của Trường Đại học Tôn Đức Thắng do Lê Duy Khánh và Nguyễn Đình Minh Khôi phát triển!",
+    "point1": "Hỗ trợ tự tin học tiếng Nhật: Học cùng bọn mình để nắm vững kiến thức và phát triển kỹ năng tiếng Nhật của bạn.",
+    "point2": "Học tương tác qua Zoom/Google Meet: Tham gia các buổi học trực tuyến với giảng viên và cộng đồng học viên đa dạng.",
+    "point3": "Học linh hoạt mọi lúc, mọi nơi: Sử dụng ứng dụng học trực tuyến của bọn mình trên mọi thiết bị.",
+    "point4": "Chương trình phong phú: Dành cho mọi đối tượng học viên từ người mới bắt đầu đến người đã có kinh nghiệm, bao gồm luyện thi, ôn tập và nhiều hành trình học khác.",
+    "point5": "Đội ngũ giáo viên kinh nghiệm: Các giáo viên của bọn mình đều có chứng chỉ tiếng Nhật N2 và có sẵn để hỗ trợ bạn trong quá trình học.",
+    "conclusion": "Hãy tham gia cùng bọn mình để khám phá tiếng Nhật một cách dễ dàng và hiệu quả!"
+  },
+  "footer": {
+    "learningResources": "Tài nguyên học tập",
+    "lessons": "Bài học",
+    "studyTools": "Công cụ học tập",
+    "cultureNotes": "Ghi chú văn hóa",
+    "languageExchanges": "Trao đổi ngôn ngữ",
+    "siteInfo": "Thông tin trang web",
+    "aboutUs": "Về bọn mình",
+    "ourMission": "Sứ mệnh của bọn mình",
+    "testimonials": "Lời chứng thực",
+    "careers": "Sự nghiệp",
+    "community": "Cộng đồng",
+    "studentForum": "Diễn đàn sinh viên",
+    "events": "Sự kiện",
+    "news": "Tin tức",
+    "support": "Hỗ trợ",
+    "faqs": "Câu hỏi thường gặp",
+    "contactUs": "Liên hệ",
+    "termsOfService": "Điều khoản dịch vụ",
+    "privacyPolicy": "Chính sách bảo mật",
+    "followUs": "Theo dõi bọn mình",
+    "disclaimer": "Trang web này dành riêng cho tất cả sinh viên có nguyện vọng học tiếng Nhật. Bọn mình nỗ lực cung cấp trải nghiệm học tập toàn diện và hấp dẫn nhất."
+  },
+
+  "features": {
+    "mainTitle": "Bạn có thể làm gì tại trang web KK?",
+    "communityInsights": {
+      "title": "Sự Hiểu Biết Cộng Đồng",
+      "text": "Khám phá trung tâm nơi học sinh và giáo viên chia sẻ hiểu biết, mẹo và đoạn văn hóa về việc học tiếng Nhật, từ thủ thuật ngôn ngữ đến sắc thái văn hóa."
+    },
+    "comprehensiveLearning": {
+      "title": "Học Tập Toàn Diện",
+      "text": "Truy cập nguồn tài nguyên phong phú cho mọi cấp độ JLPT (N5-N1), bao gồm từ vựng, ngữ pháp, kanji, nghe, đọc và các bài kiểm tra để theo dõi tiến trình của bạn."
+    },
+    "senseiConnect": {
+      "title": "Kết Nối Cùng Chuyên Gia",
+      "text": "Kết nối với giáo viên có kinh nghiệm để nhận hướng dẫn tức thì cho các thắc mắc về tiếng Nhật và nâng cao trải nghiệm học tập của bạn với lời khuyên cá nhân."
+    },
+    "pronunciationPractice": {
+      "title": "Luyện Phát Âm",
+      "text": "Sử dụng công cụ tương tác của bọn mình để luyện tập và hoàn thiện phát âm tiếng Nhật của bạn, với phản hồi thời gian thực để giúp bạn chỉ ra và sửa chữa các sắc thái ngôn ngữ."
+    }
+  },
+  "infographic": {
+    "title": "Bắt đầu hành trình trở thành bậc thầy tiếng Nhật như người bản xứ",
+    "stage1": {
+      "title": "Giai đoạn 1: Bắt đầu",
+      "text": "Hãy bắt đầu!",
+      "articles": {
+        "1": {
+          "headerText": "Đặt Mục Tiêu Rõ Ràng",
+          "bodyText": "Xác định động lực và mục tiêu của bạn trong việc học tiếng Nhật. Có mục tiêu rõ ràng sẽ giúp bạn tập trung và giữ được động lực trên hành trình của mình."
+        },
+        "2": {
+          "headerText": "Học Hiragana và Katakana",
+          "bodyText": "Nắm vững hệ thống viết cơ bản của tiếng Nhật - Hiragana và Katakana. Đây là nền tảng cho việc đọc và viết tiếng Nhật."
+        },
+        "3": {
+          "headerText": "Phát Âm và Từ Vựng Cơ Bản",
+          "bodyText": "Bắt đầu với phát âm tiếng Nhật và những từ vựng thông dụng để xây dựng nền tảng ngôn ngữ của bạn."
+        },
+        "4": {
+          "headerText": "Nền Tảng Ngữ Pháp",
+          "bodyText": "Học các khái niệm ngữ pháp cơ bản như cấu trúc câu và các hạt ngữ pháp cơ bản (は, の, が, へ, で, と, も)."
+        },
+        "5": {
+          "headerText": "Bối Cảnh Văn Hóa",
+          "bodyText": "Hiểu biết về văn hóa, phong tục và lễ nghi của Nhật Bản để nâng cao sự hiểu biết về ngôn ngữ và sự nhạy cảm văn hóa của bạn."
+        }
+      }
+    },
+    "stage2": {
+      "title": "Giai đoạn 2: Trình Độ Trung Cấp",
+      "text": "Đang Tiến Bộ!",
+      "articles": {
+        "6": {
+          "headerText": "Học Kanji",
+          "bodyText": "Bắt đầu học các ký tự Kanji, bắt đầu với những ký tự thông dụng được sử dụng trong cuộc sống hàng ngày."
+        },
+        "7": {
+          "headerText": "Mở Rộng Vốn Từ",
+          "bodyText": "Tăng vốn từ vựng của bạn với trọng tâm vào giao tiếp hàng ngày và các chủ đề quan tâm."
+        },
+        "8": {
+          "headerText": "Tiến Bộ Ngữ Pháp",
+          "bodyText": "Nghiên cứu các cấu trúc ngữ pháp phức tạp hơn, bao gồm các dạng động từ khác nhau, điều kiện, và ngôn ngữ kính trọng (keigo)."
+        },
+        "9": {
+          "headerText": "Luyện Nghe và Nói",
+          "bodyText": "Thực hành kỹ năng nghe hiểu và tham gia luyện nói với người bản xứ hoặc bạn học qua trao đổi ngôn ngữ."
+        },
+        "10": {
+          "headerText": "Thực Hành Đọc",
+          "bodyText": "Bắt đầu đọc các văn bản tiếng Nhật đơn giản, như sách cho trẻ em, manga, hoặc sách đọc có cấp độ, và dần chuyển sang các tài liệu phức tạp hơn."
+        }
+      }
+    },
+    "stage3": {
+      "title": "Giai đoạn 3: Trình Độ Cao Cấp",
+      "text": "Gần Đến Đích!",
+      "articles": {
+        "11": {
+          "headerText": "Kanji Nâng Cao",
+          "bodyText": "Tiếp tục học các ký tự Kanji, tập trung vào những ký tự nâng cao được sử dụng trong báo chí và văn học."
+        },
+        "12": {
+          "headerText": "Vốn Từ Nâng Cao",
+          "bodyText": "Mở rộng vốn từ của bạn để thảo luận về các chủ đề phức tạp, cả chính thức và không chính thức."
+        },
+        "13": {
+          "headerText": "Ngữ Pháp Nâng Cao",
+          "bodyText": "Thành thạo các cấu trúc ngữ pháp nâng cao, bao gồm cấu trúc câu phức tạp và các phương tiện tu từ."
+        },
+        "14": {
+          "headerText": "Hòa Mình Vào Văn Hóa",
+          "bodyText": "Hòa mình vào văn hóa Nhật Bản thông qua phương tiện truyền thông, phim ảnh, âm nhạc, và văn học. Phát triển sâu hơn hiểu biết về các sắc thái văn hóa."
+        },
+        "15": {
+          "headerText": "Du Lịch và Sử Dụng Thực Tế",
+          "bodyText": "Chuẩn bị cho các tình huống thực tế ở Nhật bằng cách học từ vựng liên quan đến du lịch và thực hành các nhiệm vụ phổ biến."
+        }
+      }
+    }
+  },
+  "jlptJourney": {
+    "title": "Hãy Bắt Đầu Hành Trình Chinh Phục JLPT: Mở Lối Để Bạn Phát Huy Hết Tiềm Năng",
+    "levels": {
+      "basic": {
+        "title": "Tiếng Nhật Cơ Bản",
+        "points": [
+          "Giới thiệu về kí tự tiếng Nhật: Hiragana và Katakana.",
+          "Lời chào và cụm từ hàng ngày cơ bản.",
+          "Giới thiệu về văn hóa và phong tục Nhật Bản.",
+          "Cấu trúc câu cơ bản và các cụm từ đơn giản.",
+          "Số đếm, ngày tháng và cách đếm cơ bản."
+        ]
+      },
+      "N5": {
+        "title": "JLPT N5 - Sơ Cấp",
+        "points": [
+          "Hiểu và sử dụng các biểu hiện tiêu biểu và cụm từ cơ bản.",
+          "Giới thiệu về ký tự Kanji.",
+          "Có khả năng tham gia vào cuộc trò chuyện đơn giản.",
+          "Hiểu và sử dụng ngữ pháp cơ bản bao gồm cả các từ hạt.",
+          "Khả năng nghe hiểu khi người nói chậm và rõ ràng."
+        ]
+      },
+      "N4": {
+        "title": "JLPT N4 - Trình Độ Trung Cấp Thấp",
+        "points": [
+          "Hiểu và sử dụng Kanji cơ bản.",
+          "Hiểu các chủ đề thông thường hàng ngày.",
+          "Đọc và hiểu được các đoạn văn về các chủ đề quen thuộc hàng ngày.",
+          "Nâng cao kỹ năng nghe và có khả năng phản hồi tốt hơn.",
+          "Xây dựng nền tảng cho ngữ pháp tiếng Nhật nâng cao."
+        ]
+      },
+      "N3": {
+        "title": "JLPT N3 - Trình Độ Trung Cấp",
+        "points": [
+          "Mở rộng hiểu biết về ngữ pháp ở trình độ trung cấp.",
+          "Hiểu và sử dụng Kanji và từ vựng phức tạp hơn.",
+          "Có khả năng hiểu và tham gia vào các cuộc hội thoại mạch lạc.",
+          "Đọc và hiểu được các bài viết chi tiết về nhiều chủ đề khác nhau.",
+          "Cải thiện kỹ năng nghe hiểu trong nhiều tình huống."
+        ]
+      },
+      "N2": {
+        "title": "JLPT N2 - Trình Độ Cao Trung Cấp",
+        "points": [
+          "Sử dụng thành thạo vốn từ vựng phong phú và ngữ pháp phức tạp.",
+          "Đọc hiểu báo chí và tạp chí.",
+          "Hiểu ngôn ngữ Nhật Bản trong các bộ phim truyền hình và tin tức.",
+          "Biểu đạt và hiểu được các ý tưởng phức tạp và các tình huống giả định.",
+          "Hiểu biết về các sắc thái văn hóa và các cụm từ thành ngữ."
+        ]
+      },
+      "N1": {
+        "title": "JLPT N1 - Trình Độ Nâng Cao",
+        "points": [
+          "Hiểu sâu sắc ngôn ngữ Nhật Bản được sử dụng trong nhiều hoàn cảnh khác nhau.",
+          "Đọc và hiểu được các tài liệu viết phức tạp về các chủ đề trừu tượng.",
+          "Hiểu được ngôn ngữ Nhật Bản trong các tình huống học thuật và chuyên nghiệp.",
+          "Có khả năng hiểu được những ý nghĩa ngụ ý và tinh tế.",
+          "Biểu đạt ý tưởng một cách lôgic và mạch lạc trong cả hình thức nói và viết."
+        ]
+      }
+    }
+  },
+  "basicLearning": {
+    "hiragana": {
+      "title": "Hiragana",
+      "basicHiragana": {
+        "alphabet": "Bảng chữ cái",
+        "compoundSounds": "Biến âm",
+        "combinedSounds": "Âm ghép",
+        "longVowels": "Nguyên âm kéo dài",
+        "voicedSounds": "Âm thanh đặc biệt",
+        "practice": "Luyện tập"
+      },
+      "longVowels": {
+        "section1": {
+          "title": "Khái niệm",
+          "content": "Nguyên âm kéo dài là những nguyên âm được kéo dài gấp đôi so với nguyên âm ngắn."
+        },
+        "section2": {
+          "title": "Ý nghĩa thay đổi với nguyên âm kéo dài",
+          "intro": "Ví dụ:",
+          "examples": [
+            {
+              "base": "かみ",
+              "styled": "",
+              "translation": "Giấy"
+            },
+            {
+              "base": "かみい",
+              "styled": "い",
+              "translation": "Thần linh"
+            },
+            {
+              "base": "はし",
+              "styled": "",
+              "translation": "Cây cầu"
+            },
+            {
+              "base": "はしい",
+              "styled": "い",
+              "translation": "Đôi đũa"
+            },
+            {
+              "base": "おと",
+              "styled": "",
+              "translation": "Âm thanh"
+            },
+            {
+              "base": "おとお",
+              "styled": "お",
+              "translation": "Bác, chú"
+            },
+            {
+              "base": "ゆき",
+              "styled": "",
+              "translation": "Tuyết"
+            },
+            {
+              "base": "ゆうき",
+              "styled": "う",
+              "translation": "Can đảm"
+            },
+            {
+              "base": "ね",
+              "styled": "",
+              "translation": "Nằm xuống"
+            },
+            {
+              "base": "ねえ",
+              "styled": "え",
+              "translation": "Chị gái"
+            },
+            {
+              "base": "こ",
+              "styled": "",
+              "translation": "Đứa trẻ"
+            },
+            {
+              "base": "こう",
+              "styled": "う",
+              "translation": "Cao/Lớn"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Cách đọc",
+          "content": "Nếu nguyên âm あ có độ dài là 1, thì ああ có độ dài là 2. Nói cách khác, nếu sử dụng khái niệm đơn vị âm thanh, một âm thanh X có độ dài là 1 đơn vị, trong khi âm thanh XX có độ dài là 2 đơn vị."
+        },
+        "section4": {
+          "title": "Cách viết nguyên âm kéo dài",
+          "subSections": [
+            {
+              "title": "Cột あ",
+              "intro": "Đối với những nguyên âm kéo dài của cột あ, thêm あ sau các ký tự thuộc cột あ.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự か từ cột あ, thêm あ sau か để tạo ra nguyên âm kéo dài.",
+                  "base": "おかあさん",
+                  "styled": "あ",
+                  "translation": "Mẹ (nói về mẹ của người khác)"
+                },
+                {
+                  "exampleIntro": "Đối với ký tự ま từ cột あ, thêm あ sau ま.",
+                  "base": "まあまあ",
+                  "styled": "あ",
+                  "translation": "Đúng"
+                }
+              ]
+            },
+            {
+              "title": "Cột い",
+              "intro": "Đối với những nguyên âm kéo dài của cột い, thêm い sau các ký tự thuộc cột い.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự じ từ cột い, thêm い sau じ để tạo ra nguyên âm kéo dài.",
+                  "base": "おじいさん",
+                  "styled": "い",
+                  "translation": "Ông nội (nói về ông nội của người khác)"
+                }
+              ]
+            },
+            {
+              "title": "Cột う",
+              "intro": "Đối với những nguyên âm kéo dài của cột う, thêm う sau các ký tự thuộc cột う.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự ゆ từ cột う, thêm う sau ゆ.",
+                  "base": "ゆうき",
+                  "styled": "う",
+                  "translation": "Can đảm"
+                },
+                {
+                  "exampleIntro": "Đối với ký tự く từ cột う, thêm う sau く.",
+                  "base": "くうこう",
+                  "styled": "う",
+                  "translation": "Sân bay"
+                }
+              ]
+            },
+            {
+              "title": "Cột え",
+              "intro": "Đối với những nguyên âm kéo dài của cột え, thêm い sau các ký tự thuộc cột え.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự れ từ cột え, thêm い sau れ.",
+                  "base": "れいぶん",
+                  "styled": "い",
+                  "translation": "Câu ví dụ"
+                },
+                {
+                  "exampleIntro": "Trong nhiều trường hợp, đối với những nguyên âm kéo dài của cột え, thêm え.",
+                  "base": "ねえ",
+                  "styled": "え",
+                  "translation": "Ồ"
+                }
+              ]
+            },
+            {
+              "title": "Cột お",
+              "intro": "Đối với những nguyên âm kéo dài của cột お, thêm う sau các ký tự thuộc cột お.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự こ từ cột お, thêm う sau こ.",
+                  "base": "こうこう",
+                  "styled": "う",
+                  "translation": "Trường trung học"
+                },
+                {
+                  "exampleIntro": "Đối với ký tự よ từ cột お, thêm う sau よ.",
+                  "base": "ようやく",
+                  "styled": "う",
+                  "translation": "Dần dần, từ từ"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "glottalStop": {
+        "section1": {
+          "title": "Khái niệm",
+          "content": "Được gọi là âm ngắt vì nó chia từ thành hai phần. Trong tiếng Nhật, âm ngắt được biểu thị bằng ký tự っ. Nó thường xuất hiện trong các kết hợp mà Hiragana theo sau âm ngắt thuộc các hàng: か - さ - た - ぱ."
+        },
+        "section2": {
+          "title": "Âm ngắt làm thay đổi nghĩa của từ",
+          "examples": [
+            {
+              "hiragana": "ぶか",
+              "meaning": "Cấp dưới"
+            },
+            {
+              "hiragana": "ぶっか",
+              "meaning": "Mức giá"
+            },
+            {
+              "hiragana": "かた",
+              "meaning": "Vai"
+            },
+            {
+              "hiragana": "かった",
+              "meaning": "Đã mua"
+            },
+            {
+              "hiragana": "まち",
+              "meaning": "Thành phố"
+            },
+            {
+              "hiragana": "まっち",
+              "meaning": "Trận đấu, Đợi"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Cách đọc",
+          "content": "Âm có độ dài bằng một đơn vị âm. Khi phát âm, âm ngắt được phát âm với độ dài tương đương các âm khác. Khi đọc, chúng ta gấp đôi chữ cái đầu tiên của từ theo sau âm ngắt.",
+          "examples": [
+            {
+              "hiragana": "にっき",
+              "romaji": "nikki",
+              "meaning": "Nhật ký"
+            },
+            {
+              "hiragana": "ざっし",
+              "romaji": "zasshi",
+              "meaning": "Tạp chí"
+            },
+            {
+              "hiragana": "きって",
+              "romaji": "kitte",
+              "meaning": "Tem"
+            },
+            {
+              "hiragana": "いっぱい",
+              "romaji": "ippai",
+              "meaning": "Đầy"
+            },
+            {
+              "hiragana": "さっか",
+              "romaji": "sakka",
+              "meaning": "Tác giả"
+            },
+            {
+              "hiragana": "はっぴょう",
+              "romaji": "happyō",
+              "meaning": "Báo cáo, Thuyết trình"
+            }
+          ]
+        },
+        "section4": {
+          "title": "Cách viết",
+          "content": "Âm ngắt được viết bằng ký tự っ. Nó được viết nhỏ hơn, thấp hơn và hơi lệch về phía trái so với các ký tự Hiragana khác."
+        }
+      }
+    },
+    "katakana": {
+      "title": "Katakana",
+      "longVowelsKatakana": {
+        "section1": {
+          "title": "Giới thiệu về Nguyên Âm Dài",
+          "content": "Nguyên âm dài trong Katakana kéo dài gấp đôi so với nguyên âm ngắn. Điều này áp dụng cho các nguyên âm như ア, イ, ウ, エ, オ."
+        },
+        "section2": {
+          "title": "Ký Hiệu Nguyên Âm Dài",
+          "intro": "Chẳng hạn:",
+          "examples": [
+            { "base": "メール", "translation": "Email" },
+            { "base": "ケーキ", "translation": "Bánh" },
+            { "base": "アイスクリーム", "translation": "Kem" },
+            { "base": "テーブル", "translation": "Bàn" },
+            { "base": "レーザー", "translation": "Laze" }
+          ]
+        },
+        "section3": {
+          "title": "Cách Viết Nguyên Âm Dài",
+          "content": "Một nguyên âm ア được kéo dài thành アー, tượng trưng cho việc kép lên đơn vị âm của nó. Nguyên tắc này được sử dụng trên các hàng katakana khác nhau.",
+          "subSections": [
+            {
+              "title": "Hàng ア",
+              "intro": "Để kéo dài nguyên âm trong hàng ア, biểu tượng ― được sử dụng ngay sau nguyên âm.",
+              "examples": [
+                {
+                  "exampleIntro": "Trong các từ như:",
+                  "base": "ソーシャル",
+                  "translation": "Xã hội"
+                },
+                {
+                  "exampleIntro": "Tương tự, cho:",
+                  "base": "モーター",
+                  "translation": "Động cơ"
+                }
+              ]
+            },
+            {
+              "title": "Hàng イ",
+              "intro": "Để kéo dài âm イ, biểu tượng ― được thêm vào sau.",
+              "examples": [
+                {
+                  "exampleIntro": "Như thấy trong:",
+                  "base": "コーヒー",
+                  "translation": "Cà phê"
+                }
+              ]
+            },
+            {
+              "title": "Hàng ウ",
+              "intro": "Để kéo dài âm ウ, biểu tượng ― được thêm vào sau nguyên âm.",
+              "examples": [
+                {
+                  "exampleIntro": "Ví dụ bao gồm:",
+                  "base": "フルーツ",
+                  "translation": "Hoa quả"
+                }
+              ]
+            },
+            {
+              "title": "Hàng エ",
+              "intro": "Biểu tượng ― cũng được sử dụng sau エ để kéo dài âm thanh.",
+              "examples": [
+                {
+                  "exampleIntro": "Ví dụ:",
+                  "base": "ビデオテープ",
+                  "translation": "Băng video"
+                }
+              ]
+            },
+            {
+              "title": "Hàng オ",
+              "intro": "Biểu tượng ― được áp dụng sau オ để kéo dài âm thanh.",
+              "examples": [
+                {
+                  "exampleIntro": "Được minh họa bởi:",
+                  "base": "ローマ",
+                  "translation": "Roma"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "katakanaGlottalStop": {
+        "section1": {
+          "title": "Tổng Quan",
+          "content": "Âm ngắt tách từ ra thành hai phần, được biểu diễn trong tiếng Nhật bằng biểu tượng katakana nhỏ ッ. Nó đứng trước các âm từ hàng カ, タ, サ, và những hàng khác.",
+          "examples": [
+            { "katakana": "パッケージ", "meaning": "Gói hàng" },
+            { "katakana": "ハッピー", "meaning": "Hạnh phúc" }
+          ]
+        },
+        "section2": {
+          "title": "Kỹ Thuật Viết",
+          "content": "Biểu tượng âm ngắt ッ là phiên bản nhỏ của ツ. Khi viết, nó nhỏ hơn, thấp hơn và hơi lùi về bên trái so với các ký tự katakana khác.",
+          "examples": [
+            { "katakana": "アクセス", "meaning": "Truy cập" },
+            { "katakana": "イベント", "meaning": "Sự kiện" }
+          ]
+        },
+        "section3": {
+          "title": "Cách Phát Âm",
+          "content": "Âm ngắt có độ dài bằng một đơn vị âm. Khi phát âm, nó được phát âm với độ dài tương đương một phách như các âm khác. Khi đọc, chúng ta nhân đôi chữ cái đầu tiên của từ theo sau âm ngắt.",
+          "examples": [
+            {
+              "katakana": "エッセイ",
+              "romaji": "essei",
+              "meaning": "Bài luận"
+            },
+            {
+              "katakana": "ゲッター",
+              "romaji": "gettā",
+              "meaning": "Người nhận"
+            },
+            {
+              "katakana": "テッセン",
+              "romaji": "tessen",
+              "meaning": "Quạt sắt"
+            },
+            {
+              "katakana": "ネッシー",
+              "romaji": "nesshī",
+              "meaning": "Quái vật Loch Ness"
+            },
+            { "katakana": "ビッグ", "romaji": "biggu", "meaning": "To lớn" }
+          ]
+        }
+      }
+    },
+    "numbers": "Số",
+    "practice": "Luyện tập",
+    "practiceQuestion": {
+      "prev": "Trước",
+      "next": "Tiếp",
+      "checkAnswers": "Kiểm tra câu trả lời",
+      "doAgain": "Làm lại",
+      "question": "Câu hỏi",
+      "total": "Tổng",
+      "alertNotAnswered": "Vui lòng trả lời tất cả các câu hỏi trước khi kiểm tra."
+    }
+  },
+  "timelineData": [
+    {
+      "id": 1,
+      "header": "Cơ bản",
+      "description": [
+        "Học bảng chữ cái tiếng Nhật (Hiragana và Katakana).",
+        "Hiểu các cụm từ và giới thiệu cơ bản."
+      ]
+    },
+    {
+      "id": 2,
+      "header": "N5",
+      "description": [
+        "Hiểu tiếng Nhật cơ bản được sử dụng trong các tình huống hàng ngày.",
+        "Học các câu đơn giản và cụm từ phổ biến."
+      ]
+    },
+    {
+      "id": 3,
+      "header": "N4",
+      "description": [
+        "Xây dựng kiến thức N5 với ngữ pháp cơ bản.",
+        "Tham gia vào các cuộc hội thoại đơn giản."
+      ]
+    },
+    {
+      "id": 4,
+      "header": "N3",
+      "description": [
+        "Tham gia vào cuộc hội thoại hàng ngày.",
+        "Hiểu sâu hơn về ngữ pháp và từ vựng."
+      ]
+    },
+    {
+      "id": 5,
+      "header": "N2",
+      "description": [
+        "Hiểu tiếng Nhật được sử dụng trong các tình huống hàng ngày.",
+        "Hiểu những nội dung phức tạp và trừu tượng hơn."
+      ]
+    },
+    {
+      "id": 6,
+      "header": "N1",
+      "description": [
+        "Đạt trình độ cao nhất về thành thạo tiếng Nhật.",
+        "Hiểu các cuộc thảo luận phức tạp và chuyên sâu."
+      ]
+    }
+  ],
+
+  "popupAlphabet": {
+    "close": "Đóng",
+    "draw": "Vẽ"
+  }
+}

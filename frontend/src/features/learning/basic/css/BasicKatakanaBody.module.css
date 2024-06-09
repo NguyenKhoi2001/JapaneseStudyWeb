@@ -1,0 +1,46 @@
+.wrapper {
+  overflow: hidden;
+  padding: 20px;
+}
+
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.navItem {
+  min-width: 150px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  font-size: var(--font-medium);
+}
+
+.navItem:hover,
+.navItem.active {
+  border-bottom: 2px solid indigo;
+}
+
+.contentWrapper {
+  width: 1300px;
+  overflow: hidden;
+}
+
+.contents {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: calc(1300px * 6); /* Adjust based on the number of content sections */
+}
+
+.content {
+  width: 1300px;
+  height: auto; /* Adjust height as needed */
+  padding: 20px;
+  box-sizing: border-box;
+  flex-shrink: 0; /* Prevent flex items from shrinking */
+}

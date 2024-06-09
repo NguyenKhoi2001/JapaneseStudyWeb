@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+.sectionTimeline {
+  position: relative;
+  padding: 100px 0;
+  min-width: 1200px;
+}
+
+.container {
+  max-width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.timeline {
+  list-style: none;
+  position: relative;
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .sectionTimeline {
+    padding: 20px 0; /* Reduced padding for smaller screens */
+    min-width: 600px;
+  }
+
+  .container {
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

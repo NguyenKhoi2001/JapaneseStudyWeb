@@ -1,0 +1,6 @@
+/* Furigana.module.css */
+.furiganaText {
+  font-family: "Arial", sans-serif;
+  font-size: var(--font-normal);
+  color: #333;
+}

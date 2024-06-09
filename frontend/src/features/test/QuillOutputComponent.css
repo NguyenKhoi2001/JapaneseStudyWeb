@@ -1,0 +1,27 @@
+/* Styles specific to output display */
+.raw-html-display {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.raw-html-display .ql-align-center {
+  text-align: center;
+}
+
+.raw-html-display .ql-align-right {
+  text-align: right;
+}
+
+.raw-html-display .ql-align-justify {
+  text-align: justify;
+}
+
+/* Indentation styles */
+.raw-html-display .ql-indent-1 {
+  padding-left: 3em;
+}
+
+/* Continue for other indent levels */

@@ -1,0 +1,122 @@
+/* Main container and card styling */
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: var(--indigo-light-color);
+}
+
+.card {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 400px;
+  position: relative;
+  font-family: var(--primary-font);
+  border-radius: var(--btn-border-radius);
+  background-color: var(--background-color);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Question section styling */
+.questionSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--indigo-color);
+  color: var(--background-color);
+  font-size: var(--font-large);
+  padding: 20px;
+  border-top-left-radius: var(--btn-border-radius);
+  border-top-right-radius: var(--btn-border-radius);
+}
+
+/* Answer section styling */
+.answerSection {
+  flex: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: var(--font-medium);
+  border-radius: var(--btn-border-radius);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.answer:hover {
+  background-color: var(
+    --indigo-light-color
+  ); /* brighter theme indigo when hovered */
+}
+.selected {
+  background-color: var(
+    --indigo-light-color
+  ); /* brighter theme indigo when selected */
+  color: var(
+    --theme-bright-indigo
+  ); /* brighter text color for better contrast */
+}
+
+.checkButton {
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: indigo;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: lightgreen;
+  color: green;
+}
+
+.correctAnswer {
+  background-color: green;
+  color: white;
+}
+.incorrect {
+  background-color: red;
+  color: white;
+}
+.questionCorrect {
+  color: green;
+}
+.questionIncorrect {
+  color: red;
+}
+
+.iconButton {
+  background-color: var(--indigo-color);
+  color: var(--background-color);
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconButton:hover {
+  background-color: var(--theme-bright-indigo);
+  color: white;
+}
