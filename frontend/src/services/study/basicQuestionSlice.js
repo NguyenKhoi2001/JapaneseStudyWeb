@@ -1,34 +1,55 @@
 // src/services/quiz/basicQuestionSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-function shuffle(array) {
-  let currentIndex = array.length,
-    randomIndex;
-  while (currentIndex !== 0) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex],
-      array[currentIndex],
-    ];
-  }
-  return array;
+// Function to shuffle both questions and answers
+function shuffleQuestionsAndAnswers(questions) {
+  return questions
+    .map((question) => {
+      // Clone the question object to avoid mutation errors
+      const clonedQuestion = { ...question };
+      const answers = [...clonedQuestion.answers]; // Clone the answers array
+      const correctAnswerValue = answers[clonedQuestion.correctAnswer];
+      let currentIndex = answers.length,
+        randomIndex;
+
+      // Shuffle answers
+      while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [answers[currentIndex], answers[randomIndex]] = [
+          answers[randomIndex],
+          answers[currentIndex],
+        ];
+      }
+
+      // Update the correctAnswer index
+      clonedQuestion.correctAnswer = answers.indexOf(correctAnswerValue);
+      clonedQuestion.answers = answers; // Assign the shuffled answers back
+      return clonedQuestion;
+    })
+    .sort(() => Math.random() - 0.5);
 }
 
 export const fetchRandomQuestions = createAsyncThunk(
   "basicQuestion/fetchRandomQuestions",
-  async () => {
-    const { questionsDataHiraganaToRomaji, questionsDataHiraganaAudio } =
-      await import("../../features/learning/basic/data/HiraganaQuestionData");
-    const { questionsDataKatakanaToRomaji, questionsDataKatakanaAudio } =
-      await import("../../features/learning/basic/data/KatakanaQuestionData");
-    const allQuestions = [
-      ...questionsDataHiraganaToRomaji,
-      ...questionsDataHiraganaAudio,
-      ...questionsDataKatakanaToRomaji,
-      ...questionsDataKatakanaAudio,
-    ];
-    return shuffle(allQuestions).slice(0, 20); // Shuffle and pick 20 questions
+  async (_, { rejectWithValue }) => {
+    try {
+      const dataModules = await Promise.all([
+        import("../../features/learning/basic/data/HiraganaQuestionData"),
+        import("../../features/learning/basic/data/KatakanaQuestionData"),
+      ]);
+      const allQuestions = [
+        ...dataModules[0].questionsDataHiraganaToRomaji,
+        ...dataModules[0].questionsDataHiraganaAudio,
+        ...dataModules[1].questionsDataKatakanaToRomaji,
+        ...dataModules[1].questionsDataKatakanaAudio,
+      ];
+      const shuffledQuestions = shuffleQuestionsAndAnswers(allQuestions);
+      return shuffledQuestions.slice(0, 20);
+    } catch (error) {
+      console.error("Failed to fetch questions:", error);
+      return rejectWithValue("Failed to fetch questions");
+    }
   }
 );
 

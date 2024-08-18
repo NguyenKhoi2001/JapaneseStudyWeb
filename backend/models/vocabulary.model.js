@@ -6,27 +6,29 @@ const vocabularySchema = new mongoose.Schema({
     required: true,
   },
   meanings: {
-    en: [{ type: String }], // Array to support multiple meanings in English
-    vi: [{ type: String }], // Array to support multiple meanings in Vietnamese
+    en: [{ type: String }],
+    vi: [{ type: String }],
   },
   kanji: {
-    type: String, // Nullable, for words without a Kanji representation
+    type: String,
     default: null,
   },
   sinoVietnameseSounds: {
-    type: String, // Conditional display based on language selection, not required
+    type: String,
     required: false,
   },
   imageUrl: {
-    type: String, // URL to an image that represents the vocabulary
+    type: String,
     default: "",
   },
+  imagePublicId: { type: String, default: "" },
+
   examples: [
     {
-      sentence: { type: String, required: true }, // Sentence using the vocabulary word
+      sentence: { type: String, required: true },
       meaning: {
-        en: { type: String }, // English translation of the example
-        vi: { type: String, required: true }, // Vietnamese translation of the example
+        en: { type: String },
+        vi: { type: String, required: true },
       },
     },
   ],

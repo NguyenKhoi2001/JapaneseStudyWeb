@@ -51,8 +51,6 @@ const UserDashboardPage = () => {
         console.error("Error uploading image:", error);
       }
     }
-
-    console.log("check user id from userpage: " + userData.userId);
     dispatch(
       updateUserProfile({ userId: userData.userId, updateData: updatedData })
     );

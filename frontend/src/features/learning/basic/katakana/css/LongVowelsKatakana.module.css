@@ -5,14 +5,14 @@
 
 .section {
   margin-bottom: 20px;
-  background-color: #f0f0f0; /* Light grey background */
+  background-color: #f0f0f0;
   padding: 15px 30px;
-  border-radius: 8px; /* Optional: rounded corners */
+  border-radius: 8px;
 }
 
 .title {
   display: flex;
-  align-items: center; /* Aligns the circle and text vertically */
+  align-items: center;
   font-weight: bold;
   margin-bottom: 30px;
   font-size: var(--font-medium);
@@ -21,18 +21,15 @@
 .sectionNumber {
   display: flex;
   justify-content: center;
-  align-items: center; /* Center content inside the circle */
-  width: 35px; /* Adjust size as needed */
-  height: 35px; /* Ensure it's a circle */
+  align-items: center;
+  width: 35px;
+  height: 35px;
   font-weight: bold;
-  border: 1px solid black; /* Optional: adjust the border */
-  background-color: var(
-    --indigo-dark-color
-  ); /* Adjust the background color as needed */
+  border: 1px solid black;
+  background-color: var(--indigo-dark-color);
   color: white;
   margin-right: 10px;
   border-radius: 50%;
-  /* Adjust font size as needed */
 }
 
 .exampleTitle {
@@ -42,10 +39,7 @@
 .grid {
   width: 30%;
   display: grid;
-  grid-template-columns: repeat(
-    2,
-    minmax(250px, 1fr)
-  ); /* Adjust based on your layout preference */
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
   gap: 20px;
 }
 .word {
@@ -56,13 +50,11 @@
   font-size: var(--font-medium);
 }
 
-/* Style for the title of each example */
 .exampleTitle {
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Additional styles */
 p {
   margin: 0 0 10px;
 }
@@ -85,7 +77,7 @@ p {
 }
 
 .section4SubSection {
-  margin-bottom: 20px; /* Adjust spacing between sub-sections as needed */
+  margin-bottom: 20px;
 }
 
 .wordRow {
@@ -93,6 +85,6 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 10px; /* Spacing between each example */
-  width: 100%; /* Ensure it spans the full width of the container */
+  margin-bottom: 10px;
+  width: 100%;
 }

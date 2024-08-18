@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const authMiddleware = require("../middleware/authMiddleware");
 const authorizeUser = require("../middleware/authorizeMiddleware");
-const userProgressController = require("../controllers/userProgressController");
+const userProgressController = require("../controllers/UserProgressController");
 const {
   userProgressValidationRules,
   validateUserProgress,
@@ -25,13 +25,8 @@ router.get(
   userProgressController.getUserProgressByUser
 );
 
-// For checking if a user can start a specific lesson. This also needs to ensure that the user is allowed to access this information.
-router.get(
-  "/canStart/:userId/:lessonId",
-  authMiddleware,
-  authorizeUser,
-  userProgressController.canStartLesson
-);
+// Modify the route to accept lessonId and optional userId as a query parameter
+router.get("/canStart/:lessonId", userProgressController.canStartLesson);
 
 // For calculating a user's progress within a specific level. This should also ensure that only the user or authorized roles can access this information.
 router.get(

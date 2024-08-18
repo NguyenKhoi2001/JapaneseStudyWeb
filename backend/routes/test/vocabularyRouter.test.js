@@ -10,7 +10,6 @@ describe("Vocabulary API Tests", () => {
   let teacherVocabId, adminVocabId;
 
   beforeAll(async () => {
-    await closeTestDatabase();
     await connectTestDatabase();
     await setupUsers();
   });

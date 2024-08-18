@@ -1,0 +1,429 @@
+{
+  "basicLearning": {
+    "hiragana": {
+      "title": "Hiragana",
+      "basicHiragana": {
+        "alphabet": "Alphabet",
+        "compoundSounds": "Compound Sounds",
+        "combinedSounds": "Combined Sounds",
+        "longVowels": "Long Vowels",
+        "voicedSounds": "Voiced Sounds",
+        "practice": "Practice"
+      },
+      "longVowels": {
+        "section1": {
+          "title": "Concept",
+          "content": "Long vowels are vowels that are held twice as long as short vowels."
+        },
+        "section2": {
+          "title": "Meaning Changes with Long Vowels",
+          "intro": "Example:",
+          "examples": [
+            {
+              "base": "かみ",
+              "styled": "",
+              "translation": "Paper"
+            },
+            {
+              "base": "かみい",
+              "styled": "い",
+              "translation": "God"
+            },
+            {
+              "base": "はし",
+              "styled": "",
+              "translation": "Bridge"
+            },
+            {
+              "base": "はしい",
+              "styled": "い",
+              "translation": "Chopsticks"
+            },
+            {
+              "base": "おと",
+              "styled": "",
+              "translation": "Sound"
+            },
+            {
+              "base": "おとお",
+              "styled": "お",
+              "translation": "Uncle"
+            },
+            {
+              "base": "ゆき",
+              "styled": "",
+              "translation": "Snow"
+            },
+            {
+              "base": "ゆうき",
+              "styled": "う",
+              "translation": "Courage"
+            },
+            {
+              "base": "ね",
+              "styled": "",
+              "translation": "Lie down"
+            },
+            {
+              "base": "ねえ",
+              "styled": "え",
+              "translation": "Older sister"
+            },
+            {
+              "base": "こ",
+              "styled": "",
+              "translation": "Child"
+            },
+            {
+              "base": "こう",
+              "styled": "う",
+              "translation": "High/Tall"
+            }
+          ]
+        },
+
+        "section3": {
+          "title": "How to Read",
+          "content": "If the vowel あ has a length of 1, then ああ has a length of 2. In other words, if using the concept of sound units, a sound X has a length of 1 unit, while sound XX has a length of 2 units."
+        },
+        "section4": {
+          "title": "Ways of Writing Long Vowels",
+          "subSections": [
+            {
+              "title": "Column あ",
+              "intro": "For the long vowels of the あ column, add あ after the characters belonging to the あ column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character か from the あ column, add あ after か to form the long vowel.",
+                  "base": "おかあさん",
+                  "styled": "あ",
+                  "translation": "Mother (referring to someone else's mother)"
+                },
+                {
+                  "exampleIntro": "For the character ま from the あ column, add あ after ま.",
+                  "base": "まあまあ",
+                  "styled": "あ",
+                  "translation": "Just right"
+                }
+              ]
+            },
+            {
+              "title": "Column い",
+              "intro": "For the long vowels of the い column, add い after the characters belonging to the い column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character じ from the い column, add い after じ to form the long vowel.",
+                  "base": "おじいさん",
+                  "styled": "い",
+                  "translation": "Grandfather (referring to someone else's grandfather)"
+                }
+              ]
+            },
+            {
+              "title": "Column う",
+              "intro": "For the long vowels of the う column, add う after the characters belonging to the う column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character ゆ from the う column, add う after ゆ.",
+                  "base": "ゆうき",
+                  "styled": "う",
+                  "translation": "Courage"
+                },
+                {
+                  "exampleIntro": "For the character く from the う column, add う after く.",
+                  "base": "くうこう",
+                  "styled": "う",
+                  "translation": "Airport"
+                }
+              ]
+            },
+            {
+              "title": "Column え",
+              "intro": "For the long vowels of the え column, add い after the characters belonging to the え column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character れ from the え column, add い after れ.",
+                  "base": "れいぶん",
+                  "styled": "い",
+                  "translation": "Example sentence"
+                },
+                {
+                  "exampleIntro": "In many cases, for the long vowels of the え column, add え.",
+                  "base": "ねえ",
+                  "styled": "え",
+                  "translation": "Hey"
+                }
+              ]
+            },
+            {
+              "title": "Column お",
+              "intro": "For the long vowels of the お column, add う after the characters belonging to the お column.",
+              "examples": [
+                {
+                  "exampleIntro": "For the character こ from the お column, add う after こ.",
+                  "base": "こうこう",
+                  "styled": "う",
+                  "translation": "High school"
+                },
+                {
+                  "exampleIntro": "For the character よ from the お column, add う after よ.",
+                  "base": "ようやく",
+                  "styled": "う",
+                  "translation": "Gradually, slowly"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "glottalStop": {
+        "section1": {
+          "title": "Concept",
+          "content": "Known as a glottal stop because it divides words into two parts. In Japanese, the glottal stop is represented by the character っ. It often appears in combinations where Hiragana follows the glottal stop from rows: ka, sa, ta, pa."
+        },
+        "section2": {
+          "title": "Glottal Stop Changes Word Meanings",
+          "examples": [
+            {
+              "hiragana": "ぶか",
+              "meaning": "Subordinate"
+            },
+            {
+              "hiragana": "ぶっか",
+              "meaning": "Price level"
+            },
+            {
+              "hiragana": "かた",
+              "meaning": "Shoulder"
+            },
+            {
+              "hiragana": "かった",
+              "meaning": "Bought"
+            },
+            {
+              "hiragana": "まち",
+              "meaning": "City"
+            },
+            {
+              "hiragana": "まっち",
+              "meaning": "Match, Wait"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Pronunciation",
+          "content": "The sound lasts for a single sound unit. When pronouncing, the glottal stop is articulated for a duration equivalent to other sounds. When reading, we double the first letter of the word following the glottal stop.",
+          "examples": [
+            {
+              "hiragana": "にっき",
+              "romaji": "nikki",
+              "meaning": "Diary"
+            },
+            {
+              "hiragana": "ざっし",
+              "romaji": "zasshi",
+              "meaning": "Magazine"
+            },
+            {
+              "hiragana": "きって",
+              "romaji": "kitte",
+              "meaning": "Stamp"
+            },
+            {
+              "hiragana": "いっぱい",
+              "romaji": "ippai",
+              "meaning": "Full"
+            },
+            {
+              "hiragana": "さっか",
+              "romaji": "sakka",
+              "meaning": "Author"
+            },
+            {
+              "hiragana": "はっぴょう",
+              "romaji": "happyō",
+              "meaning": "Presentation, Announcement"
+            }
+          ]
+        },
+        "section4": {
+          "title": "Writing",
+          "content": "The glottal stop is written with the character っ. It is written smaller, lower, and slightly to the left compared to other Hiragana characters."
+        }
+      }
+    },
+    "katakana": {
+      "title": "Katakana",
+      "longVowelsKatakana": {
+        "section1": {
+          "title": "Introduction to Long Vowels",
+          "content": "Long vowels in Katakana are extended sounds, lasting twice as long as their shorter counterparts. This concept applies to vowels such as ア, イ, ウ, エ, オ."
+        },
+        "section2": {
+          "title": "Notation of Long Vowels",
+          "intro": "For instance:",
+          "examples": [
+            {
+              "base": "メール",
+              "translation": "Email"
+            },
+            {
+              "base": "ケーキ",
+              "translation": "Cake"
+            },
+            {
+              "base": "アイスクリーム",
+              "translation": "Ice Cream"
+            },
+            {
+              "base": "テーブル",
+              "translation": "Table"
+            },
+            {
+              "base": "レーザー",
+              "translation": "Laser"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Writing Long Vowels",
+          "content": "A single vowel ア doubles in length to become アー, symbolizing a doubling of its sound unit. This principle is utilized across various Katakana rows.",
+          "subSections": [
+            {
+              "title": "Row ア",
+              "intro": "For elongating vowels in the ア row, the symbol ― is used directly after the vowel.",
+              "examples": [
+                {
+                  "exampleIntro": "Within words like:",
+                  "base": "ソーシャル",
+                  "translation": "Social"
+                },
+                {
+                  "exampleIntro": "Similarly, for:",
+                  "base": "モーター",
+                  "translation": "Motor"
+                }
+              ]
+            },
+            {
+              "title": "Row イ",
+              "intro": "Extending the イ sound involves placing the ― symbol afterwards.",
+              "examples": [
+                {
+                  "exampleIntro": "As seen in:",
+                  "base": "コーヒー",
+                  "translation": "Coffee"
+                }
+              ]
+            },
+            {
+              "title": "Row ウ",
+              "intro": "To extend the ウ sound, the symbol ― is added after the vowel.",
+              "examples": [
+                {
+                  "exampleIntro": "Example includes:",
+                  "base": "フルーツ",
+                  "translation": "Fruits"
+                }
+              ]
+            },
+            {
+              "title": "Row エ",
+              "intro": "The symbol ― is also used after エ to extend the sound.",
+              "examples": [
+                {
+                  "exampleIntro": "For example:",
+                  "base": "ビデオテープ",
+                  "translation": "Videotape"
+                }
+              ]
+            },
+            {
+              "title": "Row オ",
+              "intro": "To elongate the オ sound, the ― symbol is employed.",
+              "examples": [
+                {
+                  "exampleIntro": "Illustrated by:",
+                  "base": "ローマ",
+                  "translation": "Rome"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "katakanaGlottalStop": {
+        "section1": {
+          "title": "Overview",
+          "content": "The glottal stop separates words into distinct parts, represented in Japanese by the small katakana symbol ッ. It precedes sounds from rows such as カ, タ, サ, among others.",
+          "examples": [
+            {
+              "katakana": "パッケージ",
+              "meaning": "Package"
+            },
+            {
+              "katakana": "ハッピー",
+              "meaning": "Happy"
+            }
+          ]
+        },
+        "section2": {
+          "title": "Writing Technique",
+          "content": "The glottal stop symbol ッ is a smaller version of ツ. It's written slightly smaller and positioned lower and to the left compared to other katakana characters.",
+          "examples": [
+            {
+              "katakana": "アクセス",
+              "meaning": "Access"
+            },
+            {
+              "katakana": "イベント",
+              "meaning": "Event"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Pronunciation",
+          "content": "The glottal stop is as long as a single sound unit. It's pronounced for the same duration as other sounds, doubling the following letter.",
+          "examples": [
+            {
+              "katakana": "エッセイ",
+              "romaji": "essei",
+              "meaning": "Essay"
+            },
+            {
+              "katakana": "ゲッター",
+              "romaji": "gettā",
+              "meaning": "Getter"
+            },
+            {
+              "katakana": "テッセン",
+              "romaji": "tessen",
+              "meaning": "Iron fan"
+            },
+            {
+              "katakana": "ネッシー",
+              "romaji": "nesshī",
+              "meaning": "Nessie"
+            },
+            {
+              "katakana": "ビッグ",
+              "romaji": "biggu",
+              "meaning": "Big"
+            }
+          ]
+        }
+      }
+    },
+    "numbers": "Numbers",
+    "practice": "Practice",
+    "practiceQuestion": {
+      "prev": "Prev",
+      "next": "Next",
+      "checkAnswers": "Check Answers",
+      "doAgain": "Do Again",
+      "question": "Question",
+      "total": "Total",
+      "alertNotAnswered": "Please answer all questions before checking."
+    }
+  }
+}

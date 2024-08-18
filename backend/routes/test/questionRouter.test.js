@@ -68,7 +68,11 @@ describe("question API Tests", () => {
         .post("/api/lessons")
         .set("Authorization", `Bearer ${teacherToken}`)
         .send({
-          title: `Lesson ${i}`,
+          title: {
+            jp: `レッスン ${i}`,
+            en: `Lesson ${i}`,
+            vi: `Bài học ${i}`,
+          },
           vocabularies: [],
           kanjis: [],
           grammars: [],

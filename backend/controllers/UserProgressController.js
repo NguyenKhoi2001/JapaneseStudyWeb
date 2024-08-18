@@ -1,5 +1,6 @@
 const Lesson = require("../models/lesson.model");
 const Level = require("../models/level.model");
+const User = require("../models/user.model");
 const UserProgress = require("../models/userProgress.model");
 
 // Add UserProgress
@@ -45,33 +46,51 @@ exports.getUserProgressByUser = async (req, res) => {
 };
 
 exports.canStartLesson = async (req, res) => {
-  const { userId, lessonId } = req.params;
+  const { lessonId } = req.params;
+  const { userId } = req.query; // Now accepting userId as a query parameter
+
   try {
     const lesson = await Lesson.findById(lessonId);
-    if (!lesson)
+    if (!lesson) {
       return res
         .status(404)
         .json({ success: false, error: { message: "Lesson not found" } });
+    }
 
     const level = await Level.findOne({ lessons: lesson._id });
-    if (!level)
+    if (!level) {
       return res
         .status(404)
         .json({ success: false, error: { message: "Level not found" } });
+    }
 
+    // If it's the first lesson in the level, allow anyone to start
     if (String(level.lessons[0]) === String(lessonId)) {
       return res.status(200).json({ success: true, data: { canStart: true } });
     }
 
-    const currentLessonIndex = level.lessons.indexOf(lesson._id);
-    if (currentLessonIndex === -1) {
-      return res.status(404).json({
-        success: false,
-        error: { message: "Lesson not found in level" },
-      });
-    }
+    // For subsequent lessons, check user progress if userId is provided
+    if (userId) {
+      const user = await User.findById(userId);
+      // Allow immediate access if the user is a teacher or admin
+      if (
+        user &&
+        (user.roles.includes("teacher") || user.roles.includes("admin"))
+      ) {
+        return res
+          .status(200)
+          .json({ success: true, data: { canStart: true } });
+      }
 
-    if (currentLessonIndex > 0) {
+      //if not then check if previous lesson passed, if yes then allow
+      const currentLessonIndex = level.lessons.indexOf(lesson._id);
+      if (currentLessonIndex === -1 || currentLessonIndex === 0) {
+        return res.status(404).json({
+          success: false,
+          error: { message: "Lesson not properly configured in level" },
+        });
+      }
+
       const previousLessonId = level.lessons[currentLessonIndex - 1];
       const previousLessonPassed = await UserProgress.findOne({
         user: userId,
@@ -85,9 +104,17 @@ exports.canStartLesson = async (req, res) => {
           error: { message: "Must pass the previous lesson first" },
         });
       }
-    }
 
-    res.status(200).json({ success: true, data: { canStart: true } });
+      return res.status(200).json({ success: true, data: { canStart: true } });
+    } else {
+      // If no userId is provided, restrict access to subsequent lessons
+      return res.status(403).json({
+        success: false,
+        error: {
+          message: "User ID required for lessons beyond the first in a level",
+        },
+      });
+    }
   } catch (error) {
     res.status(500).json({ success: false, error: { message: error.message } });
   }

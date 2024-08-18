@@ -10,7 +10,6 @@ describe("Kanji API Tests", () => {
   let kanjiIdForTeacher, kanjiIdForAdmin;
 
   beforeAll(async () => {
-    await closeTestDatabase();
     await connectTestDatabase();
     await setupUsers();
   });

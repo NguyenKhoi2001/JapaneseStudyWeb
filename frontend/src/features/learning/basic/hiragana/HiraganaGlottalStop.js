@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import styles from "./css/HiraganaGlottalStop.module.css"; // Adjust the path as needed
 
 const HiraganaGlottalStop = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("basicLearning");
 
   const renderStyledText = (base, styled) => {
     if (!styled) return base; // No styling needed
@@ -20,7 +20,20 @@ const HiraganaGlottalStop = () => {
     );
   };
 
-  // Adjusted to render Section 3 examples in a 3-column grid
+  const renderExamples = (sectionKey, gridClass) => {
+    const examples = t(`${sectionKey}.examples`, { returnObjects: true });
+    return (
+      <div className={`${styles.grid} ${styles[gridClass]}`}>
+        {examples.map((example, index) => (
+          <div key={index} className={styles.word}>
+            <b>{renderStyledText(example.hiragana, example.styled)}</b>
+            <div className={styles.contentText}>{example.meaning}</div>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
   const renderSection3Examples = () => {
     const examples = t("basicLearning.hiragana.glottalStop.section3.examples", {
       returnObjects: true,
@@ -33,22 +46,6 @@ const HiraganaGlottalStop = () => {
             <div className={styles.word}>{example.romaji}</div>
             <div className={styles.word}>{example.meaning}</div>
           </React.Fragment>
-        ))}
-      </div>
-    );
-  };
-  // Adjusted to accept and apply a specific grid class
-  const renderExamples = (sectionKey, gridClass) => {
-    const examples = t(`${sectionKey}.examples`, { returnObjects: true });
-    return (
-      <div className={`${styles.grid} ${styles[gridClass]}`}>
-        {examples.map((example, index) => (
-          <>
-            <div key={index} className={styles.word}>
-              <b>{renderStyledText(example.hiragana, example.styled)}</b>
-            </div>
-            <div className={styles.contentText}>{example.meaning}</div>
-          </>
         ))}
       </div>
     );

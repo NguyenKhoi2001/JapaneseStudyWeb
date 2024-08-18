@@ -1,0 +1,207 @@
+{
+  "advancedLearning": {
+    "vocabulary": {
+      "title": "Vocabulary",
+      "card": {
+        "vocabulary": "Vocabulary",
+        "kanji": "Kanji",
+        "example": "Example",
+        "meaning": "Meaning",
+        "readings": "Readings"
+      },
+      "vocabularySlider": {
+        "prevButton": "Prev",
+        "nextButton": "Next",
+        "reset": "Reset",
+        "startAutoplay": "Start",
+        "stopAutoplay": "Stop",
+        "useNonFlipable": "Use Non-Flipable Card",
+        "useFlipable": "Use Flipable Card"
+      },
+      "vocabularyCardFlipable": {
+        "vocabulary": "Vocabulary",
+        "kanji": "Kanji",
+        "example": "Example",
+        "meaning": "Meaning",
+        "readings": "Readings"
+      },
+      "VocabularyForm": {
+        "hiraganaKatakana": "Hiragana/Katakana",
+        "kanji": "Kanji",
+        "sinoVietnameseSounds": "Sino-Vietnamese Sounds",
+        "imageUrl": "Image URL",
+        "imagePublicId": "Image Public ID",
+        "meanings": {
+          "en": "Meaning in English",
+          "vi": "Meaning in Vietnamese"
+        },
+        "examples": {
+          "sentence": "Example Sentence",
+          "meaning": {
+            "en": "Example Meaning in English",
+            "vi": "Example Meaning in Vietnamese"
+          }
+        },
+        "submit": "Submit",
+        "addExample": "Add More Examples",
+        "removeImage": "Remove Image",
+        "mainImage": "Main Image",
+        "details": "Vocabulary Details",
+        "addMoreExamples": "Add More Examples",
+        "examplesTitle": "Examples",
+        "dragDrop": "Drag and drop or click to select an image"
+      }
+    },
+    "kanji": {
+      "title": "Kanji",
+      "card": {
+        "kanjiTitle": "Kanji",
+        "examplesTitle": "Examples",
+        "exampleKanjiWord": "Kanji Word",
+        "exampleHiragana": "Hiragana",
+        "exampleMeaning": "Meaning",
+        "meaningTitle": "Meaning",
+        "sinoVietnameseSoundsTitle": "Sino-Vietnamese Sounds",
+        "onyomiTitle": "Onyomi",
+        "kunyomiTitle": "Kunyomi"
+      },
+      "kanjiSlider": {
+        "prevButton": "Prev",
+        "nextButton": "Next",
+        "reset": "Reset",
+        "startAutoplay": "Start",
+        "stopAutoplay": "Stop",
+        "useNonFlipable": "Use Non-Flipable Card",
+        "useFlipable": "Use Flipable Card"
+      },
+      "KanjiForm": {
+        "mainImage": "Main Image",
+        "Preview": "Preview",
+        "dragDrop": "Drag and drop or click to select an image",
+        "removeImage": "Remove Image",
+        "details": "Kanji Details",
+        "character": "Character",
+        "characterPlaceholder": "Enter kanji character",
+        "sinoVietnameseSounds": "Sino-Vietnamese Sounds",
+        "sinoVietnameseSoundsPlaceholder": "Enter Sino-Vietnamese sounds",
+        "onyomi": "Onyomi",
+        "onyomiPlaceholder": "Enter onyomi readings",
+        "kunyomi": "Kunyomi",
+        "kunyomiPlaceholder": "Enter kunyomi readings",
+        "meanings": {
+          "en": "Meaning in English",
+          "vi": "Meaning in Vietnamese",
+          "jp": "Meaning in Japanese"
+        },
+        "meaningsPlaceholder": {
+          "en": "Enter English meaning",
+          "vi": "Enter Vietnamese meaning",
+          "jp": "Enter Japanese meaning"
+        },
+        "examples": {
+          "kanjiWord": "Kanji Word",
+          "kanjiWordPlaceholder": "Enter a kanji word",
+          "hiragana": "Hiragana",
+          "hiraganaPlaceholder": "Enter hiragana",
+          "meaning": {
+            "en": "Example Meaning in English",
+            "vi": "Example Meaning in Vietnamese"
+          },
+          "meaningPlaceholder": {
+            "en": "Enter example meaning in English",
+            "vi": "Enter example meaning in Vietnamese"
+          }
+        },
+        "submit": "Submit",
+        "addExample": "Add More Examples",
+        "addMoreExamples": "Add More Examples",
+        "examplesTitle": "Examples"
+      }
+    },
+    "grammar": {
+      "title": "Grammar",
+      "grammarDisplay": {
+        "editContent": "Edit Content",
+        "closeEditor": "Close Editor",
+        "updateGrammarContent": "Update Grammar Content",
+        "deleteGrammar": "Delete Grammar Content",
+        "addGrammar": "Create new Content",
+        "addGrammarContent": "Create Content",
+        "title": "Title:",
+        "language": "Language:",
+        "languages": {
+          "en": "English",
+          "vi": "Vietnamese",
+          "jp": "Japanese"
+        },
+        "contentUnavailable": "Content in this language is not available. You can try using the Vietnamese version.",
+        "emptyContent": "The grammar version of this language is empty. You can create one.",
+        "emptyVietnameseContentError": "Vietnamese title and content cannot be empty.",
+        "mustCreateVietnameseFirst": "Must create vietnamese version first",
+        "updateSuccessful": "Update successful!",
+        "updateFailed": "Failed to save grammar: {{error}}",
+        "deleteSuccessful": "Delete successful!",
+        "deleteFailed": "Failed to delete grammar: {{error}}",
+        "noModified": "No changes were made to save.",
+        "confirmDelete": "Are you sure you want to delete this grammar version?"
+      }
+    },
+    "reading": {
+      "title": "Reading",
+      "developmentMessage": "This Feature Is In Development, Comeback Later"
+    },
+    "listening": {
+      "title": "Listening",
+      "developmentMessage": "This Feature Is In Development, Comeback Later"
+    },
+    "practice": "Practice",
+    "admin": {
+      "add": "Add More",
+      "update": "Update Current",
+      "delete": "Delete Current",
+      "confirmDelete": "Are you sure to delete?"
+    },
+    "lesson": {
+      "components": {
+        "backButton": "Back"
+      },
+      "errorMessages": {
+        "notPassPrev": "You must pass the previous lesson first.",
+        "notAuthAndClickLesson": "You must log in to start any lesson besides the first one."
+      }
+    },
+    "question": {
+      "question": "question",
+      "total": "total",
+      "prev": "Previous",
+      "next": "Next",
+      "doAgain": "Do Again",
+      "checkAnswers": "Check Answers",
+      "goNextLesson": "Go to Next Lesson",
+      "alertNotAnswered": "Please answer all questions before proceeding.",
+      "questionForm": {
+        "title": "Question Form",
+        "generalQuestionText": "General Question",
+        "enterQuestion": "Enter question here...",
+        "questionTextEn": "Question in English",
+        "questionTextVi": "Question in Vietnamese",
+        "questionTextJp": "Question in Japanese",
+        "answer": "Answer",
+        "addAnswer": "Add Another Answer",
+        "correctAnswer": "Correct Answer",
+        "difficulty": {
+          "label": "Difficulty",
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        },
+        "submit": "Submit",
+        "remove": "Remove",
+        "noChangesMade": "No changes made",
+        "questionAddedSuccessfully": "Question added successfully!",
+        "questionUpdatedSuccessfully": "Question updated successfully!",
+        "failedToSubmitForm": "Failed to submit form"
+      }
+    }
+  }
+}

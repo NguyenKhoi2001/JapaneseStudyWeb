@@ -8,7 +8,7 @@ import KanjiAnimation from "../../homepage/KanjiAnimation";
 import { useTranslation } from "react-i18next";
 
 const PopUpAlphabet = ({ char, romaji, onClose }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("basicLearning");
   const kanjiAnimationRef = useRef();
 
   const handleDrawClick = () => {
@@ -26,7 +26,6 @@ const PopUpAlphabet = ({ char, romaji, onClose }) => {
   };
 
   const kanjiUnicode = formatUnicode(char);
-  console.log(document.getElementById("modal-root")); // Should not be null
 
   return ReactDOM.createPortal(
     <div className={styles.overlay}>

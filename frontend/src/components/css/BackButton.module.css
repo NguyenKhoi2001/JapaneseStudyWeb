@@ -1,0 +1,47 @@
+.backButton {
+  position: relative;
+  overflow: auto;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  position: relative;
+  min-width: 200px;
+  font-size: var(--font-medium);
+  font-family: var(--primary-font);
+  height: 60px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: var(--indigo-color);
+
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerLabel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+}
+
+.triangleLeft {
+  display: inline-block;
+  border-right: solid 45px var(--indigo-color);
+  border-bottom: solid 30px transparent;
+  border-top: solid 30px transparent;
+}
+
+.hidden {
+  display: none;
+}

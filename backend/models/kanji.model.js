@@ -25,6 +25,11 @@ const kanjiSchema = new mongoose.Schema({
       },
     },
   ],
+  imageUrl: {
+    type: String,
+    default: "",
+  },
+  imagePublicId: { type: String, default: "" },
 });
 
 const Kanji = mongoose.model("Kanji", kanjiSchema);

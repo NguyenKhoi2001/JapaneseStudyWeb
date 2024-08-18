@@ -56,8 +56,15 @@ const userValidationRules = () => {
 const validate = (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
-    console.log("User validation failed:", errors.array());
-    return res.status(400).json({ success: false, errors: errors.array() });
+    console.log("errors: ", errors);
+    return res.status(400).json({
+      success: false,
+      message: "Validation errors occurred",
+      errors: errors.array().map((err) => ({
+        field: err.param,
+        message: err.msg,
+      })),
+    });
   }
   next();
 };

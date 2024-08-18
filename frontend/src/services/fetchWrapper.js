@@ -1,9 +1,7 @@
 const fetchWrapper = async (url, options = {}) => {
   const headers = new Headers(options.headers || {});
-
   headers.set("Content-Type", "application/json");
 
-  // Include Authorization header only if a token exists
   const token = localStorage.getItem("userToken");
   if (token) {
     headers.set("Authorization", `Bearer ${token}`);
@@ -11,25 +9,26 @@ const fetchWrapper = async (url, options = {}) => {
 
   try {
     const response = await fetch(url, { ...options, headers });
-
-    // Directly handle non-OK responses to streamline error handling in API calls
     if (!response.ok) {
       if (response.status === 401 && token) {
         window.dispatchEvent(new CustomEvent("token-expired"));
       }
-      // Attempt to parse error details from response, fallback to status text
-      const errorInfo = await response
-        .json()
-        .catch(() => ({ message: response.statusText }));
-      throw new Error(
-        errorInfo.message || "An error occurred while fetching data."
-      );
+
+      const errorBody = await response.json().catch(() => ({
+        error: `Failed to fetch, server might been down: ${response.status} ${response.statusText}`,
+      }));
+
+      const errorMessage =
+        errorBody.error && errorBody.error.message
+          ? errorBody.error.message // Use only the specific error message if available
+          : `Error ${response.status}: ${response.statusText}`; // Fallback to generic message
+
+      throw new Error(errorMessage);
     }
 
     return response;
   } catch (error) {
-    console.error("Fetch error:", error.message);
-    throw error; // Re-throw to allow calling function to handle or display error as needed
+    throw error; // Rethrow the error to be handled by calling function
   }
 };
 

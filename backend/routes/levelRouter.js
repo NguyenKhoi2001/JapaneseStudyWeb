@@ -14,6 +14,7 @@ const adminAndTeacherRoles = ["admin", "teacher"];
 // Public GET routes
 router.get("/", levelController.getAllLevels);
 router.get("/:id", levelController.getLevelById);
+router.get("/lessonsByLevel/:id", levelController.getAllLessonsByLevelId);
 
 // Protected POST route with validation
 router.post(

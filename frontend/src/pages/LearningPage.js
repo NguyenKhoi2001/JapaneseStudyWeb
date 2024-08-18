@@ -10,7 +10,6 @@ function LearningPage() {
     <div className={styles.learningPageContainer} id="modal-root">
       <NavBar />
       <Timeline />
-      {/* <BasicContainer /> */}
       <Footer />
     </div>
   );

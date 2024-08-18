@@ -205,397 +205,6 @@
     }
   },
 
-  "basicLearning": {
-    "hiragana": {
-      "title": "ひらがな",
-      "basicHiragana": {
-        "alphabet": "アルファベット",
-        "compoundSounds": "複合音",
-        "combinedSounds": "合成音",
-        "longVowels": "長母音",
-        "voicedSounds": "有声音",
-        "practice": "練習"
-      },
-      "longVowels": {
-        "section1": {
-          "title": "概念",
-          "content": "長母音とは、短母音の2倍の長さで維持される母音です。"
-        },
-        "section2": {
-          "title": "長母音による意味の変化",
-          "intro": "例:",
-          "examples": [
-            {
-              "base": "かみ",
-              "styled": "",
-              "translation": "紙"
-            },
-            {
-              "base": "かみい",
-              "styled": "い",
-              "translation": "神"
-            },
-            {
-              "base": "はし",
-              "styled": "",
-              "translation": "橋"
-            },
-            {
-              "base": "はしい",
-              "styled": "い",
-              "translation": "箸"
-            },
-            {
-              "base": "おと",
-              "styled": "",
-              "translation": "音"
-            },
-            {
-              "base": "おとお",
-              "styled": "お",
-              "translation": "叔父"
-            },
-            {
-              "base": "ゆき",
-              "styled": "",
-              "translation": "雪"
-            },
-            {
-              "base": "ゆうき",
-              "styled": "う",
-              "translation": "勇気"
-            },
-            {
-              "base": "ね",
-              "styled": "",
-              "translation": "寝る"
-            },
-            {
-              "base": "ねえ",
-              "styled": "え",
-              "translation": "姉"
-            },
-            {
-              "base": "こ",
-              "styled": "",
-              "translation": "子供"
-            },
-            {
-              "base": "こう",
-              "styled": "う",
-              "translation": "高い"
-            }
-          ]
-        },
-        "section3": {
-          "title": "読み方",
-          "content": "あの母音が1つの長さを持っている場合、ああは2つの長さを持ちます。つまり、音の単位の概念を使用すると、音Xは1単位の長さを持ち、音XXは2単位の長さを持ちます。"
-        },
-        "section4": {
-          "title": "長母音の書き方",
-          "subSections": [
-            {
-              "title": "あ行",
-              "intro": "あ行の長母音の場合、あの列に属する文字の後にあを追加します。",
-              "examples": [
-                {
-                  "exampleIntro": "あ行の文字かに対して、かの後にあを追加して長母音を形成します。",
-                  "base": "おかあさん",
-                  "styled": "あ",
-                  "translation": "母（他人の母を指します）"
-                },
-                {
-                  "exampleIntro": "あ行の文字まに対して、まの後にあを追加します。",
-                  "base": "まあまあ",
-                  "styled": "あ",
-                  "translation": "ちょうど良い"
-                }
-              ]
-            },
-            {
-              "title": "い行",
-              "intro": "い行の長母音の場合、いの後にい行の文字を追加します。",
-              "examples": [
-                {
-                  "exampleIntro": "い行の文字じに対して、じの後にいを追加して長母音を形成します。",
-                  "base": "おじいさん",
-                  "styled": "い",
-                  "translation": "祖父（他人の祖父を指します）"
-                }
-              ]
-            },
-            {
-              "title": "う行",
-              "intro": "う行の長母音の場合、うの後にう行の文字を追加します。",
-              "examples": [
-                {
-                  "exampleIntro": "う行の文字ゆに対して、ゆの後にうを追加します。",
-                  "base": "ゆうき",
-                  "styled": "う",
-                  "translation": "勇気"
-                },
-                {
-                  "exampleIntro": "う行の文字くに対して、くの後にうを追加します。",
-                  "base": "くうこう",
-                  "styled": "う",
-                  "translation": "空港"
-                }
-              ]
-            },
-            {
-              "title": "え行",
-              "intro": "え行の長母音の場合、えの後にいを追加します。",
-              "examples": [
-                {
-                  "exampleIntro": "え行の文字れに対して、れの後にいを追加します。",
-                  "base": "れいぶん",
-                  "styled": "い",
-                  "translation": "例文"
-                },
-                {
-                  "exampleIntro": "多くの場合、え行の長母音の場合、えを追加します。",
-                  "base": "ねえ",
-                  "styled": "え",
-                  "translation": "ねえ"
-                }
-              ]
-            },
-            {
-              "title": "お行",
-              "intro": "お行の長母音の場合、おの後にうを追加します。",
-              "examples": [
-                {
-                  "exampleIntro": "お行の文字こに対して、この後にうを追加します。",
-                  "base": "こうこう",
-                  "styled": "う",
-                  "translation": "高校"
-                },
-                {
-                  "exampleIntro": "お行の文字よに対して、よの後にうを追加します。",
-                  "base": "ようやく",
-                  "styled": "う",
-                  "translation": "ようやく"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "glottalStop": {
-        "section1": {
-          "title": "概念",
-          "content": "「っ」とは、単語を二つの部分に分割する音で、日本語では小さい「っ」で表されます。これは通常、か行、さ行、た行、ぱ行に続く平仮名の組み合わせで見られます。"
-        },
-        "section2": {
-          "title": "発音変化による意味の変化",
-          "examples": [
-            {
-              "hiragana": "ぶか",
-              "meaning": "部下"
-            },
-            {
-              "hiragana": "ぶっか",
-              "meaning": "物価"
-            },
-            {
-              "hiragana": "かた",
-              "meaning": "肩"
-            },
-            {
-              "hiragana": "かった",
-              "meaning": "買った"
-            },
-            {
-              "hiragana": "まち",
-              "meaning": "町"
-            },
-            {
-              "hiragana": "まっち",
-              "meaning": "待ち、マッチ"
-            }
-          ]
-        },
-        "section3": {
-          "title": "読み方",
-          "content": "「っ」による音は一つの音単位の長さを持ちます。発音するときは、他の音と同じ長さで発音され、「っ」の後に来る最初の文字を二倍にします。",
-          "examples": [
-            {
-              "hiragana": "にっき",
-              "romaji": "nikki",
-              "meaning": "日記"
-            },
-            {
-              "hiragana": "ざっし",
-              "romaji": "zasshi",
-              "meaning": "雑誌"
-            },
-            {
-              "hiragana": "きって",
-              "romaji": "kitte",
-              "meaning": "切手"
-            },
-            {
-              "hiragana": "いっぱい",
-              "romaji": "ippai",
-              "meaning": "一杯"
-            },
-            {
-              "hiragana": "さっか",
-              "romaji": "sakka",
-              "meaning": "作家"
-            },
-            {
-              "hiragana": "はっぴょう",
-              "romaji": "happyō",
-              "meaning": "発表"
-            }
-          ]
-        },
-        "section4": {
-          "title": "書き方",
-          "content": "「っ」は、他の平仮名よりも小さく、下に位置し、左に寄って書かれます。"
-        }
-      }
-    },
-    "katakana": {
-      "title": "カタカナ",
-      "longVowelsKatakana": {
-        "section1": {
-          "title": "長音の紹介",
-          "content": "カタカナの長音は、短音よりも倍の長さで発音される拡張された音です。この概念はア, イ, ウ, エ, オなどの母音に適用されます。"
-        },
-        "section2": {
-          "title": "長音の表記",
-          "intro": "例えば：",
-          "examples": [
-            { "base": "メール", "translation": "メール" },
-            { "base": "ケーキ", "translation": "ケーキ" },
-            { "base": "アイスクリーム", "translation": "アイスクリーム" },
-            { "base": "テーブル", "translation": "テーブル" },
-            { "base": "レーザー", "translation": "レーザー" }
-          ]
-        },
-        "section3": {
-          "title": "長音の書き方",
-          "content": "単一の母音アは長さが倍になりアーとなり、その音の単位が倍加されることを象徴します。この原則は様々なカタカナの行で利用されます。",
-          "subSections": [
-            {
-              "title": "ア行",
-              "intro": "ア行の母音を伸ばすためには、母音の直後に長音符（―）を使用します。",
-              "examples": [
-                {
-                  "exampleIntro": "例として：",
-                  "base": "ソーシャル",
-                  "translation": "ソーシャル"
-                },
-                {
-                  "exampleIntro": "同様に：",
-                  "base": "モーター",
-                  "translation": "モーター"
-                }
-              ]
-            },
-            {
-              "title": "イ行",
-              "intro": "イ音を伸ばす場合、その後に長音符を置きます。",
-              "examples": [
-                {
-                  "exampleIntro": "例：",
-                  "base": "コーヒー",
-                  "translation": "コーヒー"
-                }
-              ]
-            },
-            {
-              "title": "ウ行",
-              "intro": "ウ音を伸ばすには、母音の後に長音符を加えます。",
-              "examples": [
-                {
-                  "exampleIntro": "例として：",
-                  "base": "フルーツ",
-                  "translation": "フルーツ"
-                }
-              ]
-            },
-            {
-              "title": "エ行",
-              "intro": "エ音を伸ばすためにも、エの後に長音符を使用します。",
-              "examples": [
-                {
-                  "exampleIntro": "例えば：",
-                  "base": "ビデオテープ",
-                  "translation": "ビデオテープ"
-                }
-              ]
-            },
-            {
-              "title": "オ行",
-              "intro": "オ音を伸ばすには、オの後に長音符を使います。",
-              "examples": [
-                {
-                  "exampleIntro": "例：",
-                  "base": "ローマ",
-                  "translation": "ローマ"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "katakanaGlottalStop": {
-        "section1": {
-          "title": "小さい「ッ」の概要",
-          "content": "小さい「ッ」は、言葉を distinct parts に分ける際に使用される発音で、カタカナでは小さい「ッ」で表されます。これはカ, タ, サ行などの音の前に来ます。",
-          "examples": [
-            { "katakana": "パッケージ", "meaning": "パッケージ" },
-            { "katakana": "ハッピー", "meaning": "ハッピー" }
-          ]
-        },
-        "section2": {
-          "title": "小さい「ッ」の書き方",
-          "content": "小さい「ッ」は小さい「ツ」の形をしており、他のカタカナ文字と比べてやや小さく、下に位置し、左に寄って書かれます。",
-          "examples": [
-            { "katakana": "アクセス", "meaning": "アクセス" },
-            { "katakana": "イベント", "meaning": "イベント" }
-          ]
-        },
-        "section3": {
-          "title": "小さい「ッ」の発音",
-          "content": "小さい「ッ」は、一つの音の単位と同じ長さを持ちます。他の音と同じ期間発音され、小さい「ッ」の後の最初の文字を倍にして発音します。",
-          "examples": [
-            {
-              "katakana": "エッセイ",
-              "romaji": "エッセイ",
-              "meaning": "エッセイ"
-            },
-            {
-              "katakana": "ゲッター",
-              "romaji": "ゲッター",
-              "meaning": "ゲッター"
-            },
-            { "katakana": "テッセン", "romaji": "テッセン", "meaning": "鉄扇" },
-            {
-              "katakana": "ネッシー",
-              "romaji": "ネッシー",
-              "meaning": "ネッシー"
-            },
-            { "katakana": "ビッグ", "romaji": "ビッグ", "meaning": "ビッグ" }
-          ]
-        }
-      }
-    },
-    "numbers": "数字",
-    "practice": "練習",
-    "practiceQuestion": {
-      "prev": "前へ",
-      "next": "次へ",
-      "checkAnswers": "答えを確認する",
-      "doAgain": "再度行う",
-      "question": "質問",
-      "total": "合計",
-      "alertNotAnswered": "確認する前にすべての質問に答えてください。"
-    }
-  },
   "timelineData": [
     {
       "id": 1,
@@ -649,5 +258,76 @@
   "popupAlphabet": {
     "close": "閉じる",
     "draw": "描く"
+  },
+  "UserProfilePage": {
+    "username": "ユーザーネーム",
+    "email": "メール",
+    "displayName": "表示名",
+    "profilePicture": "プロフィール写真",
+    "dateJoined": "加入日",
+    "lastLogin": "最終ログイン",
+    "preferredLanguage": "優先言語",
+    "emailNotifications": "メール通知",
+    "pushNotifications": "プッシュ通知",
+    "updatePicture": "写真を更新",
+    "saveChanges": "変更を保存",
+    "English": "英語",
+    "Vietnamese": "ベトナム語",
+    "Japanese": "日本語",
+    "Enabled": "有効",
+    "Disabled": "無効"
+  },
+  "LoginPage": {
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "loginButton": "ログイン",
+    "rememberMe": "ログイン状態を保持する",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "noAccount": "アカウントをお持ちではありませんか？",
+    "registerHere": "こちらで登録",
+    "successMessage": {
+      "loginSuccess": "ログイン成功！リダイレクト中..."
+    },
+    "errorMessage": {
+      "emptyEmailUsername": "メールアドレスまたはユーザー名を入力してください。",
+      "passwordLength": "パスワードは6文字以上である必要があります。",
+      "loginError": "ログイン中にエラーが発生しました。"
+    }
+  },
+  "RegisterPage": {
+    "header": {
+      "register": "登録"
+    },
+    "placeholder": {
+      "username": "ユーザー名",
+      "email": "メール",
+      "password": "パスワード",
+      "confirmPassword": "パスワードの確認",
+      "displayName": "表示名（オプション）"
+    },
+    "language": {
+      "english": "英語",
+      "vietnamese": "ベトナム語",
+      "japanese": "日本語"
+    },
+    "button": {
+      "register": "登録"
+    },
+    "message": {
+      "alreadyHaveAccount": "すでにアカウントをお持ちですか？",
+      "loginHere": "ここでログイン"
+    },
+    "success": {
+      "registrationComplete": "登録成功！"
+    },
+    "error": {
+      "usernameRequired": "ユーザー名は空にできません。",
+      "emailRequired": "メールは空にできません。",
+      "emailInvalid": "メールの形式が無効です。",
+      "passwordRequired": "パスワードは空にできません。",
+      "passwordLength": "パスワードは少なくとも8文字でなければなりません。",
+      "passwordMismatch": "パスワードが一致しません。",
+      "registrationFailed": "登録に失敗しました。"
+    }
   }
 }

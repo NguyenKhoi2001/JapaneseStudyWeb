@@ -1,0 +1,397 @@
+{
+  "basicLearning": {
+    "hiragana": {
+      "title": "Hiragana",
+      "basicHiragana": {
+        "alphabet": "Bảng chữ cái",
+        "compoundSounds": "Biến âm",
+        "combinedSounds": "Âm ghép",
+        "longVowels": "Nguyên âm kéo dài",
+        "voicedSounds": "Âm thanh đặc biệt",
+        "practice": "Luyện tập"
+      },
+      "longVowels": {
+        "section1": {
+          "title": "Khái niệm",
+          "content": "Nguyên âm kéo dài là những nguyên âm được kéo dài gấp đôi so với nguyên âm ngắn."
+        },
+        "section2": {
+          "title": "Ý nghĩa thay đổi với nguyên âm kéo dài",
+          "intro": "Ví dụ:",
+          "examples": [
+            {
+              "base": "かみ",
+              "styled": "",
+              "translation": "Giấy"
+            },
+            {
+              "base": "かみい",
+              "styled": "い",
+              "translation": "Thần linh"
+            },
+            {
+              "base": "はし",
+              "styled": "",
+              "translation": "Cây cầu"
+            },
+            {
+              "base": "はしい",
+              "styled": "い",
+              "translation": "Đôi đũa"
+            },
+            {
+              "base": "おと",
+              "styled": "",
+              "translation": "Âm thanh"
+            },
+            {
+              "base": "おとお",
+              "styled": "お",
+              "translation": "Bác, chú"
+            },
+            {
+              "base": "ゆき",
+              "styled": "",
+              "translation": "Tuyết"
+            },
+            {
+              "base": "ゆうき",
+              "styled": "う",
+              "translation": "Can đảm"
+            },
+            {
+              "base": "ね",
+              "styled": "",
+              "translation": "Nằm xuống"
+            },
+            {
+              "base": "ねえ",
+              "styled": "え",
+              "translation": "Chị gái"
+            },
+            {
+              "base": "こ",
+              "styled": "",
+              "translation": "Đứa trẻ"
+            },
+            {
+              "base": "こう",
+              "styled": "う",
+              "translation": "Cao/Lớn"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Cách đọc",
+          "content": "Nếu nguyên âm あ có độ dài là 1, thì ああ có độ dài là 2. Nói cách khác, nếu sử dụng khái niệm đơn vị âm thanh, một âm thanh X có độ dài là 1 đơn vị, trong khi âm thanh XX có độ dài là 2 đơn vị."
+        },
+        "section4": {
+          "title": "Cách viết nguyên âm kéo dài",
+          "subSections": [
+            {
+              "title": "Cột あ",
+              "intro": "Đối với những nguyên âm kéo dài của cột あ, thêm あ sau các ký tự thuộc cột あ.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự か từ cột あ, thêm あ sau か để tạo ra nguyên âm kéo dài.",
+                  "base": "おかあさん",
+                  "styled": "あ",
+                  "translation": "Mẹ (nói về mẹ của người khác)"
+                },
+                {
+                  "exampleIntro": "Đối với ký tự ま từ cột あ, thêm あ sau ま.",
+                  "base": "まあまあ",
+                  "styled": "あ",
+                  "translation": "Đúng"
+                }
+              ]
+            },
+            {
+              "title": "Cột い",
+              "intro": "Đối với những nguyên âm kéo dài của cột い, thêm い sau các ký tự thuộc cột い.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự じ từ cột い, thêm い sau じ để tạo ra nguyên âm kéo dài.",
+                  "base": "おじいさん",
+                  "styled": "い",
+                  "translation": "Ông nội (nói về ông nội của người khác)"
+                }
+              ]
+            },
+            {
+              "title": "Cột う",
+              "intro": "Đối với những nguyên âm kéo dài của cột う, thêm う sau các ký tự thuộc cột う.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự ゆ từ cột う, thêm う sau ゆ.",
+                  "base": "ゆうき",
+                  "styled": "う",
+                  "translation": "Can đảm"
+                },
+                {
+                  "exampleIntro": "Đối với ký tự く từ cột う, thêm う sau く.",
+                  "base": "くうこう",
+                  "styled": "う",
+                  "translation": "Sân bay"
+                }
+              ]
+            },
+            {
+              "title": "Cột え",
+              "intro": "Đối với những nguyên âm kéo dài của cột え, thêm い sau các ký tự thuộc cột え.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự れ từ cột え, thêm い sau れ.",
+                  "base": "れいぶん",
+                  "styled": "い",
+                  "translation": "Câu ví dụ"
+                },
+                {
+                  "exampleIntro": "Trong nhiều trường hợp, đối với những nguyên âm kéo dài của cột え, thêm え.",
+                  "base": "ねえ",
+                  "styled": "え",
+                  "translation": "Ồ"
+                }
+              ]
+            },
+            {
+              "title": "Cột お",
+              "intro": "Đối với những nguyên âm kéo dài của cột お, thêm う sau các ký tự thuộc cột お.",
+              "examples": [
+                {
+                  "exampleIntro": "Đối với ký tự こ từ cột お, thêm う sau こ.",
+                  "base": "こうこう",
+                  "styled": "う",
+                  "translation": "Trường trung học"
+                },
+                {
+                  "exampleIntro": "Đối với ký tự よ từ cột お, thêm う sau よ.",
+                  "base": "ようやく",
+                  "styled": "う",
+                  "translation": "Dần dần, từ từ"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "glottalStop": {
+        "section1": {
+          "title": "Khái niệm",
+          "content": "Được gọi là âm ngắt vì nó chia từ thành hai phần. Trong tiếng Nhật, âm ngắt được biểu thị bằng ký tự っ. Nó thường xuất hiện trong các kết hợp mà Hiragana theo sau âm ngắt thuộc các hàng: か - さ - た - ぱ."
+        },
+        "section2": {
+          "title": "Âm ngắt làm thay đổi nghĩa của từ",
+          "examples": [
+            {
+              "hiragana": "ぶか",
+              "meaning": "Cấp dưới"
+            },
+            {
+              "hiragana": "ぶっか",
+              "meaning": "Mức giá"
+            },
+            {
+              "hiragana": "かた",
+              "meaning": "Vai"
+            },
+            {
+              "hiragana": "かった",
+              "meaning": "Đã mua"
+            },
+            {
+              "hiragana": "まち",
+              "meaning": "Thành phố"
+            },
+            {
+              "hiragana": "まっち",
+              "meaning": "Trận đấu, Đợi"
+            }
+          ]
+        },
+        "section3": {
+          "title": "Cách đọc",
+          "content": "Âm có độ dài bằng một đơn vị âm. Khi phát âm, âm ngắt được phát âm với độ dài tương đương các âm khác. Khi đọc, chúng ta gấp đôi chữ cái đầu tiên của từ theo sau âm ngắt.",
+          "examples": [
+            {
+              "hiragana": "にっき",
+              "romaji": "nikki",
+              "meaning": "Nhật ký"
+            },
+            {
+              "hiragana": "ざっし",
+              "romaji": "zasshi",
+              "meaning": "Tạp chí"
+            },
+            {
+              "hiragana": "きって",
+              "romaji": "kitte",
+              "meaning": "Tem"
+            },
+            {
+              "hiragana": "いっぱい",
+              "romaji": "ippai",
+              "meaning": "Đầy"
+            },
+            {
+              "hiragana": "さっか",
+              "romaji": "sakka",
+              "meaning": "Tác giả"
+            },
+            {
+              "hiragana": "はっぴょう",
+              "romaji": "happyō",
+              "meaning": "Báo cáo, Thuyết trình"
+            }
+          ]
+        },
+        "section4": {
+          "title": "Cách viết",
+          "content": "Âm ngắt được viết bằng ký tự っ. Nó được viết nhỏ hơn, thấp hơn và hơi lệch về phía trái so với các ký tự Hiragana khác."
+        }
+      }
+    },
+    "katakana": {
+      "title": "Katakana",
+      "longVowelsKatakana": {
+        "section1": {
+          "title": "Giới thiệu về Nguyên Âm Dài",
+          "content": "Nguyên âm dài trong Katakana kéo dài gấp đôi so với nguyên âm ngắn. Điều này áp dụng cho các nguyên âm như ア, イ, ウ, エ, オ."
+        },
+        "section2": {
+          "title": "Ký Hiệu Nguyên Âm Dài",
+          "intro": "Chẳng hạn:",
+          "examples": [
+            { "base": "メール", "translation": "Email" },
+            { "base": "ケーキ", "translation": "Bánh" },
+            { "base": "アイスクリーム", "translation": "Kem" },
+            { "base": "テーブル", "translation": "Bàn" },
+            { "base": "レーザー", "translation": "Laze" }
+          ]
+        },
+        "section3": {
+          "title": "Cách Viết Nguyên Âm Dài",
+          "content": "Một nguyên âm ア được kéo dài thành アー, tượng trưng cho việc kép lên đơn vị âm của nó. Nguyên tắc này được sử dụng trên các hàng katakana khác nhau.",
+          "subSections": [
+            {
+              "title": "Hàng ア",
+              "intro": "Để kéo dài nguyên âm trong hàng ア, biểu tượng ― được sử dụng ngay sau nguyên âm.",
+              "examples": [
+                {
+                  "exampleIntro": "Trong các từ như:",
+                  "base": "ソーシャル",
+                  "translation": "Xã hội"
+                },
+                {
+                  "exampleIntro": "Tương tự, cho:",
+                  "base": "モーター",
+                  "translation": "Động cơ"
+                }
+              ]
+            },
+            {
+              "title": "Hàng イ",
+              "intro": "Để kéo dài âm イ, biểu tượng ― được thêm vào sau.",
+              "examples": [
+                {
+                  "exampleIntro": "Như thấy trong:",
+                  "base": "コーヒー",
+                  "translation": "Cà phê"
+                }
+              ]
+            },
+            {
+              "title": "Hàng ウ",
+              "intro": "Để kéo dài âm ウ, biểu tượng ― được thêm vào sau nguyên âm.",
+              "examples": [
+                {
+                  "exampleIntro": "Ví dụ bao gồm:",
+                  "base": "フルーツ",
+                  "translation": "Hoa quả"
+                }
+              ]
+            },
+            {
+              "title": "Hàng エ",
+              "intro": "Biểu tượng ― cũng được sử dụng sau エ để kéo dài âm thanh.",
+              "examples": [
+                {
+                  "exampleIntro": "Ví dụ:",
+                  "base": "ビデオテープ",
+                  "translation": "Băng video"
+                }
+              ]
+            },
+            {
+              "title": "Hàng オ",
+              "intro": "Biểu tượng ― được áp dụng sau オ để kéo dài âm thanh.",
+              "examples": [
+                {
+                  "exampleIntro": "Được minh họa bởi:",
+                  "base": "ローマ",
+                  "translation": "Roma"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "katakanaGlottalStop": {
+        "section1": {
+          "title": "Tổng Quan",
+          "content": "Âm ngắt tách từ ra thành hai phần, được biểu diễn trong tiếng Nhật bằng biểu tượng katakana nhỏ ッ. Nó đứng trước các âm từ hàng カ, タ, サ, và những hàng khác.",
+          "examples": [
+            { "katakana": "パッケージ", "meaning": "Gói hàng" },
+            { "katakana": "ハッピー", "meaning": "Hạnh phúc" }
+          ]
+        },
+        "section2": {
+          "title": "Kỹ Thuật Viết",
+          "content": "Biểu tượng âm ngắt ッ là phiên bản nhỏ của ツ. Khi viết, nó nhỏ hơn, thấp hơn và hơi lùi về bên trái so với các ký tự katakana khác.",
+          "examples": [
+            { "katakana": "アクセス", "meaning": "Truy cập" },
+            { "katakana": "イベント", "meaning": "Sự kiện" }
+          ]
+        },
+        "section3": {
+          "title": "Cách Phát Âm",
+          "content": "Âm ngắt có độ dài bằng một đơn vị âm. Khi phát âm, nó được phát âm với độ dài tương đương một phách như các âm khác. Khi đọc, chúng ta nhân đôi chữ cái đầu tiên của từ theo sau âm ngắt.",
+          "examples": [
+            {
+              "katakana": "エッセイ",
+              "romaji": "essei",
+              "meaning": "Bài luận"
+            },
+            {
+              "katakana": "ゲッター",
+              "romaji": "gettā",
+              "meaning": "Người nhận"
+            },
+            {
+              "katakana": "テッセン",
+              "romaji": "tessen",
+              "meaning": "Quạt sắt"
+            },
+            {
+              "katakana": "ネッシー",
+              "romaji": "nesshī",
+              "meaning": "Quái vật Loch Ness"
+            },
+            { "katakana": "ビッグ", "romaji": "biggu", "meaning": "To lớn" }
+          ]
+        }
+      }
+    },
+    "numbers": "Số",
+    "practice": "Luyện tập",
+    "practiceQuestion": {
+      "prev": "Trước",
+      "next": "Tiếp",
+      "checkAnswers": "Kiểm tra câu trả lời",
+      "doAgain": "Làm lại",
+      "question": "Câu hỏi",
+      "total": "Tổng",
+      "alertNotAnswered": "Vui lòng trả lời tất cả các câu hỏi trước khi kiểm tra."
+    }
+  }
+}

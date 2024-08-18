@@ -1,0 +1,137 @@
+/* Overlay covering the entire viewport */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; /* High z-index to ensure it covers other content */
+  box-sizing: border-box;
+}
+
+/* Restrict form size and center it */
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.closeFormButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: none;
+  color: #dc3545; /* Styling color to match remove buttons */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Space between grid items */
+}
+
+/* Centered title with margin */
+.centerText {
+  grid-column: span 2; /* Center the title across both columns */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  color: #333; /* More neutral color for better readability */
+  margin-bottom: 8px;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Grid for answers */
+.answerInputContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between input and button */
+  grid-column: span 2; /* Make answers span across both columns */
+}
+
+.input {
+  flex-grow: 1;
+}
+
+.answerInputContainer input {
+  flex-grow: 1;
+  min-width: 0;
+}
+.answerInputContainer label {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.removeButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: #c82333;
+}
+
+.addButton,
+.submitButton {
+  grid-column: span 2;
+  padding: 10px 20px;
+  background-color: #007bff; /* Bootstrap primary color for consistency */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  justify-self: center; /* Center align the button */
+  margin-top: 10px;
+}
+
+.addButton:hover,
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.addButton:disabled {
+  background-color: #6c757d; /* Grey color for disabled state */
+  cursor: not-allowed;
+}
+
+.submitContainer {
+  grid-column: span 2; /* Make the submit button span both columns */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

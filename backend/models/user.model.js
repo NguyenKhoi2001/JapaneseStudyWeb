@@ -6,6 +6,7 @@ const userSchema = new mongoose.Schema({
   passwordHash: { type: String, required: true },
   displayName: String,
   profilePicture: String,
+  profilePicturePublicId: { type: String, default: "" },
   dateJoined: { type: Date, default: Date.now },
   lastLogin: Date,
   progress: [{ type: mongoose.Schema.Types.ObjectId, ref: "UserProgress" }],

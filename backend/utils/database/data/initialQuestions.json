@@ -1,0 +1,434 @@
+[
+  {
+    "text": "あれは だれ（ ...... ）かばんですか。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["の", "に", "を", "が"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "食べ",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["たべる", "たべた", "たべます", "たべない"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "このりんごは（ ...... ）ですか。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["甘い", "酸っぱい", "苦い", "しょっぱい"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の本です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "あなた", "彼", "彼女"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）を飲みますか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["水", "火", "風", "土"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）を食べます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["りんご", "バナナ", "オレンジ", "ぶどう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）の先生です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["学校", "病院", "会社", "店"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私の名前は（ ...... ）です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["田中", "鈴木", "山田", "佐藤"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）ですか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["何", "誰", "どこ", "いつ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）をしています。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["仕事", "遊び", "勉強", "休み"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）をしますか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["仕事", "遊び", "勉強", "休み"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今日は（ ...... ）です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["日曜日", "月曜日", "火曜日", "水曜日"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼女は（ ...... ）に住んでいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["東京", "大阪", "京都", "名古屋"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["学生", "先生", "社長", "医者"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）を勉強しています。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["日本語", "英語", "中国語", "韓国語"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の車です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "あなた", "彼", "彼女"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "この（ ...... ）は何ですか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["物", "場所", "人", "時間"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）を見ますか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["映画", "テレビ", "新聞", "本"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）のペンです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "あなた", "彼", "彼女"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）を食べますか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["パン", "ご飯", "ラーメン", "寿司"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）を見ます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["映画", "テレビ", "新聞", "本"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["日本人", "アメリカ人", "中国人", "韓国人"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼女は（ ...... ）に行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["学校", "会社", "病院", "店"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今日は（ ...... ）に行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["学校", "会社", "病院", "店"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）に行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["東京", "大阪", "京都", "名古屋"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）をしています。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["仕事", "遊び", "勉強", "休み"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）をしています。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["仕事", "遊び", "勉強", "休み"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼女は（ ...... ）をしています。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["仕事", "遊び", "勉強", "休み"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今日は（ ...... ）です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["日曜日", "月曜日", "火曜日", "水曜日"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "明日は（ ...... ）です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["日曜日", "月曜日", "火曜日", "水曜日"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "昨日は（ ...... ）でした。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["日曜日", "月曜日", "火曜日", "水曜日"],
+    "correctAnswer": 2,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）を食べます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["朝ごはん", "昼ごはん", "晩ごはん", "おやつ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）を飲みます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["水", "コーヒー", "お茶", "ジュース"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の車です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "あなた", "彼", "彼女"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）を買います。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["本", "ペン", "ノート", "カバン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の本です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "あなた", "彼", "彼女"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  }
+]

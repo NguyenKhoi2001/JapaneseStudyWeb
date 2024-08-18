@@ -1,0 +1,79 @@
+/* CardSlider.module.css */
+
+.sliderContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 50px;
+}
+.slider {
+  width: 100%;
+  max-width: 850px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slidesContainer {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prevButton,
+.nextButton {
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  border: 2px solid indigo;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.controlButton {
+  background-color: #fff;
+  border: 2px solid #4a4a4a;
+  color: #4a4a4a;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.controlButton:hover {
+  background-color: #4a4a4a;
+  color: #fff;
+}
+
+.controlButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 74, 74, 0.5);
+}
+.controlButton:disabled {
+  color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+}

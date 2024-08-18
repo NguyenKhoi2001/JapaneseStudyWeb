@@ -1,0 +1,23 @@
+/* LessonDisplayPage.module.css */
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.backButton {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.backButton:hover {
+  background-color: darkred;
+}

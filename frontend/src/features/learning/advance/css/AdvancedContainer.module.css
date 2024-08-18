@@ -1,23 +1,28 @@
 .container {
-  margin: 30px 10%;
+  margin: 30px 5%;
   display: flex;
 }
 
 .verticalNav {
   flex: 1;
+  width: 100%;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
 
 .mainContent {
-  width: 1300px;
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
 }
 
 .toggleViewBtn {
   height: 50px;
+  min-width: 125px;
+  width: 100%;
   display: flex;
   align-items: center;
   border: 0;
@@ -25,9 +30,11 @@
   background-color: transparent;
   font-size: var(--font-medium);
 }
+
 .toggleViewBtn:hover {
   cursor: pointer;
 }
+
 .activeToggleViewBtn {
   font-weight: bold;
   color: var(--indigo-color);

@@ -20,7 +20,6 @@ const ImageUpload = () => {
 
     try {
       const uploadedImageUrl = await uploadImageToCloudinary(selectedFile);
-      console.log("Uploaded image URL:", uploadedImageUrl);
       // Here you can set the image URL to some state or perform further actions with it
     } catch (error) {
       console.error("Image upload failed:", error);

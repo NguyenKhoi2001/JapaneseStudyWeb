@@ -9,8 +9,8 @@ describe("Lesson API Tests", () => {
   let userToken, teacherToken, adminToken;
   let vocabularyId, kanjiId, grammarId, questionId, lessonId, adminLessonId;
   let newVocabularyId, newKanjiId, newGrammarId, newQuestionId;
+
   beforeAll(async () => {
-    await closeTestDatabase();
     await connectTestDatabase();
     await setupUsers();
     await setupPrerequisites();
@@ -218,7 +218,11 @@ describe("Lesson API Tests", () => {
         .post("/api/lessons")
         .set("Authorization", `Bearer ${userToken}`)
         .send({
-          title: "User Created Lesson",
+          title: {
+            jp: "ユーザー作成レッスン", // Japanese title
+            en: "User Created Lesson", // English title
+            vi: "Bài học do người dùng tạo", // Vietnamese title (required)
+          },
           vocabularies: [vocabularyId],
           kanjis: [kanjiId],
           grammars: [grammarId],
@@ -236,7 +240,12 @@ describe("Lesson API Tests", () => {
         .post("/api/lessons")
         .set("Authorization", `Bearer ${teacherToken}`)
         .send({
-          title: "Teacher Created Lesson",
+          title: {
+            jp: "先生が作成したレッスン",
+            en: "Teacher Created Lesson",
+            vi: "Bài học do giáo viên tạo",
+          },
+
           vocabularies: [vocabularyId],
           kanjis: [kanjiId],
           grammars: [grammarId],
@@ -253,7 +262,11 @@ describe("Lesson API Tests", () => {
         .post("/api/lessons")
         .set("Authorization", `Bearer ${adminToken}`)
         .send({
-          title: "Admin Created Lesson",
+          title: {
+            jp: "管理者が作成したレッスン",
+            en: "Admin Created Lesson",
+            vi: "Bài học do quản trị viên tạo",
+          },
           vocabularies: [vocabularyId],
           kanjis: [kanjiId],
           grammars: [grammarId],
@@ -279,6 +292,18 @@ describe("Lesson API Tests", () => {
       expect(res.statusCode).toEqual(200);
       expect(Array.isArray(res.body.data)).toBe(true);
     });
+
+    // Test: Get learning resources by lesson ID (public access)
+    it("should allow public access to learning resources by lesson ID", async () => {
+      const res = await request(app).get(
+        `/api/lessons/resourceByLesson/${lessonId}`
+      );
+      expect(res.statusCode).toEqual(200);
+      expect(res.body.data).toHaveProperty("vocabularies");
+      expect(res.body.data).toHaveProperty("kanjis");
+      expect(res.body.data).toHaveProperty("grammars");
+      expect(res.body.data).toHaveProperty("questions");
+    });
   });
 
   describe("Lesson Update", () => {
@@ -287,7 +312,13 @@ describe("Lesson API Tests", () => {
       const res = await request(app)
         .put(`/api/lessons/${lessonId}`)
         .set("Authorization", `Bearer ${userToken}`)
-        .send({ title: "Unauthorized Update Attempt by User" });
+        .send({
+          title: {
+            jp: "ユーザーによる不正な更新試行",
+            en: "Unauthorized Update Attempt by User",
+            vi: "Nỗ lực cập nhật không được phép bởi người dùng",
+          },
+        });
       expect(res.statusCode).toEqual(403);
     });
 
@@ -296,7 +327,13 @@ describe("Lesson API Tests", () => {
       const res = await request(app)
         .put(`/api/lessons/${lessonId}`)
         .set("Authorization", `Bearer ${teacherToken}`)
-        .send({ title: "Updated Lesson Title by Teacher" });
+        .send({
+          title: {
+            jp: "教師による更新されたレッスンタイトル",
+            en: "Updated Lesson Title by Teacher",
+            vi: "Tiêu đề bài học được cập nhật bởi giáo viên",
+          },
+        });
       expect(res.statusCode).toEqual(200);
     });
 
@@ -305,7 +342,13 @@ describe("Lesson API Tests", () => {
       const res = await request(app)
         .put(`/api/lessons/${adminLessonId}`)
         .set("Authorization", `Bearer ${adminToken}`)
-        .send({ title: "Updated Lesson Title by Admin" });
+        .send({
+          title: {
+            jp: "管理者による更新されたレッスンタイトル",
+            en: "Updated Lesson Title by Admin",
+            vi: "Tiêu đề bài học được cập nhật bởi quản trị viên",
+          },
+        });
       expect(res.statusCode).toEqual(200);
     });
   });
@@ -501,7 +544,12 @@ describe("Lesson API Tests", () => {
         .post("/api/lessons")
         .set("Authorization", `Bearer ${teacherToken}`)
         .send({
-          title: "Lesson for Deletion by Teacher",
+          title: {
+            en: "Lesson for Deletion by Teacher",
+            vi: "Bài học để xóa bởi giáo viên",
+            jp: "教師による削除用レッスン",
+          },
+
           vocabularies: [vocabularyId],
           kanjis: [kanjiId],
           grammars: [grammarId],

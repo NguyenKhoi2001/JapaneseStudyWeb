@@ -14,7 +14,6 @@ function NavBar() {
   const language = useSelector((state) => state.preferences.language);
 
   useEffect(() => {
-    console.log("Language in component: ", language);
     i18n.changeLanguage(language);
     const handleResize = () => {
       setIsNavVisible(window.innerWidth > 768);
@@ -38,9 +37,12 @@ function NavBar() {
   const toggleNav = () => {
     setIsNavVisible(!isNavVisible);
   };
+
   const handleLogout = () => {
     localStorage.removeItem("userToken");
     setIsLoggedIn(false);
+    // Navigate to home page and reload the page
+    window.location.href = "/"; // This will redirect to the home page
   };
 
   return (
@@ -75,7 +77,7 @@ function NavBar() {
               {t("navbar.courses")}
             </Link>
           </li>
-          <li className={styles.loginNavItem}>
+          <li className={isLoggedIn ? styles.loginActive : styles.loginNavItem}>
             {isLoggedIn ? (
               <button onClick={handleLogout} className={styles.navItem}>
                 {t("navbar.logout")}

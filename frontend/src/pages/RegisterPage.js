@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import styles from "./css/RegisterPage.module.css"; // Reusing the CSS from LoginPage for consistency
+import { useTranslation } from "react-i18next";
+import styles from "./css/RegisterPage.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
@@ -10,12 +11,13 @@ import {
 import { Link, useNavigate } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { register } from "../services/user/userSlice";
 import SuccessAlert from "../components/SuccessAlert";
 import ErrorAlert from "../components/ErrorAlert";
 
 const RegisterPage = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     username: "",
     email: "",
@@ -25,52 +27,88 @@ const RegisterPage = () => {
     preferredLanguage: "english",
   });
   const [alert, setAlert] = useState({ show: false, message: "", type: "" });
-
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
   const validateForm = () => {
     let tempErrors = {};
     let formIsValid = true;
 
+    // Username validation
     if (!formData.username.trim()) {
       formIsValid = false;
-      tempErrors["username"] = "Username cannot be empty.";
+      tempErrors["username"] = t("RegisterPage.error.usernameRequired");
+    } else if (!/^[a-z][a-z0-9]*$/.test(formData.username)) {
+      formIsValid = false;
+      tempErrors["username"] = t("RegisterPage.error.usernameInvalidFormat");
+    } else if (formData.username.length < 8) {
+      formIsValid = false;
+      tempErrors["username"] = t("RegisterPage.error.usernameTooShort");
+    } else if (formData.username.length > 32) {
+      formIsValid = false;
+      tempErrors["username"] = t("RegisterPage.error.usernameTooLong");
     }
 
+    // Email validation
     if (!formData.email) {
       formIsValid = false;
-      tempErrors["email"] = "Email cannot be empty.";
+      tempErrors["email"] = t("RegisterPage.error.emailRequired");
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       formIsValid = false;
-      tempErrors["email"] = "Email format is invalid.";
+      tempErrors["email"] = t("RegisterPage.error.emailInvalidFormat");
+    } else if (formData.email !== formData.email.toLowerCase()) {
+      formIsValid = false;
+      tempErrors["email"] = t("RegisterPage.error.emailCaseInsensitive");
     }
 
+    // Password validation
     if (!formData.password) {
       formIsValid = false;
-      tempErrors["password"] = "Password cannot be empty.";
+      tempErrors["password"] = t("RegisterPage.error.passwordRequired");
     } else if (formData.password.length < 8) {
       formIsValid = false;
-      tempErrors["password"] = "Password must be at least 8 characters long.";
+      tempErrors["password"] = t("RegisterPage.error.passwordTooShort");
+    } else if (formData.password.length > 32) {
+      formIsValid = false;
+      tempErrors["password"] = t("RegisterPage.error.passwordTooLong");
+    } else if (!/[A-Z]/.test(formData.password)) {
+      formIsValid = false;
+      tempErrors["password"] = t("RegisterPage.error.passwordNoUppercase");
+    } else if (!/[a-z]/.test(formData.password)) {
+      formIsValid = false;
+      tempErrors["password"] = t("RegisterPage.error.passwordNoLowercase");
+    } else if (!/[0-9]/.test(formData.password)) {
+      formIsValid = false;
+      tempErrors["password"] = t("RegisterPage.error.passwordNoNumber");
+    } else if (!/[^\w\s]/.test(formData.password)) {
+      formIsValid = false;
+      tempErrors["password"] = t("RegisterPage.error.passwordNoSpecialChar");
     }
 
+    // Confirm password validation
     if (formData.password !== formData.confirmPassword) {
       formIsValid = false;
-      tempErrors["confirmPassword"] = "Passwords do not match.";
+      tempErrors["confirmPassword"] = t("RegisterPage.error.passwordMismatch");
     }
 
+    // Display name validation (optional)
+    if (formData.displayName && typeof formData.displayName !== "string") {
+      formIsValid = false;
+      tempErrors["displayName"] = t("RegisterPage.error.displayNameInvalid");
+    }
+
+    // Display error messages if any
     if (Object.keys(tempErrors).length > 0) {
       setAlert({
         show: true,
         message: Object.values(tempErrors).join(" "),
         type: "error",
       });
-      return false;
     }
+
     return formIsValid;
   };
 
@@ -78,13 +116,14 @@ const RegisterPage = () => {
     e.preventDefault();
     if (!validateForm()) return;
 
-    const { confirmPassword, ...userData } = formData;
-    dispatch(register(userData))
+    const { confirmPassword, ...dataToSubmit } = formData;
+    const dataWithRole = { ...dataToSubmit, roles: ["user"] };
+    dispatch(register(dataWithRole))
       .unwrap()
       .then(() => {
         setAlert({
           show: true,
-          message: "Registration successful!",
+          message: t("RegisterPage.success.registrationComplete"),
           type: "success",
         });
         navigate("/");
@@ -92,7 +131,7 @@ const RegisterPage = () => {
       .catch((error) => {
         setAlert({
           show: true,
-          message: error.message || "Registration failed!",
+          message: error || t("RegisterPage.errorMessage.registrationFailed"),
           type: "error",
         });
       });
@@ -101,6 +140,7 @@ const RegisterPage = () => {
   const closeAlert = () => {
     setAlert({ ...alert, show: false });
   };
+
   return (
     <>
       <NavBar />
@@ -108,7 +148,7 @@ const RegisterPage = () => {
         <div className={styles.formBox}>
           <div className={styles.headerForm}>
             <FontAwesomeIcon icon={faUser} size="9x" className={styles.icon} />
-            <h2>Register</h2>
+            <h2>{t("RegisterPage.header.register")}</h2>
           </div>
           <div className={styles.bodyForm}>
             <form onSubmit={handleRegister}>
@@ -120,7 +160,7 @@ const RegisterPage = () => {
                   value={formData.username}
                   onChange={handleChange}
                   className={styles.formControl}
-                  placeholder="Username"
+                  placeholder={t("RegisterPage.placeholder.username")}
                   required
                 />
               </div>
@@ -132,7 +172,7 @@ const RegisterPage = () => {
                   value={formData.email}
                   onChange={handleChange}
                   className={styles.formControl}
-                  placeholder="Email"
+                  placeholder={t("RegisterPage.placeholder.email")}
                   required
                 />
               </div>
@@ -144,7 +184,7 @@ const RegisterPage = () => {
                   value={formData.password}
                   onChange={handleChange}
                   className={styles.formControl}
-                  placeholder="Password"
+                  placeholder={t("RegisterPage.placeholder.password")}
                   required
                 />
               </div>
@@ -156,7 +196,7 @@ const RegisterPage = () => {
                   value={formData.confirmPassword}
                   onChange={handleChange}
                   className={styles.formControl}
-                  placeholder="Confirm Password"
+                  placeholder={t("RegisterPage.placeholder.confirmPassword")}
                   required
                 />
               </div>
@@ -168,7 +208,7 @@ const RegisterPage = () => {
                   value={formData.displayName}
                   onChange={handleChange}
                   className={styles.formControl}
-                  placeholder="Display Name (Optional)"
+                  placeholder={t("RegisterPage.placeholder.displayName")}
                 />
               </div>
               <div className={styles.inputGroup}>
@@ -179,13 +219,19 @@ const RegisterPage = () => {
                   onChange={handleChange}
                   className={styles.formControl}
                 >
-                  <option value="english">English</option>
-                  <option value="vietnamese">Vietnamese</option>
-                  <option value="japanese">Japanese</option>
+                  <option value="english">
+                    {t("RegisterPage.language.english")}
+                  </option>
+                  <option value="vietnamese">
+                    {t("RegisterPage.language.vietnamese")}
+                  </option>
+                  <option value="japanese">
+                    {t("RegisterPage.language.japanese")}
+                  </option>
                 </select>
               </div>
               <button type="submit" className={styles.button}>
-                Register
+                {t("RegisterPage.button.register")}
               </button>
             </form>
             {alert.show &&
@@ -202,9 +248,11 @@ const RegisterPage = () => {
                   onClose={closeAlert}
                 />
               ))}
+
             <div className={styles.message}>
               <p>
-                Already have an account? <Link to="/login">Login Here</Link>
+                {t("RegisterPage.message.alreadyHaveAccount")}{" "}
+                <Link to="/login">{t("RegisterPage.link.loginHere")}</Link>
               </p>
             </div>
           </div>

@@ -16,6 +16,10 @@ const requireAdminOrTeacher = roleMiddleware(adminAndTeacherRoles);
 // Public GET routes to fetch lessons
 router.get("/", lessonController.getAllLessons);
 router.get("/:id", lessonController.getLessonById);
+router.get(
+  "/resourceByLesson/:id",
+  lessonController.getLearningResourceByLesson
+);
 
 // Protected POST route to add a new lesson
 router.post(

@@ -1,5 +1,13 @@
 const Level = require("../models/level.model");
 
+// Helper function for error handling
+const handleErrorResponse = (res, error, status = 500) => {
+  console.error(error); // For debugging
+  res
+    .status(status)
+    .json({ success: false, error: { message: error.message } });
+};
+
 // Add a new level
 exports.addLevel = async (req, res) => {
   try {
@@ -7,7 +15,7 @@ exports.addLevel = async (req, res) => {
     const savedLevel = await newLevel.save();
     res.status(201).json({ success: true, data: savedLevel });
   } catch (error) {
-    res.status(400).json({ success: false, error: { message: error.message } });
+    handleErrorResponse(res, error, 400);
   }
 };
 
@@ -17,7 +25,7 @@ exports.getAllLevels = async (req, res) => {
     const levels = await Level.find().populate("lessons");
     res.status(200).json({ success: true, data: levels });
   } catch (error) {
-    res.status(500).json({ success: false, error: { message: error.message } });
+    handleErrorResponse(res, error);
   }
 };
 
@@ -25,15 +33,28 @@ exports.getAllLevels = async (req, res) => {
 exports.getLevelById = async (req, res) => {
   try {
     const level = await Level.findById(req.params.id).populate("lessons");
-    if (level) {
-      res.status(200).json({ success: true, data: level });
-    } else {
-      res
-        .status(404)
-        .json({ success: false, error: { message: "Level not found" } });
+    if (!level) {
+      return handleErrorResponse(res, new Error("Level not found"), 404);
     }
+    res.status(200).json({ success: true, data: level });
   } catch (error) {
-    res.status(500).json({ success: false, error: { message: error.message } });
+    handleErrorResponse(res, error);
+  }
+};
+
+// Get all lessons by level ID
+exports.getAllLessonsByLevelId = async (req, res) => {
+  try {
+    const level = await Level.findById(req.params.id).populate({
+      path: "lessons",
+      populate: { path: "vocabularies kanjis grammars questions" }, // Deep population if needed
+    });
+    if (!level) {
+      return handleErrorResponse(res, new Error("Level not found"), 404);
+    }
+    res.status(200).json({ success: true, data: level.lessons });
+  } catch (error) {
+    handleErrorResponse(res, error);
   }
 };
 
@@ -45,15 +66,12 @@ exports.updateLevel = async (req, res) => {
       req.body,
       { new: true }
     ).populate("lessons");
-    if (updatedLevel) {
-      res.status(200).json({ success: true, data: updatedLevel });
-    } else {
-      res
-        .status(404)
-        .json({ success: false, error: { message: "Level not found" } });
+    if (!updatedLevel) {
+      return handleErrorResponse(res, new Error("Level not found"), 404);
     }
+    res.status(200).json({ success: true, data: updatedLevel });
   } catch (error) {
-    res.status(400).json({ success: false, error: { message: error.message } });
+    handleErrorResponse(res, error, 400);
   }
 };
 
@@ -61,17 +79,14 @@ exports.updateLevel = async (req, res) => {
 exports.deleteLevel = async (req, res) => {
   try {
     const deletedLevel = await Level.findByIdAndDelete(req.params.id);
-    if (deletedLevel) {
-      res.status(200).json({
-        success: true,
-        data: { message: "Level successfully deleted" },
-      });
-    } else {
-      res
-        .status(404)
-        .json({ success: false, error: { message: "Level not found" } });
+    if (!deletedLevel) {
+      return handleErrorResponse(res, new Error("Level not found"), 404);
     }
+    res.status(200).json({
+      success: true,
+      data: { message: "Level successfully deleted" },
+    });
   } catch (error) {
-    res.status(500).json({ success: false, error: { message: error.message } });
+    handleErrorResponse(res, error);
   }
 };

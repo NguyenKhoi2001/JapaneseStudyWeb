@@ -9,17 +9,7 @@ import KatakanaGlottalStops from "./katakana/KatakanaGlottalStops";
 
 const BasicKatakanaBody = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const { t } = useTranslation();
-
-  // Update navItems to use correct translation keys for katakana
-  //   const navItems = [
-  //     t("basicLearning.katakana.basicKatakana.alphabet"),
-  //     t("basicLearning.katakana.basicKatakana.compoundSounds"),
-  //     t("basicLearning.katakana.basicKatakana.combinedSounds"),
-  //     t("basicLearning.katakana.basicKatakana.longVowels"),
-  //     t("basicLearning.katakana.basicKatakana.voicedSounds"),
-  //     t("basicLearning.katakana.basicKatakana.practice"),
-  //   ];
+  const { t } = useTranslation("basicLearning");
 
   const navItems = [
     t("basicLearning.hiragana.basicHiragana.alphabet"),
@@ -27,7 +17,6 @@ const BasicKatakanaBody = () => {
     t("basicLearning.hiragana.basicHiragana.combinedSounds"),
     t("basicLearning.hiragana.basicHiragana.longVowels"),
     t("basicLearning.hiragana.basicHiragana.voicedSounds"),
-    t("basicLearning.hiragana.basicHiragana.practice"),
   ];
   const handleNavClick = (index) => {
     setActiveIndex(index);

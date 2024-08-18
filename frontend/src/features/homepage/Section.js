@@ -17,7 +17,7 @@ const Section = ({
   handleNextPrev,
   icon,
 }) => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   const sectionClassNames = `${styles.section} ${styles[textColorClass] || ""}`;
 
   return (

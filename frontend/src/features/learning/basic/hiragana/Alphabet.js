@@ -12,7 +12,6 @@ const Alphabet = () => {
 
   // Function to handle cell click
   const handleCellClick = (char, romaji) => {
-    console.log("Cell clicked", char, romaji);
     setSelectedChar({ char, romaji });
     setIsModalOpen(true); // Show the modal
   };

@@ -1,0 +1,106 @@
+/* UserProfile.module.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  min-height: 60vh;
+  background-color: var(--background-color);
+}
+
+.leftPanel,
+.middlePanel,
+.rightPanel {
+  flex: 1;
+  padding: 10px;
+}
+
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userImage {
+  width: 150px;
+  height: 150px;
+  background-color: var(--indigo-light-color);
+  border-radius: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 75px;
+}
+
+/* UserProfile.module.css */
+.button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--indigo-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: var(--btn-border-radius);
+  cursor: pointer;
+  transition: var(--btn-transition);
+}
+
+.button:hover {
+  background-color: var(--indigo-dark-color);
+}
+
+.button:disabled {
+  background-color: var(--indigo-light-color);
+  cursor: not-allowed;
+  color: var(--grey-color);
+}
+
+.label {
+  font-weight: bold;
+  color: var(--indigo-color);
+  margin-bottom: 5px;
+}
+
+.input {
+  border: 1px solid red;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid var(--indigo-light-color);
+  border-radius: 5px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid var(--indigo-light-color);
+  border-radius: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+  color: var(--indigo-color);
+}
+
+.headerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bodyForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+}

@@ -5,10 +5,11 @@ import BasicHiraganaBody from "./BasicHiraganaBody";
 import BasicKatakanaBody from "./BasicKatakanaBody";
 import BasicNumbersBody from "./BasicNumbersBody";
 import BasicPracticeBody from "./BasicPracticeBody";
+// import BackButton from "../../../components/BackButton";
 
 const BasicContainer = () => {
   const [activeView, setActiveView] = useState("hiragana");
-  const { t } = useTranslation(); // Use the translation hook
+  const { t } = useTranslation("basicLearning"); // Use the translation hook
 
   const changeView = (view) => {
     setActiveView(view);
@@ -62,6 +63,7 @@ const BasicContainer = () => {
         >
           {t("basicLearning.practice")}
         </button>
+        {/* <BackButton /> */}
       </nav>
       <div className={styles.mainContent}>{renderView()}</div>
     </div>

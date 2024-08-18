@@ -1,35 +1,58 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./css/AdvancedContainer.module.css";
-// import VocabularyBody from "./VocabularyBody";
-// import KanjiBody from "./KanjiBody";
-// import GrammarBody from "./GrammarBody";
-// import ReadingBody from "./ReadingBody";
-// import ListeningBody from "./ListeningBody";
-// import AdvancedPracticeBody from "./AdvancedPracticeBody";
+import VocabularyCardSlider from "./vocabulary/VocabularyCardSlider";
+import KanjiCardSlider from "./kanji/KanjiCardSlider";
+import GrammarDisplay from "./grammar/GrammarDisplay";
+import QuestionTestSlider from "./question/QuestionTestSlider";
+import ReadingSlider from "./reading/ReadingSlider";
+import ListeningSlider from "./listening/ReadingSlider";
 
-const AdvancedContainer = () => {
+const AdvancedContainer = ({ lesson }) => {
   const [activeView, setActiveView] = useState("vocabulary");
-  const { t } = useTranslation(); // Use the translation hook
+  const { t } = useTranslation("advanceLearning"); // Use the translation hook
 
   const changeView = (view) => {
     setActiveView(view);
   };
 
+  const lessonId = lesson.resources._id;
   const renderView = () => {
     switch (activeView) {
       case "vocabulary":
-        return <div>Hello from Vocabulary!</div>;
+        return (
+          <VocabularyCardSlider
+            vocabularies={lesson.resources.vocabularies}
+            lessonId={lessonId}
+          />
+        );
       case "kanji":
-        return <div>Hello from Kanji!</div>;
+        return (
+          <KanjiCardSlider
+            kanjis={lesson.resources.kanjis}
+            lessonId={lessonId}
+          />
+        );
       case "grammar":
-        return <div>Hello from Grammar!</div>;
+        return (
+          <GrammarDisplay
+            grammars={lesson.resources.grammars}
+            lessonId={lessonId}
+          />
+        );
       case "reading":
-        return <div>Hello from Reading!</div>;
+        return <ReadingSlider />;
       case "listening":
-        return <div>Hello from Listening!</div>;
+        return <ListeningSlider />;
       case "practice":
-        return <div>Hello from Practice!</div>;
+        return (
+          <div>
+            <QuestionTestSlider
+              questions={lesson.resources.questions}
+              lessonId={lessonId}
+            />
+          </div>
+        );
       default:
         return <div>Hello from Vocabulary!</div>;
     }
@@ -60,19 +83,19 @@ const AdvancedContainer = () => {
           className={getButtonClassName("grammar")}
           onClick={() => changeView("grammar")}
         >
-          {t("advancedLearning.grammar")}
+          {t("advancedLearning.grammar.title")}
         </button>
         <button
           className={getButtonClassName("reading")}
           onClick={() => changeView("reading")}
         >
-          {t("advancedLearning.reading")}
+          {t("advancedLearning.reading.title")}
         </button>
         <button
           className={getButtonClassName("listening")}
           onClick={() => changeView("listening")}
         >
-          {t("advancedLearning.listening")}
+          {t("advancedLearning.listening.title")}
         </button>
         <button
           className={getButtonClassName("practice")}

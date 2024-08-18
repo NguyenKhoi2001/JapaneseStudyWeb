@@ -1,0 +1,62 @@
+/* AdminControllerContainer.module.css */
+
+.controls {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.controlButton {
+  background-color: var(--indigo-color);
+  border: 2px solid var(--indigo-dark-color);
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: var(--btn-border-radius);
+  transition: var(--btn-transition);
+  cursor: pointer;
+  font-size: var(--font-normal);
+}
+
+.controlButton:hover {
+  background-color: var(--indigo-light-color);
+  color: var(--background-color);
+}
+
+.controlButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--indigo-light-color);
+}
+
+.controlButton:disabled {
+  color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+  background-color: var(--background-color);
+}
+.deleteButton {
+  background-color: red;
+  border: 2px solid darkred;
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: var(--btn-border-radius);
+  transition: var(--btn-transition);
+  cursor: pointer;
+  font-size: var(--font-normal);
+}
+
+.deleteButton:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.deleteButton:disabled {
+  color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+  background-color: var(--background-color);
+}

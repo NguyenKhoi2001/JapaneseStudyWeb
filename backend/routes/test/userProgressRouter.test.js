@@ -72,13 +72,25 @@ describe("User Progress API Tests", () => {
 
     // Create lessons and a level as prerequisites
     lessonId1 = await createResource("/api/lessons", teacherToken, {
-      title: "Lesson 1",
+      title: {
+        jp: "レッスン 1",
+        en: "Lesson 1",
+        vi: "Bài học 1",
+      },
     });
     lessonId2 = await createResource("/api/lessons", teacherToken, {
-      title: "Lesson 2",
+      title: {
+        jp: "レッスン 2",
+        en: "Lesson 2",
+        vi: "Bài học 2",
+      },
     });
     lessonId3 = await createResource("/api/lessons", teacherToken, {
-      title: "Lesson 3",
+      title: {
+        jp: "レッスン 3",
+        en: "Lesson 3",
+        vi: "Bài học 3",
+      },
     });
 
     const levelResponse = await request(app)

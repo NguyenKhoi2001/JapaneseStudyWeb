@@ -1,18 +1,18 @@
 const mongoose = require("mongoose");
 
 const contentSchema = new mongoose.Schema({
-  title: { type: String, required: true },
-  htmlContent: { type: String, required: true },
+  title: { type: String, required: false, default: "" },
+  htmlContent: { type: String, required: false, default: "" },
 });
 
 const grammarSchema = new mongoose.Schema(
   {
-    jp: { type: contentSchema, required: false }, // Not required
-    en: { type: contentSchema, required: false }, // Not required
+    jp: { type: contentSchema, required: false },
+    en: { type: contentSchema, required: false },
     vi: {
       type: contentSchema,
       required: [true, "Vietnamese content is required"],
-    }, // Required
+    },
   },
   { timestamps: true }
 );

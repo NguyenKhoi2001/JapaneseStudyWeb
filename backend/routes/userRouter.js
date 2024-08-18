@@ -1,5 +1,4 @@
 const express = require("express");
-const { body } = require("express-validator");
 const router = express.Router();
 const {
   createUser,
@@ -7,6 +6,9 @@ const {
   getUser,
   updateUser,
   deleteUser,
+  getPublicUserData,
+  getPrivateUserData,
+  getAllUserData,
 } = require("../controllers/userController");
 
 const {
@@ -17,10 +19,17 @@ const authMiddleware = require("../middleware/authMiddleware");
 const authorizeMiddleware = require("../middleware/authorizeMiddleware");
 const preventAdminModification = require("../middleware/preventAdminModification");
 const roleMiddleware = require("../middleware/roleMiddleware");
-
 router.post("/", userValidationRules(), validate, createUser);
 router.post("/login", loginUser);
-router.get("/:id", authMiddleware, authorizeMiddleware, getUser);
+
+// Route to get private user data (accessible only to the user or admin)
+router.get("/private/:id", authMiddleware, getPrivateUserData);
+
+// Route to get public user data (accessible to anyone)
+router.get("/public/:id", getPublicUserData);
+
+// Route to get all user data publicly
+router.get("/all", getAllUserData);
 
 router.put(
   "/:id",

@@ -13,7 +13,9 @@ import "./components/css/global.css";
 import { useDispatch } from "react-redux";
 import { initializeUser, logout } from "./services/user/userSlice";
 import LoadingPage from "./pages/LoadingPage";
-import AdvancedContainer from "./features/learning/advance/AdvanceContainer";
+import UserProfilePage from "./pages/UserProfilePage";
+import AdvanceLearningPage from "./pages/AdvanceLearningPage";
+import LessonDisplayPage from "./pages/LessonDisplayPage";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const RegisterPage = lazy(() => import("./pages/RegisterPage"));
@@ -104,8 +106,11 @@ function App() {
                 </AuthRoute>
               }
             />
+            <Route path="/user/:userId" element={<UserProfilePage />} />
+            <Route path="/user/" element={<UserProfilePage />} />
             <Route path="/basic" element={<BasicLearningPage />} />
-            <Route path="/n5" element={<AdvancedContainer />} />
+            <Route path="/advance-learning" element={<AdvanceLearningPage />} />
+            <Route path="/level/:levelId" element={<LessonDisplayPage />} />
             <Route path="/learning" element={<LearningPage />} />
             <Route path="/userDashboard" element={<UserDashboardPage />} />
             <Route path="*" element={<PageNotFound />} />

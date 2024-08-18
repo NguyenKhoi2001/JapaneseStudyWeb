@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { useTranslation } from "react-i18next"; // Import useTranslation hook
+import { useTranslation } from "react-i18next";
 import QuestionCard from "./QuestionCard";
 import styles from "./css/QuestionSlider.module.css";
 import {
@@ -10,12 +10,21 @@ import {
   resetQuiz,
   fetchRandomQuestions,
 } from "../../services/study/basicQuestionSlice";
+import ErrorAlert from "../../components/ErrorAlert";
 
 const QuestionSlider = () => {
   const dispatch = useDispatch();
-  const { t } = useTranslation(); // Use the translation hook
+  const { t } = useTranslation("basicLearning");
   const { questions, activeQuestionIndex, userAnswers, revealAnswers } =
     useSelector((state) => state.basicQuestion);
+
+  const [localQuestions, setLocalQuestions] = useState([]);
+  const [errorVisible, setErrorVisible] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+
+  useEffect(() => {
+    setLocalQuestions(questions);
+  }, [questions]);
 
   useEffect(() => {
     dispatch(fetchRandomQuestions());
@@ -28,7 +37,7 @@ const QuestionSlider = () => {
   const handleNext = () => {
     dispatch(
       setActiveQuestionIndex(
-        Math.min(activeQuestionIndex + 1, questions.length - 1)
+        Math.min(activeQuestionIndex + 1, localQuestions.length - 1)
       )
     );
   };
@@ -37,13 +46,17 @@ const QuestionSlider = () => {
     if (userAnswers.every((answer) => answer != null)) {
       dispatch(setRevealAnswers());
     } else {
-      alert(t("basicLearning.practiceQuestion.alertNotAnswered"));
+      setErrorMessage(t("basicLearning.practiceQuestion.alertNotAnswered"));
+      setErrorVisible(true);
     }
   };
 
-  const handleReset = () => {
+  const handleReset = async () => {
     dispatch(resetQuiz());
-    dispatch(fetchRandomQuestions());
+    await dispatch(fetchRandomQuestions());
+  };
+  const handleCloseError = () => {
+    setErrorVisible(false);
   };
 
   return (
@@ -55,7 +68,7 @@ const QuestionSlider = () => {
             {activeQuestionIndex + 1}
           </span>
           <span>
-            {t("basicLearning.practiceQuestion.total")} {questions.length}
+            {t("basicLearning.practiceQuestion.total")} {localQuestions.length}
           </span>
         </div>
       </div>
@@ -74,7 +87,7 @@ const QuestionSlider = () => {
             className={styles.slidesContainer}
             style={{ transform: `translateX(-${activeQuestionIndex * 100}%)` }}
           >
-            {questions.map((item, index) => (
+            {localQuestions.map((item, index) => (
               <div key={index} className={styles.slide}>
                 <QuestionCard
                   {...item}
@@ -92,7 +105,7 @@ const QuestionSlider = () => {
           <button
             className={styles.nextButton}
             onClick={handleNext}
-            disabled={activeQuestionIndex === questions.length - 1}
+            disabled={activeQuestionIndex === localQuestions.length - 1}
           >
             {t("basicLearning.practiceQuestion.next")}
           </button>
@@ -111,7 +124,7 @@ const QuestionSlider = () => {
       </div>
       <div className={styles.questionNavContainer}>
         <div className={styles.questionContainer}>
-          {questions.map((_, index) => (
+          {localQuestions.map((_, index) => (
             <button
               key={index}
               className={`${styles.navButton} ${
@@ -135,6 +148,11 @@ const QuestionSlider = () => {
             </button>
           ))}
         </div>
+        <ErrorAlert
+          message={errorMessage}
+          isVisible={errorVisible}
+          onClose={handleCloseError}
+        />
       </div>
     </>
   );

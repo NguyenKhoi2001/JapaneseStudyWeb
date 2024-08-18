@@ -1,5 +1,6 @@
 const Lesson = require("../models/lesson.model");
 const Level = require("../models/level.model");
+const Question = require("../models/question.model");
 const UserProgress = require("../models/userProgress.model");
 
 // Helper function for error handling
@@ -25,9 +26,25 @@ exports.addLesson = async (req, res) => {
 exports.getAllLessons = async (req, res) => {
   try {
     const lessons = await Lesson.find().populate(
-      "vocabularies kanjis grammars"
+      "vocabularies kanjis grammars questions"
     );
     res.status(200).json({ success: true, data: lessons });
+  } catch (error) {
+    handleErrorResponse(res, error);
+  }
+};
+
+// Method to get all learning resources by lesson ID
+exports.getLearningResourceByLesson = async (req, res) => {
+  try {
+    const { id } = req.params; // Get the lesson ID from the request parameters
+    const lesson = await Lesson.findById(id).populate({
+      path: "vocabularies kanjis grammars questions",
+    });
+    if (!lesson) {
+      return handleErrorResponse(res, new Error("Lesson not found"), 404);
+    }
+    res.status(200).json({ success: true, data: lesson });
   } catch (error) {
     handleErrorResponse(res, error);
   }
@@ -55,7 +72,7 @@ exports.updateLesson = async (req, res) => {
       req.params.id,
       req.body,
       { new: true }
-    ).populate("vocabularies kanjis grammars");
+    ).populate("vocabularies kanjis grammars questions");
     if (!updatedLesson) {
       return handleErrorResponse(res, new Error("Lesson not found"), 404);
     }
@@ -64,12 +81,11 @@ exports.updateLesson = async (req, res) => {
     handleErrorResponse(res, error, 400);
   }
 };
-
-// Modify lesson items
 exports.modifyLessonItems = async (req, res) => {
-  const lessonId = req.params.id;
+  const { id: lessonId } = req.params;
   const { add, remove } = req.body;
 
+  // Early exit if no modification instructions are provided
   if (!add && !remove) {
     return handleErrorResponse(
       res,
@@ -84,22 +100,38 @@ exports.modifyLessonItems = async (req, res) => {
       return handleErrorResponse(res, new Error("Lesson not found"), 404);
     }
 
-    // Add items
+    // Handle additions
     if (add) {
-      Object.entries(add).forEach(([key, value]) => {
-        lesson[key].push(...value);
-      });
+      for (const [key, idsToAdd] of Object.entries(add)) {
+        idsToAdd.forEach(async (id) => {
+          if (!lesson[key].includes(id)) {
+            lesson[key].push(id);
+            if (key === "questions") {
+              await Question.findByIdAndUpdate(id, {
+                $addToSet: { lessons: lessonId },
+              });
+            }
+          }
+        });
+      }
     }
 
-    // Remove items
     if (remove) {
-      Object.entries(remove).forEach(([key, value]) => {
+      for (const [key, idsToRemove] of Object.entries(remove)) {
         lesson[key] = lesson[key].filter(
-          (id) => !value.includes(id.toString())
+          (id) => !idsToRemove.includes(id.toString())
         );
-      });
+        if (key === "questions") {
+          idsToRemove.forEach(async (id) => {
+            await Question.findByIdAndUpdate(id, {
+              $pull: { lessons: lessonId },
+            });
+          });
+        }
+      }
     }
 
+    // Save the updated lesson
     const updatedLesson = await lesson.save();
     res.status(200).json({ success: true, data: updatedLesson });
   } catch (error) {
@@ -114,6 +146,7 @@ exports.deleteLesson = async (req, res) => {
     await Lesson.findByIdAndDelete(id);
     await UserProgress.deleteMany({ lesson: id });
     await Level.updateMany({}, { $pull: { lessons: id } });
+    await Question.updateMany({ lessons: id }, { $pull: { lessons: id } });
 
     res.status(200).json({
       success: true,

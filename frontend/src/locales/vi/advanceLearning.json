@@ -1,0 +1,146 @@
+{
+  "advancedLearning": {
+    "vocabulary": {
+      "title": "Từ Vựng",
+      "card": {
+        "vocabulary": "Từ Vựng",
+        "kanji": "Chữ Hán",
+        "example": "Ví dụ",
+        "meaning": "Nghĩa",
+        "readings": "Cách đọc"
+      },
+      "vocabularySlider": {
+        "prevButton": "Trước",
+        "nextButton": "Sau",
+        "reset": "Đặt lại",
+        "startAutoplay": "Bắt đầu tự động",
+        "stopAutoplay": "Dừng tự động",
+        "useNonFlipable": "Sử dụng thẻ không lật",
+        "useFlipable": "Sử dụng thẻ có thể lật"
+      },
+      "vocabularyCardFlipable": {
+        "vocabulary": "Từ Vựng",
+        "kanji": "Chữ Hán",
+        "example": "Ví dụ",
+        "meaning": "Nghĩa",
+        "readings": "Cách đọc"
+      },
+      "VocabularyForm": {
+        "hiraganaKatakana": "Hiragana/Katakana",
+        "kanji": "Chữ Hán",
+        "sinoVietnameseSounds": "Âm Hán Việt",
+        "imageUrl": "URL Hình ảnh",
+        "imagePublicId": "ID công khai của hình ảnh",
+        "meanings": {
+          "en": "Nghĩa tiếng Anh",
+          "vi": "Nghĩa tiếng Việt"
+        },
+        "examples": {
+          "sentence": "Câu ví dụ",
+          "meaning": {
+            "en": "Nghĩa ví dụ bằng tiếng Anh",
+            "vi": "Nghĩa ví dụ bằng tiếng Việt"
+          }
+        },
+        "submit": "Gửi",
+        "addExample": "Thêm ví dụ",
+        "removeImage": "Xóa hình ảnh",
+        "mainImage": "Hình ảnh chính",
+        "details": "Chi tiết từ vựng",
+        "addMoreExamples": "Thêm nhiều ví dụ hơn",
+        "examplesTitle": "Các ví dụ",
+        "dragDrop": "Kéo và thả hoặc nhấp để chọn hình ảnh"
+      }
+    },
+    "kanji": {
+      "title": "Chữ Hán",
+      "card": {
+        "kanjiTitle": "Chữ Hán",
+        "examplesTitle": "Các ví dụ",
+        "exampleKanjiWord": "Từ Kanji",
+        "exampleHiragana": "Hiragana",
+        "exampleMeaning": "Nghĩa",
+        "meaningTitle": "Nghĩa",
+        "sinoVietnameseSoundsTitle": "Âm Hán Việt",
+        "onyomiTitle": "Onyomi",
+        "kunyomiTitle": "Kunyomi"
+      },
+      "kanjiSlider": {
+        "prevButton": "Trước",
+        "nextButton": "Sau",
+        "reset": "Đặt lại",
+        "startAutoplay": "Bắt đầu tự động",
+        "stopAutoplay": "Dừng tự động",
+        "useNonFlipable": "Sử dụng thẻ không lật",
+        "useFlipable": "Sử dụng thẻ có thể lật"
+      },
+      "KanjiForm": {
+        "mainImage": "Hình ảnh chính",
+        "Preview": "Xem trước",
+        "dragDrop": "Kéo và thả hoặc nhấp để chọn hình ảnh",
+        "removeImage": "Xóa hình ảnh",
+        "details": "Chi tiết Kanji",
+        "character": "Ký tự",
+        "characterPlaceholder": "Nhập ký tự Kanji",
+        "sinoVietnameseSounds": "Âm Hán Việt",
+        "sinoVietnameseSoundsPlaceholder": "Nhập âm Hán Việt",
+        "onyomi": "Onyomi",
+        "onyomiPlaceholder": "Nhập Onyomi",
+        "kunyomi": "Kunyomi",
+        "kunyomiPlaceholder": "Nhập Kunyomi",
+        "meanings": {
+          "en": "Nghĩa tiếng Anh",
+          "vi": "Nghĩa tiếng Việt",
+          "jp": "Nghĩa tiếng Nhật"
+        },
+        "meaningsPlaceholder": {
+          "en": "Nhập nghĩa bằng tiếng Anh",
+          "vi": "Nhập nghĩa bằng tiếng Việt",
+          "jp": "Nhập nghĩa bằng tiếng Nhật"
+        },
+        "examples": {
+          "kanjiWord": "Từ Kanji",
+          "kanjiWordPlaceholder": "Nhập từ Kanji",
+          "hiragana": "Hiragana",
+          "hiraganaPlaceholder": "Nhập Hiragana",
+          "meaning": {
+            "en": "Nghĩa ví dụ bằng tiếng Anh",
+            "vi": "Nghĩa ví dụ bằng tiếng Việt"
+          },
+          "meaningPlaceholder": {
+            "en": "Nhập nghĩa ví dụ bằng tiếng Anh",
+            "vi": "Nhập nghĩa ví dụ bằng tiếng Việt"
+          }
+        },
+        "submit": "Gửi",
+        "addExample": "Thêm ví dụ",
+        "addMoreExamples": "Thêm nhiều ví dụ hơn",
+        "examplesTitle": "Các ví dụ"
+      }
+    },
+    "grammar": {
+      "title": "Ngữ pháp",
+      "grammarDisplay": {
+        "editContent": "Chỉnh sửa nội dung",
+        "closeEditor": "Đóng biên tập",
+        "updateGrammarContent": "Cập nhật nội dung ngữ pháp",
+        "title": "Tiêu đề:",
+        "language": "Ngôn ngữ:",
+        "languages": {
+          "en": "Tiếng Anh",
+          "vi": "Tiếng Việt",
+          "jp": "Tiếng Nhật"
+        },
+        "contentUnavailable": "Nội dung bằng ngôn ngữ này không có sẵn. Bạn có thể thử sử dụng phiên bản tiếng Việt.",
+        "emptyContent": "Phiên bản ngữ pháp của ngôn ngữ này đang trống. Bạn có thể tạo một."
+      }
+    },
+    "reading": "Đọc",
+    "listening": "Nghe",
+    "practice": "Luyện tập",
+    "admin": {
+      "add": "Thêm mới",
+      "update": "Cập nhật"
+    }
+  }
+}

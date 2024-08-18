@@ -92,6 +92,20 @@
 .loginNavItem .navItem::after {
   background-color: yellow;
 }
+/* NavBar.module.css */
+.loginActive .navItem {
+  background-color: var(
+    --bg-color-red
+  ); /* Use the defined red background color */
+  color: white; /* White text for better contrast */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.loginActive .navItem:hover,
+.loginActive .navItem:focus {
+  background-color: darkred;
+  cursor: pointer;
+}
 
 .hamburger {
   display: none; /* Initially hidden */

@@ -16,7 +16,6 @@ describe("Level API Tests", () => {
     adminLevelId;
 
   beforeAll(async () => {
-    await closeTestDatabase();
     await connectTestDatabase();
     await setupUsers();
     await setupPrerequisites();
@@ -152,7 +151,11 @@ describe("Level API Tests", () => {
       .post("/api/lessons")
       .set("Authorization", `Bearer ${teacherToken}`)
       .send({
-        title: "Teacher Created Lesson",
+        title: {
+          jp: "先生が作成したレッスン",
+          en: "Teacher Created Lesson",
+          vi: "Bài học do giáo viên tạo",
+        },
         vocabularies: [vocabularyId],
         kanjis: [kanjiId],
         grammars: [grammarId],
@@ -207,6 +210,18 @@ describe("Level API Tests", () => {
       const res = await request(app).get(`/api/levels/${levelId}`);
       expect(res.statusCode).toEqual(200);
       expect(res.body.data).toHaveProperty("name"); // Corrected to check res.body.data instead of res.body
+    });
+
+    it("should allow access to all lessons associated with a specific level by ID without authentication", async () => {
+      const res = await request(app).get(
+        `/api/levels/lessonsByLevel/${levelId}`
+      );
+      expect(res.statusCode).toEqual(200);
+      expect(Array.isArray(res.body.data)).toBe(true);
+      if (res.body.data.length > 0) {
+        expect(res.body.data[0]).toHaveProperty("title");
+        expect(res.body.data[0]).toHaveProperty("vocabularies"); // Assuming lessons include vocabularies
+      }
     });
   });
 

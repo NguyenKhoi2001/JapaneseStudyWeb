@@ -1,9 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import styles from "./css/KatakanaGlottalStops.module.css"; // Adjust the path to your CSS
+import styles from "./css/KatakanaGlottalStops.module.css";
 
 const KatakanaGlottalStops = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("basicLearning");
 
   // Function to render 2-column grid examples for Section 1 and 2
   const renderTwoColumnExamples = (examples) => {

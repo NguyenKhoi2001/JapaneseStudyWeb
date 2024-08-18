@@ -1,0 +1,57 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent backdrop */
+  z-index: 1000; /* High z-index to be on top */
+}
+
+.container {
+  background-color: var(
+    --background-color,
+    white
+  ); /* Fallback to white if not defined */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px; /* Fixed width */
+}
+
+.message {
+  margin-bottom: 20px;
+  color: var(--text-color, black); /* Fallback to black if not defined */
+  padding: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  border: none;
+  padding: 10px 20px;
+  font-size: var(--font-normal, 16px); /* Fallback to 16px if not defined */
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.confirmButton {
+  background-color: var(
+    --color-green,
+    #28a745
+  ); /* Fallback to a specific green */
+  color: var(--background-color, white); /* Fallback to white if not defined */
+  margin-right: 10px;
+}
+
+.cancelButton {
+  background-color: var(--color-red, #dc3545); /* Fallback to a specific red */
+  color: var(--background-color, white); /* Fallback to white if not defined */
+}

@@ -1,18 +1,17 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import styles from "./css/LongVowelsKatakana.module.css"; // Ensure this path is correct for your CSS
+import styles from "./css/LongVowelsKatakana.module.css";
 
 const KatakanaLongVowels = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("basicLearning");
 
-  // Function to render examples within sub-sections for Section 3
   const renderSubSectionExamples = (subSections) => {
     return subSections.map((subSection, subIndex) => (
       <div key={subIndex} className={styles.subSection}>
         <h3 className={styles.subTitle}>{subSection.title}</h3>
         <p>{subSection.intro}</p>
         {subSection.examples.map((example, exampleIndex) => (
-          <div key={exampleIndex} className={styles.wordRow}>
+          <div key={`${subIndex}-${exampleIndex}`} className={styles.wordRow}>
             {example.exampleIntro && <p>{example.exampleIntro}</p>}
             <b>{example.base}</b> - {example.translation}
           </div>
@@ -21,7 +20,6 @@ const KatakanaLongVowels = () => {
     ));
   };
 
-  // Adjusted to include rendering of sub-sections in Section 3
   const renderSection3 = () => {
     const section3Data = t(
       `basicLearning.katakana.longVowelsKatakana.section3`,
@@ -62,12 +60,12 @@ const KatakanaLongVowels = () => {
           {t("basicLearning.katakana.longVowelsKatakana.section2.examples", {
             returnObjects: true,
           }).map((example, index) => (
-            <>
-              <div key={index} className={styles.word}>
+            <div key={index} className={styles.wordRow}>
+              <div className={styles.word}>
                 <b>{example.base}</b>
               </div>
               <div>{example.translation}</div>
-            </>
+            </div>
           ))}
         </div>
       </div>

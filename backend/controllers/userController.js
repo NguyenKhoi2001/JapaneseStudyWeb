@@ -2,7 +2,7 @@ const User = require("../models/user.model");
 const UserProgress = require("../models/userProgress.model");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-
+const cloudinary = require("../utils/cloudinary");
 // Helper function to generate JWT token
 const generateToken = (userId, roles) => {
   return jwt.sign({ userId, roles }, process.env.JWT_SECRET, {
@@ -83,34 +83,55 @@ const createUser = async (req, res) => {
 const loginUser = async (req, res) => {
   try {
     const { identifier, password } = req.body;
+
+    // Attempt to find the user either by email or username
     const user = identifier.includes("@")
       ? await User.findOne({ email: identifier })
       : await User.findOne({ username: identifier });
 
-    if (!user || !(await bcrypt.compare(password, user.passwordHash))) {
-      return res
-        .status(401)
-        .json({ success: false, error: { message: "Invalid credentials." } });
+    // Check if user exists
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        error: {
+          message: "Account not found. Please check the entered credentials.",
+        },
+      });
     }
 
+    // Check if the password is correct
+    if (!(await bcrypt.compare(password, user.passwordHash))) {
+      return res.status(401).json({
+        success: false,
+        error: { message: "Invalid credentials. Please try again." },
+      });
+    }
+
+    // Update last login time
     user.lastLogin = new Date();
     await user.save();
+
+    // Generate JWT token
     const token = generateToken(user._id, user.roles);
 
-    res.status(200).json({ success: true, data: { token, userId: user._id } });
+    // Respond with user data and token
+    res.status(200).json({
+      success: true,
+      data: { token, userId: user._id },
+    });
   } catch (error) {
+    console.error("Error during user login:", error);
     res.status(500).json({
       success: false,
-      error: { message: "Error logging in", error: error.message },
+      error: { message: "An error occurred during the login process." },
     });
   }
 };
 
-// Get user by ID
-const getUser = async (req, res) => {
+const getPrivateUserData = async (req, res) => {
   try {
     const { id: userId } = req.params;
-    const user = await User.findById(userId);
+    const user = await User.findById(userId).select("-passwordHash -__v");
     if (!user) {
       return res
         .status(404)
@@ -120,13 +141,39 @@ const getUser = async (req, res) => {
     const isSelf = req.user && req.user.userId === userId;
     const isAdmin =
       req.user && req.user.roles && req.user.roles.includes("admin");
-    const { _id, passwordHash, ...userDetails } = user.toObject();
-    const data =
-      isSelf || isAdmin
-        ? { userId: _id, ...userDetails }
-        : { userId: _id, displayName: user.displayName, ...userDetails };
 
-    res.status(200).json({ success: true, data });
+    if (isSelf || isAdmin) {
+      const responseData = { ...user.toObject(), userId: user._id }; // Explicitly setting userId
+      delete responseData._id; // Removing the default _id for clarity
+      res.status(200).json({ success: true, data: responseData });
+    } else {
+      return res
+        .status(403)
+        .json({ success: false, error: { message: "Access denied." } });
+    }
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: { message: "Error fetching user details", error: error.message },
+    });
+  }
+};
+
+const getPublicUserData = async (req, res) => {
+  try {
+    const { id: userId } = req.params;
+    const user = await User.findById(userId).select(
+      "-passwordHash -username -email -preferences.notificationSettings -__v"
+    );
+    if (!user) {
+      return res
+        .status(404)
+        .json({ success: false, error: { message: "User not found." } });
+    }
+
+    const responseData = { ...user.toObject(), userId: user._id }; // Adding userId for clarity
+    delete responseData._id; // Ensuring _id is not included
+    res.status(200).json({ success: true, data: responseData });
   } catch (error) {
     res.status(500).json({
       success: false,
@@ -135,25 +182,76 @@ const getUser = async (req, res) => {
   }
 };
 
-// Update user by ID
+const getAllUserData = async (req, res) => {
+  try {
+    // Fetch all users while excluding specific fields
+    const users = await User.find({}).select(
+      "-passwordHash -username -email -preferences.notificationSettings -__v"
+    );
+
+    if (!users || users.length === 0) {
+      return res
+        .status(404)
+        .json({ success: false, error: { message: "No users found." } });
+    }
+
+    // Transforming data to add userId for each user
+    const responseData = users.map((user) => {
+      const userData = user.toObject();
+      userData.userId = userData._id; // Assigning _id to a new field called userId for clarity
+      delete userData._id; // Removing the _id field
+      return userData;
+    });
+
+    res.status(200).json({ success: true, data: responseData });
+  } catch (error) {
+    console.error("Error fetching users:", error); // Log the error for more information
+    res.status(500).json({
+      success: false,
+      error: { message: "Error fetching users", error: error.message },
+    });
+  }
+};
+
 const updateUser = async (req, res) => {
   try {
     const { id: userId } = req.params;
-    const updates = req.body;
-    const updatedUser = await User.findByIdAndUpdate(userId, updates, {
-      new: true,
-    }).select("-passwordHash");
-    if (!updatedUser) {
+    const { imageFile, ...updates } = req.body; // Extract imageFile and other updates separately
+
+    const user = await User.findById(userId);
+
+    if (!user) {
       return res
         .status(404)
         .json({ success: false, error: { message: "User not found." } });
     }
+
+    // Handle image upload if image data is provided in Base64 format
+    if (imageFile) {
+      // Check and possibly delete the old image if it exists
+      if (user.profilePicturePublicId) {
+        await cloudinary.uploader.destroy(user.profilePicturePublicId);
+      }
+
+      // Upload the new image to Cloudinary
+      const result = await cloudinary.uploader.upload(imageFile, {
+        folder: "japaneseWeb/users",
+      });
+      updates.profilePicture = result.url;
+      updates.profilePicturePublicId = result.public_id;
+    }
+
+    // Update user with the new data
+    const updatedUser = await User.findByIdAndUpdate(userId, updates, {
+      new: true,
+    }).select("-passwordHash");
 
     const { _id, ...userDetails } = updatedUser.toObject();
     res
       .status(200)
       .json({ success: true, data: { userId: _id, ...userDetails } });
   } catch (error) {
+    console.error("Error updating user: ", error);
     res.status(500).json({
       success: false,
       error: { message: "Error updating user", error: error.message },
@@ -165,14 +263,22 @@ const updateUser = async (req, res) => {
 const deleteUser = async (req, res) => {
   try {
     const { id: userId } = req.params;
-    const deletedUser = await User.findByIdAndDelete(userId);
-    if (!deletedUser) {
+    const user = await User.findById(userId);
+
+    if (!user) {
       return res
         .status(404)
         .json({ success: false, error: { message: "User not found." } });
     }
 
-    await UserProgress.deleteMany({ user: userId });
+    // If user has a profile picture, delete it from Cloudinary
+    if (user.profilePicturePublicId) {
+      await cloudinary.uploader.destroy(user.profilePicturePublicId);
+    }
+
+    await UserProgress.deleteMany({ user: userId }); // Delete associated user progress
+    await User.findByIdAndDelete(userId); // Delete the user
+
     res.status(200).json({
       success: true,
       data: { message: "User and associated progress deleted successfully." },
@@ -184,5 +290,12 @@ const deleteUser = async (req, res) => {
     });
   }
 };
-
-module.exports = { createUser, loginUser, getUser, updateUser, deleteUser };
+module.exports = {
+  createUser,
+  loginUser,
+  getPrivateUserData,
+  getPublicUserData,
+  getAllUserData,
+  updateUser,
+  deleteUser,
+};

@@ -14,15 +14,31 @@ const createArrayObjectIdValidation = (field) => [
 
 // Validation rules for lesson entries
 const lessonValidationRules = () => [
-  body("title")
+  body("title.vi")
     .trim() // To avoid titles with only whitespace
-    .isString()
-    .withMessage("Title must be a string.")
     .not()
     .isEmpty()
-    .withMessage("Title is required and cannot be empty.")
+    .withMessage("Vietnamese title is required and cannot be empty.")
+    .isString()
+    .withMessage("Vietnamese title must be a string.")
     .isLength({ max: 100 }) // Example of limiting title length
-    .withMessage("Title cannot be longer than 100 characters."),
+    .withMessage("Vietnamese title cannot be longer than 100 characters."),
+
+  body("title.en")
+    .optional()
+    .trim()
+    .isString()
+    .withMessage("English title must be a string when provided.")
+    .isLength({ max: 100 })
+    .withMessage("English title cannot be longer than 100 characters."),
+
+  body("title.jp")
+    .optional()
+    .trim()
+    .isString()
+    .withMessage("Japanese title must be a string when provided.")
+    .isLength({ max: 100 })
+    .withMessage("Japanese title cannot be longer than 100 characters."),
 
   // All these fields are treated as optional arrays of ObjectIds
   ...createArrayObjectIdValidation("vocabularies"),

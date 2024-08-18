@@ -10,7 +10,6 @@ describe("Grammar API Tests", () => {
   let grammarIdForTeacher, grammarIdForAdmin;
 
   beforeAll(async () => {
-    await closeTestDatabase();
     await connectTestDatabase();
     await setupUsers();
   });

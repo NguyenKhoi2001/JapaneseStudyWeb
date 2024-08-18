@@ -1,0 +1,2282 @@
+[
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=310",
+    "hiraganaKatakana": "アイスクリーム",
+    "kanji": "アイスクリーム",
+    "sinoVietnameseSounds": "Băng kính",
+    "meanings": {
+      "en": ["Ice cream"],
+      "vi": ["Kem"]
+    },
+    "examples": [
+      {
+        "sentence": "アイスクリームを食べます。",
+        "meaning": {
+          "en": "I eat ice cream.",
+          "vi": "Tôi ăn kem."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=311",
+    "hiraganaKatakana": "あいだ",
+    "kanji": "間",
+    "sinoVietnameseSounds": "Gian",
+    "meanings": {
+      "en": ["Interval"],
+      "vi": ["Khoảng thời gian"]
+    },
+    "examples": [
+      {
+        "sentence": "授業の間に休憩します。",
+        "meaning": {
+          "en": "I take a break during the class interval.",
+          "vi": "Tôi nghỉ giải lao trong khoảng thời gian giữa các lớp học."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=312",
+    "hiraganaKatakana": "あいて",
+    "kanji": "相手",
+    "sinoVietnameseSounds": "Tương thủ",
+    "meanings": {
+      "en": ["Partner"],
+      "vi": ["Đối tác"]
+    },
+    "examples": [
+      {
+        "sentence": "相手を尊重します。",
+        "meaning": {
+          "en": "I respect my partner.",
+          "vi": "Tôi tôn trọng đối tác của mình."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=313",
+    "hiraganaKatakana": "IDカード",
+    "kanji": "IDカード",
+    "sinoVietnameseSounds": "Thẻ ID",
+    "meanings": {
+      "en": ["ID card"],
+      "vi": ["Thẻ ID"]
+    },
+    "examples": [
+      {
+        "sentence": "IDカードを提示してください。",
+        "meaning": {
+          "en": "Please present your ID card.",
+          "vi": "Vui lòng trình bày thẻ ID của bạn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=314",
+    "hiraganaKatakana": "ITさんぎょう",
+    "kanji": "IT産業",
+    "sinoVietnameseSounds": "IT Sản nghiệp",
+    "meanings": {
+      "en": ["IT industry"],
+      "vi": ["Ngành công nghiệp IT"]
+    },
+    "examples": [
+      {
+        "sentence": "IT産業が急速に発展しています。",
+        "meaning": {
+          "en": "The IT industry is rapidly developing.",
+          "vi": "Ngành công nghiệp IT đang phát triển nhanh chóng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=315",
+    "hiraganaKatakana": "あう",
+    "kanji": "会う",
+    "sinoVietnameseSounds": "Hội",
+    "meanings": {
+      "en": ["To meet"],
+      "vi": ["Gặp gỡ"]
+    },
+    "examples": [
+      {
+        "sentence": "友達に会います。",
+        "meaning": {
+          "en": "I meet my friends.",
+          "vi": "Tôi gặp bạn bè của mình."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=316",
+    "hiraganaKatakana": "あお",
+    "kanji": "青",
+    "sinoVietnameseSounds": "Thanh",
+    "meanings": {
+      "en": ["Blue"],
+      "vi": ["Màu xanh"]
+    },
+    "examples": [
+      {
+        "sentence": "空は青です。",
+        "meaning": {
+          "en": "The sky is blue.",
+          "vi": "Bầu trời màu xanh."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=317",
+    "hiraganaKatakana": "あおい",
+    "kanji": "青い",
+    "sinoVietnameseSounds": "Thanh",
+    "meanings": {
+      "en": ["Blue"],
+      "vi": ["Màu xanh"]
+    },
+    "examples": [
+      {
+        "sentence": "青い花が好きです。",
+        "meaning": {
+          "en": "I like blue flowers.",
+          "vi": "Tôi thích hoa màu xanh."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=318",
+    "hiraganaKatakana": "あか",
+    "kanji": "赤",
+    "sinoVietnameseSounds": "Xích",
+    "meanings": {
+      "en": ["Red"],
+      "vi": ["Màu đỏ"]
+    },
+    "examples": [
+      {
+        "sentence": "赤い車を持っています。",
+        "meaning": {
+          "en": "I have a red car.",
+          "vi": "Tôi có một chiếc xe màu đỏ."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=319",
+    "hiraganaKatakana": "あかい",
+    "kanji": "赤い",
+    "sinoVietnameseSounds": "Xích",
+    "meanings": {
+      "en": ["Red"],
+      "vi": ["Màu đỏ"]
+    },
+    "examples": [
+      {
+        "sentence": "赤いバラが美しいです。",
+        "meaning": {
+          "en": "The red rose is beautiful.",
+          "vi": "Bông hồng màu đỏ rất đẹp."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=320",
+    "hiraganaKatakana": "あかちゃん",
+    "kanji": "赤ちゃん",
+    "sinoVietnameseSounds": "Xích",
+    "meanings": {
+      "en": ["Baby"],
+      "vi": ["Em bé"]
+    },
+    "examples": [
+      {
+        "sentence": "赤ちゃんが笑っています。",
+        "meaning": {
+          "en": "The baby is smiling.",
+          "vi": "Em bé đang cười."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=321",
+    "hiraganaKatakana": "あかるい",
+    "kanji": "明るい",
+    "sinoVietnameseSounds": "Minh",
+    "meanings": {
+      "en": ["Bright"],
+      "vi": ["Sáng sủa"]
+    },
+    "examples": [
+      {
+        "sentence": "部屋が明るいです。",
+        "meaning": {
+          "en": "The room is bright.",
+          "vi": "Căn phòng rất sáng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=322",
+    "hiraganaKatakana": "あき",
+    "kanji": "秋",
+    "sinoVietnameseSounds": "Thu",
+    "meanings": {
+      "en": ["Autumn"],
+      "vi": ["Mùa thu"]
+    },
+    "examples": [
+      {
+        "sentence": "秋はとても美しい季節です。",
+        "meaning": {
+          "en": "Autumn is a very beautiful season.",
+          "vi": "Mùa thu là một mùa rất đẹp."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=323",
+    "hiraganaKatakana": "あく",
+    "kanji": "開く",
+    "sinoVietnameseSounds": "Khai",
+    "meanings": {
+      "en": ["(It) opens"],
+      "vi": ["(Nó) mở"]
+    },
+    "examples": [
+      {
+        "sentence": "ドアが自動で開きます。",
+        "meaning": {
+          "en": "The door opens automatically.",
+          "vi": "Cửa tự động mở."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=324",
+    "hiraganaKatakana": "あける",
+    "kanji": "開ける",
+    "sinoVietnameseSounds": "Khai",
+    "meanings": {
+      "en": ["To open"],
+      "vi": ["Mở"]
+    },
+    "examples": [
+      {
+        "sentence": "窓を開けてください。",
+        "meaning": {
+          "en": "Please open the window.",
+          "vi": "Vui lòng mở cửa sổ."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=325",
+    "hiraganaKatakana": "あげる",
+    "kanji": "上げる",
+    "sinoVietnameseSounds": "Thượng",
+    "meanings": {
+      "en": ["To increase"],
+      "vi": ["Tăng"]
+    },
+    "examples": [
+      {
+        "sentence": "音量を上げます。",
+        "meaning": {
+          "en": "I increase the volume.",
+          "vi": "Tôi tăng âm lượng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=326",
+    "hiraganaKatakana": "あさ",
+    "kanji": "朝",
+    "sinoVietnameseSounds": "Triều",
+    "meanings": {
+      "en": ["Morning"],
+      "vi": ["Buổi sáng"]
+    },
+    "examples": [
+      {
+        "sentence": "朝早く起きます。",
+        "meaning": {
+          "en": "I wake up early in the morning.",
+          "vi": "Tôi thức dậy sớm vào buổi sáng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=327",
+    "hiraganaKatakana": "あさごはん",
+    "kanji": "朝ご飯",
+    "sinoVietnameseSounds": "Triều cơ phạn",
+    "meanings": {
+      "en": ["Breakfast"],
+      "vi": ["Bữa sáng"]
+    },
+    "examples": [
+      {
+        "sentence": "朝ご飯を食べます。",
+        "meaning": {
+          "en": "I eat breakfast.",
+          "vi": "Tôi ăn bữa sáng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=328",
+    "hiraganaKatakana": "あさって",
+    "kanji": "あさって",
+    "sinoVietnameseSounds": "Triều",
+    "meanings": {
+      "en": ["The day after tomorrow"],
+      "vi": ["Ngày kia"]
+    },
+    "examples": [
+      {
+        "sentence": "あさって会いましょう。",
+        "meaning": {
+          "en": "Let's meet the day after tomorrow.",
+          "vi": "Chúng ta gặp nhau vào ngày kia."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "https://unsplash.it/1900/1024/?image=329",
+    "hiraganaKatakana": "あし",
+    "kanji": "足",
+    "sinoVietnameseSounds": "Túc",
+    "meanings": {
+      "en": ["Foot; leg"],
+      "vi": ["Chân; chân"]
+    },
+    "examples": [
+      {
+        "sentence": "足が痛いです。",
+        "meaning": {
+          "en": "My leg hurts.",
+          "vi": "Chân tôi đau."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あじ",
+    "kanji": "味",
+    "sinoVietnameseSounds": "Vị",
+    "meanings": {
+      "en": ["Taste"],
+      "vi": ["Vị"]
+    },
+    "examples": [
+      {
+        "sentence": "この料理は味が良いです。",
+        "meaning": {
+          "en": "This dish has a good taste.",
+          "vi": "Món ăn này có vị ngon."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "アジア",
+    "kanji": "アジア",
+    "sinoVietnameseSounds": "Á Châu",
+    "meanings": {
+      "en": ["Asia"],
+      "vi": ["Châu Á"]
+    },
+    "examples": [
+      {
+        "sentence": "アジアは多様な文化があります。",
+        "meaning": {
+          "en": "Asia has diverse cultures.",
+          "vi": "Châu Á có nhiều nền văn hóa đa dạng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あした",
+    "kanji": "明日",
+    "sinoVietnameseSounds": "Minh nhật",
+    "meanings": {
+      "en": ["Tomorrow"],
+      "vi": ["Ngày mai"]
+    },
+    "examples": [
+      {
+        "sentence": "明日は仕事があります。",
+        "meaning": {
+          "en": "I have work tomorrow.",
+          "vi": "Ngày mai tôi có việc."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あそこ",
+    "kanji": "あそこ",
+    "sinoVietnameseSounds": "Án sở",
+    "meanings": {
+      "en": ["Over there"],
+      "vi": ["Ở kia"]
+    },
+    "examples": [
+      {
+        "sentence": "あそこに行きましょう。",
+        "meaning": {
+          "en": "Let's go over there.",
+          "vi": "Chúng ta hãy đến đó."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あそび",
+    "kanji": "遊び",
+    "sinoVietnameseSounds": "Du",
+    "meanings": {
+      "en": ["Playing"],
+      "vi": ["Chơi đùa"]
+    },
+    "examples": [
+      {
+        "sentence": "子どもたちは公園で遊びます。",
+        "meaning": {
+          "en": "The children play at the park.",
+          "vi": "Những đứa trẻ chơi ở công viên."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あそぶ",
+    "kanji": "遊ぶ",
+    "sinoVietnameseSounds": "Du",
+    "meanings": {
+      "en": ["To play"],
+      "vi": ["Chơi"]
+    },
+    "examples": [
+      {
+        "sentence": "友達と一緒に遊ぶ。",
+        "meaning": {
+          "en": "I play with my friends.",
+          "vi": "Tôi chơi với bạn bè."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あたたかい",
+    "kanji": "暖かい",
+    "sinoVietnameseSounds": "Noãn",
+    "meanings": {
+      "en": ["Warm"],
+      "vi": ["Ấm"]
+    },
+    "examples": [
+      {
+        "sentence": "今日は暖かい日です。",
+        "meaning": {
+          "en": "Today is a warm day.",
+          "vi": "Hôm nay là một ngày ấm áp."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あたま",
+    "kanji": "頭",
+    "sinoVietnameseSounds": "Đầu",
+    "meanings": {
+      "en": ["Head"],
+      "vi": ["Đầu"]
+    },
+    "examples": [
+      {
+        "sentence": "頭が痛いです。",
+        "meaning": {
+          "en": "I have a headache.",
+          "vi": "Tôi bị đau đầu."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あたらしい",
+    "kanji": "新しい",
+    "sinoVietnameseSounds": "Tân",
+    "meanings": {
+      "en": ["New"],
+      "vi": ["Mới"]
+    },
+    "examples": [
+      {
+        "sentence": "新しい本を買いました。",
+        "meaning": {
+          "en": "I bought a new book.",
+          "vi": "Tôi đã mua một cuốn sách mới."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あちら",
+    "kanji": "あちら",
+    "sinoVietnameseSounds": "Án",
+    "meanings": {
+      "en": ["There"],
+      "vi": ["Ở đó"]
+    },
+    "examples": [
+      {
+        "sentence": "あちらに行きましょう。",
+        "meaning": {
+          "en": "Let's go over there.",
+          "vi": "Chúng ta hãy đến đó."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あつい",
+    "kanji": "暑い",
+    "sinoVietnameseSounds": "Thử",
+    "meanings": {
+      "en": ["Hot (weather)"],
+      "vi": ["Nóng (thời tiết)"]
+    },
+    "examples": [
+      {
+        "sentence": "今日は暑いです。",
+        "meaning": {
+          "en": "Today is hot.",
+          "vi": "Hôm nay nóng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あつい",
+    "kanji": "熱い",
+    "sinoVietnameseSounds": "Nhiệt",
+    "meanings": {
+      "en": ["Hot"],
+      "vi": ["Nóng"]
+    },
+    "examples": [
+      {
+        "sentence": "コーヒーが熱いです。",
+        "meaning": {
+          "en": "The coffee is hot.",
+          "vi": "Cà phê nóng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あつい",
+    "kanji": "厚い",
+    "sinoVietnameseSounds": "Hậu",
+    "meanings": {
+      "en": ["Thick"],
+      "vi": ["Dày"]
+    },
+    "examples": [
+      {
+        "sentence": "この本は厚いです。",
+        "meaning": {
+          "en": "This book is thick.",
+          "vi": "Cuốn sách này dày."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あっち",
+    "kanji": "あっち",
+    "sinoVietnameseSounds": "Án",
+    "meanings": {
+      "en": ["Over there"],
+      "vi": ["Ở kia"]
+    },
+    "examples": [
+      {
+        "sentence": "あっちに行きましょう。",
+        "meaning": {
+          "en": "Let's go over there.",
+          "vi": "Chúng ta hãy đến đó."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あつめる",
+    "kanji": "集める",
+    "sinoVietnameseSounds": "Tập",
+    "meanings": {
+      "en": ["To collect"],
+      "vi": ["Thu thập"]
+    },
+    "examples": [
+      {
+        "sentence": "切手を集めています。",
+        "meaning": {
+          "en": "I am collecting stamps.",
+          "vi": "Tôi đang thu thập tem."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あてな",
+    "kanji": "宛名",
+    "sinoVietnameseSounds": "Án danh",
+    "meanings": {
+      "en": ["Address"],
+      "vi": ["Địa chỉ"]
+    },
+    "examples": [
+      {
+        "sentence": "封筒に宛名を書いてください。",
+        "meaning": {
+          "en": "Please write the address on the envelope.",
+          "vi": "Vui lòng viết địa chỉ trên phong bì."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あと",
+    "kanji": "後",
+    "sinoVietnameseSounds": "Hậu",
+    "meanings": {
+      "en": ["Behind"],
+      "vi": ["Phía sau"]
+    },
+    "examples": [
+      {
+        "sentence": "店の後ろに駐車場があります。",
+        "meaning": {
+          "en": "There is a parking lot behind the store.",
+          "vi": "Có một bãi đậu xe phía sau cửa hàng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あとで",
+    "kanji": "後で",
+    "sinoVietnameseSounds": "Hậu",
+    "meanings": {
+      "en": ["Later"],
+      "vi": ["Sau"]
+    },
+    "examples": [
+      {
+        "sentence": "後で話しましょう。",
+        "meaning": {
+          "en": "Let's talk later.",
+          "vi": "Chúng ta hãy nói chuyện sau."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あなた",
+    "kanji": "あなた",
+    "sinoVietnameseSounds": "Bạn",
+    "meanings": {
+      "en": ["You"],
+      "vi": ["Bạn"]
+    },
+    "examples": [
+      {
+        "sentence": "あなたは元気ですか？",
+        "meaning": {
+          "en": "How are you?",
+          "vi": "Bạn khỏe không?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あに",
+    "kanji": "兄",
+    "sinoVietnameseSounds": "Huynh",
+    "meanings": {
+      "en": ["Older brother"],
+      "vi": ["Anh trai"]
+    },
+    "examples": [
+      {
+        "sentence": "兄は大学生です。",
+        "meaning": {
+          "en": "My older brother is a university student.",
+          "vi": "Anh trai tôi là sinh viên đại học."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あの",
+    "kanji": "あの",
+    "sinoVietnameseSounds": "Án",
+    "meanings": {
+      "en": ["That"],
+      "vi": ["Cái đó"]
+    },
+    "examples": [
+      {
+        "sentence": "あの車は高いです。",
+        "meaning": {
+          "en": "That car is expensive.",
+          "vi": "Cái xe đó đắt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あね",
+    "kanji": "姉",
+    "sinoVietnameseSounds": "Tỷ",
+    "meanings": {
+      "en": ["Older sister"],
+      "vi": ["Chị gái"]
+    },
+    "examples": [
+      {
+        "sentence": "姉は東京に住んでいます。",
+        "meaning": {
+          "en": "My older sister lives in Tokyo.",
+          "vi": "Chị gái tôi sống ở Tokyo."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "アパート",
+    "kanji": "アパート",
+    "sinoVietnameseSounds": "Cư xá",
+    "meanings": {
+      "en": ["Apartment"],
+      "vi": ["Căn hộ"]
+    },
+    "examples": [
+      {
+        "sentence": "新しいアパートを探しています。",
+        "meaning": {
+          "en": "I am looking for a new apartment.",
+          "vi": "Tôi đang tìm một căn hộ mới."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あびる",
+    "kanji": "浴びる",
+    "sinoVietnameseSounds": "Dục",
+    "meanings": {
+      "en": ["To bathe"],
+      "vi": ["Tắm"]
+    },
+    "examples": [
+      {
+        "sentence": "毎朝シャワーを浴びる。",
+        "meaning": {
+          "en": "I take a shower every morning.",
+          "vi": "Tôi tắm vòi sen mỗi sáng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あぶない",
+    "kanji": "危ない",
+    "sinoVietnameseSounds": "Nguy",
+    "meanings": {
+      "en": ["Dangerous"],
+      "vi": ["Nguy hiểm"]
+    },
+    "examples": [
+      {
+        "sentence": "その道は危ないです。",
+        "meaning": {
+          "en": "That road is dangerous.",
+          "vi": "Con đường đó nguy hiểm."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あまい",
+    "kanji": "甘い",
+    "sinoVietnameseSounds": "Cam",
+    "meanings": {
+      "en": ["Sweet"],
+      "vi": ["Ngọt"]
+    },
+    "examples": [
+      {
+        "sentence": "このケーキはとても甘いです。",
+        "meaning": {
+          "en": "This cake is very sweet.",
+          "vi": "Bánh này rất ngọt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あまり",
+    "kanji": "あまり",
+    "sinoVietnameseSounds": "Hầu",
+    "meanings": {
+      "en": ["Not much"],
+      "vi": ["Không nhiều"]
+    },
+    "examples": [
+      {
+        "sentence": "お酒はあまり飲みません。",
+        "meaning": {
+          "en": "I don't drink much alcohol.",
+          "vi": "Tôi không uống nhiều rượu."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あみもの",
+    "kanji": "編み物",
+    "sinoVietnameseSounds": "Biên vật",
+    "meanings": {
+      "en": ["Knitting"],
+      "vi": ["Đan len"]
+    },
+    "examples": [
+      {
+        "sentence": "編み物が趣味です。",
+        "meaning": {
+          "en": "My hobby is knitting.",
+          "vi": "Sở thích của tôi là đan len."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あめ",
+    "kanji": "雨",
+    "sinoVietnameseSounds": "Vũ",
+    "meanings": {
+      "en": ["Rain"],
+      "vi": ["Mưa"]
+    },
+    "examples": [
+      {
+        "sentence": "今日は雨が降っています。",
+        "meaning": {
+          "en": "It is raining today.",
+          "vi": "Hôm nay trời đang mưa."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あめ",
+    "kanji": "飴",
+    "sinoVietnameseSounds": "Đường",
+    "meanings": {
+      "en": ["Candy"],
+      "vi": ["Kẹo"]
+    },
+    "examples": [
+      {
+        "sentence": "飴を一つください。",
+        "meaning": {
+          "en": "Please give me one candy.",
+          "vi": "Xin cho tôi một viên kẹo."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あらう",
+    "kanji": "洗う",
+    "sinoVietnameseSounds": "Tẩy",
+    "meanings": {
+      "en": ["To wash"],
+      "vi": ["Rửa"]
+    },
+    "examples": [
+      {
+        "sentence": "手を洗ってください。",
+        "meaning": {
+          "en": "Please wash your hands.",
+          "vi": "Xin hãy rửa tay."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "ある",
+    "kanji": "ある",
+    "sinoVietnameseSounds": "Hữu",
+    "meanings": {
+      "en": ["To have"],
+      "vi": ["Có"]
+    },
+    "examples": [
+      {
+        "sentence": "財布の中にお金があります。",
+        "meaning": {
+          "en": "There is money in the wallet.",
+          "vi": "Có tiền trong ví."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あるく",
+    "kanji": "歩く",
+    "sinoVietnameseSounds": "Bộ",
+    "meanings": {
+      "en": ["To walk"],
+      "vi": ["Đi bộ"]
+    },
+    "examples": [
+      {
+        "sentence": "毎朝公園を歩きます。",
+        "meaning": {
+          "en": "I walk in the park every morning.",
+          "vi": "Tôi đi bộ trong công viên mỗi sáng."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "アルバイト",
+    "kanji": "アルバイト",
+    "sinoVietnameseSounds": "Áo Bài Tư",
+    "meanings": {
+      "en": ["Part-time job"],
+      "vi": ["Công việc bán thời gian"]
+    },
+    "examples": [
+      {
+        "sentence": "アルバイトをしています。",
+        "meaning": {
+          "en": "I have a part-time job.",
+          "vi": "Tôi có một công việc bán thời gian."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "アルバム",
+    "kanji": "アルバム",
+    "sinoVietnameseSounds": "Áo Bài Mặc",
+    "meanings": {
+      "en": ["Album"],
+      "vi": ["Album"]
+    },
+    "examples": [
+      {
+        "sentence": "新しいアルバムを買いました。",
+        "meaning": {
+          "en": "I bought a new album.",
+          "vi": "Tôi đã mua một album mới."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あれ",
+    "kanji": "あれ",
+    "sinoVietnameseSounds": "Án",
+    "meanings": {
+      "en": ["That"],
+      "vi": ["Cái đó"]
+    },
+    "examples": [
+      {
+        "sentence": "あれは何ですか？",
+        "meaning": {
+          "en": "What is that?",
+          "vi": "Cái đó là gì?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あわてる",
+    "kanji": "慌てる",
+    "sinoVietnameseSounds": "Hoảng",
+    "meanings": {
+      "en": ["To be panic"],
+      "vi": ["Hoảng hốt"]
+    },
+    "examples": [
+      {
+        "sentence": "慌てないでください。",
+        "meaning": {
+          "en": "Please don't panic.",
+          "vi": "Xin đừng hoảng hốt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あんしん",
+    "kanji": "安心",
+    "sinoVietnameseSounds": "An tâm",
+    "meanings": {
+      "en": ["Relieved"],
+      "vi": ["Yên tâm"]
+    },
+    "examples": [
+      {
+        "sentence": "無事に帰れて安心しました。",
+        "meaning": {
+          "en": "I was relieved to return safely.",
+          "vi": "Tôi đã yên tâm khi về an toàn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あんしんする",
+    "kanji": "安心する",
+    "sinoVietnameseSounds": "An tâm",
+    "meanings": {
+      "en": ["To feel relieved"],
+      "vi": ["Cảm thấy yên tâm"]
+    },
+    "examples": [
+      {
+        "sentence": "これで安心しました。",
+        "meaning": {
+          "en": "I feel relieved now.",
+          "vi": "Tôi cảm thấy yên tâm ngay bây giờ."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "あんぜん",
+    "kanji": "安全",
+    "sinoVietnameseSounds": "An toàn",
+    "meanings": {
+      "en": ["Safety; Safe"],
+      "vi": ["An toàn"]
+    },
+    "examples": [
+      {
+        "sentence": "安全運転を心がけてください。",
+        "meaning": {
+          "en": "Please drive safely.",
+          "vi": "Xin hãy lái xe an toàn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いい",
+    "kanji": "いい",
+    "sinoVietnameseSounds": "Lương",
+    "meanings": {
+      "en": ["Good"],
+      "vi": ["Tốt"]
+    },
+    "examples": [
+      {
+        "sentence": "このレストランはいいです。",
+        "meaning": {
+          "en": "This restaurant is good.",
+          "vi": "Nhà hàng này tốt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いいえ",
+    "kanji": "いいえ",
+    "sinoVietnameseSounds": "Khứ",
+    "meanings": {
+      "en": ["No"],
+      "vi": ["Không"]
+    },
+    "examples": [
+      {
+        "sentence": "それは違いますか？いいえ。",
+        "meaning": {
+          "en": "Is that wrong? No.",
+          "vi": "Điều đó sai sao? Không."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いう",
+    "kanji": "言う",
+    "sinoVietnameseSounds": "Ngôn",
+    "meanings": {
+      "en": ["To say"],
+      "vi": ["Nói"]
+    },
+    "examples": [
+      {
+        "sentence": "彼はいつも同じことを言う。",
+        "meaning": {
+          "en": "He always says the same thing.",
+          "vi": "Anh ấy luôn nói cùng một điều."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いえ",
+    "kanji": "家",
+    "sinoVietnameseSounds": "Gia",
+    "meanings": {
+      "en": ["House"],
+      "vi": ["Nhà"]
+    },
+    "examples": [
+      {
+        "sentence": "私の家は大きいです。",
+        "meaning": {
+          "en": "My house is big.",
+          "vi": "Nhà tôi thì lớn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いく",
+    "kanji": "行く",
+    "sinoVietnameseSounds": "Hành",
+    "meanings": {
+      "en": ["To go"],
+      "vi": ["Đi"]
+    },
+    "examples": [
+      {
+        "sentence": "学校に行く時間です。",
+        "meaning": {
+          "en": "It’s time to go to school.",
+          "vi": "Đã đến giờ đi đến trường."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いくつ",
+    "kanji": "いくつ",
+    "sinoVietnameseSounds": "Số",
+    "meanings": {
+      "en": ["How many"],
+      "vi": ["Bao nhiêu"]
+    },
+    "examples": [
+      {
+        "sentence": "いくつリンゴがありますか？",
+        "meaning": {
+          "en": "How many apples are there?",
+          "vi": "Có bao nhiêu quả táo?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いくら",
+    "kanji": "いくら",
+    "sinoVietnameseSounds": "Kim",
+    "meanings": {
+      "en": ["How much"],
+      "vi": ["Bao nhiêu"]
+    },
+    "examples": [
+      {
+        "sentence": "このシャツはいくらですか？",
+        "meaning": {
+          "en": "How much is this shirt?",
+          "vi": "Áo sơ mi này giá bao nhiêu?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いけ",
+    "kanji": "池",
+    "sinoVietnameseSounds": "Trì",
+    "meanings": {
+      "en": ["Pond"],
+      "vi": ["Ao"]
+    },
+    "examples": [
+      {
+        "sentence": "公園には池があります。",
+        "meaning": {
+          "en": "There is a pond in the park.",
+          "vi": "Có một cái ao trong công viên."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いざかや",
+    "kanji": "居酒屋",
+    "sinoVietnameseSounds": "Cư tử ốc",
+    "meanings": {
+      "en": ["Japanese style pub"],
+      "vi": ["Quán rượu kiểu Nhật"]
+    },
+    "examples": [
+      {
+        "sentence": "居酒屋で友達と飲みます。",
+        "meaning": {
+          "en": "I drink with friends at a Japanese pub.",
+          "vi": "Tôi uống với bạn bè tại một quán rượu kiểu Nhật."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いしゃ",
+    "kanji": "医者",
+    "sinoVietnameseSounds": "Y giả",
+    "meanings": {
+      "en": ["Doctor"],
+      "vi": ["Bác sĩ"]
+    },
+    "examples": [
+      {
+        "sentence": "医者に診てもらう必要があります。",
+        "meaning": {
+          "en": "I need to see a doctor.",
+          "vi": "Tôi cần gặp bác sĩ."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いす",
+    "kanji": "椅子",
+    "sinoVietnameseSounds": "Y tử",
+    "meanings": {
+      "en": ["Chair"],
+      "vi": ["Ghế"]
+    },
+    "examples": [
+      {
+        "sentence": "この椅子はとても快適です。",
+        "meaning": {
+          "en": "This chair is very comfortable.",
+          "vi": "Cái ghế này rất thoải mái."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いそがしい",
+    "kanji": "忙しい",
+    "sinoVietnameseSounds": "Mong",
+    "meanings": {
+      "en": ["Busy"],
+      "vi": ["Bận rộn"]
+    },
+    "examples": [
+      {
+        "sentence": "今日はとても忙しいです。",
+        "meaning": {
+          "en": "Today is very busy.",
+          "vi": "Hôm nay rất bận rộn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いそぐ",
+    "kanji": "急ぐ",
+    "sinoVietnameseSounds": "Cấp",
+    "meanings": {
+      "en": ["To hurry up"],
+      "vi": ["Vội vàng"]
+    },
+    "examples": [
+      {
+        "sentence": "遅れるので急いでください。",
+        "meaning": {
+          "en": "Please hurry up because we are late.",
+          "vi": "Xin hãy vội vàng vì chúng ta đang muộn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いたい",
+    "kanji": "痛い",
+    "sinoVietnameseSounds": "Thống",
+    "meanings": {
+      "en": ["Painful"],
+      "vi": ["Đau"]
+    },
+    "examples": [
+      {
+        "sentence": "頭が痛いです。",
+        "meaning": {
+          "en": "My head is painful.",
+          "vi": "Đầu tôi đau."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いただく",
+    "kanji": "いただく",
+    "sinoVietnameseSounds": "Thụ",
+    "meanings": {
+      "en": ["To receive"],
+      "vi": ["Nhận"]
+    },
+    "examples": [
+      {
+        "sentence": "プレゼントをいただきました。",
+        "meaning": {
+          "en": "I received a present.",
+          "vi": "Tôi đã nhận được một món quà."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちご",
+    "kanji": "いちご",
+    "sinoVietnameseSounds": "Dịch",
+    "meanings": {
+      "en": ["Strawberry"],
+      "vi": ["Dâu tây"]
+    },
+    "examples": [
+      {
+        "sentence": "いちごは甘いです。",
+        "meaning": {
+          "en": "Strawberries are sweet.",
+          "vi": "Dâu tây thì ngọt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちにち",
+    "kanji": "一日",
+    "sinoVietnameseSounds": "Nhất nhật",
+    "meanings": {
+      "en": ["One day"],
+      "vi": ["Một ngày"]
+    },
+    "examples": [
+      {
+        "sentence": "一日中働きました。",
+        "meaning": {
+          "en": "I worked all day.",
+          "vi": "Tôi đã làm việc cả ngày."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちばん",
+    "kanji": "一番",
+    "sinoVietnameseSounds": "Nhất phương",
+    "meanings": {
+      "en": ["Best; Most"],
+      "vi": ["Nhất; Hơn cả"]
+    },
+    "examples": [
+      {
+        "sentence": "彼は一番の選手です。",
+        "meaning": {
+          "en": "He is the best player.",
+          "vi": "Anh ấy là cầu thủ giỏi nhất."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いつ",
+    "kanji": "いつ",
+    "sinoVietnameseSounds": "Thứ",
+    "meanings": {
+      "en": ["When"],
+      "vi": ["Khi nào"]
+    },
+    "examples": [
+      {
+        "sentence": "いつ行きますか？",
+        "meaning": {
+          "en": "When are we going?",
+          "vi": "Khi nào chúng ta đi?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いつか",
+    "kanji": "いつか",
+    "sinoVietnameseSounds": "Thứ",
+    "meanings": {
+      "en": ["Sometimes"],
+      "vi": ["Đôi khi"]
+    },
+    "examples": [
+      {
+        "sentence": "いつか旅行したいです。",
+        "meaning": {
+          "en": "I want to travel sometime.",
+          "vi": "Tôi muốn đi du lịch vào một ngày nào đó."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いい",
+    "kanji": "いい",
+    "sinoVietnameseSounds": "Tốt",
+    "meanings": {
+      "en": ["Good"],
+      "vi": ["Tốt"]
+    },
+    "examples": [
+      {
+        "sentence": "このレストランはいいです。",
+        "meaning": {
+          "en": "This restaurant is good.",
+          "vi": "Nhà hàng này tốt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いいえ",
+    "kanji": "いいえ",
+    "sinoVietnameseSounds": "Không",
+    "meanings": {
+      "en": ["No"],
+      "vi": ["Không"]
+    },
+    "examples": [
+      {
+        "sentence": "それは違いますか？いいえ。",
+        "meaning": {
+          "en": "Is that wrong? No.",
+          "vi": "Điều đó sai sao? Không."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いう",
+    "kanji": "言う",
+    "sinoVietnameseSounds": "Nói",
+    "meanings": {
+      "en": ["To say"],
+      "vi": ["Nói"]
+    },
+    "examples": [
+      {
+        "sentence": "彼はいつも同じことを言う。",
+        "meaning": {
+          "en": "He always says the same thing.",
+          "vi": "Anh ấy luôn nói cùng một điều."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いえ",
+    "kanji": "家",
+    "sinoVietnameseSounds": "Nhà",
+    "meanings": {
+      "en": ["House"],
+      "vi": ["Nhà"]
+    },
+    "examples": [
+      {
+        "sentence": "私の家は大きいです。",
+        "meaning": {
+          "en": "My house is big.",
+          "vi": "Nhà tôi lớn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いく",
+    "kanji": "行く",
+    "sinoVietnameseSounds": "Đi",
+    "meanings": {
+      "en": ["To go"],
+      "vi": ["Đi"]
+    },
+    "examples": [
+      {
+        "sentence": "学校に行く時間です。",
+        "meaning": {
+          "en": "It’s time to go to school.",
+          "vi": "Đã đến giờ đi đến trường."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いくつ",
+    "kanji": "いくつ",
+    "sinoVietnameseSounds": "Bao nhiêu",
+    "meanings": {
+      "en": ["How many"],
+      "vi": ["Bao nhiêu"]
+    },
+    "examples": [
+      {
+        "sentence": "いくつリンゴがありますか？",
+        "meaning": {
+          "en": "How many apples are there?",
+          "vi": "Có bao nhiêu quả táo?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いくら",
+    "kanji": "いくら",
+    "sinoVietnameseSounds": "Bao nhiêu",
+    "meanings": {
+      "en": ["How much"],
+      "vi": ["Bao nhiêu"]
+    },
+    "examples": [
+      {
+        "sentence": "このシャツはいくらですか？",
+        "meaning": {
+          "en": "How much is this shirt?",
+          "vi": "Áo sơ mi này giá bao nhiêu?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いけ",
+    "kanji": "池",
+    "sinoVietnameseSounds": "Ao",
+    "meanings": {
+      "en": ["Pond"],
+      "vi": ["Ao"]
+    },
+    "examples": [
+      {
+        "sentence": "公園には池があります。",
+        "meaning": {
+          "en": "There is a pond in the park.",
+          "vi": "Có một cái ao trong công viên."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いざかや",
+    "kanji": "居酒屋",
+    "sinoVietnameseSounds": "Quán rượu kiểu Nhật",
+    "meanings": {
+      "en": ["Japanese style pub"],
+      "vi": ["Quán rượu kiểu Nhật"]
+    },
+    "examples": [
+      {
+        "sentence": "居酒屋で友達と飲みます。",
+        "meaning": {
+          "en": "I drink with friends at a Japanese pub.",
+          "vi": "Tôi uống với bạn bè tại một quán rượu kiểu Nhật."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いしゃ",
+    "kanji": "医者",
+    "sinoVietnameseSounds": "Bác sĩ",
+    "meanings": {
+      "en": ["Doctor"],
+      "vi": ["Bác sĩ"]
+    },
+    "examples": [
+      {
+        "sentence": "医者に診てもらう必要があります。",
+        "meaning": {
+          "en": "I need to see a doctor.",
+          "vi": "Tôi cần gặp bác sĩ."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いす",
+    "kanji": "椅子",
+    "sinoVietnameseSounds": "Ghế",
+    "meanings": {
+      "en": ["Chair"],
+      "vi": ["Ghế"]
+    },
+    "examples": [
+      {
+        "sentence": "この椅子はとても快適です。",
+        "meaning": {
+          "en": "This chair is very comfortable.",
+          "vi": "Cái ghế này rất thoải mái."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いそがしい",
+    "kanji": "忙しい",
+    "sinoVietnameseSounds": "Bận rộn",
+    "meanings": {
+      "en": ["Busy"],
+      "vi": ["Bận rộn"]
+    },
+    "examples": [
+      {
+        "sentence": "今日はとても忙しいです。",
+        "meaning": {
+          "en": "Today is very busy.",
+          "vi": "Hôm nay rất bận rộn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いそぐ",
+    "kanji": "急ぐ",
+    "sinoVietnameseSounds": "Vội vàng",
+    "meanings": {
+      "en": ["To hurry up"],
+      "vi": ["Vội vàng"]
+    },
+    "examples": [
+      {
+        "sentence": "遅れるので急いでください。",
+        "meaning": {
+          "en": "Please hurry up because we are late.",
+          "vi": "Xin hãy vội vàng vì chúng ta đang muộn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いたい",
+    "kanji": "痛い",
+    "sinoVietnameseSounds": "Đau",
+    "meanings": {
+      "en": ["Painful"],
+      "vi": ["Đau"]
+    },
+    "examples": [
+      {
+        "sentence": "頭が痛いです。",
+        "meaning": {
+          "en": "My head is painful.",
+          "vi": "Đầu tôi đau."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いただく",
+    "kanji": "いただく",
+    "sinoVietnameseSounds": "Nhận",
+    "meanings": {
+      "en": ["To receive"],
+      "vi": ["Nhận"]
+    },
+    "examples": [
+      {
+        "sentence": "プレゼントをいただきました。",
+        "meaning": {
+          "en": "I received a present.",
+          "vi": "Tôi đã nhận được một món quà."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちご",
+    "kanji": "いちご",
+    "sinoVietnameseSounds": "Dâu tây",
+    "meanings": {
+      "en": ["Strawberry"],
+      "vi": ["Dâu tây"]
+    },
+    "examples": [
+      {
+        "sentence": "いちごは甘いです。",
+        "meaning": {
+          "en": "Strawberries are sweet.",
+          "vi": "Dâu tây thì ngọt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちにち",
+    "kanji": "一日",
+    "sinoVietnameseSounds": "Một ngày",
+    "meanings": {
+      "en": ["One day"],
+      "vi": ["Một ngày"]
+    },
+    "examples": [
+      {
+        "sentence": "一日中働きました。",
+        "meaning": {
+          "en": "I worked all day.",
+          "vi": "Tôi đã làm việc cả ngày."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちばん",
+    "kanji": "一番",
+    "sinoVietnameseSounds": "Nhất phương",
+    "meanings": {
+      "en": ["Best; Most"],
+      "vi": ["Nhất; Hơn cả"]
+    },
+    "examples": [
+      {
+        "sentence": "彼は一番の選手です。",
+        "meaning": {
+          "en": "He is the best player.",
+          "vi": "Anh ấy là cầu thủ giỏi nhất."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いつ",
+    "kanji": "いつ",
+    "sinoVietnameseSounds": "Thứ",
+    "meanings": {
+      "en": ["When"],
+      "vi": ["Khi nào"]
+    },
+    "examples": [
+      {
+        "sentence": "いつ行きますか？",
+        "meaning": {
+          "en": "When are we going?",
+          "vi": "Khi nào chúng ta đi?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いつか",
+    "kanji": "いつか",
+    "sinoVietnameseSounds": "Thứ",
+    "meanings": {
+      "en": ["Sometimes"],
+      "vi": ["Đôi khi"]
+    },
+    "examples": [
+      {
+        "sentence": "いつか旅行したいです。",
+        "meaning": {
+          "en": "I want to travel sometime.",
+          "vi": "Tôi muốn đi du lịch vào một ngày nào đó."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いい",
+    "kanji": "いい",
+    "sinoVietnameseSounds": "Tốt",
+    "meanings": {
+      "en": ["Good"],
+      "vi": ["Tốt"]
+    },
+    "examples": [
+      {
+        "sentence": "このレストランはいいです。",
+        "meaning": {
+          "en": "This restaurant is good.",
+          "vi": "Nhà hàng này tốt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いいえ",
+    "kanji": "いいえ",
+    "sinoVietnameseSounds": "Không",
+    "meanings": {
+      "en": ["No"],
+      "vi": ["Không"]
+    },
+    "examples": [
+      {
+        "sentence": "それは違いますか？いいえ。",
+        "meaning": {
+          "en": "Is that wrong? No.",
+          "vi": "Điều đó sai sao? Không."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いう",
+    "kanji": "言う",
+    "sinoVietnameseSounds": "Nói",
+    "meanings": {
+      "en": ["To say"],
+      "vi": ["Nói"]
+    },
+    "examples": [
+      {
+        "sentence": "彼はいつも同じことを言う。",
+        "meaning": {
+          "en": "He always says the same thing.",
+          "vi": "Anh ấy luôn nói cùng một điều."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いえ",
+    "kanji": "家",
+    "sinoVietnameseSounds": "Nhà",
+    "meanings": {
+      "en": ["House"],
+      "vi": ["Nhà"]
+    },
+    "examples": [
+      {
+        "sentence": "私の家は大きいです。",
+        "meaning": {
+          "en": "My house is big.",
+          "vi": "Nhà tôi lớn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いく",
+    "kanji": "行く",
+    "sinoVietnameseSounds": "Đi",
+    "meanings": {
+      "en": ["To go"],
+      "vi": ["Đi"]
+    },
+    "examples": [
+      {
+        "sentence": "学校に行く時間です。",
+        "meaning": {
+          "en": "It’s time to go to school.",
+          "vi": "Đã đến giờ đi đến trường."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いくつ",
+    "kanji": "いくつ",
+    "sinoVietnameseSounds": "Bao nhiêu",
+    "meanings": {
+      "en": ["How many"],
+      "vi": ["Bao nhiêu"]
+    },
+    "examples": [
+      {
+        "sentence": "いくつリンゴがありますか？",
+        "meaning": {
+          "en": "How many apples are there?",
+          "vi": "Có bao nhiêu quả táo?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いくら",
+    "kanji": "いくら",
+    "sinoVietnameseSounds": "Bao nhiêu",
+    "meanings": {
+      "en": ["How much"],
+      "vi": ["Bao nhiêu"]
+    },
+    "examples": [
+      {
+        "sentence": "このシャツはいくらですか？",
+        "meaning": {
+          "en": "How much is this shirt?",
+          "vi": "Áo sơ mi này giá bao nhiêu?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いけ",
+    "kanji": "池",
+    "sinoVietnameseSounds": "Ao",
+    "meanings": {
+      "en": ["Pond"],
+      "vi": ["Ao"]
+    },
+    "examples": [
+      {
+        "sentence": "公園には池があります。",
+        "meaning": {
+          "en": "There is a pond in the park.",
+          "vi": "Có một cái ao trong công viên."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いざかや",
+    "kanji": "居酒屋",
+    "sinoVietnameseSounds": "Quán rượu kiểu Nhật",
+    "meanings": {
+      "en": ["Japanese style pub"],
+      "vi": ["Quán rượu kiểu Nhật"]
+    },
+    "examples": [
+      {
+        "sentence": "居酒屋で友達と飲みます。",
+        "meaning": {
+          "en": "I drink with friends at a Japanese pub.",
+          "vi": "Tôi uống với bạn bè tại một quán rượu kiểu Nhật."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いしゃ",
+    "kanji": "医者",
+    "sinoVietnameseSounds": "Bác sĩ",
+    "meanings": {
+      "en": ["Doctor"],
+      "vi": ["Bác sĩ"]
+    },
+    "examples": [
+      {
+        "sentence": "医者に診てもらう必要があります。",
+        "meaning": {
+          "en": "I need to see a doctor.",
+          "vi": "Tôi cần gặp bác sĩ."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いす",
+    "kanji": "椅子",
+    "sinoVietnameseSounds": "Ghế",
+    "meanings": {
+      "en": ["Chair"],
+      "vi": ["Ghế"]
+    },
+    "examples": [
+      {
+        "sentence": "この椅子はとても快適です。",
+        "meaning": {
+          "en": "This chair is very comfortable.",
+          "vi": "Cái ghế này rất thoải mái."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いそがしい",
+    "kanji": "忙しい",
+    "sinoVietnameseSounds": "Bận rộn",
+    "meanings": {
+      "en": ["Busy"],
+      "vi": ["Bận rộn"]
+    },
+    "examples": [
+      {
+        "sentence": "今日はとても忙しいです。",
+        "meaning": {
+          "en": "Today is very busy.",
+          "vi": "Hôm nay rất bận rộn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いそぐ",
+    "kanji": "急ぐ",
+    "sinoVietnameseSounds": "Vội vàng",
+    "meanings": {
+      "en": ["To hurry up"],
+      "vi": ["Vội vàng"]
+    },
+    "examples": [
+      {
+        "sentence": "遅れるので急いでください。",
+        "meaning": {
+          "en": "Please hurry up because we are late.",
+          "vi": "Xin hãy vội vàng vì chúng ta đang muộn."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いたい",
+    "kanji": "痛い",
+    "sinoVietnameseSounds": "Đau",
+    "meanings": {
+      "en": ["Painful"],
+      "vi": ["Đau"]
+    },
+    "examples": [
+      {
+        "sentence": "頭が痛いです。",
+        "meaning": {
+          "en": "My head is painful.",
+          "vi": "Đầu tôi đau."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いただく",
+    "kanji": "いただく",
+    "sinoVietnameseSounds": "Nhận",
+    "meanings": {
+      "en": ["To receive"],
+      "vi": ["Nhận"]
+    },
+    "examples": [
+      {
+        "sentence": "プレゼントをいただきました。",
+        "meaning": {
+          "en": "I received a present.",
+          "vi": "Tôi đã nhận được một món quà."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちご",
+    "kanji": "いちご",
+    "sinoVietnameseSounds": "Dâu tây",
+    "meanings": {
+      "en": ["Strawberry"],
+      "vi": ["Dâu tây"]
+    },
+    "examples": [
+      {
+        "sentence": "いちごは甘いです。",
+        "meaning": {
+          "en": "Strawberries are sweet.",
+          "vi": "Dâu tây thì ngọt."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちにち",
+    "kanji": "一日",
+    "sinoVietnameseSounds": "Một ngày",
+    "meanings": {
+      "en": ["One day"],
+      "vi": ["Một ngày"]
+    },
+    "examples": [
+      {
+        "sentence": "一日中働きました。",
+        "meaning": {
+          "en": "I worked all day.",
+          "vi": "Tôi đã làm việc cả ngày."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いちばん",
+    "kanji": "一番",
+    "sinoVietnameseSounds": "Nhất phương",
+    "meanings": {
+      "en": ["Best; Most"],
+      "vi": ["Nhất; Hơn cả"]
+    },
+    "examples": [
+      {
+        "sentence": "彼は一番の選手です。",
+        "meaning": {
+          "en": "He is the best player.",
+          "vi": "Anh ấy là cầu thủ giỏi nhất."
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いつ",
+    "kanji": "いつ",
+    "sinoVietnameseSounds": "Thứ",
+    "meanings": {
+      "en": ["When"],
+      "vi": ["Khi nào"]
+    },
+    "examples": [
+      {
+        "sentence": "いつ行きますか？",
+        "meaning": {
+          "en": "When are we going?",
+          "vi": "Khi nào chúng ta đi?"
+        }
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "hiraganaKatakana": "いつか",
+    "kanji": "いつか",
+    "sinoVietnameseSounds": "Thứ",
+    "meanings": {
+      "en": ["Sometimes"],
+      "vi": ["Đôi khi"]
+    },
+    "examples": [
+      {
+        "sentence": "いつか旅行したいです。",
+        "meaning": {
+          "en": "I want to travel sometime.",
+          "vi": "Tôi muốn đi du lịch vào một ngày nào đó."
+        }
+      }
+    ]
+  }
+]

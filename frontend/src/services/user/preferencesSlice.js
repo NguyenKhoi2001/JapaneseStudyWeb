@@ -12,7 +12,6 @@ export const preferencesSlice = createSlice({
     setLanguage: (state, action) => {
       state.language = action.payload;
       localStorage.setItem("language", action.payload); // Persist language preference
-      console.log("change language: ", action.payload);
     },
   },
 });

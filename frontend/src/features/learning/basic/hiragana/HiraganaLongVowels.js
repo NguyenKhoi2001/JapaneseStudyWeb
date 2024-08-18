@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import styles from "./css/LongVowels.module.css"; // Adjust the path as needed
 
 const HiraganaLongVowels = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("basicLearning");
 
   const renderStyledText = (base, styled) => {
     if (!styled) return base; // No styling needed

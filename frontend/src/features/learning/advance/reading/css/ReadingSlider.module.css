@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Full height of the viewport */
+  background-color: var(--background-color);
+  font-family: var(--primary-font);
+}
+
+.message {
+  color: var(--indigo-color);
+  font-size: var(--font-xlarge); /* Very large font size */
+  text-align: center;
+}

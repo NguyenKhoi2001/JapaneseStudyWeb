@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const IconSpeaker = ({ text, className }) => {
-  const speakText = () => {
+  const speakText = (event) => {
+    event.stopPropagation();
     if (!window.speechSynthesis) {
       alert("Your browser does not support speech synthesis.");
       return;

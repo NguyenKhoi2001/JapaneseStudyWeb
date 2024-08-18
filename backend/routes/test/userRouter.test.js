@@ -15,7 +15,6 @@ describe("User API Tests", () => {
     otherAdminId;
 
   beforeAll(async () => {
-    await closeTestDatabase();
     await connectTestDatabase();
   });
 
@@ -107,7 +106,6 @@ describe("User API Tests", () => {
     });
 
     it("admin can create another admin user", async () => {
-      console.log("test admin create admin");
       const res = await request(app)
         .post("/api/users/admin")
         .set("Authorization", `Bearer ${adminToken}`)
@@ -166,7 +164,7 @@ describe("User API Tests", () => {
   describe("User Data Access", () => {
     it("normal user can get their own details", async () => {
       const res = await request(app)
-        .get(`/api/users/${userId}`)
+        .get(`/api/users/private/${userId}`)
         .set("Authorization", `Bearer ${userToken}`);
       expect(res.statusCode).toEqual(200);
       expect(res.body).toHaveProperty("data.userId", userId);
@@ -174,20 +172,40 @@ describe("User API Tests", () => {
 
     it("admin can get details of any user", async () => {
       const res = await request(app)
-        .get(`/api/users/${userId}`)
+        .get(`/api/users/private/${otherUserId}`)
         .set("Authorization", `Bearer ${adminToken}`);
       expect(res.statusCode).toEqual(200);
-      expect(res.body).toHaveProperty("data.userId", userId);
+      expect(res.body).toHaveProperty("data.userId", otherUserId);
     });
 
     it("normal user cannot get details of another user", async () => {
       const res = await request(app)
-        .get(`/api/users/${otherUserId}`)
+        .get(`/api/users/private/${otherUserId}`)
         .set("Authorization", `Bearer ${userToken}`);
       expect(res.statusCode).toEqual(403);
-      expect(res.body.error.message).toContain(
-        "Not authorized to access this resource"
-      );
+      expect(res.body.error.message).toContain("Access denied.");
+    });
+
+    it("any user can access public user data", async () => {
+      const res = await request(app).get(`/api/users/public/${otherUserId}`);
+      expect(res.statusCode).toEqual(200);
+      expect(res.body.data).toHaveProperty("userId", otherUserId);
+    });
+    it("should return all users data excluding sensitive information", async () => {
+      const res = await request(app).get("/api/users/all");
+      expect(res.statusCode).toEqual(200);
+      expect(res.body).toHaveProperty("success", true);
+      expect(res.body.data).toBeInstanceOf(Array);
+      if (res.body.data.length > 0) {
+        res.body.data.forEach((user) => {
+          expect(user).not.toHaveProperty("passwordHash");
+          expect(user).not.toHaveProperty("username");
+          expect(user).not.toHaveProperty("email");
+          expect(user).not.toHaveProperty("preferences.notificationSettings");
+          expect(user).not.toHaveProperty("_id");
+          expect(user).toHaveProperty("userId");
+        });
+      }
     });
   });
 

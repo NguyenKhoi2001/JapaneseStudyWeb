@@ -1,0 +1,212 @@
+[
+  {
+    "en": {
+      "title": "Introducing Yourself",
+      "htmlContent": "<p>Lesson 1</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use this simple sentence structure to introduce your name, job, age, country, etc.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun 1 は Noun 2 です</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>わたしは タナカです。 - I am Tanaka.</p>"
+    },
+    "jp": {
+      "title": "自己紹介",
+      "htmlContent": "<p>第1課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>この簡単な文型を使って、自分の名前、職業、年齢、国などを紹介します。</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 1 は 名詞 2 です</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>わたしは タナカです。 - 私はタナカです。</p>"
+    },
+    "vi": {
+      "title": "Giới thiệu bản thân",
+      "htmlContent": "<p>Bài 1</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ 1 は Danh từ 2 です</p><p>Đầu tiên chúng ta sẽ học mẫu câu đơn giản để giới thiệu tên, nghề nghiệp, tuổi tác, quốc gia...</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ 1 は Danh từ 2 です</p><p>&nbsp;</p><p>Danh từ 1 là danh từ 2</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Introducing Your Job",
+      "htmlContent": "<p>Lesson 2</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use this pattern to introduce someone's occupation.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun (person) は Noun (occupation) です</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>わたしは きょうしです。 - I am a teacher.</p>"
+    },
+    "jp": {
+      "title": "職業の紹介",
+      "htmlContent": "<p>第2課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>このパターンを使って、誰かの職業を紹介します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞（人） は 名詞（職業） です</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>わたしは きょうしです。 - 私は教師です。</p>"
+    },
+    "vi": {
+      "title": "Giới thiệu nghề nghiệp",
+      "htmlContent": "<p>Bài 2</p><p>&nbsp;</p><p>Danh từ người は Danh từ nghề nghiệpです</p><p>Trong bài này, chúng ta sẽ học cách giới thiệu nghề nghiệp.</p><p>&nbsp;</p><p>わたしは　きょうしです。 - Tôi là giáo viên.</p><p>&nbsp;</p><p>あのひとは　けんきゅうしゃです。 - Người kia là nhà nghiên cứu.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Introducing Your Age",
+      "htmlContent": "<p>Lesson 3</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use this pattern to talk about your age.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun (person) は Number さい です</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>わたしは にじゅうごさいです。 - I am 25 years old.</p>"
+    },
+    "jp": {
+      "title": "年齢の紹介",
+      "htmlContent": "<p>第3課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>このパターンを使って、自分の年齢を話します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞（人） は 数字 さい です</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>わたしは にじゅうごさいです。 - 私は25歳です。</p>"
+    },
+    "vi": {
+      "title": "Giới thiệu tuổi tác",
+      "htmlContent": "<p>Bài 3</p><p>&nbsp;</p><p>Danh từ người は Danh từ tuổiです</p><p>Cách nói tuổi: Số đếm + さい (Trừ các tuổi đặc biệt)</p><p>&nbsp;</p><p>わたしは　にじゅうごさいです。 - Tôi 25 tuổi.</p><p>&nbsp;</p><p>ハンさんは　にじゅうろくさいです。 - Bạn Hạnh 26 tuổi.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Introducing Your Nationality",
+      "htmlContent": "<p>Lesson 4</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use this pattern to introduce someone's nationality.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun (person) は Noun (nationality) です</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>わたしは ベトナムじんです。 - I am Vietnamese.</p>"
+    },
+    "jp": {
+      "title": "国籍の紹介",
+      "htmlContent": "<p>第4課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>このパターンを使って、誰かの国籍を紹介します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞（人） は 名詞（国籍） です</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>わたしは ベトナムじんです。 - 私はベトナム人です。</p>"
+    },
+    "vi": {
+      "title": "Giới thiệu quốc tịch",
+      "htmlContent": "<p>Bài 4</p><p>&nbsp;</p><p>Danh từ người は Danh từ quốc tịchです</p><p>Quốc tịch: Tên quốc gia + 人 （đọc là じん）</p><p>&nbsp;</p><p>わたしは　ベトナムじんです。 - Tôi là người Việt Nam.</p><p>&nbsp;</p><p>あのひとは　アメリカじんです。 - Người kia là người Mỹ.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Describing Relationships",
+      "htmlContent": "<p>Lesson 5</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use this pattern to describe relationships between things or people.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun 1 の Noun 2</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>ミラーさんは IMCの しゃいんです。 - Mr. Miller is an employee of IMC.</p>"
+    },
+    "jp": {
+      "title": "関係の紹介",
+      "htmlContent": "<p>第5課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>このパターンを使って、物や人の関係を説明します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 1 の 名詞 2</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>ミラーさんは IMCの しゃいんです。 - ミラーさんはIMCの社員です。</p>"
+    },
+    "vi": {
+      "title": "Giới thiệu các mối quan hệ",
+      "htmlContent": "<p>Bài 5</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ 1 の danh từ 2</p><p>1, Định nghĩa: Trong trường hợp danh từ 1 ở trước bổ nghĩa cho danh từ 2 ở phía sau thì hai danh từ đó được nối với nhau bằng trợ từ 「の」.</p><p>&nbsp;</p><p>ミラーさんは　IMCの　しゃいんです。 - Anh Miller là nhân viên công ty IMC.</p><p>&nbsp;</p><p>わたしは　さくらだいがくの　がくせいです。 - Tôi là sinh viên của trường đại học Sakura.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using これ, それ, and あれ",
+      "htmlContent": "<p>Lesson 6</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use これ, それ, and あれ to refer to objects close to the speaker, the listener, or neither.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>これ (this), それ (that), あれ (that over there)</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>これ は ほん です。 - This is a book.</p>"
+    },
+    "jp": {
+      "title": "これ、それ、あれ",
+      "htmlContent": "<p>第6課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>これ、それ、あれを使って、物を指し示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>これ（これ）、それ（それ）、あれ（あれ）</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>これ は ほん です。 - これは本です。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng これ, それ và あれ",
+      "htmlContent": "<p>Bài 6</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Hãy sử dụng これ, それ và あれ để chỉ các vật gần người nói, gần người nghe hoặc ở xa cả hai.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>これ (cái này), それ (cái đó), あれ (cái kia ở xa)</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>これ は ほん です。 - Đây là một quyển sách.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Describing Objects with い adjectives",
+      "htmlContent": "<p>Lesson 7</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use い adjectives to describe objects.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun は い-adjective です</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>この たんす は おおきい です。 - This dresser is big.</p>"
+    },
+    "jp": {
+      "title": "い形容詞で物を説明する",
+      "htmlContent": "<p>第7課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>い形容詞を使って物を説明します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 は い形容詞 です</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>この たんす は おおきい です。 - このタンスは大きいです。</p>"
+    },
+    "vi": {
+      "title": "Mô tả vật bằng tính từ い",
+      "htmlContent": "<p>Bài 7</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng tính từ い để mô tả các vật.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ は Tính từ い です</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>この たんす は おおきい です。 - Cái tủ này thì to.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Describing Objects with な adjectives",
+      "htmlContent": "<p>Lesson 8</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use な adjectives to describe objects.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun は な-adjective です</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>この へや は きれい です。 - This room is clean.</p>"
+    },
+    "jp": {
+      "title": "な形容詞で物を説明する",
+      "htmlContent": "<p>第8課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>な形容詞を使って物を説明します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 は な形容詞 です</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>この へや は きれい です。 - この部屋はきれいです。</p>"
+    },
+    "vi": {
+      "title": "Mô tả vật bằng tính từ な",
+      "htmlContent": "<p>Bài 8</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng tính từ な để mô tả các vật.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ は Tính từ な です</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>この へや は きれい です。 - Căn phòng này thì sạch sẽ.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Talking About Locations",
+      "htmlContent": "<p>Lesson 9</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use this pattern to talk about the location of something.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun は Place に あります / います</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>ほん は つくえの うえ に あります。 - The book is on the desk.</p>"
+    },
+    "jp": {
+      "title": "場所について話す",
+      "htmlContent": "<p>第9課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>このパターンを使って物の場所について話します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 は 場所 に あります / います</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>ほん は つくえの うえ に あります。 - 本は机の上にあります。</p>"
+    },
+    "vi": {
+      "title": "Nói về vị trí",
+      "htmlContent": "<p>Bài 9</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng mẫu câu này để nói về vị trí của một vật.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ は Địa điểm に あります / います</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>ほん は つくえの うえ に あります。 - Quyển sách nằm trên bàn.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Asking Questions with か",
+      "htmlContent": "<p>Lesson 10</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use か to turn statements into yes/no questions.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Sentence 1 か</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>これ は ほん ですか。 - Is this a book?</p>"
+    },
+    "jp": {
+      "title": "質問する時の「か」",
+      "htmlContent": "<p>第10課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「か」を使って、文をはい・いいえの質問にします。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>文 1 か</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>これ は ほん ですか。 - これは本ですか。</p>"
+    },
+    "vi": {
+      "title": "Hỏi câu với か",
+      "htmlContent": "<p>Bài 10</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng か để biến câu thành câu hỏi có / không.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Câu 1 か</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>これ は ほん ですか。 - Đây có phải là quyển sách không?</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using も for \"Also\" and \"Too\" ",
+      "htmlContent": "<p>Lesson 11</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use も to mean 'also' or 'too'.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun も</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>わたしも きょうしです。 - I am also a teacher.</p>"
+    },
+    "jp": {
+      "title": "「も」の使い方",
+      "htmlContent": "<p>第11課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「も」を使って「も」と「も」を意味します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 も</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>わたしも きょうしです。 - 私も教師です。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng も để \"Cũng\" và \"Cũng vậy\" ",
+      "htmlContent": "<p>Bài 11</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Hãy sử dụng も để thể hiện ý nghĩa 'cũng' hoặc 'cũng vậy'.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ も</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>わたしも きょうしです。 - Tôi cũng là giáo viên.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using で for Locations and Means",
+      "htmlContent": "<p>Lesson 12</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use で to indicate the location of an action or the means by which something is done.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun で</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>がっこうで べんきょうします。 - I study at school.</p>"
+    },
+    "jp": {
+      "title": "「で」の使い方",
+      "htmlContent": "<p>第12課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「で」を使って、動作の場所や手段を示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 で</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>がっこうで べんきょうします。 - 学校で勉強します。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng で cho Vị trí và Phương tiện",
+      "htmlContent": "<p>Bài 12</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Hãy sử dụng で để chỉ vị trí của hành động hoặc phương tiện để làm việc gì đó.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ で</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>がっこうで べんきょうします。 - Tôi học ở trường.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using から and まで for Time",
+      "htmlContent": "<p>Lesson 13</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use から and まで to indicate the start and end times.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Time から Time まで</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>9じから 17じまで はたらきます。 - I work from 9 to 17.</p>"
+    },
+    "jp": {
+      "title": "「から」と「まで」の使い方",
+      "htmlContent": "<p>第13課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「から」と「まで」を使って、開始時間と終了時間を示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>時間 から 時間 まで</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>9じから 17じまで はたらきます。 - 9時から17時まで働きます。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng から và まで cho Thời gian",
+      "htmlContent": "<p>Bài 13</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Hãy sử dụng から và まで để chỉ thời gian bắt đầu và kết thúc.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Thời gian から Thời gian まで</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>9じから 17じまで はたらきます。 - Tôi làm việc từ 9 giờ đến 17 giờ.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Ability with ことができる",
+      "htmlContent": "<p>Lesson 14</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use ことができる to express the ability to do something.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb (dictionary form) ことができる</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>えいごを はなす ことができる。 - I can speak English.</p>"
+    },
+    "jp": {
+      "title": "「ことができる」の使い方",
+      "htmlContent": "<p>第14課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「ことができる」を使って、できることを表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞（辞書形）ことができる</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>えいごを はなす ことができる。 - 英語を話すことができる。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt khả năng với ことができる",
+      "htmlContent": "<p>Bài 14</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng ことができる để diễn đạt khả năng làm việc gì đó.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ (dạng từ điển) ことができる</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>えいごを はなす ことができる。 - Tôi có thể nói tiếng Anh.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Talking About Preferences with ほしい",
+      "htmlContent": "<p>Lesson 15</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use ほしい to talk about what you want or desire.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun が ほしい</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>りんご が ほしい。 - I want an apple.</p>"
+    },
+    "jp": {
+      "title": "「ほしい」の使い方",
+      "htmlContent": "<p>第15課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「ほしい」を使って、自分の欲しいものを表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 が ほしい</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>りんご が ほしい。 - 林檎が欲しい。</p>"
+    },
+    "vi": {
+      "title": "Nói về sở thích với ほしい",
+      "htmlContent": "<p>Bài 15</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Hãy sử dụng ほしい để nói về điều bạn muốn hoặc mong muốn.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ が ほしい</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>りんご が ほしい。 - Tôi muốn một quả táo.</p>"
+    }
+  }
+]

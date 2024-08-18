@@ -9,7 +9,7 @@ import HiraganaGlottalStop from "./hiragana/HiraganaGlottalStop";
 
 const BasicHiraganaBody = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const { t } = useTranslation();
+  const { t } = useTranslation("basicLearning");
 
   // Update navItems to use correct translation keys
   const navItems = [
@@ -18,7 +18,6 @@ const BasicHiraganaBody = () => {
     t("basicLearning.hiragana.basicHiragana.combinedSounds"),
     t("basicLearning.hiragana.basicHiragana.longVowels"),
     t("basicLearning.hiragana.basicHiragana.voicedSounds"),
-    t("basicLearning.hiragana.basicHiragana.practice"),
   ];
 
   const handleNavClick = (index) => {

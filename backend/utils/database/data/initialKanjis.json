@@ -1,0 +1,2173 @@
+[
+  {
+    "character": "一",
+    "meaning": {
+      "jp": "いち",
+      "en": "one",
+      "vi": "một"
+    },
+    "sinoVietnameseSounds": "Nhất",
+    "onyomi": ["イチ", "イツ"],
+    "kunyomi": ["ひと-つ"],
+    "examples": [
+      {
+        "kanjiWord": "一日",
+        "hiragana": "いちにち",
+        "meaning": {
+          "en": "one day",
+          "vi": "một ngày"
+        }
+      }
+    ]
+  },
+  {
+    "character": "二",
+    "meaning": {
+      "jp": "に",
+      "en": "two",
+      "vi": "hai"
+    },
+    "sinoVietnameseSounds": "Nhị",
+    "onyomi": ["ニ"],
+    "kunyomi": ["ふた-つ"],
+    "examples": [
+      {
+        "kanjiWord": "二人",
+        "hiragana": "ふたり",
+        "meaning": {
+          "en": "two people",
+          "vi": "hai người"
+        }
+      }
+    ]
+  },
+  {
+    "character": "三",
+    "meaning": {
+      "jp": "さん",
+      "en": "three",
+      "vi": "ba"
+    },
+    "sinoVietnameseSounds": "Tam",
+    "onyomi": ["サン"],
+    "kunyomi": ["み-つ"],
+    "examples": [
+      {
+        "kanjiWord": "三日",
+        "hiragana": "みっか",
+        "meaning": {
+          "en": "three days",
+          "vi": "ba ngày"
+        }
+      }
+    ]
+  },
+  {
+    "character": "四",
+    "meaning": {
+      "jp": "し",
+      "en": "four",
+      "vi": "bốn"
+    },
+    "sinoVietnameseSounds": "Tứ",
+    "onyomi": ["シ"],
+    "kunyomi": ["よ-つ", "よっ-つ"],
+    "examples": [
+      {
+        "kanjiWord": "四季",
+        "hiragana": "しき",
+        "meaning": {
+          "en": "four seasons",
+          "vi": "bốn mùa"
+        }
+      }
+    ]
+  },
+  {
+    "character": "五",
+    "meaning": {
+      "jp": "ご",
+      "en": "five",
+      "vi": "năm"
+    },
+    "sinoVietnameseSounds": "Ngũ",
+    "onyomi": ["ゴ"],
+    "kunyomi": ["いつ-つ"],
+    "examples": [
+      {
+        "kanjiWord": "五人",
+        "hiragana": "ごにん",
+        "meaning": {
+          "en": "five people",
+          "vi": "năm người"
+        }
+      }
+    ]
+  },
+  {
+    "character": "六",
+    "meaning": {
+      "jp": "ろく",
+      "en": "six",
+      "vi": "sáu"
+    },
+    "sinoVietnameseSounds": "Lục",
+    "onyomi": ["ロク"],
+    "kunyomi": ["む-つ"],
+    "examples": [
+      {
+        "kanjiWord": "六日",
+        "hiragana": "むいか",
+        "meaning": {
+          "en": "six days",
+          "vi": "sáu ngày"
+        }
+      }
+    ]
+  },
+  {
+    "character": "七",
+    "meaning": {
+      "jp": "しち",
+      "en": "seven",
+      "vi": "bảy"
+    },
+    "sinoVietnameseSounds": "Thất",
+    "onyomi": ["シチ"],
+    "kunyomi": ["なな-つ", "なの"],
+    "examples": [
+      {
+        "kanjiWord": "七月",
+        "hiragana": "しちがつ",
+        "meaning": {
+          "en": "July",
+          "vi": "tháng Bảy"
+        }
+      }
+    ]
+  },
+  {
+    "character": "八",
+    "meaning": {
+      "jp": "はち",
+      "en": "eight",
+      "vi": "tám"
+    },
+    "sinoVietnameseSounds": "Bát",
+    "onyomi": ["ハチ"],
+    "kunyomi": ["や-つ"],
+    "examples": [
+      {
+        "kanjiWord": "八つ",
+        "hiragana": "やっつ",
+        "meaning": {
+          "en": "eight things",
+          "vi": "tám cái"
+        }
+      }
+    ]
+  },
+  {
+    "character": "九",
+    "meaning": {
+      "jp": "きゅう",
+      "en": "nine",
+      "vi": "chín"
+    },
+    "sinoVietnameseSounds": "Cửu",
+    "onyomi": ["キュウ"],
+    "kunyomi": ["ここの-つ"],
+    "examples": [
+      {
+        "kanjiWord": "九月",
+        "hiragana": "くがつ",
+        "meaning": {
+          "en": "September",
+          "vi": "tháng Chín"
+        }
+      }
+    ]
+  },
+  {
+    "character": "十",
+    "meaning": {
+      "jp": "じゅう",
+      "en": "ten",
+      "vi": "mười"
+    },
+    "sinoVietnameseSounds": "Thập",
+    "onyomi": ["ジュウ"],
+    "kunyomi": ["とお"],
+    "examples": [
+      {
+        "kanjiWord": "十日",
+        "hiragana": "とおか",
+        "meaning": {
+          "en": "ten days",
+          "vi": "mười ngày"
+        }
+      }
+    ]
+  },
+  {
+    "character": "人",
+    "meaning": {
+      "jp": "ひと",
+      "en": "person",
+      "vi": "người"
+    },
+    "sinoVietnameseSounds": "Nhân",
+    "onyomi": ["ジン", "ニン"],
+    "kunyomi": ["ひと"],
+    "examples": [
+      {
+        "kanjiWord": "日本人",
+        "hiragana": "にほんじん",
+        "meaning": {
+          "en": "Japanese person",
+          "vi": "người Nhật"
+        }
+      }
+    ]
+  },
+  {
+    "character": "今",
+    "meaning": {
+      "jp": "いま",
+      "en": "now",
+      "vi": "bây giờ"
+    },
+    "sinoVietnameseSounds": "Kim",
+    "onyomi": ["コン", "キン"],
+    "kunyomi": ["いま"],
+    "examples": [
+      {
+        "kanjiWord": "今週",
+        "hiragana": "こんしゅう",
+        "meaning": {
+          "en": "this week",
+          "vi": "tuần này"
+        }
+      }
+    ]
+  },
+  {
+    "character": "日",
+    "meaning": {
+      "jp": "ひ",
+      "en": "sun, day",
+      "vi": "mặt trời, ngày"
+    },
+    "sinoVietnameseSounds": "Nhật",
+    "onyomi": ["ニチ", "ジツ"],
+    "kunyomi": ["ひ", "か"],
+    "examples": [
+      {
+        "kanjiWord": "日本",
+        "hiragana": "にほん",
+        "meaning": {
+          "en": "Japan",
+          "vi": "Nhật Bản"
+        }
+      }
+    ]
+  },
+  {
+    "character": "週",
+    "meaning": {
+      "jp": "しゅう",
+      "en": "week",
+      "vi": "tuần"
+    },
+    "sinoVietnameseSounds": "Chu",
+    "onyomi": ["シュウ"],
+    "kunyomi": [],
+    "examples": [
+      {
+        "kanjiWord": "今週",
+        "hiragana": "こんしゅう",
+        "meaning": {
+          "en": "this week",
+          "vi": "tuần này"
+        }
+      }
+    ]
+  },
+  {
+    "character": "月",
+    "meaning": {
+      "jp": "つき",
+      "en": "moon, month",
+      "vi": "trăng, tháng"
+    },
+    "sinoVietnameseSounds": "Nguyệt",
+    "onyomi": ["ゲツ", "ガツ"],
+    "kunyomi": ["つき"],
+    "examples": [
+      {
+        "kanjiWord": "月曜日",
+        "hiragana": "げつようび",
+        "meaning": {
+          "en": "Monday",
+          "vi": "Thứ Hai"
+        }
+      }
+    ]
+  },
+  {
+    "character": "年",
+    "meaning": {
+      "jp": "とし",
+      "en": "year",
+      "vi": "năm"
+    },
+    "sinoVietnameseSounds": "Niên",
+    "onyomi": ["ネン"],
+    "kunyomi": ["とし"],
+    "examples": [
+      {
+        "kanjiWord": "今年",
+        "hiragana": "ことし",
+        "meaning": {
+          "en": "this year",
+          "vi": "năm nay"
+        }
+      }
+    ]
+  },
+  {
+    "character": "中",
+    "meaning": {
+      "jp": "なか",
+      "en": "inside, middle",
+      "vi": "trong, giữa"
+    },
+    "sinoVietnameseSounds": "Trung",
+    "onyomi": ["チュウ"],
+    "kunyomi": ["なか"],
+    "examples": [
+      {
+        "kanjiWord": "中央",
+        "hiragana": "ちゅうおう",
+        "meaning": {
+          "en": "center",
+          "vi": "trung tâm"
+        }
+      }
+    ]
+  },
+  {
+    "character": "山",
+    "meaning": {
+      "jp": "やま",
+      "en": "mountain",
+      "vi": "núi"
+    },
+    "sinoVietnameseSounds": "Sơn",
+    "onyomi": ["サン"],
+    "kunyomi": ["やま"],
+    "examples": [
+      {
+        "kanjiWord": "富士山",
+        "hiragana": "ふじさん",
+        "meaning": {
+          "en": "Mt. Fuji",
+          "vi": "Núi Phú Sĩ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "川",
+    "meaning": {
+      "jp": "かわ",
+      "en": "river",
+      "vi": "sông"
+    },
+    "sinoVietnameseSounds": "Xuyên",
+    "onyomi": ["セン"],
+    "kunyomi": ["かわ"],
+    "examples": [
+      {
+        "kanjiWord": "小川",
+        "hiragana": "おがわ",
+        "meaning": {
+          "en": "stream",
+          "vi": "suối nhỏ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "左",
+    "meaning": {
+      "jp": "ひだり",
+      "en": "left",
+      "vi": "bên trái"
+    },
+    "sinoVietnameseSounds": "Tả",
+    "onyomi": ["サ"],
+    "kunyomi": ["ひだり"],
+    "examples": [
+      {
+        "kanjiWord": "左側",
+        "hiragana": "ひだりがわ",
+        "meaning": {
+          "en": "left side",
+          "vi": "bên trái"
+        }
+      }
+    ]
+  },
+  {
+    "character": "右",
+    "meaning": {
+      "jp": "みぎ",
+      "en": "right",
+      "vi": "bên phải"
+    },
+    "sinoVietnameseSounds": "Hữu",
+    "onyomi": ["ウ"],
+    "kunyomi": ["みぎ"],
+    "examples": [
+      {
+        "kanjiWord": "右側",
+        "hiragana": "みぎがわ",
+        "meaning": {
+          "en": "right side",
+          "vi": "bên phải"
+        }
+      }
+    ]
+  },
+  {
+    "character": "大",
+    "meaning": {
+      "jp": "おおきい",
+      "en": "big",
+      "vi": "to, lớn"
+    },
+    "sinoVietnameseSounds": "Đại",
+    "onyomi": ["ダイ", "タイ"],
+    "kunyomi": ["おお-きい"],
+    "examples": [
+      {
+        "kanjiWord": "大きい",
+        "hiragana": "おおきい",
+        "meaning": {
+          "en": "big",
+          "vi": "to"
+        }
+      }
+    ]
+  },
+  {
+    "character": "木",
+    "meaning": {
+      "jp": "き",
+      "en": "tree, wood",
+      "vi": "cây, gỗ"
+    },
+    "sinoVietnameseSounds": "Mộc",
+    "onyomi": ["ボク", "モク"],
+    "kunyomi": ["き"],
+    "examples": [
+      {
+        "kanjiWord": "木曜日",
+        "hiragana": "もくようび",
+        "meaning": {
+          "en": "Thursday",
+          "vi": "Thứ Năm"
+        }
+      }
+    ]
+  },
+  {
+    "character": "本",
+    "meaning": {
+      "jp": "ほん",
+      "en": "book, origin",
+      "vi": "sách, gốc"
+    },
+    "sinoVietnameseSounds": "Bản",
+    "onyomi": ["ホン"],
+    "kunyomi": ["もと"],
+    "examples": [
+      {
+        "kanjiWord": "本屋",
+        "hiragana": "ほんや",
+        "meaning": {
+          "en": "bookstore",
+          "vi": "hiệu sách"
+        }
+      }
+    ]
+  },
+  {
+    "character": "水",
+    "meaning": {
+      "jp": "みず",
+      "en": "water",
+      "vi": "nước"
+    },
+    "sinoVietnameseSounds": "Thủy",
+    "onyomi": ["スイ"],
+    "kunyomi": ["みず"],
+    "examples": [
+      {
+        "kanjiWord": "水曜日",
+        "hiragana": "すいようび",
+        "meaning": {
+          "en": "Wednesday",
+          "vi": "Thứ Tư"
+        }
+      },
+      {
+        "kanjiWord": "水中",
+        "hiragana": "すいちゅう",
+        "meaning": {
+          "en": "underwater",
+          "vi": "dưới nước"
+        }
+      }
+    ]
+  },
+  {
+    "character": "火",
+    "meaning": {
+      "jp": "ひ",
+      "en": "fire",
+      "vi": "lửa"
+    },
+    "sinoVietnameseSounds": "Hỏa",
+    "onyomi": ["カ"],
+    "kunyomi": ["ひ"],
+    "examples": [
+      {
+        "kanjiWord": "火曜日",
+        "hiragana": "かようび",
+        "meaning": {
+          "en": "Tuesday",
+          "vi": "Thứ Ba"
+        }
+      }
+    ]
+  },
+  {
+    "character": "父",
+    "meaning": {
+      "jp": "ちち",
+      "en": "father",
+      "vi": "cha"
+    },
+    "sinoVietnameseSounds": "Phụ",
+    "onyomi": ["フ"],
+    "kunyomi": ["ちち"],
+    "examples": [
+      {
+        "kanjiWord": "父親",
+        "hiragana": "ちちおや",
+        "meaning": {
+          "en": "father",
+          "vi": "người cha"
+        }
+      }
+    ]
+  },
+  {
+    "character": "母",
+    "meaning": {
+      "jp": "はは",
+      "en": "mother",
+      "vi": "mẹ"
+    },
+    "sinoVietnameseSounds": "Mẫu",
+    "onyomi": ["ボ"],
+    "kunyomi": ["はは"],
+    "examples": [
+      {
+        "kanjiWord": "母親",
+        "hiragana": "ははおや",
+        "meaning": {
+          "en": "mother",
+          "vi": "người mẹ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "耳",
+    "meaning": {
+      "jp": "みみ",
+      "en": "ear",
+      "vi": "tai"
+    },
+    "sinoVietnameseSounds": "Nhĩ",
+    "onyomi": ["ジ"],
+    "kunyomi": ["みみ"],
+    "examples": [
+      {
+        "kanjiWord": "耳鼻科",
+        "hiragana": "じびか",
+        "meaning": {
+          "en": "ENT",
+          "vi": "khoa tai mũi họng"
+        }
+      }
+    ]
+  },
+  {
+    "character": "口",
+    "meaning": {
+      "jp": "くち",
+      "en": "mouth",
+      "vi": "miệng"
+    },
+    "sinoVietnameseSounds": "Khẩu",
+    "onyomi": ["コウ", "ク"],
+    "kunyomi": ["くち"],
+    "examples": [
+      {
+        "kanjiWord": "入口",
+        "hiragana": "いりぐち",
+        "meaning": {
+          "en": "entrance",
+          "vi": "lối vào"
+        }
+      }
+    ]
+  },
+  {
+    "character": "休",
+    "meaning": {
+      "jp": "やすむ",
+      "en": "rest",
+      "vi": "nghỉ ngơi"
+    },
+    "sinoVietnameseSounds": "Hưu",
+    "onyomi": ["キュウ"],
+    "kunyomi": ["やすむ"],
+    "examples": [
+      {
+        "kanjiWord": "休み",
+        "hiragana": "やすみ",
+        "meaning": {
+          "en": "holiday, rest",
+          "vi": "ngày nghỉ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "何",
+    "meaning": {
+      "jp": "なに",
+      "en": "what",
+      "vi": "gì"
+    },
+    "sinoVietnameseSounds": "Hà",
+    "onyomi": ["カ"],
+    "kunyomi": ["なに"],
+    "examples": [
+      {
+        "kanjiWord": "何時",
+        "hiragana": "なんじ",
+        "meaning": {
+          "en": "what time",
+          "vi": "mấy giờ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "入",
+    "meaning": {
+      "jp": "いれる",
+      "en": "enter",
+      "vi": "vào"
+    },
+    "sinoVietnameseSounds": "Nhập",
+    "onyomi": ["ニュウ"],
+    "kunyomi": ["いれる", "はいる"],
+    "examples": [
+      {
+        "kanjiWord": "入る",
+        "hiragana": "はいる",
+        "meaning": {
+          "en": "to enter",
+          "vi": "vào"
+        }
+      }
+    ]
+  },
+  {
+    "character": "上",
+    "meaning": {
+      "jp": "うえ",
+      "en": "above, up",
+      "vi": "trên, lên"
+    },
+    "sinoVietnameseSounds": "Thượng",
+    "onyomi": ["ジョウ"],
+    "kunyomi": ["うえ", "あ-げる"],
+    "examples": [
+      {
+        "kanjiWord": "上手",
+        "hiragana": "じょうず",
+        "meaning": {
+          "en": "skillful",
+          "vi": "giỏi"
+        }
+      }
+    ]
+  },
+  {
+    "character": "前",
+    "meaning": {
+      "jp": "まえ",
+      "en": "before, front",
+      "vi": "trước, phía trước"
+    },
+    "sinoVietnameseSounds": "Tiền",
+    "onyomi": ["ゼン"],
+    "kunyomi": ["まえ"],
+    "examples": [
+      {
+        "kanjiWord": "前日",
+        "hiragana": "ぜんじつ",
+        "meaning": {
+          "en": "the previous day",
+          "vi": "ngày hôm trước"
+        }
+      }
+    ]
+  },
+  {
+    "character": "下",
+    "meaning": {
+      "jp": "した",
+      "en": "below, down",
+      "vi": "dưới, xuống"
+    },
+    "sinoVietnameseSounds": "Hạ",
+    "onyomi": ["カ"],
+    "kunyomi": ["した", "さ-げる"],
+    "examples": [
+      {
+        "kanjiWord": "下手",
+        "hiragana": "へた",
+        "meaning": {
+          "en": "clumsy",
+          "vi": "kém"
+        }
+      }
+    ]
+  },
+  {
+    "character": "千",
+    "meaning": {
+      "jp": "せん",
+      "en": "thousand",
+      "vi": "nghìn"
+    },
+    "sinoVietnameseSounds": "Thiên",
+    "onyomi": ["セン"],
+    "kunyomi": ["ち"],
+    "examples": [
+      {
+        "kanjiWord": "千円",
+        "hiragana": "せんえん",
+        "meaning": {
+          "en": "one thousand yen",
+          "vi": "một nghìn yên"
+        }
+      }
+    ]
+  },
+  {
+    "character": "午",
+    "meaning": {
+      "jp": "ごご",
+      "en": "noon",
+      "vi": "buổi trưa"
+    },
+    "sinoVietnameseSounds": "Ngọ",
+    "onyomi": ["ゴ"],
+    "kunyomi": ["ごご"],
+    "examples": [
+      {
+        "kanjiWord": "午前",
+        "hiragana": "ごぜん",
+        "meaning": {
+          "en": "AM",
+          "vi": "buổi sáng"
+        }
+      }
+    ]
+  },
+  {
+    "character": "友",
+    "meaning": {
+      "jp": "とも",
+      "en": "friend",
+      "vi": "bạn"
+    },
+    "sinoVietnameseSounds": "Hữu",
+    "onyomi": ["ユウ"],
+    "kunyomi": ["とも"],
+    "examples": [
+      {
+        "kanjiWord": "友達",
+        "hiragana": "ともだち",
+        "meaning": {
+          "en": "friend",
+          "vi": "bạn"
+        }
+      }
+    ]
+  },
+  {
+    "character": "古",
+    "meaning": {
+      "jp": "ふるい",
+      "en": "old",
+      "vi": "cũ"
+    },
+    "sinoVietnameseSounds": "Cổ",
+    "onyomi": ["コ"],
+    "kunyomi": ["ふるい"],
+    "examples": [
+      {
+        "kanjiWord": "古い",
+        "hiragana": "ふるい",
+        "meaning": {
+          "en": "old",
+          "vi": "cũ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "名",
+    "meaning": {
+      "jp": "な",
+      "en": "name",
+      "vi": "tên"
+    },
+    "sinoVietnameseSounds": "Danh",
+    "onyomi": ["メイ", "ミョウ"],
+    "kunyomi": ["な"],
+    "examples": [
+      {
+        "kanjiWord": "名前",
+        "hiragana": "なまえ",
+        "meaning": {
+          "en": "name",
+          "vi": "tên"
+        }
+      }
+    ]
+  },
+  {
+    "character": "国",
+    "meaning": {
+      "jp": "くに",
+      "en": "country",
+      "vi": "quốc gia"
+    },
+    "sinoVietnameseSounds": "Quốc",
+    "onyomi": ["コク"],
+    "kunyomi": ["くに"],
+    "examples": [
+      {
+        "kanjiWord": "外国",
+        "hiragana": "がいこく",
+        "meaning": {
+          "en": "foreign country",
+          "vi": "nước ngoài"
+        }
+      }
+    ]
+  },
+  {
+    "character": "外",
+    "meaning": {
+      "jp": "そと",
+      "en": "outside",
+      "vi": "bên ngoài"
+    },
+    "sinoVietnameseSounds": "Ngoại",
+    "onyomi": ["ガイ"],
+    "kunyomi": ["そと"],
+    "examples": [
+      {
+        "kanjiWord": "外食",
+        "hiragana": "がいしょく",
+        "meaning": {
+          "en": "eating out",
+          "vi": "ăn ngoài"
+        }
+      }
+    ]
+  },
+  {
+    "character": "女",
+    "meaning": {
+      "jp": "おんな",
+      "en": "woman",
+      "vi": "phụ nữ"
+    },
+    "sinoVietnameseSounds": "Nữ",
+    "onyomi": ["ジョ"],
+    "kunyomi": ["おんな"],
+    "examples": [
+      {
+        "kanjiWord": "女性",
+        "hiragana": "じょせい",
+        "meaning": {
+          "en": "woman",
+          "vi": "phụ nữ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "男",
+    "meaning": {
+      "jp": "おとこ",
+      "en": "man",
+      "vi": "đàn ông"
+    },
+    "sinoVietnameseSounds": "Nam",
+    "onyomi": ["ダン", "ナン"],
+    "kunyomi": ["おとこ"],
+    "examples": [
+      {
+        "kanjiWord": "男性",
+        "hiragana": "だんせい",
+        "meaning": {
+          "en": "man",
+          "vi": "đàn ông"
+        }
+      }
+    ]
+  },
+  {
+    "character": "子",
+    "meaning": {
+      "jp": "こ",
+      "en": "child",
+      "vi": "trẻ con"
+    },
+    "sinoVietnameseSounds": "Tử",
+    "onyomi": ["シ", "ス"],
+    "kunyomi": ["こ"],
+    "examples": [
+      {
+        "kanjiWord": "子供",
+        "hiragana": "こども",
+        "meaning": {
+          "en": "child",
+          "vi": "trẻ con"
+        }
+      }
+    ]
+  },
+  {
+    "character": "学",
+    "meaning": {
+      "jp": "まなぶ",
+      "en": "study, learning",
+      "vi": "học"
+    },
+    "sinoVietnameseSounds": "Học",
+    "onyomi": ["ガク"],
+    "kunyomi": ["まなぶ"],
+    "examples": [
+      {
+        "kanjiWord": "学校",
+        "hiragana": "がっこう",
+        "meaning": {
+          "en": "school",
+          "vi": "trường học"
+        }
+      }
+    ]
+  },
+  {
+    "character": "生",
+    "meaning": {
+      "jp": "いきる",
+      "en": "life, live",
+      "vi": "cuộc sống, sống"
+    },
+    "sinoVietnameseSounds": "Sinh",
+    "onyomi": ["セイ", "ショウ"],
+    "kunyomi": ["いきる"],
+    "examples": [
+      {
+        "kanjiWord": "生徒",
+        "hiragana": "せいと",
+        "meaning": {
+          "en": "student",
+          "vi": "học sinh"
+        }
+      }
+    ]
+  },
+  {
+    "character": "小",
+    "meaning": {
+      "jp": "ちいさい",
+      "en": "small",
+      "vi": "nhỏ"
+    },
+    "sinoVietnameseSounds": "Tiểu",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["ちいさい"],
+    "examples": [
+      {
+        "kanjiWord": "小学校",
+        "hiragana": "しょうがっこう",
+        "meaning": {
+          "en": "elementary school",
+          "vi": "trường tiểu học"
+        }
+      }
+    ]
+  },
+  {
+    "character": "書",
+    "meaning": {
+      "jp": "しょ",
+      "en": "write, book",
+      "vi": "viết, sách"
+    },
+    "sinoVietnameseSounds": "Thư",
+    "onyomi": ["ショ"],
+    "kunyomi": ["か-く"],
+    "examples": [
+      {
+        "kanjiWord": "書く",
+        "hiragana": "かく",
+        "meaning": {
+          "en": "to write",
+          "vi": "viết"
+        }
+      }
+    ]
+  },
+  {
+    "character": "毎",
+    "meaning": {
+      "jp": "まい",
+      "en": "every",
+      "vi": "mỗi"
+    },
+    "sinoVietnameseSounds": "Mỗi",
+    "onyomi": ["マイ"],
+    "kunyomi": ["ごと"],
+    "examples": [
+      {
+        "kanjiWord": "毎日",
+        "hiragana": "まいにち",
+        "meaning": {
+          "en": "every day",
+          "vi": "mỗi ngày"
+        }
+      }
+    ]
+  },
+  {
+    "character": "先",
+    "meaning": {
+      "jp": "さき",
+      "en": "previous, ahead",
+      "vi": "trước, phía trước"
+    },
+    "sinoVietnameseSounds": "Tiên",
+    "onyomi": ["セン"],
+    "kunyomi": ["さき"],
+    "examples": [
+      {
+        "kanjiWord": "先週",
+        "hiragana": "せんしゅう",
+        "meaning": {
+          "en": "last week",
+          "vi": "tuần trước"
+        }
+      }
+    ]
+  },
+  {
+    "character": "会",
+    "meaning": {
+      "jp": "あう",
+      "en": "meet, association",
+      "vi": "gặp, hội"
+    },
+    "sinoVietnameseSounds": "Hội",
+    "onyomi": ["カイ", "エ"],
+    "kunyomi": ["あう"],
+    "examples": [
+      {
+        "kanjiWord": "会話",
+        "hiragana": "かいわ",
+        "meaning": {
+          "en": "conversation",
+          "vi": "hội thoại"
+        }
+      }
+    ]
+  },
+  {
+    "character": "万",
+    "meaning": {
+      "jp": "まん",
+      "en": "ten thousand",
+      "vi": "mười nghìn"
+    },
+    "sinoVietnameseSounds": "Vạn",
+    "onyomi": ["マン", "バン"],
+    "kunyomi": ["よろず"],
+    "examples": [
+      {
+        "kanjiWord": "万年",
+        "hiragana": "まんねん",
+        "meaning": {
+          "en": "ten thousand years",
+          "vi": "vạn năm"
+        }
+      }
+    ]
+  },
+  {
+    "character": "円",
+    "meaning": {
+      "jp": "えん",
+      "en": "yen, circle",
+      "vi": "yên, vòng tròn"
+    },
+    "sinoVietnameseSounds": "Viên",
+    "onyomi": ["エン"],
+    "kunyomi": ["まる"],
+    "examples": [
+      {
+        "kanjiWord": "円形",
+        "hiragana": "えんけい",
+        "meaning": {
+          "en": "circular",
+          "vi": "hình tròn"
+        }
+      }
+    ]
+  },
+  {
+    "character": "出",
+    "meaning": {
+      "jp": "でる",
+      "en": "exit, go out",
+      "vi": "ra ngoài, xuất"
+    },
+    "sinoVietnameseSounds": "Xuất",
+    "onyomi": ["シュツ", "スイ"],
+    "kunyomi": ["でる", "だす"],
+    "examples": [
+      {
+        "kanjiWord": "出発",
+        "hiragana": "しゅっぱつ",
+        "meaning": {
+          "en": "departure",
+          "vi": "khởi hành"
+        }
+      }
+    ]
+  },
+  {
+    "character": "分",
+    "meaning": {
+      "jp": "ふん",
+      "en": "minute, part",
+      "vi": "phút, phần"
+    },
+    "sinoVietnameseSounds": "Phân",
+    "onyomi": ["ブン", "フン", "ブ"],
+    "kunyomi": ["わ-ける", "わ-かる"],
+    "examples": [
+      {
+        "kanjiWord": "分ける",
+        "hiragana": "わける",
+        "meaning": {
+          "en": "to divide",
+          "vi": "chia"
+        }
+      }
+    ]
+  },
+  {
+    "character": "北",
+    "meaning": {
+      "jp": "きた",
+      "en": "north",
+      "vi": "bắc"
+    },
+    "sinoVietnameseSounds": "Bắc",
+    "onyomi": ["ホク", "ボク"],
+    "kunyomi": ["きた"],
+    "examples": [
+      {
+        "kanjiWord": "北風",
+        "hiragana": "きたかぜ",
+        "meaning": {
+          "en": "north wind",
+          "vi": "gió bắc"
+        }
+      }
+    ]
+  },
+  {
+    "character": "半",
+    "meaning": {
+      "jp": "はん",
+      "en": "half",
+      "vi": "nửa"
+    },
+    "sinoVietnameseSounds": "Bán",
+    "onyomi": ["ハン"],
+    "kunyomi": ["なか-ば"],
+    "examples": [
+      {
+        "kanjiWord": "半分",
+        "hiragana": "はんぶん",
+        "meaning": {
+          "en": "half",
+          "vi": "một nửa"
+        }
+      }
+    ]
+  },
+  {
+    "character": "南",
+    "meaning": {
+      "jp": "みなみ",
+      "en": "south",
+      "vi": "nam"
+    },
+    "sinoVietnameseSounds": "Nam",
+    "onyomi": ["ナン", "ナ"],
+    "kunyomi": ["みなみ"],
+    "examples": [
+      {
+        "kanjiWord": "南極",
+        "hiragana": "なんきょく",
+        "meaning": {
+          "en": "South Pole",
+          "vi": "Nam Cực"
+        }
+      }
+    ]
+  },
+  {
+    "character": "土",
+    "meaning": {
+      "jp": "つち",
+      "en": "earth, soil",
+      "vi": "đất"
+    },
+    "sinoVietnameseSounds": "Thổ",
+    "onyomi": ["ド", "ト"],
+    "kunyomi": ["つち"],
+    "examples": [
+      {
+        "kanjiWord": "土地",
+        "hiragana": "とち",
+        "meaning": {
+          "en": "land",
+          "vi": "đất"
+        }
+      }
+    ]
+  },
+  {
+    "character": "多",
+    "meaning": {
+      "jp": "おおい",
+      "en": "many, much",
+      "vi": "nhiều"
+    },
+    "sinoVietnameseSounds": "Đa",
+    "onyomi": ["タ"],
+    "kunyomi": ["おおい"],
+    "examples": [
+      {
+        "kanjiWord": "多い",
+        "hiragana": "おおい",
+        "meaning": {
+          "en": "many",
+          "vi": "nhiều"
+        }
+      }
+    ]
+  },
+  {
+    "character": "天",
+    "meaning": {
+      "jp": "てん",
+      "en": "heaven, sky",
+      "vi": "trời"
+    },
+    "sinoVietnameseSounds": "Thiên",
+    "onyomi": ["テン"],
+    "kunyomi": ["あま"],
+    "examples": [
+      {
+        "kanjiWord": "天気",
+        "hiragana": "てんき",
+        "meaning": {
+          "en": "weather",
+          "vi": "thời tiết"
+        }
+      }
+    ]
+  },
+  {
+    "character": "安",
+    "meaning": {
+      "jp": "あん",
+      "en": "peaceful, safe",
+      "vi": "an toàn, yên ổn"
+    },
+    "sinoVietnameseSounds": "An",
+    "onyomi": ["アン"],
+    "kunyomi": ["やすい"],
+    "examples": [
+      {
+        "kanjiWord": "安心",
+        "hiragana": "あんしん",
+        "meaning": {
+          "en": "peace of mind",
+          "vi": "an tâm"
+        }
+      }
+    ]
+  },
+  {
+    "character": "少",
+    "meaning": {
+      "jp": "すくない",
+      "en": "few, little",
+      "vi": "ít"
+    },
+    "sinoVietnameseSounds": "Thiểu",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["すくない"],
+    "examples": [
+      {
+        "kanjiWord": "少し",
+        "hiragana": "すこし",
+        "meaning": {
+          "en": "a little",
+          "vi": "một chút"
+        }
+      }
+    ]
+  },
+  {
+    "character": "店",
+    "meaning": {
+      "jp": "みせ",
+      "en": "shop, store",
+      "vi": "cửa hàng"
+    },
+    "sinoVietnameseSounds": "Điếm",
+    "onyomi": ["テン"],
+    "kunyomi": ["みせ"],
+    "examples": [
+      {
+        "kanjiWord": "店員",
+        "hiragana": "てんいん",
+        "meaning": {
+          "en": "store clerk",
+          "vi": "nhân viên cửa hàng"
+        }
+      }
+    ]
+  },
+  {
+    "character": "後",
+    "meaning": {
+      "jp": "あと",
+      "en": "after, behind",
+      "vi": "sau, phía sau"
+    },
+    "sinoVietnameseSounds": "Hậu",
+    "onyomi": ["ゴ", "コウ"],
+    "kunyomi": ["あと", "うしろ"],
+    "examples": [
+      {
+        "kanjiWord": "後ろ",
+        "hiragana": "うしろ",
+        "meaning": {
+          "en": "behind",
+          "vi": "phía sau"
+        }
+      }
+    ]
+  },
+  {
+    "character": "手",
+    "meaning": {
+      "jp": "て",
+      "en": "hand",
+      "vi": "tay"
+    },
+    "sinoVietnameseSounds": "Thủ",
+    "onyomi": ["シュ"],
+    "kunyomi": ["て"],
+    "examples": [
+      {
+        "kanjiWord": "手紙",
+        "hiragana": "てがみ",
+        "meaning": {
+          "en": "letter",
+          "vi": "thư"
+        }
+      }
+    ]
+  },
+  {
+    "character": "新",
+    "meaning": {
+      "jp": "あたらしい",
+      "en": "new",
+      "vi": "mới"
+    },
+    "sinoVietnameseSounds": "Tân",
+    "onyomi": ["シン"],
+    "kunyomi": ["あたらしい"],
+    "examples": [
+      {
+        "kanjiWord": "新しい",
+        "hiragana": "あたらしい",
+        "meaning": {
+          "en": "new",
+          "vi": "mới"
+        }
+      }
+    ]
+  },
+  {
+    "character": "時",
+    "meaning": {
+      "jp": "じ",
+      "en": "time, hour",
+      "vi": "thời gian, giờ"
+    },
+    "sinoVietnameseSounds": "Thời",
+    "onyomi": ["ジ"],
+    "kunyomi": ["とき"],
+    "examples": [
+      {
+        "kanjiWord": "時間",
+        "hiragana": "じかん",
+        "meaning": {
+          "en": "time",
+          "vi": "thời gian"
+        }
+      }
+    ]
+  },
+  {
+    "character": "来",
+    "meaning": {
+      "jp": "くる",
+      "en": "come",
+      "vi": "đến"
+    },
+    "sinoVietnameseSounds": "Lai",
+    "onyomi": ["ライ"],
+    "kunyomi": ["くる"],
+    "examples": [
+      {
+        "kanjiWord": "来る",
+        "hiragana": "くる",
+        "meaning": {
+          "en": "to come",
+          "vi": "đến"
+        }
+      }
+    ]
+  },
+  {
+    "character": "東",
+    "meaning": {
+      "jp": "ひがし",
+      "en": "east",
+      "vi": "đông"
+    },
+    "sinoVietnameseSounds": "Đông",
+    "onyomi": ["トウ"],
+    "kunyomi": ["ひがし"],
+    "examples": [
+      {
+        "kanjiWord": "東京",
+        "hiragana": "とうきょう",
+        "meaning": {
+          "en": "Tokyo",
+          "vi": "Tokyo"
+        }
+      }
+    ]
+  },
+  {
+    "character": "校",
+    "meaning": {
+      "jp": "こう",
+      "en": "school",
+      "vi": "trường học"
+    },
+    "sinoVietnameseSounds": "Hiệu",
+    "onyomi": ["コウ"],
+    "kunyomi": ["-こう"],
+    "examples": [
+      {
+        "kanjiWord": "学校",
+        "hiragana": "がっこう",
+        "meaning": {
+          "en": "school",
+          "vi": "trường học"
+        }
+      }
+    ]
+  },
+  {
+    "character": "気",
+    "meaning": {
+      "jp": "き",
+      "en": "spirit, atmosphere",
+      "vi": "tinh thần, khí"
+    },
+    "sinoVietnameseSounds": "Khí",
+    "onyomi": ["キ", "ケ"],
+    "kunyomi": ["き"],
+    "examples": [
+      {
+        "kanjiWord": "気分",
+        "hiragana": "きぶん",
+        "meaning": {
+          "en": "mood",
+          "vi": "tinh thần"
+        }
+      }
+    ]
+  },
+  {
+    "character": "白",
+    "meaning": {
+      "jp": "しろ",
+      "en": "white",
+      "vi": "trắng"
+    },
+    "sinoVietnameseSounds": "Bạch",
+    "onyomi": ["ハク", "ビャク"],
+    "kunyomi": ["しろ", "しら-"],
+    "examples": [
+      {
+        "kanjiWord": "白書",
+        "hiragana": "はくしょ",
+        "meaning": {
+          "en": "white paper",
+          "vi": "báo cáo chính thức"
+        }
+      }
+    ]
+  },
+  {
+    "character": "百",
+    "meaning": {
+      "jp": "ひゃく",
+      "en": "hundred",
+      "vi": "trăm"
+    },
+    "sinoVietnameseSounds": "Bách",
+    "onyomi": ["ヒャク", "ビャク"],
+    "kunyomi": ["もも"],
+    "examples": [
+      {
+        "kanjiWord": "百円",
+        "hiragana": "ひゃくえん",
+        "meaning": {
+          "en": "one hundred yen",
+          "vi": "một trăm yên"
+        }
+      }
+    ]
+  },
+  {
+    "character": "目",
+    "meaning": {
+      "jp": "め",
+      "en": "eye",
+      "vi": "mắt"
+    },
+    "sinoVietnameseSounds": "Mục",
+    "onyomi": ["モク", "ボク"],
+    "kunyomi": ["め"],
+    "examples": [
+      {
+        "kanjiWord": "目的",
+        "hiragana": "もくてき",
+        "meaning": {
+          "en": "purpose",
+          "vi": "mục đích"
+        }
+      }
+    ]
+  },
+  {
+    "character": "社",
+    "meaning": {
+      "jp": "しゃ",
+      "en": "company, shrine",
+      "vi": "công ty, đền thờ"
+    },
+    "sinoVietnameseSounds": "Xã",
+    "onyomi": ["シャ"],
+    "kunyomi": ["やしろ"],
+    "examples": [
+      {
+        "kanjiWord": "会社",
+        "hiragana": "かいしゃ",
+        "meaning": {
+          "en": "company",
+          "vi": "công ty"
+        }
+      }
+    ]
+  },
+  {
+    "character": "空",
+    "meaning": {
+      "jp": "そら",
+      "en": "sky, empty",
+      "vi": "bầu trời, trống"
+    },
+    "sinoVietnameseSounds": "Không",
+    "onyomi": ["クウ"],
+    "kunyomi": ["そら", "から"],
+    "examples": [
+      {
+        "kanjiWord": "空港",
+        "hiragana": "くうこう",
+        "meaning": {
+          "en": "airport",
+          "vi": "sân bay"
+        }
+      }
+    ]
+  },
+  {
+    "character": "立",
+    "meaning": {
+      "jp": "たつ",
+      "en": "stand, establish",
+      "vi": "đứng, thành lập"
+    },
+    "sinoVietnameseSounds": "Lập",
+    "onyomi": ["リツ", "リュウ"],
+    "kunyomi": ["たつ"],
+    "examples": [
+      {
+        "kanjiWord": "立つ",
+        "hiragana": "たつ",
+        "meaning": {
+          "en": "to stand",
+          "vi": "đứng"
+        }
+      }
+    ]
+  },
+  {
+    "character": "聞",
+    "meaning": {
+      "jp": "きく",
+      "en": "listen, hear",
+      "vi": "nghe"
+    },
+    "sinoVietnameseSounds": "Văn",
+    "onyomi": ["ブン", "モン"],
+    "kunyomi": ["きく"],
+    "examples": [
+      {
+        "kanjiWord": "聞く",
+        "hiragana": "きく",
+        "meaning": {
+          "en": "to listen",
+          "vi": "nghe"
+        }
+      }
+    ]
+  },
+  {
+    "character": "花",
+    "meaning": {
+      "jp": "はな",
+      "en": "flower",
+      "vi": "hoa"
+    },
+    "sinoVietnameseSounds": "Hoa",
+    "onyomi": ["カ"],
+    "kunyomi": ["はな"],
+    "examples": [
+      {
+        "kanjiWord": "花屋",
+        "hiragana": "はなや",
+        "meaning": {
+          "en": "flower shop",
+          "vi": "cửa hàng hoa"
+        }
+      }
+    ]
+  },
+  {
+    "character": "行",
+    "meaning": {
+      "jp": "いく",
+      "en": "go, conduct",
+      "vi": "đi, thực hiện"
+    },
+    "sinoVietnameseSounds": "Hành",
+    "onyomi": ["コウ", "ギョウ"],
+    "kunyomi": ["いく", "ゆく"],
+    "examples": [
+      {
+        "kanjiWord": "行く",
+        "hiragana": "いく",
+        "meaning": {
+          "en": "to go",
+          "vi": "đi"
+        }
+      }
+    ]
+  },
+  {
+    "character": "西",
+    "meaning": {
+      "jp": "にし",
+      "en": "west",
+      "vi": "tây"
+    },
+    "sinoVietnameseSounds": "Tây",
+    "onyomi": ["セイ", "サイ"],
+    "kunyomi": ["にし"],
+    "examples": [
+      {
+        "kanjiWord": "西洋",
+        "hiragana": "せいよう",
+        "meaning": {
+          "en": "Western world",
+          "vi": "Thế giới phương Tây"
+        }
+      }
+    ]
+  },
+  {
+    "character": "見",
+    "meaning": {
+      "jp": "みる",
+      "en": "see, look",
+      "vi": "nhìn, xem"
+    },
+    "sinoVietnameseSounds": "Kiến",
+    "onyomi": ["ケン"],
+    "kunyomi": ["みる"],
+    "examples": [
+      {
+        "kanjiWord": "見る",
+        "hiragana": "みる",
+        "meaning": {
+          "en": "to see",
+          "vi": "nhìn"
+        }
+      }
+    ]
+  },
+  {
+    "character": "言",
+    "meaning": {
+      "jp": "いう",
+      "en": "say, word",
+      "vi": "nói, lời"
+    },
+    "sinoVietnameseSounds": "Ngôn",
+    "onyomi": ["ゲン", "ゴン"],
+    "kunyomi": ["いう", "こと"],
+    "examples": [
+      {
+        "kanjiWord": "言葉",
+        "hiragana": "ことば",
+        "meaning": {
+          "en": "language, word",
+          "vi": "ngôn ngữ, lời"
+        }
+      }
+    ]
+  },
+  {
+    "character": "話",
+    "meaning": {
+      "jp": "はなす",
+      "en": "talk, story",
+      "vi": "nói chuyện, câu chuyện"
+    },
+    "sinoVietnameseSounds": "Thoại",
+    "onyomi": ["ワ"],
+    "kunyomi": ["はなす"],
+    "examples": [
+      {
+        "kanjiWord": "話す",
+        "hiragana": "はなす",
+        "meaning": {
+          "en": "to talk",
+          "vi": "nói chuyện"
+        }
+      }
+    ]
+  },
+  {
+    "character": "語",
+    "meaning": {
+      "jp": "ご",
+      "en": "language, word",
+      "vi": "ngôn ngữ, từ"
+    },
+    "sinoVietnameseSounds": "Ngữ",
+    "onyomi": ["ゴ"],
+    "kunyomi": ["かた-る"],
+    "examples": [
+      {
+        "kanjiWord": "言語",
+        "hiragana": "げんご",
+        "meaning": {
+          "en": "language",
+          "vi": "ngôn ngữ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "読",
+    "meaning": {
+      "jp": "よむ",
+      "en": "read",
+      "vi": "đọc"
+    },
+    "sinoVietnameseSounds": "Độc",
+    "onyomi": ["ドク", "トク"],
+    "kunyomi": ["よむ"],
+    "examples": [
+      {
+        "kanjiWord": "読む",
+        "hiragana": "よむ",
+        "meaning": {
+          "en": "to read",
+          "vi": "đọc"
+        }
+      }
+    ]
+  },
+  {
+    "character": "買",
+    "meaning": {
+      "jp": "かう",
+      "en": "buy",
+      "vi": "mua"
+    },
+    "sinoVietnameseSounds": "Mãi",
+    "onyomi": ["バイ"],
+    "kunyomi": ["かう"],
+    "examples": [
+      {
+        "kanjiWord": "買い物",
+        "hiragana": "かいもの",
+        "meaning": {
+          "en": "shopping",
+          "vi": "mua sắm"
+        }
+      }
+    ]
+  },
+  {
+    "character": "足",
+    "meaning": {
+      "jp": "あし",
+      "en": "foot,足",
+      "vi": "chân, đủ"
+    },
+    "sinoVietnameseSounds": "Túc",
+    "onyomi": ["ソク"],
+    "kunyomi": ["あし"],
+    "examples": [
+      {
+        "kanjiWord": "足りる",
+        "hiragana": "たりる",
+        "meaning": {
+          "en": "to be enough",
+          "vi": "đủ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "車",
+    "meaning": {
+      "jp": "くるま",
+      "en": "car",
+      "vi": "xe"
+    },
+    "sinoVietnameseSounds": "Xa",
+    "onyomi": ["シャ"],
+    "kunyomi": ["くるま"],
+    "examples": [
+      {
+        "kanjiWord": "車両",
+        "hiragana": "しゃりょう",
+        "meaning": {
+          "en": "vehicle",
+          "vi": "xe cộ"
+        }
+      }
+    ]
+  },
+  {
+    "character": "道",
+    "meaning": {
+      "jp": "みち",
+      "en": "road, way",
+      "vi": "đường"
+    },
+    "sinoVietnameseSounds": "Đạo",
+    "onyomi": ["ドウ", "ト"],
+    "kunyomi": ["みち"],
+    "examples": [
+      {
+        "kanjiWord": "道",
+        "hiragana": "みち",
+        "meaning": {
+          "en": "road",
+          "vi": "đường"
+        }
+      }
+    ]
+  },
+  {
+    "character": "金",
+    "meaning": {
+      "jp": "きん",
+      "en": "gold, money",
+      "vi": "vàng, tiền"
+    },
+    "sinoVietnameseSounds": "Kim",
+    "onyomi": ["キン", "コン"],
+    "kunyomi": ["かね"],
+    "examples": [
+      {
+        "kanjiWord": "金曜日",
+        "hiragana": "きんようび",
+        "meaning": {
+          "en": "Friday",
+          "vi": "Thứ Sáu"
+        }
+      }
+    ]
+  },
+  {
+    "character": "長",
+    "meaning": {
+      "jp": "ながい",
+      "en": "long, leader",
+      "vi": "dài, trưởng"
+    },
+    "sinoVietnameseSounds": "Trường",
+    "onyomi": ["チョウ"],
+    "kunyomi": ["ながい"],
+    "examples": [
+      {
+        "kanjiWord": "長い",
+        "hiragana": "ながい",
+        "meaning": {
+          "en": "long",
+          "vi": "dài"
+        }
+      }
+    ]
+  },
+  {
+    "character": "間",
+    "meaning": {
+      "jp": "あいだ",
+      "en": "interval, between",
+      "vi": "khoảng cách, giữa"
+    },
+    "sinoVietnameseSounds": "Gian",
+    "onyomi": ["カン"],
+    "kunyomi": ["あいだ", "ま"],
+    "examples": [
+      {
+        "kanjiWord": "時間",
+        "hiragana": "じかん",
+        "meaning": {
+          "en": "time",
+          "vi": "thời gian"
+        }
+      }
+    ]
+  },
+  {
+    "character": "雨",
+    "meaning": {
+      "jp": "あめ",
+      "en": "rain",
+      "vi": "mưa"
+    },
+    "sinoVietnameseSounds": "Vũ",
+    "onyomi": ["ウ"],
+    "kunyomi": ["あめ", "あま-"],
+    "examples": [
+      {
+        "kanjiWord": "雨天",
+        "hiragana": "うてん",
+        "meaning": {
+          "en": "rainy weather",
+          "vi": "thời tiết mưa"
+        }
+      }
+    ]
+  },
+  {
+    "character": "電",
+    "meaning": {
+      "jp": "でん",
+      "en": "electricity",
+      "vi": "điện"
+    },
+    "sinoVietnameseSounds": "Điện",
+    "onyomi": ["デン"],
+    "kunyomi": [],
+    "examples": [
+      {
+        "kanjiWord": "電車",
+        "hiragana": "でんしゃ",
+        "meaning": {
+          "en": "train",
+          "vi": "tàu điện"
+        }
+      }
+    ]
+  },
+  {
+    "character": "食",
+    "meaning": {
+      "jp": "たべる",
+      "en": "eat, food",
+      "vi": "ăn, thực phẩm"
+    },
+    "sinoVietnameseSounds": "Thực",
+    "onyomi": ["ショク", "ジキ"],
+    "kunyomi": ["たべる", "くう"],
+    "examples": [
+      {
+        "kanjiWord": "食事",
+        "hiragana": "しょくじ",
+        "meaning": {
+          "en": "meal",
+          "vi": "bữa ăn"
+        }
+      }
+    ]
+  },
+  {
+    "character": "飲",
+    "meaning": {
+      "jp": "のむ",
+      "en": "drink",
+      "vi": "uống"
+    },
+    "sinoVietnameseSounds": "Ẩm",
+    "onyomi": ["イン"],
+    "kunyomi": ["のむ"],
+    "examples": [
+      {
+        "kanjiWord": "飲み物",
+        "hiragana": "のみもの",
+        "meaning": {
+          "en": "drink, beverage",
+          "vi": "đồ uống"
+        }
+      }
+    ]
+  },
+  {
+    "character": "駅",
+    "meaning": {
+      "jp": "えき",
+      "en": "station",
+      "vi": "ga (tàu)"
+    },
+    "sinoVietnameseSounds": "Dịch",
+    "onyomi": ["エキ"],
+    "kunyomi": [],
+    "examples": [
+      {
+        "kanjiWord": "駅前",
+        "hiragana": "えきまえ",
+        "meaning": {
+          "en": "in front of the station",
+          "vi": "trước ga"
+        }
+      }
+    ]
+  },
+  {
+    "character": "高",
+    "meaning": {
+      "jp": "たかい",
+      "en": "high, expensive",
+      "vi": "cao, đắt"
+    },
+    "sinoVietnameseSounds": "Cao",
+    "onyomi": ["コウ"],
+    "kunyomi": ["たかい"],
+    "examples": [
+      {
+        "kanjiWord": "高い",
+        "hiragana": "たかい",
+        "meaning": {
+          "en": "high",
+          "vi": "cao"
+        }
+      }
+    ]
+  },
+  {
+    "character": "魚",
+    "meaning": {
+      "jp": "さかな",
+      "en": "fish",
+      "vi": "cá"
+    },
+    "sinoVietnameseSounds": "Ngư",
+    "onyomi": ["ギョ"],
+    "kunyomi": ["さかな", "うお"],
+    "examples": [
+      {
+        "kanjiWord": "魚類",
+        "hiragana": "ぎょるい",
+        "meaning": {
+          "en": "fish species",
+          "vi": "loài cá"
+        }
+      }
+    ]
+  }
+]

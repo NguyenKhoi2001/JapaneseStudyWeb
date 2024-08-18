@@ -11,20 +11,21 @@
 }
 
 .mainContent {
-  width: 1300px;
+  width: 1200px;
   display: flex;
   flex-direction: column;
 }
 
 .toggleViewBtn {
   height: 50px;
+  width: 100%;
+  min-width: 125px;
   display: flex;
   align-items: center;
   border: 0;
   padding: 0 10px 0 10px;
-  background-color: transparent;
   font-size: var(--font-medium);
-  /* border: 1px solid red; */
+  background-color: transparent;
 }
 .toggleViewBtn:hover {
   cursor: pointer;

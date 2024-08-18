@@ -1,0 +1,146 @@
+{
+  "advancedLearning": {
+    "vocabulary": {
+      "title": "語彙",
+      "card": {
+        "vocabulary": "語彙",
+        "kanji": "漢字",
+        "example": "例",
+        "meaning": "意味",
+        "readings": "読み方"
+      },
+      "vocabularySlider": {
+        "prevButton": "前",
+        "nextButton": "次",
+        "reset": "リセット",
+        "startAutoplay": "自動再生を開始",
+        "stopAutoplay": "自動再生を停止",
+        "useNonFlipable": "非反転カードを使用",
+        "useFlipable": "反転カードを使用"
+      },
+      "vocabularyCardFlipable": {
+        "vocabulary": "語彙",
+        "kanji": "漢字",
+        "example": "例",
+        "meaning": "意味",
+        "readings": "読み方"
+      },
+      "VocabularyForm": {
+        "hiraganaKatakana": "ひらがな/カタカナ",
+        "kanji": "漢字",
+        "sinoVietnameseSounds": "シノヴィエト音",
+        "imageUrl": "画像URL",
+        "imagePublicId": "画像の公開ID",
+        "meanings": {
+          "en": "英語の意味",
+          "vi": "ベトナム語の意味"
+        },
+        "examples": {
+          "sentence": "例文",
+          "meaning": {
+            "en": "例の英語の意味",
+            "vi": "例のベトナム語の意味"
+          }
+        },
+        "submit": "送信",
+        "addExample": "例を追加",
+        "removeImage": "画像を削除",
+        "mainImage": "メイン画像",
+        "details": "語彙の詳細",
+        "addMoreExamples": "例をさらに追加",
+        "examplesTitle": "例",
+        "dragDrop": "ドラッグアンドドロップまたはクリックして画像を選択"
+      }
+    },
+    "kanji": {
+      "title": "漢字",
+      "card": {
+        "kanjiTitle": "漢字",
+        "examplesTitle": "例",
+        "exampleKanjiWord": "漢字単語",
+        "exampleHiragana": "ひらがな",
+        "exampleMeaning": "意味",
+        "meaningTitle": "意味",
+        "sinoVietnameseSoundsTitle": "シノヴィエト音",
+        "onyomiTitle": "音読み",
+        "kunyomiTitle": "訓読み"
+      },
+      "kanjiSlider": {
+        "prevButton": "前",
+        "nextButton": "次",
+        "reset": "リセット",
+        "startAutoplay": "自動再生を開始",
+        "stopAutoplay": "自動再生を停止",
+        "useNonFlipable": "非反転カードを使用",
+        "useFlipable": "反転カードを使用"
+      },
+      "KanjiForm": {
+        "mainImage": "メイン画像",
+        "Preview": "プレビュー",
+        "dragDrop": "ドラッグアンドドロップまたはクリックして画像を選択",
+        "removeImage": "画像を削除",
+        "details": "漢字の詳細",
+        "character": "文字",
+        "characterPlaceholder": "漢字を入力",
+        "sinoVietnameseSounds": "シノヴィエト音",
+        "sinoVietnameseSoundsPlaceholder": "シノヴィエト音を入入力",
+        "onyomi": "音読み",
+        "onyomiPlaceholder": "音読みを入力",
+        "kunyomi": "訓読み",
+        "kunyomiPlaceholder": "訓読みを入力",
+        "meanings": {
+          "en": "英語の意味",
+          "vi": "ベトナム語の意味",
+          "jp": "日本語の意味"
+        },
+        "meaningsPlaceholder": {
+          "en": "英語の意味を入力",
+          "vi": "ベトナム語の意味を入力",
+          "jp": "日本語の意味を入力"
+        },
+        "examples": {
+          "kanjiWord": "漢字単語",
+          "kanjiWordPlaceholder": "漢字単語を入力",
+          "hiragana": "ひらがな",
+          "hiraganaPlaceholder": "ひらがなを入力",
+          "meaning": {
+            "en": "例の英語の意味",
+            "vi": "例のベトナム語の意味"
+          },
+          "meaningPlaceholder": {
+            "en": "例の英語の意味を入力",
+            "vi": "例のベトナム語の意味を入力"
+          }
+        },
+        "submit": "送信",
+        "addExample": "例を追加",
+        "addMoreExamples": "さらに例を追加",
+        "examplesTitle": "例"
+      }
+    },
+    "grammar": {
+      "title": "文法",
+      "grammarDisplay": {
+        "editContent": "内容を編集",
+        "closeEditor": "エディターを閉じる",
+        "updateGrammarContent": "文法内容を更新",
+        "title": "タイトル：",
+        "language": "言語：",
+        "languages": {
+          "en": "英語",
+          "vi": "ベトナム語",
+          "jp": "日本語"
+        },
+        "contentUnavailable": "この言語での内容は利用できません。ベトナム語版を試してください。",
+        "emptyContent": "この言語の文法バージョンは空です。一つ作成することができます。"
+      }
+    },
+    "reading": "読解",
+    "listening": "聞解",
+    "practice": "練習",
+    "admin": {
+      "add": "追加",
+      "update": "更新"
+    }
+  }
+}
