@@ -3,23 +3,26 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const router = express.Router();
+const serverless = require("serverless-http");
+
+const baseUrlForNetlify = "/.netlify/functions/api"; // Base URL for Netlify
 
 // Routers defined
-const userRouter = require("./routes/userRouter.js");
-const vocabularyRouter = require("./routes/vocabularyRouter.js");
-const kanjiRouter = require("./routes/kanjiRouter.js");
-const grammarRouter = require("./routes/grammarRouter.js");
-const lessonRouter = require("./routes/lessonRouter.js");
-const levelRouter = require("./routes/levelRouter.js");
-const questionRouter = require("./routes/questionRouter.js");
-const userProgressRouter = require("./routes/userProgressRouter.js");
-const seedDatabaseVocabulary = require("./utils/database/seedDatabaseVocabulary.js");
-const seedInitialUsers = require("./utils/database/seedInitialUsers.js");
-const seedDatabaseKanji = require("./utils/database/seedDatabaseKanji.js");
-const seedDatabaseGrammar = require("./utils/database/seedDatabaseGrammar.js");
-const seedDatabaseLevels = require("./utils/database/seedDatabaseLevels.js");
-const seedDatabaseLesson = require("./utils/database/seedDatabaseLessons.js");
-const seedDatabaseQuestions = require("./utils/database/seedDatabaseQuestions.js");
+const userRouter = require("../routes/userRouter.js");
+const vocabularyRouter = require("../routes/vocabularyRouter.js");
+const kanjiRouter = require("../routes/kanjiRouter.js");
+const grammarRouter = require("../routes/grammarRouter.js");
+const lessonRouter = require("../routes/lessonRouter.js");
+const levelRouter = require("../routes/levelRouter.js");
+const questionRouter = require("../routes/questionRouter.js");
+const userProgressRouter = require("../routes/userProgressRouter.js");
+const seedDatabaseVocabulary = require("../utils/database/seedDatabaseVocabulary.js");
+const seedInitialUsers = require("../utils/database/seedInitialUsers.js");
+const seedDatabaseKanji = require("../utils/database/seedDatabaseKanji.js");
+const seedDatabaseGrammar = require("../utils/database/seedDatabaseGrammar.js");
+const seedDatabaseLevels = require("../utils/database/seedDatabaseLevels.js");
+const seedDatabaseLesson = require("../utils/database/seedDatabaseLessons.js");
+const seedDatabaseQuestions = require("../utils/database/seedDatabaseQuestions.js");
 
 const app = express();
 app.use(express.json({ limit: "50mb" })); // Adjust limit as needed
@@ -58,24 +61,40 @@ mongoose
   .catch((err) => console.error("Could not connect to MongoDB...", err));
 
 // Example route
-app.get("/", (req, res) => {
+app.get(`${baseUrlForNetlify}/`, (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/.netlify/functions/api", (req, res) => res.send("Hello World!"));
-// Use routers
-app.use("/api/users", userRouter);
-app.use("/api/vocabulary", vocabularyRouter);
-app.use("/api/kanji", kanjiRouter);
-app.use("/api/grammar", grammarRouter);
-app.use("/api/lessons", lessonRouter);
-app.use("/api/levels", levelRouter);
-app.use("/api/questions", questionRouter);
-app.use("/api/userProgress", userProgressRouter);
+// Example route
+app.get(`${baseUrlForNetlify}/`, (req, res) => {
+  res.send("Hello World!");
+});
 
-app.use("/.netlify/functions/api", router);
-const handler = serverless(app);
-module.exports.handler = async (event, context) => {
-  const result = await handler(event, context);
-  return result;
-};
+// Use routers
+app.use(`${baseUrlForNetlify}/api/users`, userRouter);
+app.use(`${baseUrlForNetlify}/api/vocabulary`, vocabularyRouter);
+app.use(`${baseUrlForNetlify}/api/kanji`, kanjiRouter);
+app.use(`${baseUrlForNetlify}/api/grammar`, grammarRouter);
+app.use(`${baseUrlForNetlify}/api/lessons`, lessonRouter);
+app.use(`${baseUrlForNetlify}/api/levels`, levelRouter);
+app.use(`${baseUrlForNetlify}/api/questions`, questionRouter);
+app.use(`${baseUrlForNetlify}/api/userProgress`, userProgressRouter);
+
+app.get(`${baseUrlForNetlify}/demo`, (req, res) => {
+  res.json([
+    {
+      id: "001",
+      name: "Aayush",
+    },
+    {
+      id: "002",
+      name: "rohit",
+    },
+    {
+      id: "003",
+      name: "Mohit",
+    },
+  ]);
+});
+
+module.exports.handler = serverless(app);

@@ -46,7 +46,11 @@ async function seedDatabase() {
 
 // MongoDB connection
 mongoose
-  .connect(process.env.DB_URI)
+  .connect(process.env.DB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    connectTimeoutMS: 900000, // 900 seconds
+  })
   .then(() => {
     console.log("Connected to MongoDB");
     if (process.env.NODE_ENV !== "test") {
@@ -61,7 +65,6 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/.netlify/functions/api", (req, res) => res.send("Hello World!"));
 // Use routers
 app.use("/api/users", userRouter);
 app.use("/api/vocabulary", vocabularyRouter);
