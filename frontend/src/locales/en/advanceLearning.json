@@ -197,6 +197,7 @@
         },
         "submit": "Submit",
         "remove": "Remove",
+        "underlineButton": "Underline",
         "noChangesMade": "No changes made",
         "questionAddedSuccessfully": "Question added successfully!",
         "questionUpdatedSuccessfully": "Question updated successfully!",

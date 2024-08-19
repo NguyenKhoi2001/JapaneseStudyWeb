@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./css/QuestionCard.module.css";
 import IconSpeaker from "../../../../components/IconSpeaker"; // Adjust path as needed
+import DOMPurify from "dompurify";
 
 const QuestionCard = ({
   type,
@@ -24,7 +25,11 @@ const QuestionCard = ({
         return <IconSpeaker text={question} className={styles.iconButton} />;
       case "text":
       default:
-        return <h2>{question}</h2>;
+        return (
+          <h2
+            dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(question) }}
+          />
+        );
     }
   };
 

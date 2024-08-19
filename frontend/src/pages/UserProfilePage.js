@@ -158,7 +158,7 @@ const UserProfilePage = () => {
   return (
     <>
       <NavBar />
-      {loading && <LoadingPage opacity={0.1} />}
+      {loading && <LoadingPage opacity={0.7} />}
       <div className={styles.container}>
         <div className={styles.leftPanel}>
           <div className={styles.userImage}>

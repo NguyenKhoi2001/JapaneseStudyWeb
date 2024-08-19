@@ -54,7 +54,7 @@
 .inputContainer {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin: 0 10px 20px 0px;
 }
 
 .label {
@@ -65,7 +65,6 @@
 
 .input,
 .select {
-  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -82,7 +81,16 @@
 .input {
   flex-grow: 1;
 }
-
+/* Editor container for the editable div and underline button */
+.editorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between button and editable div */
+}
+.editableDiv {
+  padding: 10px;
+  border: 1px solid black;
+}
 .answerInputContainer input {
   flex-grow: 1;
   min-width: 0;
@@ -106,6 +114,7 @@
 }
 
 .addButton,
+.underlineButton,
 .submitButton {
   grid-column: span 2;
   padding: 10px 20px;

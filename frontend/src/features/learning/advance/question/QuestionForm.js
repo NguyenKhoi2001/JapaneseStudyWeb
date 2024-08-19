@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useDispatch } from "react-redux";
 import {
   createQuestion,
@@ -175,10 +175,21 @@ const QuestionForm = ({
       setLoading(false);
     }
   };
-
+  const editableDivRef = useRef(null);
+  const handleUnderlineClick = () => {
+    document.execCommand("underline", false, null);
+  };
+  const handleTextChange = () => {
+    if (editableDivRef.current) {
+      setFormData((prev) => ({
+        ...prev,
+        text: editableDivRef.current.innerHTML,
+      }));
+    }
+  };
   return (
     <div className={styles.overlay}>
-      {loading && <LoadingPage opacity={0.1} />}
+      {loading && <LoadingPage opacity={0.7} />}
       <div className={styles.container}>
         <button className={styles.closeFormButton} onClick={onClose}>
           <FontAwesomeIcon icon={faTimes} />
@@ -193,16 +204,22 @@ const QuestionForm = ({
             <label className={styles.label}>
               {t("advancedLearning.question.questionForm.generalQuestionText")}
             </label>
-            <input
-              type="text"
-              name="text"
-              className={styles.input}
-              placeholder={t(
-                "advancedLearning.question.questionForm.enterQuestion"
-              )}
-              onChange={handleInputChange}
-              value={formData.text}
-            />
+            <div className={styles.editorContainer}>
+              <div
+                contentEditable
+                ref={editableDivRef}
+                className={styles.editableDiv}
+                onInput={handleTextChange}
+                dangerouslySetInnerHTML={{ __html: formData.text }}
+              ></div>
+            </div>
+            <button
+              type="button"
+              className={styles.underlineButton}
+              onClick={handleUnderlineClick}
+            >
+              {t("advancedLearning.question.questionForm.underlineButton")}
+            </button>
           </div>
 
           {}

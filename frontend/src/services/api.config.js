@@ -1,4 +1,4 @@
-export const apiUrl = "http://localhost:5000";
+export const apiUrl = "https://japanesebackend.netlify.app";
 export const CLOUDINARY_URL = "https://api.cloudinary.com/v1_1/ddwczgpnq/image";
 
 export const CLOUDINARY_API_KEY = "734859677852351";

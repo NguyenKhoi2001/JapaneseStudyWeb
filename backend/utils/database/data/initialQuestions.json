@@ -1,5 +1,565 @@
 [
   {
+    "text": "大きな <u>え</u> があります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": [
+      "先週 デパートに かいものにいきました。",
+      "ごはんの後で さんぽします。",
+      "もういちど 言ってください。",
+      "ちかくに山があります。"
+    ],
+    "correctAnswer": 3,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'chair' in Japanese?",
+      "vi": "Ghế tiếng Nhật là gì?",
+      "jp": "「椅子」は日本語で何ですか？"
+    },
+    "answers": ["椅子", "机", "本", "ペン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "この <u>ホテル</u>は ヘやが 多いです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": [
+      "わたしの こどもは はなが すきです。",
+      "けさ しゃわーをあびました。",
+      "コーヒーを のみました。",
+      "あたらしい くるまを かいました。"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "この <u>カメラ</u>は 安いです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いくらですか。", "どこですか。", "だれですか。", "何ですか。"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>かさ</u>は 外にあります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": [
+      "けさ しゃわーをあびました。",
+      "コーヒーを のみました。",
+      "しゅくだいが はんぶん おわりました。",
+      "かさを もって ください。"
+    ],
+    "correctAnswer": 3,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょうは <u>500</u> およぎました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["メートル", "キロメートル", "センチメートル", "リットル"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "<u>うるさい</u>から テレビを けしてください。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["つけ", "けし", "だし", "かい"],
+    "correctAnswer": 1,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "わたしの <u>へや</u>は このビルの 2 かいです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["まど", "かい", "たてもの", "ビル"],
+    "correctAnswer": 3,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "さとうさんは ギターを じょうずに <u>ひきます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["うたいます", "おどります", "ひきます", "かきます"],
+    "correctAnswer": 2,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "テーブルに おさらと <u>はし</u>を ください。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はし", "スプーン", "フォーク", "ナイフ"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "けさ そうじをしたから へやは <u>きれい</u>です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["きれい", "ちらかって", "よごれて", "あれた"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "この えんぴつは <u>六本</u> あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["一本", "二本", "三本", "六本"],
+    "correctAnswer": 3,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "えきから たいしかんまでの <u>みち</u>を かいてください。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かき", "つかい", "みち", "どうろ"],
+    "correctAnswer": 2,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "この <u>ぼうし</u>は 1000えんです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しゃつ", "ぼうし", "ズボン", "くつ"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>きのう</u> たなかさんと あいました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["きょう", "あした", "きのう", "おととい"],
+    "correctAnswer": 2,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしの うちに <u>きません</u>か。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かえりません", "いません", "きません", "しません"],
+    "correctAnswer": 2,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "しゅくだいが <u>はんぶん</u> おわりました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ぜんぶ", "はんぶん", "いちぶ", "にぶ"],
+    "correctAnswer": 1,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "この <u>新聞</u>はいくらですか。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["本", "ノート", "雑誌", "新聞"],
+    "correctAnswer": 3,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "この <u>カメラ</u>は 安いです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["本", "カメラ", "電話", "くるま"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちと いっしょに <u>学校</u>に いきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["学校", "病院", "駅", "公園"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしは きのう <u>日本語</u>を べんきょうしました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["英語", "日本語", "フランス語", "スペイン語"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今朝 <u>しゃわー</u>をあびました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["シャワー", "バス", "トイレ", "せっけん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ともだち</u>と いっしょに あそびます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ともだち", "かぞく", "せんせい", "どうりょう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしは <u>みち</u>を わたります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["どうろ", "みち", "はし", "ふね"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>図書館</u>で ほんを かります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["病院", "学校", "駅", "図書館"],
+    "correctAnswer": 3,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼女は <u>花</u>が すきです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["花", "木", "草", "空"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>じどうしゃ</u>を うんてんします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["電車", "じどうしゃ", "自転車", "バス"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>あさ</u>ごはんを たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["朝", "昼", "夜", "今"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょうは <u>天気</u>が いいです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["てんき", "くもり", "あめ", "ゆき"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしは <u>魚</u>が すきです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["さかな", "にく", "とり", "やさい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしは <u>えんぴつ</u>を つかいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["えんぴつ", "ぺん", "ボールペン", "マーカー"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "いすの <u>うえ</u>に かばんが あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["うえ", "した", "なか", "そと"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "本を <u>読みます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["読みます", "書きます", "聞きます", "話します"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今は <u>昼</u>です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ひる", "あさ", "よる", "ゆうがた"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしは <u>こうえん</u>に 行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["こうえん", "がっこう", "びょういん", "えき"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしの <u>へや</u>は せまいです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["へや", "いえ", "くるま", "きょうしつ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしの <u>なまえ</u>は たなかです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["なまえ", "じゅうしょ", "でんわばんごう", "しごと"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "でんしゃで <u>いきます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いきます", "かえります", "のります", "おります"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "れいぞうこに <u>たべもの</u>を いれます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["たべもの", "のみもの", "くだもの", "はな"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "おんがくを <u>ききます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ききます", "みます", "たべます", "よみます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "あのひとは <u>せがたかい</u>です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": [
+      "せがたかい",
+      "せがひくい",
+      "あたまがいい",
+      "めがねをかけています"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "でんわで <u>はなします</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はなします", "かけます", "ききます", "みます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょうは <u>あめ</u>が ふっています。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あめ", "ゆき", "かぜ", "くも"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "さかなが <u>およいで</u>います。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["およいで", "たべて", "のんで", "うたって"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちと <u>あそびます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あそびます", "たべます", "のみます", "はたらきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
     "text": "あれは だれ（ ...... ）かばんですか。",
     "textAsking": {
       "en": "",
@@ -427,6 +987,2227 @@
       "jp": ""
     },
     "answers": ["私", "あなた", "彼", "彼女"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の家です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "あなた", "彼", "彼女"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'cat' in Japanese?",
+      "vi": "Con mèo tiếng Nhật là gì?",
+      "jp": "「猫」は日本語で何ですか？"
+    },
+    "answers": ["猫", "犬", "鳥", "魚"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）は学校に行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["彼女", "彼", "私", "あなた"],
+    "correctAnswer": 2,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'water' in Japanese?",
+      "vi": "Nước tiếng Nhật là gì?",
+      "jp": "「水」は日本語で何ですか？"
+    },
+    "answers": ["水", "火", "風", "地"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）を食べます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ご飯", "パン", "肉", "魚"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'fish' in Japanese?",
+      "vi": "Cá tiếng Nhật là gì?",
+      "jp": "「魚」は日本語で何ですか？"
+    },
+    "answers": ["魚", "鳥", "犬", "猫"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）が好きです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["りんご", "バナナ", "ぶどう", "オレンジ"],
+    "correctAnswer": 2,
+    "difficulty": "Hard",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'apple' in Japanese?",
+      "vi": "Táo tiếng Nhật là gì?",
+      "jp": "「りんご」は日本語で何ですか？"
+    },
+    "answers": ["りんご", "バナナ", "ぶどう", "オレンジ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）は忙しいです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["彼", "彼女", "私", "あなた"],
+    "correctAnswer": 3,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'busy' in Japanese?",
+      "vi": "Bận tiếng Nhật là gì?",
+      "jp": "「忙しい」は日本語で何ですか？"
+    },
+    "answers": ["忙しい", "暇", "楽しい", "静か"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）の名前は何ですか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "あなた", "彼", "彼女"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'name' in Japanese?",
+      "vi": "Tên tiếng Nhật là gì?",
+      "jp": "「名前」は日本語で何ですか？"
+    },
+    "answers": ["名前", "住所", "電話番号", "メール"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の本です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "彼", "あなた", "彼女"],
+    "correctAnswer": 2,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'book' in Japanese?",
+      "vi": "Sách tiếng Nhật là gì?",
+      "jp": "「本」は日本語で何ですか？"
+    },
+    "answers": ["本", "机", "ペン", "ノート"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）は走ります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "彼女", "彼", "あなた"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'run' in Japanese?",
+      "vi": "Chạy tiếng Nhật là gì?",
+      "jp": "「走る」は日本語で何ですか？"
+    },
+    "answers": ["走る", "歩く", "飛ぶ", "泳ぐ"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["学生", "先生", "医者", "弁護士"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'teacher' in Japanese?",
+      "vi": "Giáo viên tiếng Nhật là gì?",
+      "jp": "「先生」は日本語で何ですか？"
+    },
+    "answers": ["先生", "学生", "医者", "弁護士"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の車です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["彼女", "彼", "私", "あなた"],
+    "correctAnswer": 1,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'car' in Japanese?",
+      "vi": "Xe hơi tiếng Nhật là gì?",
+      "jp": "「車」は日本語で何ですか？"
+    },
+    "answers": ["車", "電車", "バス", "飛行機"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）が好きです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["音楽", "映画", "スポーツ", "旅行"],
+    "correctAnswer": 0,
+    "difficulty": "Hard",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'music' in Japanese?",
+      "vi": "Âm nhạc tiếng Nhật là gì?",
+      "jp": "「音楽」は日本語で何ですか？"
+    },
+    "answers": ["音楽", "映画", "スポーツ", "旅行"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）は図書館に行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["彼", "彼女", "私", "あなた"],
+    "correctAnswer": 3,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'library' in Japanese?",
+      "vi": "Thư viện tiếng Nhật là gì?",
+      "jp": "「図書館」は日本語で何ですか？"
+    },
+    "answers": ["図書館", "学校", "病院", "店"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）を読みます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["本", "新聞", "雑誌", "手紙"],
+    "correctAnswer": 1,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'newspaper' in Japanese?",
+      "vi": "Báo tiếng Nhật là gì?",
+      "jp": "「新聞」は日本語で何ですか？"
+    },
+    "answers": ["新聞", "雑誌", "本", "手紙"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）が欲しいです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["お金", "時間", "家", "友達"],
+    "correctAnswer": 0,
+    "difficulty": "Hard",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'money' in Japanese?",
+      "vi": "Tiền tiếng Nhật là gì?",
+      "jp": "「お金」は日本語で何ですか？"
+    },
+    "answers": ["お金", "時間", "家", "友達"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の電話です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["彼女", "彼", "私", "あなた"],
+    "correctAnswer": 2,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'phone' in Japanese?",
+      "vi": "Điện thoại tiếng Nhật là gì?",
+      "jp": "「電話」は日本語で何ですか？"
+    },
+    "answers": ["電話", "本", "机", "車"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）は東京に住んでいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["彼", "彼女", "私", "あなた"],
+    "correctAnswer": 1,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'live' in Japanese?",
+      "vi": "Sống tiếng Nhật là gì?",
+      "jp": "「住む」は日本語で何ですか？"
+    },
+    "answers": ["住む", "行く", "来る", "帰る"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）が嫌いです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["勉強", "仕事", "運動", "料理"],
+    "correctAnswer": 0,
+    "difficulty": "Hard",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'study' in Japanese?",
+      "vi": "Học tiếng Nhật là gì?",
+      "jp": "「勉強」は日本語で何ですか？"
+    },
+    "answers": ["勉強", "仕事", "運動", "料理"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）のペンです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "彼", "彼女", "あなた"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'pen' in Japanese?",
+      "vi": "Bút tiếng Nhật là gì?",
+      "jp": "「ペン」は日本語で何ですか？"
+    },
+    "answers": ["ペン", "ノート", "本", "机"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "（ ...... ）は何をしますか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["彼", "彼女", "私", "あなた"],
+    "correctAnswer": 3,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'do' in Japanese?",
+      "vi": "Làm tiếng Nhật là gì?",
+      "jp": "「する」は日本語で何ですか？"
+    },
+    "answers": ["する", "見る", "聞く", "話す"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "彼は（ ...... ）を食べます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ご飯", "パン", "肉", "魚"],
+    "correctAnswer": 1,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'bread' in Japanese?",
+      "vi": "Bánh mì tiếng Nhật là gì?",
+      "jp": "「パン」は日本語で何ですか？"
+    },
+    "answers": ["パン", "ご飯", "肉", "魚"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の椅子です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "彼", "彼女", "あなた"],
+    "correctAnswer": 3,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+
+  {
+    "text": "（ ...... ）はどこですか？",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["学校", "駅", "病院", "図書館"],
+    "correctAnswer": 2,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'hospital' in Japanese?",
+      "vi": "Bệnh viện tiếng Nhật là gì?",
+      "jp": "「病院」は日本語で何ですか？"
+    },
+    "answers": ["病院", "学校", "駅", "図書館"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "私は（ ...... ）が欲しいです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["友達", "お金", "家", "時間"],
+    "correctAnswer": 2,
+    "difficulty": "Hard",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'friend' in Japanese?",
+      "vi": "Bạn tiếng Nhật là gì?",
+      "jp": "「友達」は日本語で何ですか？"
+    },
+    "answers": ["友達", "家族", "同僚", "先生"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは（ ...... ）の写真です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["私", "彼", "彼女", "あなた"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'photo' in Japanese?",
+      "vi": "Ảnh tiếng Nhật là gì?",
+      "jp": "「写真」は日本語で何ですか？"
+    },
+    "answers": ["写真", "絵", "絵本", "映像"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "彼女は（ ...... ）が上手です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["歌", "ダンス", "料理", "運転"],
+    "correctAnswer": 1,
+    "difficulty": "Hard",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'dance' in Japanese?",
+      "vi": "Nhảy múa tiếng Nhật là gì?",
+      "jp": "「ダンス」は日本語で何ですか？"
+    },
+    "answers": ["ダンス", "歌", "料理", "運転"],
+    "correctAnswer": 0,
+    "difficulty": "Medium",
+    "lessons": []
+  },
+  {
+    "text": "あさごはんを <u>たべます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["たべます", "のみます", "ききます", "よみます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>つくえ</u>の うえに ほんが あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["つくえ", "まど", "かばん", "いす"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>あした</u>は 学校が あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あした", "きょう", "きのう", "おととい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "学校で <u>べんきょう</u>します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["べんきょう", "うんどう", "たべます", "のみます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちと <u>あいます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あいます", "はなします", "みます", "ききます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>やすみ</u>の ひは なにを しますか。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["やすみ", "はたらき", "あそび", "べんきょう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ほんを <u>かします</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かします", "かいます", "かります", "よみます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "先生は <u>きょうしつ</u>に います。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["きょうしつ", "いえ", "こうえん", "びょういん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "えいがを <u>みます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["みます", "ききます", "はなします", "たべます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>いす</u>に すわります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いす", "つくえ", "まど", "かばん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>はし</u>で ごはんを たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はし", "スプーン", "ナイフ", "フォーク"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "毎日 <u>にほんご</u>を べんきょうします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["にほんご", "えいご", "フランスご", "スペインご"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>でんしゃ</u>に のります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんしゃ", "バス", "じどうしゃ", "じてんしゃ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "うちに <u>かえります</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かえります", "いきます", "のります", "おります"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ゆうびんきょく</u>で てがみを だします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ゆうびんきょく", "えき", "びょういん", "こうえん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>やさい</u>を たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["やさい", "にく", "さかな", "ごはん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちに <u>でんわ</u>を かけます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんわ", "てがみ", "メール", "メッセージ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ごはんを <u>つくります</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["つくります", "たべます", "のみます", "よみます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょうは <u>あめ</u>が ふっています。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あめ", "ゆき", "かぜ", "くもり"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>くつ</u>を はきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["くつ", "ぼうし", "シャツ", "ズボン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ほん</u>を よみます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ほん", "ざっし", "しんぶん", "まんが"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>つくえ</u>の したに かばんが あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["つくえ", "いす", "まど", "かべ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "えいがを <u>みます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["みます", "ききます", "よみます", "はなします"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "スーパーで <u>かいもの</u>を します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かいもの", "たべもの", "のみもの", "やすみもの"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "うちで <u>べんきょう</u>します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["べんきょう", "あそび", "やすみ", "たべもの"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "テーブルの <u>うえ</u>に はなが あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["うえ", "した", "なか", "そと"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ほんを <u>かります</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かります", "かいます", "かえます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちに <u>てがみ</u>を かきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["てがみ", "メール", "メッセージ", "にっき"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>いす</u>に すわります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いす", "つくえ", "かべ", "まど"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "でんしゃで <u>いきます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いきます", "のります", "おります", "かえります"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちと <u>はなします</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はなします", "ききます", "みます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>きょうしつ</u>で べんきょうします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["きょうしつ", "いえ", "こうえん", "びょういん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "じてんしゃに <u>のります</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["のります", "おります", "はしります", "とまります"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "かぞくと <u>はなします</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はなします", "ききます", "みます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ゆうがた <u>さんぽ</u>します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["さんぽ", "べんきょう", "しごと", "うんどう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ほんを <u>かいます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かいます", "かります", "かえます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "こうえんで <u>あそびます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あそびます", "はたらきます", "やすみます", "べんきょうします"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ひる</u>ごはんを たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ひる", "あさ", "よる", "ゆうがた"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちに <u>おかね</u>を かします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["おかね", "ほん", "かばん", "ふく"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "スーパーで <u>かいもの</u>を します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かいもの", "たべもの", "のみもの", "やすみもの"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>しゃしん</u>を とります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しゃしん", "え", "えんぴつ", "ほん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "がっこうで <u>べんきょう</u>します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["べんきょう", "うんどう", "あそび", "たべます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "へやを <u>そうじ</u>します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["そうじ", "べんきょう", "しごと", "あそび"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "にほんごを <u>ならいます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ならいます", "おしえます", "ききます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "でんわを <u>かけます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かけます", "ききます", "はなします", "みます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>おかね</u>を はらいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["おかね", "ほん", "ふく", "かばん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ゆうがた</u>に さんぽします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ゆうがた", "あさ", "ひる", "よる"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>えんぴつ</u>を つかいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["えんぴつ", "ペン", "ノート", "ハサミ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ほん</u>を よみます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ほん", "ざっし", "しんぶん", "ノート"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>まど</u>を あけます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["まど", "ドア", "カーテン", "ライト"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>じかん</u>が ありません。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["じかん", "おかね", "へや", "ほん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>せんせい</u>に ききます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["せんせい", "ともだち", "かぞく", "かいしゃ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょうは <u>あつい</u>です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あつい", "さむい", "すずしい", "あたたかい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>かさ</u>を もっていきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かさ", "かばん", "ほん", "くつ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちと <u>あそびます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あそびます", "べんきょうします", "たべます", "ねます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>でんしゃ</u>に のります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんしゃ", "バス", "タクシー", "じどうしゃ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょうは <u>しけん</u>が あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しけん", "じゅぎょう", "かいぎ", "えいが"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "へやが <u>きれい</u>です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["きれい", "よごれています", "くらい", "あかるい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>かぞく</u>と りょこうします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かぞく", "ともだち", "かいしゃ", "せんせい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>おおきい</u>いえに すんでいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["おおきい", "ちいさい", "あたらしい", "ふるい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>くるま</u>を うんてんします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["くるま", "じてんしゃ", "バイク", "バス"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "まいにち <u>しんぶん</u>を よみます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しんぶん", "ざっし", "ほん", "ノート"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "あには <u>たんじょうび</u>に プレゼントを もらいました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["たんじょうび", "けっこんしき", "しけん", "かいぎ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>がっこう</u>に いきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["がっこう", "びょういん", "えき", "こうえん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "えいがを <u>みます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["みます", "ききます", "よみます", "はなします"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "スーパーで <u>かいもの</u>を します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かいもの", "べんきょう", "しごと", "あそび"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ほんを <u>かります</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かります", "かいます", "かえします", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>はな</u>が さきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はな", "き", "くさ", "やさい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "おんがくを <u>ききます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ききます", "みます", "よみます", "はなします"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "しょくどうで <u>ごはん</u>を たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ごはん", "パン", "さかな", "やさい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>しゃしん</u>を とります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しゃしん", "ビデオ", "え", "おんがく"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>き</u>が たくさん あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["き", "はな", "くさ", "やさい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>おんがく</u>を ききます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["おんがく", "ニュース", "テレビ", "ラジオ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>おちゃ</u>を のみます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["おちゃ", "ジュース", "みず", "コーヒー"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちに <u>あいます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あいます", "ききます", "よみます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ゆうがた</u>に さんぽします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ゆうがた", "あさ", "ひる", "よる"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "へやに <u>テレビ</u>があります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["テレビ", "ラジオ", "パソコン", "エアコン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "スーパーで <u>かいもの</u>を します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かいもの", "べんきょう", "しごと", "あそび"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>でんわ</u>で はなします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんわ", "てがみ", "メール", "ファックス"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>えき</u>で でんしゃに のります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["えき", "びょういん", "こうえん", "がっこう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ほんを <u>よみます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["よみます", "かきます", "ききます", "みます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>はな</u>が たくさん さいています。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はな", "くさ", "き", "やさい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>てがみ</u>を かきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["てがみ", "メール", "しんぶん", "ノート"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>くるま</u>を うんてんします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["くるま", "じてんしゃ", "バイク", "バス"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>えいが</u>を みます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["えいが", "アニメ", "ニュース", "ドラマ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "まいにち <u>にほんご</u>を べんきょうします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["にほんご", "えいご", "フランスご", "スペインご"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>おちゃ</u>を のみます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["おちゃ", "ジュース", "みず", "コーヒー"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>かぞく</u>と いっしょに たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かぞく", "ともだち", "せんせい", "かいしゃいん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>はな</u>が たくさん あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はな", "くさ", "き", "やさい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>がっこう</u>に いきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["がっこう", "びょういん", "えき", "こうえん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ともだち</u>と あそびます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ともだち", "かぞく", "せんせい", "どうりょう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>でんしゃ</u>に のります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんしゃ", "バス", "タクシー", "じどうしゃ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>テレビ</u>を みます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["テレビ", "ラジオ", "パソコン", "スマートフォン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょうは <u>あめ</u>が ふります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あめ", "ゆき", "かぜ", "くもり"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしは <u>いぬ</u>が すきです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いぬ", "ねこ", "さかな", "とり"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ともだち</u>と かいものに いきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ともだち", "かぞく", "せんせい", "かいしゃいん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "おんがくを <u>ききます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ききます", "みます", "よみます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ほん</u>を よみます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ほん", "ざっし", "しんぶん", "ノート"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>スーパー</u>で かいものを します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["スーパー", "コンビニ", "デパート", "レストラン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>いす</u>に すわります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いす", "つくえ", "まど", "ドア"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "あした <u>がっこう</u>に いきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["がっこう", "びょういん", "えき", "こうえん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>しんぶん</u>を よみます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しんぶん", "ざっし", "ほん", "パンフレット"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>えんぴつ</u>で かきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["えんぴつ", "ペン", "けしゴム", "ノート"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>くつ</u>を はきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["くつ", "ぼうし", "ふく", "くつした"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ゆうびんきょく</u>で てがみを だします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ゆうびんきょく", "えき", "びょういん", "がっこう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちに <u>でんわ</u>を かけます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんわ", "メール", "ファックス", "てがみ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>でんしゃ</u>に のります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんしゃ", "バス", "タクシー", "じてんしゃ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ともだち</u>と あそびます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ともだち", "かぞく", "せんせい", "どうりょう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "がっこうで <u>べんきょう</u>します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["べんきょう", "しごと", "あそび", "かいもの"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>まど</u>を あけます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["まど", "ドア", "カーテン", "ライト"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "あした <u>しけん</u>が あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しけん", "じゅぎょう", "かいぎ", "やすみ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしの <u>なまえ</u>は たなかです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["なまえ", "じゅうしょ", "でんわばんごう", "たんじょうび"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>テレビ</u>を みます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["テレビ", "ラジオ", "パソコン", "スマートフォン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>しょくどう</u>で ごはんを たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しょくどう", "キッチン", "こうえん", "がっこう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "スーパーで <u>かいもの</u>を します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かいもの", "しごと", "あそび", "べんきょう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>かさ</u>を もっていきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かさ", "かばん", "ほん", "ペン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>やさい</u>を たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["やさい", "にく", "さかな", "ごはん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちに <u>てがみ</u>を かきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["てがみ", "メール", "メッセージ", "でんわ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "えいがを <u>みます</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["みます", "ききます", "よみます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>あした</u>は やすみです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あした", "きょう", "きのう", "おととい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>まど</u>を しめます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["まど", "ドア", "カーテン", "ライト"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "ともだちと <u>はなします</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はなします", "ききます", "みます", "かきます"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "じてんしゃに <u>のります</u>。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["のります", "おります", "おきます", "すわります"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>ゆうびんきょく</u>で てがみを だします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ゆうびんきょく", "えき", "びょういん", "がっこう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>おちゃ</u>を のみます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["おちゃ", "ジュース", "コーヒー", "みず"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>くつ</u>を はきます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["くつ", "ぼうし", "ふく", "くつした"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>いす</u>に すわります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いす", "つくえ", "まど", "かべ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "わたしは <u>ねこ</u>が すきです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ねこ", "いぬ", "さかな", "とり"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "あさ <u>ごはん</u>を たべます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ごはん", "パン", "さかな", "にく"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>へや</u>を そうじします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["へや", "まど", "ドア", "にわ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>きょうしつ</u>で べんきょうします。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["きょうしつ", "いえ", "こうえん", "びょういん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>でんしゃ</u>に のります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんしゃ", "バス", "タクシー", "じてんしゃ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "あした <u>しけん</u>が あります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しけん", "じゅぎょう", "かいぎ", "やすみ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>スーパー</u>で かいものを します。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["スーパー", "コンビニ", "デパート", "レストラン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょうは <u>あつい</u>です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あつい", "さむい", "すずしい", "あたたかい"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>おおきい</u>いえに すんでいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["おおきい", "ちいさい", "あたらしい", "ふるい"],
     "correctAnswer": 0,
     "difficulty": "Easy",
     "lessons": []

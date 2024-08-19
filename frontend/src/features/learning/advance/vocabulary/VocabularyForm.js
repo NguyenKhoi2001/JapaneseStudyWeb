@@ -232,7 +232,7 @@ const VocabularyForm = ({
 
   return (
     <div className={styles.overlay}>
-      {loading && <LoadingPage opacity={0.1} />}
+      {loading && <LoadingPage opacity={0.7} />}
       <div className={styles.container}>
         <button className={styles.closeFormButton} onClick={onClose}>
           <FontAwesomeIcon icon={faTimes} />

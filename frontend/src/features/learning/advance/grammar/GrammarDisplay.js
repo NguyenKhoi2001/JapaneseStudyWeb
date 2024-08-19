@@ -231,7 +231,7 @@ const GrammarDisplay = ({ grammars, lessonId }) => {
   };
   return (
     <div className={styles.grammarContainer}>
-      {loading && <LoadingPage />}
+      {loading && <LoadingPage opacity={0.7} />}
       {content ? (
         <QuillOutputComponent editorHtml={content} title={title} />
       ) : i18n.language === "vi" ? null : (

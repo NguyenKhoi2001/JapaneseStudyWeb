@@ -9,31 +9,31 @@ const seedDatabaseLesson = async () => {
   try {
     const lessonCount = await Lesson.countDocuments();
 
-    if (lessonCount < 25) {
+    if (lessonCount < 50) {
       console.log("Seeding lessons...");
 
-      // Fetch all available vocabularies, kanjis, and grammars
+      // Fetch all available vocabularies, kanjis, grammars, and questions
       const vocabularies = await Vocabulary.find().exec();
       const kanjis = await Kanji.find().exec();
       const grammars = await Grammar.find().exec();
       const questions = await Question.find().exec();
 
-      for (let i = lessonCount; i < 25; i++) {
+      for (let i = lessonCount; i < 50; i++) {
         // Calculate the range for the current lesson
-        const vocabStartIndex = i * 5;
+        const vocabStartIndex = i * 25;
         const kanjiStartIndex = i * 5;
-        const grammarIndex = i % grammars.length;
-        const questionStartIndex = i * 5;
+        const grammarIndex = i;
+        const questionStartIndex = i * 10;
 
-        // Slice the next 5 vocabularies and kanjis or remaining ones if fewer than 5
+        // Slice the next 25 vocabularies, 5 kanjis, and 10 questions
         const selectedVocabularies = vocabularies
-          .slice(vocabStartIndex, vocabStartIndex + 5)
+          .slice(vocabStartIndex, vocabStartIndex + 25)
           .map((v) => v._id);
         const selectedKanjis = kanjis
           .slice(kanjiStartIndex, kanjiStartIndex + 5)
           .map((k) => k._id);
         const selectedQuestions = questions
-          .slice(questionStartIndex, questionStartIndex + 5)
+          .slice(questionStartIndex, questionStartIndex + 10)
           .map((q) => q._id);
         const selectedGrammar = grammars[grammarIndex]
           ? grammars[grammarIndex]._id
@@ -57,7 +57,7 @@ const seedDatabaseLesson = async () => {
 
       console.log("All lessons seeded successfully.");
     } else {
-      console.log("25 lessons already exist, not seeding.");
+      console.log("50 lessons already exist, not seeding.");
     }
   } catch (error) {
     console.error("Error seeding lessons:", error);

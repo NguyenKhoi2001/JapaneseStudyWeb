@@ -208,5 +208,481 @@
       "title": "Nói về sở thích với ほしい",
       "htmlContent": "<p>Bài 15</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Hãy sử dụng ほしい để nói về điều bạn muốn hoặc mong muốn.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ が ほしい</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>りんご が ほしい。 - Tôi muốn một quả táo.</p>"
     }
+  },
+  {
+    "en": {
+      "title": "Expressing Existence with あります and います",
+      "htmlContent": "<p>Lesson 1</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use あります for inanimate objects and います for living beings to express existence.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun が あります / います</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>つくえの うえ に ほん が あります。 - There is a book on the desk.</p>"
+    },
+    "jp": {
+      "title": "「あります」と「います」の使い方",
+      "htmlContent": "<p>第1課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「あります」は無生物、「います」は生物の存在を表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 が あります / います</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>つくえの うえ に ほん が あります。 - 机の上に本があります。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt sự tồn tại với あります và います",
+      "htmlContent": "<p>Bài 1</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng あります cho vật vô tri và います cho sinh vật sống để diễn đạt sự tồn tại.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ が あります / います</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>つくえの うえ に ほん が あります。 - Có một quyển sách trên bàn.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Making Requests with ください",
+      "htmlContent": "<p>Lesson 2</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use ください to make polite requests.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun を ください</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>みず を ください。 - Please give me water.</p>"
+    },
+    "jp": {
+      "title": "「ください」で依頼する",
+      "htmlContent": "<p>第2課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「ください」を使って丁寧に依頼します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 を ください</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>みず を ください。 - 水をください。</p>"
+    },
+    "vi": {
+      "title": "Yêu cầu bằng ください",
+      "htmlContent": "<p>Bài 2</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng ください để yêu cầu một cách lịch sự.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ を ください</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>みず を ください。 - Xin cho tôi nước.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Likes and Dislikes with すき and きらい",
+      "htmlContent": "<p>Lesson 3</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use すき for likes and きらい for dislikes.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun が すき / きらい です</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>りんご が すき です。 - I like apples.</p>"
+    },
+    "jp": {
+      "title": "「すき」と「きらい」で好き嫌いを表す",
+      "htmlContent": "<p>第3課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「すき」は好きなもの、「きらい」は嫌いなものを表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 が すき / きらい です</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>りんご が すき です。 - りんごが好きです。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt thích và không thích với すき và きらい",
+      "htmlContent": "<p>Bài 3</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng すき để nói về sự thích và きらい để nói về sự không thích.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ が すき / きらい です</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>りんご が すき です。 - Tôi thích táo.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Time with に",
+      "htmlContent": "<p>Lesson 4</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use に to indicate the specific time something happens.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Time に Verb</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>8じ に おきます。 - I wake up at 8 o'clock.</p>"
+    },
+    "jp": {
+      "title": "「に」を使って時間を表す",
+      "htmlContent": "<p>第4課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「に」を使って、何かが起こる具体的な時間を示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>時間 に 動詞</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>8じ に おきます。 - 8時に起きます。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt thời gian với に",
+      "htmlContent": "<p>Bài 4</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng に để chỉ thời gian cụ thể mà điều gì đó xảy ra.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Thời gian に Động từ</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>8じ に おきます。 - Tôi thức dậy lúc 8 giờ.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Talking About Days of the Week",
+      "htmlContent": "<p>Lesson 5</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use に to indicate the day of the week something happens.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Day of the week に Verb</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>にちようび に テニス を します。 - I play tennis on Sunday.</p>"
+    },
+    "jp": {
+      "title": "曜日について話す",
+      "htmlContent": "<p>第5課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「に」を使って、何曜日に何かが起こるかを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>曜日 に 動詞</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>にちようび に テニス を します。 - 日曜日にテニスをします。</p>"
+    },
+    "vi": {
+      "title": "Nói về các ngày trong tuần",
+      "htmlContent": "<p>Bài 5</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng に để chỉ ngày trong tuần mà điều gì đó xảy ra.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Ngày trong tuần に Động từ</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>にちようび に テニス を します。 - Tôi chơi tennis vào Chủ Nhật.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using も for 'Also' or 'Too'",
+      "htmlContent": "<p>Lesson 6</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use も to mean 'also' or 'too'.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun も</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>わたし も がくせい です。 - I am also a student.</p>"
+    },
+    "jp": {
+      "title": "「も」で「も」や「も」を意味する",
+      "htmlContent": "<p>第6課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「も」を使って「も」や「も」を意味します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 も</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>わたし も がくせい です。 - 私も学生です。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng も để nói 'Cũng' hoặc 'Cũng vậy'",
+      "htmlContent": "<p>Bài 6</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng も để có nghĩa 'cũng' hoặc 'cũng vậy'.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ も</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>わたし も がくせい です。 - Tôi cũng là sinh viên.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Indicating Direction with へ",
+      "htmlContent": "<p>Lesson 7</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use へ to indicate the direction of movement.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Place へ Verb (movement)</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>うち へ かえります。 - I return home.</p>"
+    },
+    "jp": {
+      "title": "「へ」を使って方向を示す",
+      "htmlContent": "<p>第7課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「へ」を使って、移動の方向を示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>場所 へ 動詞（移動）</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>うち へ かえります。 - 家へ帰ります。</p>"
+    },
+    "vi": {
+      "title": "Chỉ hướng đi với へ",
+      "htmlContent": "<p>Bài 7</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng へ để chỉ hướng đi của hành động di chuyển.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Địa điểm へ Động từ (di chuyển)</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>うち へ かえります。 - Tôi về nhà.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Connecting Nouns with と",
+      "htmlContent": "<p>Lesson 8</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use と to connect nouns together.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun 1 と Noun 2</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>りんご と みかん が すきです。 - I like apples and oranges.</p>"
+    },
+    "jp": {
+      "title": "「と」を使って名詞をつなぐ",
+      "htmlContent": "<p>第8課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「と」を使って名詞をつなぎます。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 1 と 名詞 2</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>りんご と みかん が すきです。 - りんごとみかんが好きです。</p>"
+    },
+    "vi": {
+      "title": "Kết nối danh từ với と",
+      "htmlContent": "<p>Bài 8</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng と để kết nối các danh từ với nhau.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ 1 と Danh từ 2</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>りんご と みかん が すきです。 - Tôi thích táo và cam.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using から for Reasons",
+      "htmlContent": "<p>Lesson 9</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use から to indicate the reason for something.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Reason から Result</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>あつい から まど を あけました。 - I opened the window because it was hot.</p>"
+    },
+    "jp": {
+      "title": "「から」で理由を表す",
+      "htmlContent": "<p>第9課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「から」を使って理由を示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>理由 から 結果</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>あつい から まど を あけました。 - 暑いから窓を開けました。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng から để diễn đạt lý do",
+      "htmlContent": "<p>Bài 9</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng から để chỉ lý do của một điều gì đó.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Lý do から Kết quả</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>あつい から まど を あけました。 - Tôi mở cửa sổ vì trời nóng.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using ので for Formal Reasons",
+      "htmlContent": "<p>Lesson 10</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use ので to indicate a reason in a more formal way.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Reason ので Result</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>あつい ので まど を あけました。 - I opened the window because it was hot.</p>"
+    },
+    "jp": {
+      "title": "「ので」で正式な理由を表す",
+      "htmlContent": "<p>第10課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「ので」を使って、より正式な理由を示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>理由 ので 結果</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>あつい ので まど を あけました。 - 暑いので窓を開けました。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng ので để diễn đạt lý do trang trọng",
+      "htmlContent": "<p>Bài 10</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng ので để diễn đạt lý do một cách trang trọng hơn.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Lý do ので Kết quả</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>あつい ので まど を あけました。 - Tôi mở cửa sổ vì trời nóng.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using から and まで for Time Ranges",
+      "htmlContent": "<p>Lesson 11</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use から to indicate the start of a time range and まで to indicate the end.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Time から Time まで</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>8じ から 10じ まで べんきょうします。 - I study from 8 to 10 o'clock.</p>"
+    },
+    "jp": {
+      "title": "「から」と「まで」で時間範囲を示す",
+      "htmlContent": "<p>第11課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「から」を使って時間範囲の始まりを示し、「まで」を使って終わりを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>時間 から 時間 まで</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>8じ から 10じ まで べんきょうします。 - 8時から10時まで勉強します。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng から và まで để chỉ khoảng thời gian",
+      "htmlContent": "<p>Bài 11</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng から để chỉ thời gian bắt đầu và まで để chỉ thời gian kết thúc.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Thời gian から Thời gian まで</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>8じ から 10じ まで べんきょうします。 - Tôi học từ 8 giờ đến 10 giờ.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Frequency with に",
+      "htmlContent": "<p>Lesson 12</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use に to express how often something happens.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Frequency に Verb</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>いっしゅうかん に いっかい プール で およぎます。 - I swim at the pool once a week.</p>"
+    },
+    "jp": {
+      "title": "「に」を使って頻度を表す",
+      "htmlContent": "<p>第12課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「に」を使って、何かがどれくらいの頻度で起こるかを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>頻度 に 動詞</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>いっしゅうかん に いっかい プール で およぎます。 - 一週間に一回プールで泳ぎます。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt tần suất với に",
+      "htmlContent": "<p>Bài 12</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng に để diễn đạt mức độ thường xuyên mà điều gì đó xảy ra.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Tần suất に Động từ</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>いっしゅうかん に いっかい プール で およぎます。 - Tôi bơi ở bể bơi một lần một tuần.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using ね for Seeking Agreement",
+      "htmlContent": "<p>Lesson 13</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use ね at the end of a sentence to seek agreement or confirmation.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Sentence ね</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>きょう は あつい ですね。 - It’s hot today, isn’t it?</p>"
+    },
+    "jp": {
+      "title": "「ね」を使って同意を求める",
+      "htmlContent": "<p>第13課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「ね」を文の終わりに使って、同意や確認を求めます。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>文 ね</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>きょう は あつい ですね。 - 今日は暑いですね。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng ね để tìm kiếm sự đồng tình",
+      "htmlContent": "<p>Bài 13</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng ね ở cuối câu để tìm kiếm sự đồng ý hoặc xác nhận.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Câu ね</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>きょう は あつい ですね。 - Hôm nay nóng quá, phải không?</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using よ for Emphasis",
+      "htmlContent": "<p>Lesson 14</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use よ at the end of a sentence to add emphasis or certainty.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Sentence よ</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>これは わたしの ほん ですよ。 - This is my book, you know.</p>"
+    },
+    "jp": {
+      "title": "「よ」を使って強調する",
+      "htmlContent": "<p>第14課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「よ」を文の終わりに使って、強調や確信を示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>文 よ</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>これは わたしの ほん ですよ。 - これは私の本ですよ。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng よ để nhấn mạnh",
+      "htmlContent": "<p>Bài 14</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng よ ở cuối câu để thêm sự nhấn mạnh hoặc chắc chắn.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Câu よ</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>これは わたしの ほん ですよ。 - Đây là sách của tôi, bạn biết đấy.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using ことがある for Occasional Actions",
+      "htmlContent": "<p>Lesson 15</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use ことがある to describe occasional actions or events.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb (dictionary form) ことがある</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>ときどき えいが を みる ことが あります。 - I sometimes watch movies.</p>"
+    },
+    "jp": {
+      "title": "「ことがある」で偶然の行動を表す",
+      "htmlContent": "<p>第15課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「ことがある」を使って、たまに起こる行動や出来事を表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞（辞書形）ことがある</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>ときどき えいが を みる ことが あります。 - 時々映画を見ることがあります。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng ことがある để diễn đạt hành động thỉnh thoảng xảy ra",
+      "htmlContent": "<p>Bài 15</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng ことがある để diễn đạt hành động hoặc sự kiện thỉnh thoảng xảy ra.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ (dạng từ điển) ことがある</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>ときどき えいが を みる ことが あります。 - Thỉnh thoảng tôi xem phim.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using の for Noun Modification",
+      "htmlContent": "<p>Lesson 16</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use の to modify a noun with another noun.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun 1 の Noun 2</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>にほん の たべもの は おいしい です。 - Japanese food is delicious.</p>"
+    },
+    "jp": {
+      "title": "「の」で名詞を修飾する",
+      "htmlContent": "<p>第16課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「の」を使って、名詞を他の名詞で修飾します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 1 の 名詞 2</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>にほん の たべもの は おいしい です。 - 日本の食べ物は美味しいです。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng の để bổ nghĩa cho danh từ",
+      "htmlContent": "<p>Bài 16</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng の để bổ nghĩa cho một danh từ khác.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ 1 の Danh từ 2</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>にほん の たべもの は おいしい です。 - Món ăn Nhật rất ngon.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using たぶん for Probable Statements",
+      "htmlContent": "<p>Lesson 17</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use たぶん to indicate that something is probably true.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>たぶん Sentence</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>たぶん きょう は あめ が ふります。 - It will probably rain today.</p>"
+    },
+    "jp": {
+      "title": "「たぶん」で可能性を示す",
+      "htmlContent": "<p>第17課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「たぶん」を使って、何かが多分正しいことを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>たぶん 文</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>たぶん きょう は あめ が ふります。 - 多分今日は雨が降ります。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng たぶん cho các câu có khả năng xảy ra",
+      "htmlContent": "<p>Bài 17</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng たぶん để chỉ điều gì đó có khả năng đúng.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>たぶん Câu</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>たぶん きょう は あめ が ふります。 - Hôm nay có thể sẽ mưa.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Permission with てもいい",
+      "htmlContent": "<p>Lesson 18</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use てもいい to express that something is permitted or allowed.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb てもいい</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>ここ で たべても いい ですか。 - May I eat here?</p>"
+    },
+    "jp": {
+      "title": "「てもいい」で許可を表す",
+      "htmlContent": "<p>第18課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「てもいい」を使って、何かが許されていることを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞 てもいい</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>ここ で たべても いい ですか。 - ここで食べてもいいですか。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt sự cho phép với てもいい",
+      "htmlContent": "<p>Bài 18</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng てもいい để diễn đạt điều gì đó được phép.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ てもいい</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>ここ で たべても いい ですか。 - Tôi có thể ăn ở đây không?</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Prohibition with てはいけない",
+      "htmlContent": "<p>Lesson 19</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use てはいけない to express that something is prohibited or not allowed.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb てはいけない</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>ここ で たべては いけません。 - You must not eat here.</p>"
+    },
+    "jp": {
+      "title": "「てはいけない」で禁止を表す",
+      "htmlContent": "<p>第19課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「てはいけない」を使って、何かが禁止されていることを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞 てはいけない</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>ここ で たべては いけません。 - ここで食べてはいけません。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt cấm đoán với てはいけない",
+      "htmlContent": "<p>Bài 19</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng てはいけない để diễn đạt điều gì đó bị cấm hoặc không được phép.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ てはいけない</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>ここ で たべては いけません。 - Bạn không được ăn ở đây.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using つもり for Intentions",
+      "htmlContent": "<p>Lesson 20</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use つもり to express your intentions or plans.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb (dictionary form) つもりです</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>あした べんきょうする つもりです。 - I intend to study tomorrow.</p>"
+    },
+    "jp": {
+      "title": "「つもり」で意図を表す",
+      "htmlContent": "<p>第20課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「つもり」を使って、意図や計画を表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞（辞書形）つもりです</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>あした べんきょうする つもりです。 - 明日勉強するつもりです。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng つもり để diễn đạt dự định",
+      "htmlContent": "<p>Bài 20</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng つもり để diễn đạt ý định hoặc kế hoạch của bạn.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ (dạng từ điển) つもりです</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>あした べんきょうする つもりです。 - Tôi định học vào ngày mai.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using ないでください for Negative Requests",
+      "htmlContent": "<p>Lesson 21</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use ないでください to make polite negative requests.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb (negative form) ないでください</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>ここで たばこを すわないでください。 - Please do not smoke here.</p>"
+    },
+    "jp": {
+      "title": "「ないでください」で否定の依頼を表す",
+      "htmlContent": "<p>第21課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「ないでください」を使って、丁寧に否定の依頼を表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞（否定形）ないでください</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>ここで たばこを すわないでください。 - ここでたばこを吸わないでください。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng ないでください để yêu cầu không làm gì đó",
+      "htmlContent": "<p>Bài 21</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng ないでください để yêu cầu một cách lịch sự không làm điều gì đó.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ (dạng phủ định) ないでください</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>ここで たばこを すわないでください。 - Xin đừng hút thuốc ở đây.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using まだ for Continuation",
+      "htmlContent": "<p>Lesson 22</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use まだ to indicate that something is still continuing.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>まだ Verb (positive form)</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>まだ おわっていません。 - It is not finished yet.</p>"
+    },
+    "jp": {
+      "title": "「まだ」で継続を表す",
+      "htmlContent": "<p>第22課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「まだ」を使って、何かがまだ続いていることを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>まだ 動詞（肯定形）</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>まだ おわっていません。 - まだ終わっていません。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng まだ để diễn đạt sự tiếp tục",
+      "htmlContent": "<p>Bài 22</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng まだ để chỉ rằng điều gì đó vẫn đang tiếp diễn.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>まだ Động từ (dạng khẳng định)</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>まだ おわっていません。 - Vẫn chưa kết thúc.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using もう for Completion",
+      "htmlContent": "<p>Lesson 23</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use もう to indicate that something has been completed.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>もう Verb (past form)</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>もう しゅくだい を しました。 - I have already done my homework.</p>"
+    },
+    "jp": {
+      "title": "「もう」で完了を表す",
+      "htmlContent": "<p>第23課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「もう」を使って、何かがすでに完了したことを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>もう 動詞（過去形）</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>もう しゅくだい を しました。 - もう宿題をしました。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng もう để chỉ sự hoàn thành",
+      "htmlContent": "<p>Bài 23</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng もう để chỉ rằng điều gì đó đã được hoàn thành.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>もう Động từ (dạng quá khứ)</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>もう しゅくだい を しました。 - Tôi đã làm bài tập về nhà.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using し for Listing Reasons",
+      "htmlContent": "<p>Lesson 24</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use し to list multiple reasons or examples.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Reason 1 し、Reason 2 し、Result</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>あつい し、にぎやか だ し、ここ に いたくない。 - It’s hot, noisy, and I don’t want to be here.</p>"
+    },
+    "jp": {
+      "title": "「し」で理由を列挙する",
+      "htmlContent": "<p>第24課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「し」を使って、複数の理由や例を挙げます。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>理由 1 し、理由 2 し、結果</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>あつい し、にぎやか だ し、ここ に いたくない。 - 暑いし、賑やかだし、ここにいたくない。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng し để liệt kê lý do",
+      "htmlContent": "<p>Bài 24</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng し để liệt kê nhiều lý do hoặc ví dụ.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Lý do 1 し、Lý do 2 し、Kết quả</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>あつい し、にぎやか だ し、ここ に いたくない。 - Nóng quá, ồn ào quá, tôi không muốn ở đây.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Hopes with といい",
+      "htmlContent": "<p>Lesson 25</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use といい to express hopes or wishes for something to happen.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb (dictionary form) といい</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>はやく なおる といい です。 - I hope you get well soon.</p>"
+    },
+    "jp": {
+      "title": "「といい」で希望を表す",
+      "htmlContent": "<p>第25課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「といい」を使って、何かが起こることを願います。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞（辞書形）といい</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>はやく なおる といい です。 - 早く治るといいです。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt hy vọng với といい",
+      "htmlContent": "<p>Bài 25</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng といい để diễn đạt hy vọng hoặc mong ước điều gì đó xảy ra.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ (dạng từ điển) といい</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>はやく なおる といい です。 - Tôi hy vọng bạn mau lành bệnh.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using つもり for Future Plans",
+      "htmlContent": "<p>Lesson 26</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use つもり to talk about your future plans.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb (dictionary form) つもりです</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>にほん に いく つもりです。 - I plan to go to Japan.</p>"
+    },
+    "jp": {
+      "title": "「つもり」で将来の計画を表す",
+      "htmlContent": "<p>第26課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「つもり」を使って、将来の計画について話します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞（辞書形）つもりです</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>にほん に いく つもりです。 - 日本に行くつもりです。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng つもり để nói về kế hoạch trong tương lai",
+      "htmlContent": "<p>Bài 26</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng つもり để nói về kế hoạch tương lai của bạn.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ (dạng từ điển) つもりです</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>にほん に いく つもりです。 - Tôi dự định đi Nhật Bản.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using たり for Listing Activities",
+      "htmlContent": "<p>Lesson 27</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use たり to list multiple activities in a non-exhaustive way.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb たり、Verb たり します</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>ほん を よんだり、えいが を みたり します。 - I read books, watch movies, and so on.</p>"
+    },
+    "jp": {
+      "title": "「たり」で活動を列挙する",
+      "htmlContent": "<p>第27課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「たり」を使って、複数の活動を非網羅的に列挙します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞 たり、動詞 たり します</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>ほん を よんだり、えいが を みたり します。 - 本を読んだり、映画を見たりします。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng たり để liệt kê các hoạt động",
+      "htmlContent": "<p>Bài 27</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng たり để liệt kê nhiều hoạt động một cách không đầy đủ.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ たり、Động từ たり します</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>ほん を よんだり、えいが を みたり します。 - Tôi đọc sách, xem phim, và những việc khác.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Probability with だろう",
+      "htmlContent": "<p>Lesson 28</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use だろう to express that something is probably true.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Sentence だろう</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>あした は あめ が ふる だろう。 - It will probably rain tomorrow.</p>"
+    },
+    "jp": {
+      "title": "「だろう」で可能性を表す",
+      "htmlContent": "<p>第28課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「だろう」を使って、何かが多分正しいことを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>文 だろう</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>あした は あめ が ふる だろう。 - 明日は雨が降るだろう。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt xác suất với だろう",
+      "htmlContent": "<p>Bài 28</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng だろう để diễn đạt rằng điều gì đó có khả năng đúng.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Câu だろう</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>あした は あめ が ふる だろう。 - Ngày mai có thể sẽ mưa.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Completion with しまう",
+      "htmlContent": "<p>Lesson 29</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use しまう to express that something has been completed, often with a sense of regret.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb てしまう</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>しゅくだい を わすれてしまいました。 - I accidentally forgot my homework.</p>"
+    },
+    "jp": {
+      "title": "「しまう」で完了を表す",
+      "htmlContent": "<p>第29課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「しまう」を使って、何かが完了したことを、しばしば後悔の念を持って表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞 てしまう</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>しゅくだい を わすれてしまいました。 - 宿題を忘れてしまいました。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt sự hoàn thành với しまう",
+      "htmlContent": "<p>Bài 29</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng しまう để diễn đạt rằng điều gì đó đã được hoàn thành, thường mang ý nghĩa tiếc nuối.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ てしまう</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>しゅくだい を わすれてしまいました。 - Tôi đã quên mất bài tập về nhà.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Using たことがある for Past Experiences",
+      "htmlContent": "<p>Lesson 30</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use たことがある to talk about past experiences.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb たことがある</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>にほん に いった こと が あります。 - I have been to Japan.</p>"
+    },
+    "jp": {
+      "title": "「たことがある」で過去の経験を表す",
+      "htmlContent": "<p>第30課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「たことがある」を使って、過去の経験について話します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞 たことがある</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>にほん に いった こと が あります。 - 日本に行ったことがあります。</p>"
+    },
+    "vi": {
+      "title": "Sử dụng たことがある để nói về kinh nghiệm trong quá khứ",
+      "htmlContent": "<p>Bài 30</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng たことがある để nói về kinh nghiệm trong quá khứ.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ たことがある</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>にほん に いった こと が あります。 - Tôi đã từng đến Nhật Bản.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Hopes with といい",
+      "htmlContent": "<p>Lesson 31</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use といい to express hopes or wishes for something to happen.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb (dictionary form) といい</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>はやく なおる といい です。 - I hope you get well soon.</p>"
+    },
+    "jp": {
+      "title": "「といい」で希望を表す",
+      "htmlContent": "<p>第31課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「といい」を使って、何かが起こることを願います。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞（辞書形）といい</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>はやく なおる といい です。 - 早く治るといいです。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt hy vọng với といい",
+      "htmlContent": "<p>Bài 31</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng といい để diễn đạt hy vọng hoặc mong ước điều gì đó xảy ra.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ (dạng từ điển) といい</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>はやく なおる といい です。 - Tôi hy vọng bạn mau lành bệnh.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Doubts with かもしれない",
+      "htmlContent": "<p>Lesson 32</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use かもしれない to express that something might happen or be true.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Sentence かもしれない</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>あした は あめ が ふる かもしれない。 - It might rain tomorrow.</p>"
+    },
+    "jp": {
+      "title": "「かもしれない」で疑念を表す",
+      "htmlContent": "<p>第32課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「かもしれない」を使って、何かが起こるか、または正しいかもしれないことを表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>文 かもしれない</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>あした は あめ が ふる かもしれない。 - 明日は雨が降るかもしれない。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt sự nghi ngờ với かもしれない",
+      "htmlContent": "<p>Bài 32</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng かもしれない để diễn đạt điều gì đó có thể xảy ra hoặc đúng.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Câu かもしれない</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>あした は あめ が ふる かもしれない。 - Ngày mai có thể sẽ mưa.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Obligations with なければならない",
+      "htmlContent": "<p>Lesson 33</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use なければならない to express that something must be done.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Verb (negative form) なければならない</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>しゅくだい を しなければならない。 - I must do my homework.</p>"
+    },
+    "jp": {
+      "title": "「なければならない」で義務を表す",
+      "htmlContent": "<p>第33課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「なければならない」を使って、何かがしなければならないことを示します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>動詞（否定形）なければならない</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>しゅくだい を しなければならない。 - 宿題をしなければならない。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt nghĩa vụ với なければならない",
+      "htmlContent": "<p>Bài 33</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng なければならない để diễn đạt rằng điều gì đó phải được làm.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Động từ (dạng phủ định) なければならない</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>しゅくだい を しなければならない。 - Tôi phải làm bài tập về nhà.</p>"
+    }
+  },
+  {
+    "en": {
+      "title": "Expressing Purpose with ために",
+      "htmlContent": "<p>Lesson 34</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Use ために to express the purpose or reason for doing something.</p><p>&nbsp;</p><p>Pattern:</p><p>&nbsp;</p><p>&nbsp;</p><p>Noun / Verb (dictionary form) ために</p><p>&nbsp;</p><p>Example:</p><p>&nbsp;</p><p>にほんご を べんきょうする ために、にほん に きました。 - I came to Japan to study Japanese.</p>"
+    },
+    "jp": {
+      "title": "「ために」で目的を表す",
+      "htmlContent": "<p>第34課</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>「ために」を使って、何かをする目的や理由を表します。</p><p>&nbsp;</p><p>文型:</p><p>&nbsp;</p><p>&nbsp;</p><p>名詞 / 動詞（辞書形）ために</p><p>&nbsp;</p><p>例:</p><p>&nbsp;</p><p>にほんご を べんきょうする ために、にほん に きました。 - 日本語を勉強するために、日本に来ました。</p>"
+    },
+    "vi": {
+      "title": "Diễn đạt mục đích với ために",
+      "htmlContent": "<p>Bài 34</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Sử dụng ために để diễn đạt mục đích hoặc lý do để làm việc gì đó.</p><p>&nbsp;</p><p>Mẫu câu:</p><p>&nbsp;</p><p>&nbsp;</p><p>Danh từ / Động từ (dạng từ điển) ために</p><p>&nbsp;</p><p>Ví dụ:</p><p>&nbsp;</p><p>にほんご を べんきょうする ために、にほん に きました。 - Tôi đến Nhật Bản để học tiếng Nhật.</p>"
+    }
   }
 ]
