@@ -1,4 +1,4 @@
-const app = require("./functions/app"); // Import the express app
+const app = require("./app"); // Import the express app
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
