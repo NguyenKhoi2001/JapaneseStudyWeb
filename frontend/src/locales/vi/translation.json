@@ -38,7 +38,6 @@
     "followUs": "Theo dõi bọn mình",
     "disclaimer": "Trang web này dành riêng cho tất cả sinh viên có nguyện vọng học tiếng Nhật. Bọn mình nỗ lực cung cấp trải nghiệm học tập toàn diện và hấp dẫn nhất."
   },
-
   "features": {
     "mainTitle": "Bạn có thể làm gì tại trang web KK?",
     "communityInsights": {
@@ -204,7 +203,6 @@
       }
     }
   },
-
   "timelineData": [
     {
       "id": 1,
@@ -255,7 +253,6 @@
       ]
     }
   ],
-
   "popupAlphabet": {
     "close": "Đóng",
     "draw": "Vẽ"
@@ -291,7 +288,7 @@
     },
     "errorMessage": {
       "emptyEmailUsername": "Email hoặc tên người dùng không được để trống.",
-      "passwordLength": "Mật khẩu phải có ít nhất 6 ký tự.",
+      "passwordLength": "Mật khẩu phải có ít nhất 8 ký tự và không quá 32 ký tự.",
       "loginError": "Có lỗi xảy ra trong quá trình đăng nhập."
     }
   },
@@ -304,31 +301,40 @@
       "email": "Email",
       "password": "Mật khẩu",
       "confirmPassword": "Xác nhận mật khẩu",
-      "displayName": "Tên hiển thị (Không bắt buộc)"
+      "displayName": "Tên hiển thị"
+    },
+    "button": {
+      "register": "Đăng ký"
     },
     "language": {
       "english": "Tiếng Anh",
       "vietnamese": "Tiếng Việt",
       "japanese": "Tiếng Nhật"
     },
-    "button": {
-      "register": "Đăng ký"
-    },
     "message": {
       "alreadyHaveAccount": "Bạn đã có tài khoản?",
-      "loginHere": "Đăng nhập tại đây"
+      "registerSuccess": "Đăng ký thành công! Đang chuyển hướng..."
     },
-    "success": {
-      "registrationComplete": "Đăng ký thành công!"
+    "link": {
+      "loginHere": "Đăng nhập tại đây"
     },
     "error": {
       "usernameRequired": "Tên người dùng không được để trống.",
+      "usernameInvalidFormat": "Tên người dùng phải bắt đầu bằng một chữ cái và chỉ chứa các ký tự chữ và số viết thường.",
+      "usernameTooShort": "Tên người dùng phải có ít nhất 8 ký tự.",
+      "usernameTooLong": "Tên người dùng không được vượt quá 32 ký tự.",
       "emailRequired": "Email không được để trống.",
-      "emailInvalid": "Định dạng email không hợp lệ.",
+      "emailInvalidFormat": "Định dạng email không hợp lệ.",
+      "emailCaseInsensitive": "Email phải được viết bằng chữ thường.",
       "passwordRequired": "Mật khẩu không được để trống.",
-      "passwordLength": "Mật khẩu phải có ít nhất 8 ký tự.",
+      "passwordTooShort": "Mật khẩu phải có ít nhất 8 ký tự.",
+      "passwordTooLong": "Mật khẩu không được vượt quá 32 ký tự.",
+      "passwordNoUppercase": "Mật khẩu phải chứa ít nhất một chữ cái viết hoa.",
+      "passwordNoLowercase": "Mật khẩu phải chứa ít nhất một chữ cái viết thường.",
+      "passwordNoNumber": "Mật khẩu phải chứa ít nhất một chữ số.",
+      "passwordNoSpecialChar": "Mật khẩu phải chứa ít nhất một ký tự đặc biệt.",
       "passwordMismatch": "Mật khẩu xác nhận không khớp.",
-      "registrationFailed": "Đăng ký thất bại!"
+      "displayNameInvalid": "Tên hiển thị phải là một chuỗi ký tự."
     }
   }
 }

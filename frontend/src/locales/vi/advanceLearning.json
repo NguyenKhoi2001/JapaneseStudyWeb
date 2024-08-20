@@ -124,6 +124,9 @@
         "editContent": "Chỉnh sửa nội dung",
         "closeEditor": "Đóng biên tập",
         "updateGrammarContent": "Cập nhật nội dung ngữ pháp",
+        "deleteGrammar": "Xóa nội dung ngữ pháp",
+        "addGrammar": "Tạo nội dung mới",
+        "addGrammarContent": "Tạo nội dung",
         "title": "Tiêu đề:",
         "language": "Ngôn ngữ:",
         "languages": {
@@ -132,15 +135,74 @@
           "jp": "Tiếng Nhật"
         },
         "contentUnavailable": "Nội dung bằng ngôn ngữ này không có sẵn. Bạn có thể thử sử dụng phiên bản tiếng Việt.",
-        "emptyContent": "Phiên bản ngữ pháp của ngôn ngữ này đang trống. Bạn có thể tạo một."
+        "emptyContent": "Phiên bản ngữ pháp của ngôn ngữ này đang trống. Bạn có thể tạo một.",
+        "emptyVietnameseContentError": "Tiêu đề và nội dung bằng tiếng Việt không được để trống.",
+        "mustCreateVietnameseFirst": "Phải tạo phiên bản tiếng Việt trước",
+        "updateSuccessful": "Cập nhật thành công!",
+        "updateFailed": "Cập nhật ngữ pháp thất bại: {{error}}",
+        "deleteSuccessful": "Xóa thành công!",
+        "deleteFailed": "Xóa ngữ pháp thất bại: {{error}}",
+        "noModified": "Không có thay đổi nào được lưu.",
+        "confirmDelete": "Bạn có chắc chắn muốn xóa phiên bản ngữ pháp này không?"
       }
     },
-    "reading": "Đọc",
-    "listening": "Nghe",
+    "reading": {
+      "title": "Đọc",
+      "developmentMessage": "Tính năng này đang được phát triển, vui lòng quay lại sau"
+    },
+    "listening": {
+      "title": "Nghe",
+      "developmentMessage": "Tính năng này đang được phát triển, vui lòng quay lại sau"
+    },
     "practice": "Luyện tập",
     "admin": {
       "add": "Thêm mới",
-      "update": "Cập nhật"
+      "update": "Cập nhật hiện tại",
+      "delete": "Xóa hiện tại",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa không?"
+    },
+    "lesson": {
+      "components": {
+        "backButton": "Quay lại"
+      },
+      "errorMessages": {
+        "notPassPrev": "Bạn phải vượt qua bài học trước tiên.",
+        "notAuthAndClickLesson": "Bạn phải đăng nhập để bắt đầu bất kỳ bài học nào ngoài bài học đầu tiên."
+      }
+    },
+    "question": {
+      "question": "Câu hỏi",
+      "total": "Tổng số",
+      "prev": "Trước",
+      "next": "Sau",
+      "doAgain": "Làm lại",
+      "checkAnswers": "Kiểm tra câu trả lời",
+      "goNextLesson": "Chuyển đến bài học tiếp theo",
+      "alertNotAnswered": "Vui lòng trả lời tất cả các câu hỏi trước khi tiếp tục.",
+      "questionForm": {
+        "title": "Biểu mẫu câu hỏi",
+        "generalQuestionText": "Câu hỏi chung",
+        "enterQuestion": "Nhập câu hỏi tại đây...",
+        "questionTextEn": "Câu hỏi bằng tiếng Anh",
+        "questionTextVi": "Câu hỏi bằng tiếng Việt",
+        "questionTextJp": "Câu hỏi bằng tiếng Nhật",
+        "answer": "Câu trả lời",
+        "addAnswer": "Thêm câu trả lời khác",
+        "correctAnswer": "Câu trả lời đúng",
+        "difficulty": {
+          "label": "Độ khó",
+          "easy": "Dễ",
+          "medium": "Trung bình",
+          "hard": "Khó"
+        },
+        "submit": "Gửi",
+        "remove": "Xóa",
+        "underlineButton": "Gạch chân",
+        "noChangesMade": "Không có thay đổi nào",
+        "questionAddedSuccessfully": "Đã thêm câu hỏi thành công!",
+        "questionUpdatedSuccessfully": "Đã cập nhật câu hỏi thành công!",
+        "failedToSubmitForm": "Không thể gửi biểu mẫu"
+      }
     }
   }
 }

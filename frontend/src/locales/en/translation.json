@@ -294,16 +294,6 @@
       "loginError": "An error occurred during login."
     }
   },
-  "error": {
-    "usernameRequired": "Username cannot be empty.",
-    "usernameInvalid": "Username must start with a letter, contain only lowercase alphanumeric characters, and be between 8-32 characters.",
-    "emailRequired": "Email cannot be empty.",
-    "emailInvalid": "Email format is invalid.",
-    "passwordRequired": "Password cannot be empty.",
-    "passwordComplexity": "Password must be 8-32 characters long, include uppercase, lowercase, number, and a special character.",
-    "passwordMismatch": "Passwords do not match.",
-    "registrationFailed": "Registration failed! Please try again."
-  },
   "RegisterPage": {
     "header": {
       "register": "Register"

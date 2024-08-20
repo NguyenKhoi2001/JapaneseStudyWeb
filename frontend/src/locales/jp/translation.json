@@ -321,13 +321,19 @@
       "registrationComplete": "登録成功！"
     },
     "error": {
-      "usernameRequired": "ユーザー名は空にできません。",
-      "emailRequired": "メールは空にできません。",
-      "emailInvalid": "メールの形式が無効です。",
-      "passwordRequired": "パスワードは空にできません。",
-      "passwordLength": "パスワードは少なくとも8文字でなければなりません。",
-      "passwordMismatch": "パスワードが一致しません。",
-      "registrationFailed": "登録に失敗しました。"
+      "usernameInvalid": "ユーザー名は文字で始まり、小文字の英数字のみを含む必要があります。",
+      "usernameInvalidFormat": "ユーザー名は文字で始まり、小文字の英数字のみを含む必要があります。",
+      "usernameTooShort": "ユーザー名は8文字以上である必要があります。",
+      "usernameTooLong": "ユーザー名は32文字を超えてはなりません。",
+      "emailInvalidFormat": "メールの形式が無効です。",
+      "emailCaseInsensitive": "メールは小文字で記入してください。",
+      "passwordTooShort": "パスワードは8文字以上である必要があります。",
+      "passwordTooLong": "パスワードは32文字を超えてはなりません。",
+      "passwordNoUppercase": "パスワードには少なくとも1つの大文字を含める必要があります。",
+      "passwordNoLowercase": "パスワードには少なくとも1つの小文字を含める必要があります。",
+      "passwordNoNumber": "パスワードには少なくとも1つの数字を含める必要があります。",
+      "passwordNoSpecialChar": "パスワードには少なくとも1つの特殊文字を含める必要があります。",
+      "displayNameInvalid": "表示名は文字列である必要があります。"
     }
   }
 }

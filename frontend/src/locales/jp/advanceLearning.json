@@ -83,7 +83,7 @@
         "character": "文字",
         "characterPlaceholder": "漢字を入力",
         "sinoVietnameseSounds": "シノヴィエト音",
-        "sinoVietnameseSoundsPlaceholder": "シノヴィエト音を入入力",
+        "sinoVietnameseSoundsPlaceholder": "シノヴィエト音を入力",
         "onyomi": "音読み",
         "onyomiPlaceholder": "音読みを入力",
         "kunyomi": "訓読み",
@@ -124,6 +124,9 @@
         "editContent": "内容を編集",
         "closeEditor": "エディターを閉じる",
         "updateGrammarContent": "文法内容を更新",
+        "deleteGrammar": "文法内容を削除",
+        "addGrammar": "新しい内容を作成",
+        "addGrammarContent": "内容を作成",
         "title": "タイトル：",
         "language": "言語：",
         "languages": {
@@ -132,15 +135,74 @@
           "jp": "日本語"
         },
         "contentUnavailable": "この言語での内容は利用できません。ベトナム語版を試してください。",
-        "emptyContent": "この言語の文法バージョンは空です。一つ作成することができます。"
+        "emptyContent": "この言語の文法バージョンは空です。一つ作成することができます。",
+        "emptyVietnameseContentError": "ベトナム語のタイトルと内容は空にできません。",
+        "mustCreateVietnameseFirst": "最初にベトナム語のバージョンを作成する必要があります",
+        "updateSuccessful": "更新が成功しました！",
+        "updateFailed": "文法の保存に失敗しました: {{error}}",
+        "deleteSuccessful": "削除が成功しました！",
+        "deleteFailed": "文法の削除に失敗しました: {{error}}",
+        "noModified": "保存する変更がありません。",
+        "confirmDelete": "この文法バージョンを削除してもよろしいですか？"
       }
     },
-    "reading": "読解",
-    "listening": "聞解",
+    "reading": {
+      "title": "読解",
+      "developmentMessage": "この機能は開発中ですので、後ほどお試しください"
+    },
+    "listening": {
+      "title": "聞解",
+      "developmentMessage": "この機能は開発中ですので、後ほどお試しください"
+    },
     "practice": "練習",
     "admin": {
       "add": "追加",
-      "update": "更新"
+      "update": "現在の内容を更新",
+      "delete": "現在の内容を削除",
+      "confirmDelete": "削除してもよろしいですか？"
+    },
+    "lesson": {
+      "components": {
+        "backButton": "戻る"
+      },
+      "errorMessages": {
+        "notPassPrev": "前のレッスンをクリアする必要があります。",
+        "notAuthAndClickLesson": "最初のレッスン以外のレッスンを開始するにはログインする必要があります。"
+      }
+    },
+    "question": {
+      "question": "質問",
+      "total": "合計",
+      "prev": "前へ",
+      "next": "次へ",
+      "doAgain": "もう一度やり直す",
+      "checkAnswers": "答えを確認する",
+      "goNextLesson": "次のレッスンへ進む",
+      "alertNotAnswered": "すべての質問に回答してから次に進んでください。",
+      "questionForm": {
+        "title": "質問フォーム",
+        "generalQuestionText": "一般的な質問",
+        "enterQuestion": "ここに質問を入力してください...",
+        "questionTextEn": "英語での質問",
+        "questionTextVi": "ベトナム語での質問",
+        "questionTextJp": "日本語での質問",
+        "answer": "回答",
+        "addAnswer": "別の回答を追加",
+        "correctAnswer": "正解",
+        "difficulty": {
+          "label": "難易度",
+          "easy": "簡単",
+          "medium": "中級",
+          "hard": "難しい"
+        },
+        "submit": "送信",
+        "remove": "削除",
+        "underlineButton": "下線",
+        "noChangesMade": "変更なし",
+        "questionAddedSuccessfully": "質問が正常に追加されました！",
+        "questionUpdatedSuccessfully": "質問が正常に更新されました！",
+        "failedToSubmitForm": "フォームの送信に失敗しました"
+      }
     }
   }
 }
