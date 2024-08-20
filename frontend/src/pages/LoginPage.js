@@ -19,6 +19,7 @@ import SuccessAlert from "../components/SuccessAlert";
 import ErrorAlert from "../components/ErrorAlert";
 import { useDispatch } from "react-redux";
 import { login } from "../services/user/userSlice";
+import LoadingPage from "./LoadingPage";
 
 const LoginPage = () => {
   const { t } = useTranslation();
@@ -27,6 +28,7 @@ const LoginPage = () => {
   const [alert, setAlert] = useState({ show: false, message: "", type: "" });
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [isLoading, setIsLoading] = useState(false); // State to manage loading
 
   const validatePassword = (password) => {
     return password.length >= 8 && password.length <= 32;
@@ -64,7 +66,7 @@ const LoginPage = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     if (!validateForm()) return;
-
+    setIsLoading(true);
     try {
       await dispatch(login({ identifier: emailOrUsername, password })).unwrap();
       setAlert({
@@ -82,6 +84,8 @@ const LoginPage = () => {
         message: error || t("LoginPage.errorMessage.loginError"),
         type: "error",
       });
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -91,6 +95,7 @@ const LoginPage = () => {
 
   return (
     <>
+      {isLoading && <LoadingPage opacity={0.7} />}
       <NavBar />
       <div className={styles.container}>
         <div className={styles.formBox}>

@@ -5,6 +5,7 @@ import styles from "./css/Timeline.module.css";
 import { useTranslation } from "react-i18next";
 import Course from "./Course";
 import ErrorAlert from "../../../components/ErrorAlert";
+import LoadingPage from "../../../pages/LoadingPage";
 
 const timelineStaticData = [
   {
@@ -43,7 +44,7 @@ const Timeline = () => {
   const dispatch = useDispatch();
   const { t } = useTranslation();
   const levels = useSelector((state) => state.level.items || []);
-
+  const status = useSelector((state) => state.level.status);
   useEffect(() => {
     dispatch(fetchAllLevels());
   }, [dispatch]);
@@ -83,6 +84,11 @@ const Timeline = () => {
       : [timelineData[0].description],
     levelId: 1,
   });
+
+  // Show loading page if the data is still loading
+  if (status === "loading") {
+    return <LoadingPage opacity={0.5} />;
+  }
 
   return (
     <section className={styles.sectionTimeline}>

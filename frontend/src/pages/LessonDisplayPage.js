@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import LessonContainer from "../features/learning/advance/lesson/LessonContainer";
 import styles from "./css/LessonDisplayPage.module.css";
 import { useTranslation } from "react-i18next";
+import LoadingPage from "./LoadingPage";
 
 const LessonDisplayPage = () => {
   const { t } = useTranslation("advanceLearning");
@@ -27,7 +28,7 @@ const LessonDisplayPage = () => {
   const loading = useSelector((state) => state.level.status === "loading");
   const error = useSelector((state) => state.level.error);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <LoadingPage />;
   if (error) return <p>Error: {error}</p>;
 
   return (

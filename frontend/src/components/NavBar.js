@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setLanguage } from "../services/user/preferencesSlice";
 import styles from "./css/NavBar.module.css";
 import LanguageDropdown from "./LanguageDropDown";
+import defaultUserIcon from "../assets/images/userIcon.png";
 
 function NavBar() {
   const [t, i18n] = useTranslation("translation");
@@ -12,6 +13,7 @@ function NavBar() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const dispatch = useDispatch();
   const language = useSelector((state) => state.preferences.language);
+  const currentUserData = useSelector((state) => state.user.currentUserData); // Get current user data from Redux
 
   useEffect(() => {
     i18n.changeLanguage(language);
@@ -44,7 +46,7 @@ function NavBar() {
     // Navigate to home page and reload the page
     window.location.href = "/"; // This will redirect to the home page
   };
-
+  const userIcon = currentUserData.profilePicture || defaultUserIcon;
   return (
     <nav className={styles.navBar}>
       <div className={styles.logoContainer}>
@@ -77,6 +79,13 @@ function NavBar() {
               {t("navbar.courses")}
             </Link>
           </li>
+          {isLoggedIn && (
+            <li className={styles.userIconContainer}>
+              <Link to="/user" className={styles.navItem}>
+                <img src={userIcon} alt="User" className={styles.userIcon} />
+              </Link>
+            </li>
+          )}
           <li className={isLoggedIn ? styles.loginActive : styles.loginNavItem}>
             {isLoggedIn ? (
               <button onClick={handleLogout} className={styles.navItem}>

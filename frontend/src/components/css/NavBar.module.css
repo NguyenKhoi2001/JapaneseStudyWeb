@@ -116,6 +116,19 @@
   position: relative;
   z-index: 2;
 }
+.userIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.userIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--indigo-color);
+}
 
 @media (max-width: 768px) {
   .navBar {
