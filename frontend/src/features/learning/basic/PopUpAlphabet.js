@@ -8,7 +8,7 @@ import KanjiAnimation from "../../homepage/KanjiAnimation";
 import { useTranslation } from "react-i18next";
 
 const PopUpAlphabet = ({ char, romaji, onClose }) => {
-  const { t } = useTranslation("basicLearning");
+  const { t } = useTranslation();
   const kanjiAnimationRef = useRef();
 
   const handleDrawClick = () => {

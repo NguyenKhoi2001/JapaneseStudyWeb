@@ -79,7 +79,7 @@ function App() {
     id: "kami-chat-widget",
     token: "CVFdthl1N0qz3SPnErrOJtHiFRk9NTzS",
     charset: "utf-8",
-    botToken: "ad0b13be-27d3-4121-b3cf-85e7dcbb023a",
+    botToken: "5fba8bce-df9c-4edb-bcd7-1f8e7d0ebe24",
     defer: "true", // Corrected the defer attribute to be a valid string
   });
 

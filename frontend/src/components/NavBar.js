@@ -43,8 +43,7 @@ function NavBar() {
   const handleLogout = () => {
     localStorage.removeItem("userToken");
     setIsLoggedIn(false);
-    // Navigate to home page and reload the page
-    window.location.href = "/"; // This will redirect to the home page
+    window.location.href = "/";
   };
   const userIcon = currentUserData.profilePicture || defaultUserIcon;
   return (
@@ -65,7 +64,7 @@ function NavBar() {
       {isNavVisible && (
         <ul className={styles.navList}>
           <li>
-            <Link to="/introduction" className={styles.navItem}>
+            <Link to="/" className={styles.navItem}>
               {t("navbar.intro")}
             </Link>
           </li>
