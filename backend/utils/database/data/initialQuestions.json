@@ -1,5 +1,257 @@
 [
   {
+    "text": "大きな <u>犬</u> がいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["いぬ", "ねこ", "とり", "さかな"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "",
+    "textAsking": {
+      "en": "What is 'chair' in Japanese?",
+      "vi": "Ghế tiếng Nhật là gì?",
+      "jp": "「椅子」は日本語で何ですか？"
+    },
+    "answers": ["椅子", "机", "本", "ペン"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今日は <u>学校</u> へ行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["がっこう", "いえ", "としょかん", "こうえん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>車</u> でうみに行きました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["くるま", "じてんしゃ", "でんしゃ", "バス"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "きょねんひがしのまちではよく<u>あめ</u>がふりました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["雨", "風", "雪", "雷"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>本</u>をよく読みます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ほん", "しんぶん", "ざっし", "えほん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "私は毎朝<u>水</u>を飲みます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["みず", "おちゃ", "ぎゅうにゅう", "ジュース"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "夏には<u>海</u>に行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["うみ", "やま", "かわ", "みずうみ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今週は<u>火</u>曜日に友達と会います。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["かようび", "げつようび", "すいようび", "もくようび"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "この<u>町</u>に住んでいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["まち", "むら", "とし", "くに"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "<u>電車</u>に乗って学校へ行きます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["でんしゃ", "じてんしゃ", "バス", "タクシー"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "これは<u>私</u>の本です。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["わたし", "かれ", "かのじょ", "あなた"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "来年は<u>春</u>に日本に行きたいです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["はる", "なつ", "あき", "ふゆ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "昨日<u>映画</u>を見ました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["えいが", "ほん", "ざっし", "テレビ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今週は<u>水</u>曜日が休みです。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["すいようび", "かようび", "もくようび", "きんようび"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "兄は<u>東京</u>に住んでいます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["とうきょう", "おおさか", "きょうと", "なら"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "毎日<u>新聞</u>を読みます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["しんぶん", "ざっし", "ほん", "えほん"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "先週<u>友達</u>とカフェに行きました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ともだち", "かぞく", "せんせい", "がっこう"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "夏休みは<u>海</u>で泳ぎます。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["うみ", "やま", "かわ", "みずうみ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "今朝<u>朝ごはん</u>を食べました。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["あさごはん", "ひるごはん", "ばんごはん", "おやつ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
+    "text": "冬には<u>雪</u>が降ります。",
+    "textAsking": {
+      "en": "",
+      "vi": "",
+      "jp": ""
+    },
+    "answers": ["ゆき", "あめ", "かぜ", "はれ"],
+    "correctAnswer": 0,
+    "difficulty": "Easy",
+    "lessons": []
+  },
+  {
     "text": "大きな <u>え</u> があります。",
     "textAsking": {
       "en": "",
@@ -16,18 +268,7 @@
     "difficulty": "Easy",
     "lessons": []
   },
-  {
-    "text": "",
-    "textAsking": {
-      "en": "What is 'chair' in Japanese?",
-      "vi": "Ghế tiếng Nhật là gì?",
-      "jp": "「椅子」は日本語で何ですか？"
-    },
-    "answers": ["椅子", "机", "本", "ペン"],
-    "correctAnswer": 0,
-    "difficulty": "Easy",
-    "lessons": []
-  },
+
   {
     "text": "この <u>ホテル</u>は ヘやが 多いです。",
     "textAsking": {

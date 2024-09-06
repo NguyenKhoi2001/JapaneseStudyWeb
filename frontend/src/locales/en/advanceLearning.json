@@ -7,7 +7,7 @@
         "kanji": "Kanji",
         "example": "Example",
         "meaning": "Meaning",
-        "readings": "Readings"
+        "readings": "Sino-Vietnamese Sounds"
       },
       "vocabularySlider": {
         "prevButton": "Prev",
@@ -23,7 +23,7 @@
         "kanji": "Kanji",
         "example": "Example",
         "meaning": "Meaning",
-        "readings": "Readings"
+        "readings": "Sino-Vietnamese Sounds"
       },
       "VocabularyForm": {
         "hiraganaKatakana": "Hiragana/Katakana",

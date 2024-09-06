@@ -11,6 +11,7 @@ import lessonReducer from "./services/lesson/lessonSlice";
 import levelReducer from "./services/level/levelSlice";
 import userProgressReducer from "./services/userProgress/userProgressSlice";
 import questionReducer from "./services/question/questionSlice";
+import pronunciationReducer from "./services/pronunciation/pronunciationSlice"; // <-- Import the pronunciation slice
 
 export const store = configureStore({
   reducer: {
@@ -25,5 +26,6 @@ export const store = configureStore({
     level: levelReducer,
     userProgress: userProgressReducer,
     question: questionReducer,
+    pronunciation: pronunciationReducer,
   },
 });

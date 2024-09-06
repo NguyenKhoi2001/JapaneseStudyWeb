@@ -155,6 +155,9 @@ const UserProfilePage = () => {
     return;
   };
 
+  const emptyFunction = () => {
+    return;
+  };
   return (
     <>
       <NavBar />
@@ -214,7 +217,7 @@ const UserProfilePage = () => {
                   name={field}
                   className={styles.input}
                   value={userData[field]}
-                  onChange={handleInputChange}
+                  onChange={emptyFunction}
                   readOnly={isViewingOtherUser}
                 />
               </div>

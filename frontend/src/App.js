@@ -16,6 +16,8 @@ import LoadingPage from "./pages/LoadingPage";
 import UserProfilePage from "./pages/UserProfilePage";
 import AdvanceLearningPage from "./pages/AdvanceLearningPage";
 import LessonDisplayPage from "./pages/LessonDisplayPage";
+import { apiUrl } from "./services/api.config";
+import PronunciationPage from "./pages/PronunciationPage";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const RegisterPage = lazy(() => import("./pages/RegisterPage"));
@@ -83,6 +85,23 @@ function App() {
     defer: "true", // Corrected the defer attribute to be a valid string
   });
 
+  useEffect(() => {
+    // Function to ping the server
+    console.log("trying to call backend");
+    const pingServer = async () => {
+      try {
+        const response = await fetch(`${apiUrl}/`);
+        const text = await response.text();
+        console.log("Server Response: ", text); // Should print "Hello World!"
+      } catch (error) {
+        console.error("Failed to ping the server:", error);
+      }
+    };
+    pingServer();
+    const intervalId = setInterval(pingServer, 5 * 60 * 1000);
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <Router>
       <LogoutListener />
@@ -113,6 +132,8 @@ function App() {
             <Route path="/level/:levelId" element={<LessonDisplayPage />} />
             <Route path="/learning" element={<LearningPage />} />
             <Route path="/userDashboard" element={<UserDashboardPage />} />
+            <Route path="/pronunciation" element={<PronunciationPage />} />
+
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Suspense>
