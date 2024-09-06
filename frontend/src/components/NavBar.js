@@ -78,6 +78,11 @@ function NavBar() {
               {t("navbar.courses")}
             </Link>
           </li>
+          <li>
+            <Link to="/pronunciation" className={styles.navItem}>
+              {t("navbar.pronunciation")}
+            </Link>
+          </li>
           {isLoggedIn && (
             <li className={styles.userIconContainer}>
               <Link to="/user" className={styles.navItem}>
