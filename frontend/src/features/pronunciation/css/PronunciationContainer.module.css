@@ -1,0 +1,222 @@
+/* PronunciationPage.module.css */
+.container {
+  min-height: 80vh;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mainTitle {
+  font-size: var(--font-xxlarge);
+  color: var(--indigo-color);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.speakingTitle {
+  font-size: var(--font-large);
+  color: var(--gray-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.centerElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.japaneseTextContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.japaneseText {
+  font-size: 2em;
+  color: var(--indigo-dark-color);
+  font-family: var(--kanji-stroke-order-font);
+  margin: 20px 0;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.recordButton {
+  background-color: var(--yellow-color);
+  color: white;
+  padding: 10px 20px;
+  font-size: var(--font-large);
+  border: none;
+  border-radius: var(--btn-border-radius);
+  cursor: pointer;
+  transition: var(--btn-transition);
+}
+
+.recordButton:hover {
+  background-color: var(--yellow-dark-color);
+}
+
+.recording {
+  background-color: var(--color-red);
+}
+
+.uploadButton {
+  background-color: var(--indigo-color);
+  color: white;
+  padding: 10px 20px;
+  font-size: var(--font-large);
+  border: none;
+  border-radius: var(--btn-border-radius);
+  cursor: pointer;
+  transition: var(--btn-transition);
+}
+
+.uploadButton:hover {
+  background-color: var(--indigo-dark-color);
+}
+
+.audioPlayer {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+}
+
+.transcriptionContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.successMessage {
+  color: var(--success-color);
+  font-size: var(--font-medium);
+  margin-bottom: 10px;
+}
+
+.transcriptionText {
+  font-size: var(--font-large);
+  color: var(--gray-dark-color);
+}
+
+.errorMessage {
+  color: var(--error-color);
+  font-size: var(--font-medium);
+}
+
+.match {
+  color: green;
+  background-color: lightgreen;
+}
+
+.added {
+  color: red;
+  background-color: lightcoral;
+}
+
+.missing {
+  color: red;
+  background-color: lightcoral;
+  text-decoration: line-through;
+}
+
+.iconButton {
+  background: none;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #000;
+  padding: 8px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+/* Grid container for two columns */
+.gridContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Row for the two columns */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Each column */
+.column {
+  width: 48%; /* Make each column take 48% of the row width */
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.columnFull {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+/* Title for each column */
+.columnTitle {
+  font-size: var(--font-large);
+  color: var(--indigo-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Style for the original text and transcript */
+.originalText,
+.transcriptText {
+  font-size: var(--font-medium);
+  color: var(--gray-dark-color);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid var(--gray-light-color);
+  border-radius: 5px;
+}
+
+/* Analysis box for the Answer Analysis */
+.analysisBox {
+  padding: 15px;
+  background-color: #eef1f8;
+  border-radius: 8px;
+  min-height: 50px;
+  font-size: var(--font-large);
+}
+
+/* Align elements for Answer Analysis */
+.transcriptionContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.successMessage {
+  color: var(--success-color);
+  font-size: var(--font-medium);
+  margin-bottom: 10px;
+}
+
+.transcriptionText {
+  font-size: var(--font-large);
+  color: var(--gray-dark-color);
+}
+
+.greenText {
+  color: green;
+  font-size: var(--font-medium);
+}
+.redText {
+  color: red;
+  font-size: var(--font-medium);
+}

@@ -4,7 +4,8 @@
     "blog": "Blog",
     "courses": "Learning Path",
     "login": "Login",
-    "logout": "Logout"
+    "logout": "Logout",
+    "pronunciation": "Pronunciation"
   },
   "heroSection": {
     "welcome": "Welcome to the Japanese Language Learning Support Website! This is a project of Ton Duc Thang University developed by Le Duy Khanh and Nguyen Dinh Minh Khoi!",
@@ -337,6 +338,25 @@
       "passwordNoSpecialChar": "Password must include at least one special character.",
       "passwordMismatch": "Passwords do not match.",
       "displayNameInvalid": "Display name must be a string."
+    }
+  },
+  "pronunciation": {
+    "title": "Japanese Pronunciation Practice",
+    "practiceThisText": "Practice Speaking This Text",
+    "randomText": "Random Text",
+    "record": "Record",
+    "stopRecording": "Stop Recording",
+    "uploadAndTranscribe": "Upload and Transcribe",
+    "givenText": "Given Text",
+    "yourAnswer": "Your Answer",
+    "noTranscription": "No transcription available yet.",
+    "answerAnalysis": "Answer Analysis",
+    "scoring": "Scoring",
+    "successMessage": "Upload successful!",
+    "error": {
+      "noAudioError": "No audio data available.",
+      "noFileForUpload": "No file available for upload.",
+      "uploadError": "There was an error uploading the file."
     }
   }
 }

@@ -4,7 +4,8 @@
     "blog": "Blog",
     "courses": "Lộ trình học",
     "login": "Đăng nhập",
-    "logout": "Đăng xuất"
+    "logout": "Đăng xuất",
+    "pronunciation": "Phát Âm"
   },
   "heroSection": {
     "welcome": "Chào mừng bạn đến với trang web hỗ trợ học tiếng Nhật, một dự án của Trường Đại học Tôn Đức Thắng do Lê Duy Khánh và Nguyễn Đình Minh Khôi phát triển!",
@@ -335,6 +336,25 @@
       "passwordNoSpecialChar": "Mật khẩu phải chứa ít nhất một ký tự đặc biệt.",
       "passwordMismatch": "Mật khẩu xác nhận không khớp.",
       "displayNameInvalid": "Tên hiển thị phải là một chuỗi ký tự."
+    }
+  },
+  "pronunciation": {
+    "title": "Luyện Phát Âm Tiếng Nhật",
+    "practiceThisText": "Luyện Nói Câu Này",
+    "randomText": "Câu Ngẫu Nhiên",
+    "record": "Ghi Âm",
+    "stopRecording": "Dừng Ghi Âm",
+    "uploadAndTranscribe": "Tải Lên và Chuyển Âm",
+    "givenText": "Câu Cho Trước",
+    "yourAnswer": "Câu Trả Lời Của Bạn",
+    "noTranscription": "Chưa có bản chuyển âm.",
+    "answerAnalysis": "Phân Tích Câu Trả Lời",
+    "scoring": "Chấm Điểm",
+    "successMessage": "Tải lên thành công!",
+    "error": {
+      "noAudioError": "Không có dữ liệu âm thanh.",
+      "noFileForUpload": "Không có tệp để tải lên.",
+      "uploadError": "Có lỗi xảy ra khi tải tệp."
     }
   }
 }

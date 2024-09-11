@@ -4,7 +4,8 @@
     "blog": "ブログ",
     "courses": "学習パス",
     "login": "ログイン",
-    "logout": "ログアウト"
+    "logout": "ログアウト",
+    "pronunciation": "発音"
   },
   "heroSection": {
     "welcome": "日本語学習サポートウェブサイトへようこそ！ これはトンデクタン大学のプロジェクトであり、リー・ドゥイ・カンとグエン・ディン・ミン・クオイが開発しました！",
@@ -334,6 +335,25 @@
       "passwordNoNumber": "パスワードには少なくとも1つの数字を含める必要があります。",
       "passwordNoSpecialChar": "パスワードには少なくとも1つの特殊文字を含める必要があります。",
       "displayNameInvalid": "表示名は文字列である必要があります。"
+    }
+  },
+  "pronunciation": {
+    "title": "日本語の発音練習",
+    "practiceThisText": "この文を練習してください",
+    "randomText": "ランダムな文",
+    "record": "録音する",
+    "stopRecording": "録音を停止する",
+    "uploadAndTranscribe": "アップロードして文字起こしする",
+    "givenText": "与えられた文",
+    "yourAnswer": "あなたの回答",
+    "noTranscription": "まだ文字起こしがありません。",
+    "answerAnalysis": "回答の分析",
+    "scoring": "スコアリング",
+    "successMessage": "アップロードが成功しました！",
+    "error": {
+      "noAudioError": "オーディオデータがありません。",
+      "noFileForUpload": "アップロードするファイルがありません。",
+      "uploadError": "ファイルのアップロード中にエラーが発生しました。"
     }
   }
 }
